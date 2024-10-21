@@ -1,5 +1,6 @@
+import datetime
 import functools
-import json
+import os
 import pathlib
 import re
 import subprocess
@@ -143,24 +144,18 @@ def koji_status(koji_id):
     raise RuntimeError('Cannot parse koji taskinfo output')
 
 
-def koji_task_is_obsolete(koji_id):
+def koji_id_is_older_than_week(koji_id_path):
     """
-    Returns False if there exists an output of a 'rebuildRPM' task associated with
-    given koji_id, meaning the task was not garbage collected yet.
-    Return True if the output can't be reached or is returned from Koji empty.
+    Returns True if koji_id file was created earlier than a week ago.
+    We assume this is a treshold time after which Koji artifacts are deleted,
+    and we need to remove koji_id to retrigger the scratchbuild.
+    If koji_id was created within the last week, return False.
     """
-    command = ('koji', 'call', 'getTaskDescendents', koji_id, '--json-output')
-    koji_output = json.loads(run(*command).stdout)
-    desc_task_id = None
-    for descendent in koji_output[koji_id]:
-        if descendent['method'] == 'rebuildSRPM':
-            desc_task_id = descendent['id']
-    if desc_task_id:
-        command = ('koji', 'call', 'listTaskOutput', str(desc_task_id), '--json-output')
-        koji_output = json.loads(run(*command).stdout)
-        if koji_output:
-            return False
-    return True
+    koji_id_mtime = datetime.datetime.fromtimestamp(os.path.getmtime(koji_id_path))
+    one_week_ago = datetime.now() - datetime.timedelta(weeks=1)
+    if koji_id_mtime < one_week_ago:
+        return True
+    return False
 
 
 def handle_existing_srpm(repopath, *, was_updated):
@@ -173,7 +168,7 @@ def handle_existing_srpm(repopath, *, was_updated):
     return None
 
 
-def handle_existing_koji_id(repopath, *, was_updated, check_if_garbage_collected=False):
+def handle_existing_koji_id(repopath, *, was_updated):
     koji_id_path = repopath / KOJI_ID_FILENAME
     if koji_id_path.exists():
         if was_updated:
@@ -187,12 +182,11 @@ def handle_existing_koji_id(repopath, *, was_updated, check_if_garbage_collected
                     f'removing {KOJI_ID_FILENAME}.')
                 koji_id_path.unlink()
                 return None
-            if check_if_garbage_collected:
-                if status == 'closed' and koji_task_is_obsolete(koji_task_id):
-                    log(f'   • Koji task {koji_task_id} is long closed '
-                        f'and there\'s nothing to download; removing {KOJI_ID_FILENAME}.')
-                    koji_id_path.unlink()
-                    return None
+            elif status == 'closed' and koji_id_is_older_than_week(koji_id_path):
+                log(f'   • Koji task {koji_task_id} is older than one week, '
+                    f'there may be nothing to download; removing {KOJI_ID_FILENAME}.')
+                koji_id_path.unlink()
+                return None
             else:
                 log(f'   • Koji task {koji_task_id} is {status}; '
                     f'not rebuilding (rm {KOJI_ID_FILENAME} to force).')
@@ -224,8 +218,6 @@ def scratchbuild_patched_if_needed(component_name, bcond_config, *, branch='', t
     if srpm := handle_existing_srpm(repopath, was_updated=news):
         bcond_config['srpm'] = srpm
         return False
-    # set check_if_garbage_collected=True if you're running the script after a long pause
-    # builds may have been successful but the srpms are long deleted - we need to submit them again
     if koji_id := handle_existing_koji_id(repopath, was_updated=news):
         bcond_config['koji_task_id'] = koji_id
         return False
