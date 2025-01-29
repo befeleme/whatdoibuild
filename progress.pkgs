@@ -18,7 +18,6 @@ pychess
 python-pyside6
 python-aiosmtpd
 ara
-python-ase
 python-asyncssh
 python-avocado
 python-backrefs
@@ -33,16 +32,15 @@ python-chalice
 python-colcon-parallel-executor
 python-colorful
 python-commoncode
+python-contourpy::bootstrap:::
 python-crick
 python-cysignals
 python-dataclassy
 python-defcon
 python-dill
 python-etcd
-python-fsleyes-widgets
 python-giacpy
 python-gitlab
-python-graph-tool
 python-h5netcdf
 python-img2pdf
 python-iniparse
@@ -63,6 +61,7 @@ python-oscrypto
 python-packvers
 python-photutils
 python-praw
+prewikka
 protobuf
 python-pure-protobuf
 python-pydantic-core:inline_snapshot_tests::::
@@ -79,10 +78,8 @@ rmol
 python-rq
 python-rstcheck
 satyr
-python-seaborn
 python-social-auth-core
 python-terminado
-python-textual
 python-toolz
 python-twisted
 python-typeguard
@@ -93,11 +90,8 @@ python-vcrpy
 visidata
 weasyprint
 python-webscrapbook
-python-wordcloud
 python-yappi
-python-zope-testrunner
 python-zstandard
-realtime-tests
 xonsh
 xpra
 python3-docs
