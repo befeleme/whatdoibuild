@@ -5,6 +5,7 @@ borgbackup
 ceph
 llvm
 cockpit
+criu
 gnofract4d
 python-howdoi
 httpie
@@ -16,8 +17,10 @@ pcs
 pulp-cli
 pychess
 python-pyside6
+python-aioesphomeapi
 python-aiosmtpd
 ara
+libarcus
 python-asyncssh
 python-avocado
 python-backrefs
@@ -29,6 +32,7 @@ python-pymongo
 python-capturer
 python-cattrs
 python-chalice
+pychromecast
 python-colcon-parallel-executor
 python-colorful
 python-commoncode
@@ -41,6 +45,7 @@ python-dill
 python-etcd
 python-giacpy
 python-gitlab
+python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
 python-img2pdf
 python-iniparse
@@ -57,12 +62,13 @@ python-mkapi
 python-msal
 python-msgspec
 python-nose
+onnx
 python-oscrypto
 python-packvers
+python-peewee
 python-photutils
 python-praw
 prewikka
-protobuf
 python-pure-protobuf
 python-pydantic-core:inline_snapshot_tests::::
 pygsl
@@ -91,6 +97,7 @@ visidata
 weasyprint
 python-webscrapbook
 python-yappi
+python-zope-i18nmessageid
 python-zstandard
 xonsh
 xpra
