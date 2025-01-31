@@ -38,7 +38,6 @@ python-colorful
 python-commoncode
 python-contourpy::bootstrap:::
 python-crick
-python-cysignals
 python-dataclassy
 python-defcon
 python-dill
@@ -47,6 +46,7 @@ python-giacpy
 python-gitlab
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
+python-id
 python-img2pdf
 python-iniparse
 jc
