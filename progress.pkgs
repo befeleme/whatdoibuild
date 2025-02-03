@@ -46,7 +46,6 @@ python-giacpy
 python-gitlab
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
-python-id
 python-img2pdf
 python-iniparse
 jc
@@ -99,6 +98,7 @@ python-webscrapbook
 python-yappi
 python-zope-i18nmessageid
 python-zstandard
+trellis
 xonsh
 xpra
 python3-docs
