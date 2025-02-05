@@ -77,8 +77,6 @@ python-rdflib
 python-readability-lxml
 python-recordclass
 python-remoto
-python-reportlab
-rmol
 python-rq
 python-rstcheck
 satyr
