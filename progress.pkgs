@@ -14,7 +14,6 @@ khal
 kicad
 linode-cli
 pcs
-pulp-cli
 pychess
 python-pyside6
 python-aioesphomeapi
@@ -81,6 +80,7 @@ python-rq
 python-rstcheck
 satyr
 python-social-auth-core
+python-steam
 python-terminado
 python-TestSlide
 python-toolz
@@ -88,7 +88,6 @@ python-twisted
 python-typing-inspect
 python-uvloop
 python-valkey
-python-vcrpy
 visidata
 weasyprint
 python-webscrapbook
