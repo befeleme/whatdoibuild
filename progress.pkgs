@@ -22,6 +22,7 @@ ara
 libarcus
 python-asyncssh
 python-avocado
+python-aw-qt
 python-backrefs
 python-beartype
 python-behave
@@ -46,7 +47,6 @@ python-gitlab
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
 python-img2pdf
-python-inflect
 python-iniparse
 jc
 python-joblib
@@ -63,7 +63,6 @@ python-nose
 onnx
 python-oscrypto
 python-packvers
-python-peewee
 python-photutils
 python-praw
 python-pure-protobuf
@@ -94,6 +93,7 @@ python-webscrapbook
 python-yappi
 python-zope-i18nmessageid
 python-zstandard
+vorta
 xonsh
 xpra
 python3-docs
