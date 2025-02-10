@@ -9,7 +9,6 @@ criu
 gnofract4d
 python-howdoi
 httpie
-jrnl
 khal
 kicad
 linode-cli
@@ -28,7 +27,6 @@ python-beartype
 python-behave
 python-billiard
 python-breathe
-python-pymongo
 python-capturer
 python-cattrs
 python-chalice
@@ -63,7 +61,6 @@ python-nose
 onnx
 python-oscrypto
 python-packvers
-python-photutils
 python-praw
 python-pure-protobuf
 python-pydantic-core:inline_snapshot_tests::::
