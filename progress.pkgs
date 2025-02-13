@@ -9,8 +9,8 @@ criu
 gnofract4d
 python-howdoi
 httpie
-khal
 kicad
+kmymoney
 linode-cli
 pcs
 pychess
@@ -60,7 +60,6 @@ python-mkapi
 python-msal
 python-nose
 onnx
-python-oscrypto
 python-packvers
 python-praw
 python-pure-protobuf
