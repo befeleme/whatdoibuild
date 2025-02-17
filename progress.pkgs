@@ -41,9 +41,7 @@ python-dill
 python-etcd
 python-fsleyes-widgets
 python-giacpy
-python-gitlab
 python-googleapis-common-protos::bootstrap:::
-python-graph-tool
 python-h5netcdf
 python-img2pdf
 python-iniparse
@@ -87,6 +85,7 @@ python-typing-inspect
 python-ufoLib2
 python-uvloop
 python-valkey
+python-vascpy
 visidata
 weasyprint
 python-webscrapbook
@@ -96,6 +95,5 @@ python-zope-i18nmessageid
 python-zstandard
 pythran
 vorta
-xonsh
 xpra
 python3-docs
