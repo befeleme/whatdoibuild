@@ -28,6 +28,7 @@ python-beartype
 python-behave
 python-billiard
 python-breathe
+python-pymongo
 python-capturer
 python-chalice
 pychromecast
@@ -92,7 +93,6 @@ python-webscrapbook
 python-wordcloud
 python-yappi
 python-zope-i18nmessageid
-python-zstandard
 pythran
 vorta
 xpra
