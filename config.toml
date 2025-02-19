@@ -571,6 +571,9 @@ withouts = ["tests"]
 [[bconds.python-django5]]
 withouts = ["tests"]
 
+[[bconds."python-django4.2"]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
