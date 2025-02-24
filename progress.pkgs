@@ -1,3 +1,4 @@
+Macaulay2
 alot
 awscli2
 binwalk
@@ -20,6 +21,7 @@ python-aioflo
 python-aiosmtpd
 ara
 libarcus
+python-astdoc
 python-asyncssh
 python-avocado
 python-aw-qt
@@ -28,7 +30,6 @@ python-beartype
 python-behave
 python-billiard
 python-breathe
-python-pymongo
 python-capturer
 python-chalice
 pychromecast
@@ -48,14 +49,12 @@ python-img2pdf
 python-iniparse
 python-joblib
 python-josepy
-python-jupyter-events
 libnvme
 qtile
 python-makefun
 python-mccabe
 python-meshio
 python-metakernel
-python-mkapi
 python-msal
 python-nose
 onnx
@@ -66,6 +65,7 @@ python-pydantic-core:inline_snapshot_tests::::
 pygsl
 python-pymeeus
 pyproj
+python-pysaml2
 python-pytest-lsp
 python-pyupgrade
 python-rdflib
@@ -78,7 +78,6 @@ satyr
 python-social-auth-core
 python-steam
 python-stochastic
-python-terminado
 python-TestSlide
 python-toolz
 python-twisted
@@ -89,7 +88,6 @@ python-valkey
 python-vascpy
 visidata
 weasyprint
-python-webscrapbook
 python-wordcloud
 python-yappi
 python-zope-i18nmessageid
