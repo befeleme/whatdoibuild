@@ -25,11 +25,9 @@ python-astdoc
 python-asyncssh
 python-avocado
 python-aw-qt
-python-backrefs
 python-beartype
 python-behave
 python-billiard
-python-breathe
 python-capturer
 python-chalice
 pychromecast
@@ -45,11 +43,12 @@ python-fsleyes-widgets
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
+imath
 python-img2pdf
 python-iniparse
 python-joblib
 python-josepy
-libnvme
+dnf5
 qtile
 python-makefun
 python-mccabe
