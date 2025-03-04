@@ -7,15 +7,18 @@ ceph
 llvm
 cockpit
 criu
+f3d
 gnofract4d
 python-howdoi
 httpie
 kicad
 kmymoney
+krita
 linode-cli
 pcs
 pychess
 python-pyside6
+YafaRay
 python-aioesphomeapi
 python-aioflo
 python-aiosmtpd
@@ -40,10 +43,10 @@ python-defcon
 python-dill
 python-etcd
 python-fsleyes-widgets
+gdal
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
-imath
 python-img2pdf
 python-iniparse
 python-joblib
@@ -57,6 +60,7 @@ python-metakernel
 python-msal
 python-nose
 onnx
+openvdb
 python-packvers
 python-praw
 python-pure-protobuf
@@ -83,7 +87,6 @@ python-twisted
 python-typing-inspect
 python-ufoLib2
 python-uvloop
-python-valkey
 python-vascpy
 visidata
 weasyprint
