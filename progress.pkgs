@@ -1,4 +1,3 @@
-Macaulay2
 alot
 awscli2
 binwalk
@@ -13,11 +12,11 @@ python-howdoi
 httpie
 kicad
 kmymoney
-krita
 linode-cli
 pcs
 pychess
 python-pyside6
+ProDy
 YafaRay
 python-aioesphomeapi
 python-aioflo
@@ -31,6 +30,7 @@ python-aw-qt
 python-beartype
 python-behave
 python-billiard
+python-binstruct
 python-capturer
 python-chalice
 pychromecast
@@ -43,7 +43,6 @@ python-defcon
 python-dill
 python-etcd
 python-fsleyes-widgets
-gdal
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
@@ -60,7 +59,7 @@ python-metakernel
 python-msal
 python-nose
 onnx
-openvdb
+opencv
 python-packvers
 python-praw
 python-pure-protobuf
@@ -78,10 +77,10 @@ python-remoto
 python-rq
 python-rstcheck
 satyr
-python-social-auth-core
 python-steam
 python-stochastic
 python-TestSlide
+python-toml-cli
 python-toolz
 python-twisted
 python-typing-inspect
