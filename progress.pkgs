@@ -44,14 +44,15 @@ python-defcon
 python-dill
 python-etcd
 python-fsleyes-widgets
+python-fsspec::bootstrap:::
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
 python-img2pdf
 python-iniparse
+python-ipywidgets
 python-joblib
 python-josepy
-python-jupytext
 dnf5
 qtile
 python-makefun
@@ -59,8 +60,8 @@ python-mccabe
 python-meshio
 python-metakernel
 python-msal
+python-nbdime
 python-nose
-python-notebook
 onnx
 opencv
 python-osc-lib
