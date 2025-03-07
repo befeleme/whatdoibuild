@@ -7,6 +7,7 @@ ceph
 llvm
 cockpit
 criu
+quodlibet
 gnofract4d
 python-howdoi
 httpie
@@ -43,6 +44,7 @@ python-dataclassy
 python-defcon
 python-dill
 python-etcd
+python-flake8-comprehensions
 python-fsleyes-widgets
 python-fsspec::bootstrap:::
 python-giacpy
@@ -55,10 +57,11 @@ python-josepy
 dnf5
 qtile
 python-makefun
-python-mccabe
+Mayavi
 python-meshio
 python-metakernel
 python-msal
+python-nikola
 python-nose
 onnx
 opencv
