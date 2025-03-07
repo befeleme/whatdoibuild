@@ -372,12 +372,6 @@ withouts = ["tests"]
 [[bconds.python-dns]]
 withouts = ["trio", "curio", "doh"]
 
-[[bconds.python-poetry-plugin-export]]
-withs = ["bootstrap"]
-
-[[bconds.poetry]]
-withs = ["bootstrap"]
-
 [[bconds.python-networkx]]
 withs = ["bootstrap"]
 
@@ -531,10 +525,6 @@ withouts = ["check"]
 [[bconds.python-gmpy2]]
 withouts = ["tests"]
 
-# keep the quotation marks - toml can't handle dots in package names
-[[bconds."python-pluggy1.3"]]
-withouts = ["tests"]
-
 [[bconds.python-humanfriendly]]
 withs = ["bootstrap"]
 
@@ -543,9 +533,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-pint]]
 withouts = ["xarray"]
-
-[[bconds.python-pytest7]]
-withouts = ["timeout", "tests", "docs"]
 
 [[bconds.python-qcengine]]
 withouts = ["tests"]
