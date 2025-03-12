@@ -1,6 +1,8 @@
+NiaAML-GUI
 alot
 ansible-core
 awscli2
+bandit
 binwalk
 borgbackup
 calibre
@@ -9,8 +11,6 @@ llvm
 cockpit
 copr-backend
 criu
-quodlibet
-fawltydeps
 gnofract4d
 python-howdoi
 httpie
@@ -55,9 +55,9 @@ python-fsspec::bootstrap:::
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
+python-imbalanced-learn
 python-img2pdf
 python-iniparse
-python-joblib
 python-josepy
 qtile
 python-makefun
@@ -78,6 +78,7 @@ python-pydantic-settings
 python-pyforgejo
 pygsl
 python-pymeeus
+python-pyphi
 pyproj
 python-pyrad
 python-pysaml2
@@ -92,6 +93,7 @@ python-rope
 python-rq
 python-rstcheck
 satyr
+python-sklearn-nature-inspired-algorithms
 python-steam
 python-stochastic
 python-streamlink
