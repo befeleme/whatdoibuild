@@ -1,6 +1,5 @@
 NiaAML-GUI
 alot
-ansible-core
 awscli2
 bandit
 binwalk
@@ -26,7 +25,6 @@ python-aioflo
 python-aiosmtpd
 libarcus
 python-astdoc
-python-astropy
 python-asyncssh
 python-autobahn
 python-avocado
@@ -57,7 +55,6 @@ python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
 python-imbalanced-learn
 python-img2pdf
-python-iniparse
 python-josepy
 qtile
 python-makefun
