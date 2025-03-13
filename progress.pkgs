@@ -6,7 +6,6 @@ binwalk
 borgbackup
 calibre
 ceph
-llvm
 cockpit
 copr-backend
 criu
@@ -48,6 +47,7 @@ python-defcon
 python-dill
 python-doubleratchet
 python-etcd
+python-filecheck
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-fsspec::bootstrap:::
@@ -63,6 +63,7 @@ Mayavi
 python-meshio
 python-metakernel
 python-msal
+mupdf
 python-nikola
 onnx
 opencv
@@ -74,7 +75,6 @@ python-pure-protobuf
 python-pydantic-settings
 python-pyforgejo
 pygsl
-python-pyinfra
 python-pymeeus
 python-pyphi
 pyproj
@@ -95,6 +95,7 @@ python-sklearn-nature-inspired-algorithms
 python-steam
 python-stochastic
 python-streamlink
+sympy
 python-TestSlide
 python-toml-cli
 python-toolz
