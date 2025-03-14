@@ -19,12 +19,10 @@ myst-nb
 pcs
 pychess
 python-pyside6
-python-PyMuPDF
 YafaRay
 python-aioesphomeapi
 python-aioflo
 python-aiosmtpd
-python-annarchy
 libarcus
 python-astdoc
 python-asyncssh
@@ -36,7 +34,6 @@ python-beartype
 python-behave
 python-billiard
 python-boutdata
-python-brian2
 python-bsmschema
 python-capturer
 python-carbon
@@ -82,6 +79,8 @@ python-pyforgejo
 pygsl
 pylint
 python-pymeeus
+python-pynn
+python-pypet
 python-pyphi
 pyproj
 python-pyrad
