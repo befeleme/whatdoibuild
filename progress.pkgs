@@ -15,6 +15,7 @@ httpie
 kicad
 kmymoney
 linode-cli
+myst-nb
 pcs
 pychess
 python-pyside6
@@ -23,6 +24,7 @@ YafaRay
 python-aioesphomeapi
 python-aioflo
 python-aiosmtpd
+python-annarchy
 libarcus
 python-astdoc
 python-asyncssh
@@ -33,6 +35,8 @@ python-aws-sam-translator
 python-beartype
 python-behave
 python-billiard
+python-boutdata
+python-brian2
 python-bsmschema
 python-capturer
 python-carbon
@@ -41,14 +45,11 @@ pychromecast
 python-colcon-parallel-executor
 python-colorful
 python-commoncode
-python-conda-index::bootstrap:::
 python-crick
 python-dataclassy
 python-defcon
-python-dill
 python-doubleratchet
 python-etcd
-python-filecheck
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-fsspec::bootstrap:::
@@ -58,13 +59,16 @@ python-h5netcdf
 python-imbalanced-learn
 python-img2pdf
 python-josepy
+python-lfpy
 qtile
 python-makefun
 Mayavi
 python-meshio
 python-metakernel
 python-msal
-mupdf
+python-multiprocess
+python-neatdend
+python-netpyne
 python-nikola
 onnx
 opencv
@@ -76,6 +80,7 @@ python-pure-protobuf
 python-pydantic-settings
 python-pyforgejo
 pygsl
+pylint
 python-pymeeus
 python-pyphi
 pyproj
@@ -92,11 +97,11 @@ python-rope
 python-rq
 python-rstcheck
 satyr
+python-simframe
 python-sklearn-nature-inspired-algorithms
 python-steam
 python-stochastic
 python-streamlink
-sympy
 python-TestSlide
 python-toml-cli
 python-toolz
@@ -109,6 +114,7 @@ python-wordcloud
 python-yappi
 python-zope-i18nmessageid
 pythran
+rebase-helper
 vorta
 xpra
 python3-docs
