@@ -18,6 +18,7 @@ linode-cli
 pcs
 pychess
 python-pyside6
+python-PyMuPDF
 YafaRay
 python-aioesphomeapi
 python-aioflo
