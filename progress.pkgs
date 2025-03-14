@@ -58,6 +58,7 @@ python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
 python-imbalanced-learn
 python-img2pdf
+python-jenkins
 python-josepy
 python-lfpy
 qtile
@@ -66,7 +67,6 @@ Mayavi
 python-meshio
 python-metakernel
 python-msal
-python-multiprocess
 python-neatdend
 python-netpyne
 python-nikola
