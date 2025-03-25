@@ -1,4 +1,3 @@
-awscli2
 bandit
 binwalk
 borgbackup
@@ -38,6 +37,7 @@ python-colorful
 python-commoncode
 conda-build
 python-crick
+python-curtsies
 python-dataclassy
 python-defcon
 python-doubleratchet
@@ -88,7 +88,6 @@ python-remoto
 python-rope
 python-rq
 python-rstcheck
-satyr
 python-simframe
 python-sklearn-nature-inspired-algorithms
 python-steam
