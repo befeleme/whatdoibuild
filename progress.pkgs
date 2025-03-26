@@ -34,7 +34,6 @@ python-chalice
 pychromecast
 python-colcon-parallel-executor
 python-colorful
-python-commoncode
 conda-build
 python-crick
 python-curtsies
