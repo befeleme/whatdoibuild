@@ -1,3 +1,4 @@
+asv
 bandit
 binwalk
 borgbackup
@@ -11,6 +12,8 @@ httpie
 kicad
 kmymoney
 linode-cli
+openapi-python-client
+paraview
 pcs
 pychess
 python-pyside6
@@ -20,7 +23,6 @@ python-aiosmtpd
 libarcus
 python-astdoc
 python-asyncssh
-python-autobahn
 python-avocado
 python-aws-sam-translator
 python-beartype
@@ -37,6 +39,7 @@ python-colorful
 conda-build
 python-crick
 python-curtsies
+python-daphne
 python-dataclassy
 python-defcon
 python-doubleratchet
@@ -58,6 +61,7 @@ python-metakernel
 python-msal
 python-neatdend
 python-netpyne
+python-network-runner
 python-nikola
 python-ollama
 onnx
@@ -102,7 +106,6 @@ visidata
 weasyprint
 python-wordcloud
 python-yappi
-python-zope-i18nmessageid
 pythran
 rebase-helper
 xpra
