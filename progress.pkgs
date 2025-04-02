@@ -1,3 +1,4 @@
+ansible
 asv
 bandit
 binwalk
@@ -44,10 +45,10 @@ python-doubleratchet
 python-etcd
 python-flake8-comprehensions
 python-fsleyes-widgets
-python-fsspec::bootstrap:::
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
+python-hanzidentifier
 python-ibm-vpc
 python-imbalanced-learn
 python-josepy
@@ -59,8 +60,7 @@ python-metakernel
 python-msal
 python-neatdend
 python-netpyne
-python-network-runner
-python-nikola
+python-notebook
 python-ollama
 onnx
 python-osc-lib
@@ -82,6 +82,7 @@ python-pysaml2
 python-pytest-lsp
 python-python-ulid
 python-pyupgrade
+python-queuelib
 python-rdflib
 python-readability-lxml
 python-recordclass
