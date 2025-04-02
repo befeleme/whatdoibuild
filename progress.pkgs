@@ -48,7 +48,6 @@ python-fsleyes-widgets
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
-python-hanzidentifier
 python-ibm-vpc
 python-imbalanced-learn
 python-josepy
@@ -82,7 +81,6 @@ python-pysaml2
 python-pytest-lsp
 python-python-ulid
 python-pyupgrade
-python-queuelib
 python-rdflib
 python-readability-lxml
 python-recordclass
