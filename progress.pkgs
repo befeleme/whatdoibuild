@@ -45,6 +45,7 @@ python-doubleratchet
 python-etcd
 python-flake8-comprehensions
 python-fsleyes-widgets
+python-fsspec::bootstrap:::
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
@@ -59,7 +60,7 @@ python-metakernel
 python-msal
 python-neatdend
 python-netpyne
-python-notebook
+python-nikola
 python-ollama
 onnx
 python-osc-lib
