@@ -24,7 +24,6 @@ libarcus
 python-astdoc
 python-asyncssh
 python-avocado
-python-aw-qt
 python-aws-sam-translator
 python-beartype
 python-behave
