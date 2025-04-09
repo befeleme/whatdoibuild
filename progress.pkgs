@@ -58,7 +58,6 @@ Mayavi
 python-metakernel
 python-msal
 python-neatdend
-python-netpyne
 python-nikola
 python-ollama
 onnx
@@ -73,7 +72,6 @@ python-pyforgejo
 pygsl
 pylint
 python-pymeeus
-python-pynn
 python-pypet
 python-pyphi
 pyproj
