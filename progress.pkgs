@@ -25,6 +25,7 @@ python-astdoc
 python-asyncssh
 python-avocado
 python-aws-sam-translator
+python-axolotl
 python-beartype
 python-behave
 python-billiard
@@ -42,6 +43,7 @@ python-daphne
 python-dataclassy
 python-doubleratchet
 python-etcd
+python-eyed3
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-fsspec::bootstrap:::
@@ -87,7 +89,7 @@ python-rope
 python-rq
 python-rstcheck
 python-simframe
-python-steam
+python-snakemake-interface-logger-plugins
 python-streamlink
 python-TestSlide
 python-toolz
@@ -99,5 +101,6 @@ python-wordcloud
 python-yappi
 pythran
 rebase-helper
+retis
 xpra
 python3-docs
