@@ -29,6 +29,7 @@ python-axolotl
 python-beartype
 python-behave
 python-billiard
+python-blurhash
 python-boutdata
 python-bsmschema
 python-capturer
@@ -39,11 +40,9 @@ python-colcon-parallel-executor
 python-colorful
 conda-build
 python-crick
-python-daphne
 python-dataclassy
 python-doubleratchet
 python-etcd
-python-eyed3
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-fsspec::bootstrap:::
@@ -77,6 +76,7 @@ python-pymeeus
 python-pypet
 python-pyphi
 pyproj
+python-pyregion
 python-pysaml2
 python-pytest-lsp
 python-python-ulid
@@ -89,11 +89,12 @@ python-rope
 python-rq
 python-rstcheck
 python-simframe
-python-snakemake-interface-logger-plugins
+python-standard-mailcap
 python-streamlink
 python-TestSlide
 python-toolz
 python-typing-inspect
+python-typing-inspection
 python-ufoLib2
 python-uvloop
 visidata
@@ -101,6 +102,5 @@ python-wordcloud
 python-yappi
 pythran
 rebase-helper
-retis
 xpra
 python3-docs
