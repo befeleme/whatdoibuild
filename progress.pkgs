@@ -29,7 +29,6 @@ python-axolotl
 python-beartype
 python-behave
 python-billiard
-python-blurhash
 python-boutdata
 python-bsmschema
 python-capturer
@@ -89,7 +88,6 @@ python-rope
 python-rq
 python-rstcheck
 python-simframe
-python-standard-mailcap
 python-streamlink
 python-TestSlide
 python-toolz
