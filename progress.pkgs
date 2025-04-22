@@ -13,7 +13,6 @@ httpie
 kmymoney
 linode-cli
 ocrmypdf
-openapi-python-client
 paraview
 pcs
 pychess
@@ -24,13 +23,11 @@ libarcus
 python-astdoc
 python-asyncssh
 python-avocado
-python-aws-sam-translator
 python-axolotl
 python-beartype
 python-behave
 python-billiard
 python-boutdata
-python-bsmschema
 python-capturer
 python-carbon
 python-chalice
@@ -40,11 +37,9 @@ python-colorful
 conda-build
 python-crick
 python-dataclassy
-python-doubleratchet
 python-etcd
 python-flake8-comprehensions
 python-fsleyes-widgets
-python-fsspec::bootstrap:::
 python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
@@ -53,13 +48,14 @@ python-imbalanced-learn
 python-josepy
 python-lfpy
 qtile
+python-llama-cpp-python
 python-makefun
 Mayavi
 python-metakernel
 python-msal
 python-neatdend
+python-niaarmts
 python-nikola
-python-ollama
 onnx
 python-osc-lib
 python-packvers
@@ -67,8 +63,6 @@ python-pika
 poetry
 python-praw
 python-pure-protobuf
-python-pydantic-settings
-python-pyforgejo
 pygsl
 pylint
 python-pymeeus
@@ -78,8 +72,8 @@ pyproj
 python-pyregion
 python-pysaml2
 python-pytest-lsp
-python-python-ulid
 python-pyupgrade
+python-rasterio
 python-rdflib
 python-readability-lxml
 python-recordclass
@@ -91,6 +85,7 @@ python-simframe
 python-streamlink
 python-TestSlide
 python-toolz
+python-torch
 python-typing-inspect
 python-typing-inspection
 python-ufoLib2
@@ -98,6 +93,7 @@ python-uvloop
 visidata
 python-wordcloud
 python-yappi
+python-zarr
 pythran
 rebase-helper
 xpra
