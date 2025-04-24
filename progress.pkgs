@@ -4,7 +4,6 @@ bandit
 binwalk
 borgbackup
 ceph
-cockpit
 copr-backend
 criu
 gnofract4d
@@ -37,7 +36,6 @@ python-colorful
 conda-build
 python-crick
 python-dataclassy
-python-etcd
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-giacpy
