@@ -12,6 +12,7 @@ httpie
 kmymoney
 linode-cli
 ocrmypdf
+openapi-python-client
 pcs
 pychess
 python-pyside6
@@ -20,11 +21,13 @@ python-aiosmtpd
 python-astdoc
 python-asyncssh
 python-avocado
+python-aws-sam-translator
 python-axolotl
 python-beartype
 python-behave
 python-billiard
 python-boutdata
+python-bsmschema
 python-capturer
 python-carbon
 python-chalice
@@ -34,6 +37,7 @@ python-colorful
 conda-build
 python-crick
 python-dataclassy
+python-doubleratchet
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-giacpy
@@ -52,6 +56,7 @@ python-msal
 python-neatdend
 python-niaarmts
 python-nikola
+python-ollama
 onnx
 python-osc-lib
 python-packvers
@@ -59,6 +64,8 @@ python-pika
 poetry
 python-praw
 python-pure-protobuf
+python-pydantic-settings
+python-pyforgejo
 pylint
 python-pymeeus
 python-pypet
@@ -67,6 +74,7 @@ pyproj
 python-pyregion
 python-pysaml2
 python-pytest-lsp
+python-python-ulid
 python-pyupgrade
 python-rasterio
 python-rdflib
@@ -82,7 +90,6 @@ python-TestSlide
 python-toolz
 python-torch
 python-typing-inspect
-python-typing-inspection
 python-ufoLib2
 python-uranium
 python-uvloop
