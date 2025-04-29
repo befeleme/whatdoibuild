@@ -12,13 +12,11 @@ httpie
 kmymoney
 linode-cli
 ocrmypdf
-paraview
 pcs
 pychess
 python-pyside6
 python-aioesphomeapi
 python-aiosmtpd
-libarcus
 python-astdoc
 python-asyncssh
 python-avocado
@@ -61,7 +59,6 @@ python-pika
 poetry
 python-praw
 python-pure-protobuf
-pygsl
 pylint
 python-pymeeus
 python-pypet
@@ -87,6 +84,7 @@ python-torch
 python-typing-inspect
 python-typing-inspection
 python-ufoLib2
+python-uranium
 python-uvloop
 visidata
 python-wordcloud
