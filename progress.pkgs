@@ -1,5 +1,6 @@
 ansible
 asv
+avogadro2-libs
 bandit
 binwalk
 borgbackup
@@ -84,6 +85,7 @@ python-remoto
 python-rope
 python-rq
 python-rstcheck
+python-scipy-doctest
 python-simframe
 python-streamlink
 python-TestSlide
