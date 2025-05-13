@@ -18,7 +18,9 @@ pcs
 pychess
 python-pyside6
 python-aioesphomeapi
+python-aiolimiter
 python-aiosmtpd
+python-application-properties
 python-astdoc
 python-asyncssh
 python-avocado
@@ -35,6 +37,7 @@ python-chalice
 pychromecast
 python-colcon-parallel-executor
 python-colorful
+python-colorspacious
 conda-build
 python-crick
 python-dataclassy
