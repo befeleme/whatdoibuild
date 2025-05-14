@@ -86,6 +86,7 @@ python-rope
 python-rq
 python-rstcheck
 python-scipy-doctest
+python-sentry-sdk:tests::::
 python-simframe
 python-streamlink
 python-TestSlide
