@@ -64,6 +64,7 @@ python-packvers
 python-pika
 poetry
 python-praw
+python-proton-vpn-api-core
 python-pure-protobuf
 python-pydantic-settings
 python-pyforgejo
@@ -86,7 +87,6 @@ python-rope
 python-rq
 python-rstcheck
 python-scipy-doctest
-python-sentry-sdk:tests::::
 python-simframe
 python-streamlink
 python-TestSlide
