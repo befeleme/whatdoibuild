@@ -19,7 +19,6 @@ pychess
 python-pyside6
 python-aioesphomeapi
 python-aiosmtpd
-python-androguard::bootstrap:::
 python-astdoc
 python-asyncssh
 python-avocado
