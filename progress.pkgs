@@ -64,7 +64,6 @@ python-packvers
 python-pika
 poetry
 python-praw
-python-proton-vpn-network-manager
 python-pure-protobuf
 python-pydantic-settings
 python-pyforgejo
