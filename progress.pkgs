@@ -49,7 +49,6 @@ python-imbalanced-learn
 python-josepy
 python-lfpy
 qtile
-python-llama-cpp-python
 python-makefun
 Mayavi
 python-metakernel
@@ -85,7 +84,6 @@ python-remoto
 python-rope
 python-rq
 python-rstcheck
-python-scipy-doctest
 python-simframe
 python-streamlink
 python-TestSlide
