@@ -39,6 +39,7 @@ conda-build
 python-crick
 python-dataclassy
 python-doubleratchet
+python-fastrand
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-giacpy
