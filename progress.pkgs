@@ -12,11 +12,12 @@ python-howdoi
 httpie
 kmymoney
 linode-cli
+nanovna-saver
 ocrmypdf
 openapi-python-client
 pcs
 pychess
-python-pyside6
+pymol
 python-aioesphomeapi
 python-aiosmtpd
 python-astdoc
@@ -24,6 +25,7 @@ python-asyncssh
 python-avocado
 python-aws-sam-translator
 python-axolotl
+python-basis_set_exchange
 python-beartype
 python-behave
 python-billiard
@@ -39,7 +41,7 @@ conda-build
 python-crick
 python-dataclassy
 python-doubleratchet
-python-fastrand
+python-ezdxf
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-giacpy
@@ -48,6 +50,14 @@ python-h5netcdf
 python-ibm-vpc
 python-imbalanced-learn
 python-josepy
+kf6-kcoreaddons
+kf6-kguiaddons
+kf6-kjobwidgets
+kf6-knotifications
+kf6-kstatusnotifieritem
+kf6-kunitconversion
+kf6-kwidgetsaddons
+kf6-kxmlgui
 python-lfpy
 qtile
 python-makefun
@@ -75,6 +85,8 @@ pyproj
 python-pyregion
 python-pysaml2
 python-pytest-lsp
+python-pytest-qt
+python-pytest-twisted
 python-python-ulid
 python-pyupgrade
 python-rasterio
@@ -93,6 +105,7 @@ python-torch
 python-typing-inspect
 python-ufoLib2
 python-uranium
+usd
 python-uvloop
 visidata
 python-wordcloud
@@ -100,5 +113,6 @@ python-yappi
 python-zarr
 pythran
 rebase-helper
+syncplay
 xpra
 python3-docs
