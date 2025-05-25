@@ -12,7 +12,6 @@ python-howdoi
 httpie
 kmymoney
 linode-cli
-novelwriter
 ocrmypdf
 openapi-python-client
 pcs
@@ -72,7 +71,6 @@ python-pymeeus
 python-pypet
 python-pyphi
 pyproj
-python-pyqt-feedback-flow
 python-pyregion
 python-pysaml2
 python-pytest-lsp
@@ -98,6 +96,7 @@ python-uranium
 python-uvloop
 visidata
 python-wordcloud
+python-xnat4tests
 python-yappi
 python-zarr
 pythran
