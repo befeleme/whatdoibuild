@@ -7,6 +7,7 @@ borgbackup
 ceph
 copr-backend
 criu
+cura
 gnofract4d
 python-howdoi
 httpie
@@ -89,7 +90,6 @@ python-toolz
 python-torch
 python-typing-inspect
 python-ufoLib2
-python-uranium
 python-uvloop
 visidata
 python-wordcloud
