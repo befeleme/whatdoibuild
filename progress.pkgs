@@ -23,7 +23,6 @@ python-asyncssh
 python-avocado
 python-aws-sam-translator
 python-axolotl
-python-basis_set_exchange
 python-beartype
 python-behave
 python-billiard
@@ -41,13 +40,10 @@ python-dataclassy
 python-doubleratchet
 python-flake8-comprehensions
 python-fsleyes-widgets
-python-giacpy
 python-googleapis-common-protos::bootstrap:::
 python-h5netcdf
-python-ibm-vpc
 python-imbalanced-learn
 python-josepy
-python-lfpy
 qtile
 python-makefun
 Mayavi
@@ -85,6 +81,7 @@ python-remoto
 python-rope
 python-rq
 python-rstcheck
+python-scikit-image
 python-simframe
 python-streamlink
 python-TestSlide
@@ -96,10 +93,8 @@ python-uranium
 python-uvloop
 visidata
 python-wordcloud
-python-xnat4tests
 python-yappi
 python-zarr
-pythran
 rebase-helper
 xpra
 python3-docs
