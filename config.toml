@@ -575,6 +575,9 @@ withouts = ["tests"]
 [[bconds.python-xnat]]
 withouts = ["tests"]
 
+[[bconds.python-tablib]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
