@@ -35,8 +35,8 @@
 # do a test/scratch build to VERIFY python3-rpm-generators work before proceeding!
 
 [koji]
-target = 'rawhide'
-# target = 'f41-python'
+# target = 'rawhide'
+target = 'f43-python'
 
 [distgit]
 branch = "rawhide"
@@ -74,8 +74,8 @@ baseurl = ["http://kojipkgs.fedoraproject.org/repos/rawhide/latest/src/"]
 
 [[repos.target]]
 repoid = "python3.14"
-baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.14/fedora-rawhide-$basearch/"]
-# baseurl = ["http://kojipkgs.fedoraproject.org/repos/f41-build/latest/$basearch/"]
+# baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.14/fedora-rawhide-$basearch/"]
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/f43-build/latest/$basearch/"]
 metadata_expire = 60
 
 [bconds]
