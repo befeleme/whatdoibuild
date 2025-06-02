@@ -1,0 +1,9 @@
+diff --git a/python-lxml.spec b/python-lxml.spec
+index 112a51d..a8d598d 100644
+--- a/python-lxml.spec
++++ b/python-lxml.spec
+@@ -1,3 +1,4 @@
++%global _without_extras 1
+ Name:           python-lxml
+ Version:        5.4.0
+ Release:        %autorelease
