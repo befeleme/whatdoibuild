@@ -1,7 +1,6 @@
 Macaulay2
 avogadro2-libs
 binwalk
-python-blurb
 borgbackup
 ceph
 chirp
@@ -10,7 +9,6 @@ did
 git-filter-repo
 gnofract4d
 ikiwiki
-ini2toml
 kmymoney
 kurchu
 kvirc
@@ -21,7 +19,6 @@ linode-cli
 mopidy
 mrchem
 nwchem
-osh
 poezio
 pysubnettree
 python-aioquic
@@ -30,12 +27,10 @@ python-astdoc
 python-automaton
 python-avocado
 python-awesomeversion
-python-bashate
 python-beancount
 python-beartype
 python-billiard
 python-blinker
-python-cairosvg
 capstone
 python-capturer
 python-catkin_tools
@@ -48,7 +43,6 @@ python-confuse
 python-cramjam
 python-crcmod
 python-dataclassy
-python-debtcollector
 python-diff-cover
 root
 python-django-configurations
@@ -56,10 +50,10 @@ python-django-contrib-comments
 python-django-filter
 dlib
 python-dunamai
+python-etcd3gw
 python-exdir
 python3-exiv2
 python-fs
-python-futurist
 python-gphoto2
 python-h5netcdf
 python-hl7
@@ -79,8 +73,8 @@ python-makefun
 python-markups
 python-matplotlib
 python-msal
-python-murano-pkg-check
 python-oracledb
+python-oslo-config:::repo_bootstrap::
 python-paginate
 python-pamela
 python-pandas
@@ -111,12 +105,10 @@ python-pytest-subprocess
 python-pyupgrade
 python-pyvlx
 qgis
-rdopkg
 python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
-python-renderspec
 python-rosdep
 python-rpds-py
 python-rstcheck
@@ -128,12 +120,10 @@ python-sqlalchemy1.4
 python-ssh-python
 python-stdlibs
 subversion
-python-sushy
 python-telnetlib3
 python-tenacity
 python-toolz
 python-tpm2-pytss
-python-traitsui
 python-txaio
 python-typeguard
 python-typing-inspect
