@@ -1,5 +1,4 @@
 Macaulay2
-PyMca
 avogadro2-libs
 binwalk
 borgbackup
@@ -22,7 +21,6 @@ mrchem
 nwchem
 poezio
 pysubnettree
-python-aiohttp-oauthlib
 python-aioquic
 python-aiosmtpd
 python-astdoc
@@ -43,7 +41,6 @@ python-confuse
 python-cramjam
 python-crcmod
 python-dataclassy
-python-deap
 python-diff-cover
 root
 python-django-configurations
@@ -72,9 +69,6 @@ libxc
 python-loguru
 python-makefun
 python-markups
-python-meautility
-python-mercantile
-python-mplcairo
 python-msal
 python-oracledb
 python-orjson
@@ -88,7 +82,6 @@ python-priority
 protobuf
 python-pudb
 python-pure-protobuf
-python-pyABF
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
@@ -118,9 +111,7 @@ python-rstcheck
 python-rx
 scipy:pythran::::
 signon-glib
-smoldyn
 python-sphinxcontrib-bibtex
-python-sphinxtesters
 python-sphinxygen
 python-sqlalchemy1.4
 python-ssh-python
@@ -136,6 +127,7 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
+vdirsyncer
 strongswan
 visidata
 vtk
@@ -143,6 +135,7 @@ python-watchfiles
 weasyprint
 python-webob
 python-wordcloud
+python-xyzservices
 python-yappi
 python-zstarfile
 rpm-head-signing
