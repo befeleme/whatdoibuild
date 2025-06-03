@@ -1,0 +1,9 @@
+diff --git a/python-humanfriendly.spec b/python-humanfriendly.spec
+index 823ec1a..d076278 100644
+--- a/python-humanfriendly.spec
++++ b/python-humanfriendly.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ # We must break a circular test dependency on python-capturer to bootstrap a
+ # new Python version.
+ %bcond bootstrap 0
