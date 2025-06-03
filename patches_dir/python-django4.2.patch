@@ -1,0 +1,9 @@
+diff --git a/python-django4.2.spec b/python-django4.2.spec
+index b7b9693..930d4b2 100644
+--- a/python-django4.2.spec
++++ b/python-django4.2.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %global evr_with_virtual_impl 4.2.11-2
+ 
+ %if 0%{?fedora} || (0%{?rhel} && 0%{?rhel} >= 10)
