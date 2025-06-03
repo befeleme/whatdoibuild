@@ -19,8 +19,6 @@ linode-cli
 mopidy
 mrchem
 nwchem
-pg_activity
-pgcli
 poezio
 pysubnettree
 python-aioquic
@@ -58,7 +56,6 @@ python-fs
 python-gphoto2
 python-h5netcdf
 python-hl7
-python-importlib-resources
 python-inject
 python-injector
 python-invoke
