@@ -1,0 +1,9 @@
+diff --git a/python-tablib.spec b/python-tablib.spec
+index 914cd55..d8630d9 100644
+--- a/python-tablib.spec
++++ b/python-tablib.spec
+@@ -1,3 +1,4 @@
++%global _with_bootstrap 1
+ %bcond_with bootstrap
+ 
+ Name:             python-tablib
