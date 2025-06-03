@@ -16,14 +16,12 @@ python-colorful
 python-confuse
 python-dataclassy
 python-diff-cover
-python-fontrpmspec
 pygobject3
 python-gphoto2
 python-inject
 python-invoke
 python-janus
 python-makefun
-python-oslotest::repo_bootstrap:::
 python-paginate
 python-pamela
 patool
@@ -47,7 +45,6 @@ python-sqlalchemy1.4
 subversion
 python-telnetlib3
 python-tenacity
-python-testrepository
 python-toolz
 python-trio
 python-typeguard
