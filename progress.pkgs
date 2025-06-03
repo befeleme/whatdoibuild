@@ -41,6 +41,7 @@ python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
 python-confuse
+python-cotyledon
 python-cramjam
 python-crcmod
 python-dataclassy
@@ -51,7 +52,6 @@ python-django-contrib-comments
 python-django-filter
 dlib
 python-dunamai
-python-etcd3gw
 python-exdir
 python3-exiv2
 python-fs
@@ -76,7 +76,7 @@ python-matplotlib
 python-msal
 python-oracledb
 python-orjson
-python-oslo-config:::repo_bootstrap::
+python-oslo-utils
 python-paginate
 python-pamela
 python-pandas
