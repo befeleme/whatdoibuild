@@ -39,8 +39,10 @@ python-pyvlx
 python-reactivex
 python-readability-lxml
 python-recordclass
+python-requests:tests::::
 python-rstcheck
 python-rx
+python-sentry-sdk:tests::::
 python-sqlalchemy1.4
 subversion
 python-telnetlib3
