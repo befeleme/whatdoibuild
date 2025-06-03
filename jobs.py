@@ -121,6 +121,7 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
         for required_package in required_packages:
             has_older = False
             for done_package in components_done.get(relevant_component, ()):
+                found = False
                 # The done packages are from different repo and might have different EVR
                 # Hence, we only compare the names
                 # For Copr rebuilds, the Copr EVR must be >= Fedora EVR
@@ -137,8 +138,10 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
                     for provide in done_package.provides:
                         if provide.name == required_package.name:
                             log(f'      ✔ {required_package.name}')
+                            found = True
                             break
-                    break
+                    if found:
+                        break
             else:
                 if has_older:
                     log(f'      ✗ {required_package.name} (older EVR available)')
