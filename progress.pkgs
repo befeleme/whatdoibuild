@@ -39,7 +39,6 @@ python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
 python-confuse
-python-cotyledon
 python-cramjam
 python-crcmod
 python-dataclassy
@@ -73,7 +72,8 @@ python-matplotlib
 python-msal
 python-oracledb
 python-orjson
-python-oslo-utils
+python-oslo-concurrency
+python-oslo-serialization
 python-paginate
 python-pamela
 python-pandas
