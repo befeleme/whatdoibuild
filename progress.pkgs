@@ -32,7 +32,6 @@ python-awesomeversion
 python-beancount
 python-beartype
 python-billiard
-python-bioframe
 capstone
 python-capturer
 python-catkin_tools
@@ -93,7 +92,6 @@ python-pudb
 python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
-python-pydapsys
 python-pydocstyle
 python-pyemd
 pylibacl
@@ -126,7 +124,6 @@ python-statsmodels
 python-stdlibs
 python-steps
 subversion
-python-tablib::bootstrap:::
 python-telnetlib3
 python-tenacity
 python-toolz
