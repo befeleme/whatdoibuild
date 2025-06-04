@@ -8,14 +8,11 @@ llvm
 diceware
 did
 git-filter-repo
-gmsh
 gnofract4d
 python-howdoi
 httpie
 ikiwiki
-kicad
 kmymoney
-krita
 kurchu
 kvirc
 libpeas
@@ -36,9 +33,11 @@ python-beartype
 python-billiard
 capstone
 python-capturer
+python-cascadio::bootstrap:::
 python-catkin_tools
 python-cerberus
 cjdns
+python-coincurve
 python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
@@ -61,6 +60,7 @@ python-fs
 python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
+coin-or-HiGHS
 python-hl7
 python-inject
 python-injector
@@ -76,9 +76,11 @@ libunity
 libxc
 python-loguru
 python-makefun
+python-mapbox-earcut
 python-markups
 python-mechanize
 python-msal
+python-nanobind
 python-niaarmts
 opencv
 python-oracledb
@@ -111,6 +113,7 @@ python-pytest-twisted
 python-pyupgrade
 python-pyvlx
 python-qpageview
+python-rapidfuzz
 python-rdflib
 python-reactivex
 python-readability-lxml
@@ -122,6 +125,7 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
+spglib
 python-sphinxygen
 python-sqlalchemy1.4
 python-ssh-python
@@ -133,7 +137,6 @@ python-textual
 python-toolz
 python-towncrier
 python-tpm2-pytss
-python-twilio
 python-txaio
 python-typeguard
 python-typing-inspect
