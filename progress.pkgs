@@ -65,7 +65,6 @@ python-invoke
 python-ipfshttpclient
 python-irc
 python-janus
-python-jinja2_pluralize
 python-jiter
 python-josepy
 python-libcst::bootstrap:::
