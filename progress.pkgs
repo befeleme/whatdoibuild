@@ -26,6 +26,8 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
+python-aiohttp-cors
+python-aiohttp-retry
 python-aioquic
 python-aiosmtpd
 python-astdoc
@@ -46,6 +48,7 @@ python-confuse
 python-cramjam
 python-crcmod
 python-crick
+python-daikin
 python-dataclassy
 python-diff-cover
 root
@@ -107,8 +110,6 @@ python-pyopengl
 pyproj
 python-pyscaffold
 pyserial-asyncio
-python-pytest-aiohttp
-python-pytest-subprocess
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
@@ -131,6 +132,7 @@ python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
+python-textual
 python-toolz
 python-towncrier
 python-tpm2-pytss
@@ -140,7 +142,6 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
-python-vascpy
 strongswan
 visidata
 python-watchfiles
@@ -154,6 +155,7 @@ sugar
 sugar-toolkit-gtk3
 python-twine
 ufw
+xonsh
 xpra
 yt-dlp
 zeek
