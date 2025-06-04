@@ -1,4 +1,3 @@
-OpenColorIO
 ansible-core
 asv
 avogadro2-libs
@@ -8,7 +7,6 @@ chirp
 llvm
 diceware
 did
-f3d
 git-filter-repo
 gnofract4d
 python-howdoi
@@ -16,6 +14,7 @@ httpie
 ikiwiki
 kicad
 kmymoney
+krita
 kurchu
 kvirc
 libpeas
@@ -27,7 +26,6 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
-YafaRay
 python-aioquic
 python-aiosmtpd
 python-astdoc
@@ -62,9 +60,9 @@ python-flask-session
 python-fs
 python-fsleyes-widgets
 python-gphoto2
-python-graph-tool
 python-h5netcdf
 python-hl7
+python-igraph
 python-inject
 python-injector
 python-invoke
@@ -75,20 +73,18 @@ python-jiter
 python-josepy
 python-lazyarray
 python-libcst::bootstrap:::
-libfreenect
 libopenshot
-libsonata
 libunity
 libxc
 python-loguru
 python-makefun
 python-markups
 python-mechanize
-mlt
-morphio
 python-msal
 python-niaarmts
 opencv
+OpenImageIO
+openshadinglanguage
 python-oracledb
 python-orjson
 python-packvers
@@ -139,7 +135,6 @@ python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
-python-tilestache
 python-toolz
 python-towncrier
 python-tpm2-pytss
@@ -149,7 +144,6 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
-python-vedo
 strongswan
 visidata
 python-watchfiles
