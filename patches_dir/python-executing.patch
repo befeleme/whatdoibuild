@@ -1,9 +1,0 @@
-diff --git a/python-executing.spec b/python-executing.spec
-index 092af65..d5d208a 100644
---- a/python-executing.spec
-+++ b/python-executing.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- # Running the tests requires ipython which requires python-stack-data which
- # introduces a circular dependency back on python-executing
- %bcond bootstrap 0
