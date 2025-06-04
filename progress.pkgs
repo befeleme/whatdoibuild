@@ -8,6 +8,7 @@ llvm
 diceware
 did
 git-filter-repo
+gmsh
 gnofract4d
 python-howdoi
 httpie
@@ -21,7 +22,6 @@ libpeas
 linode-cli
 mopidy
 mrchem
-netgen-mesher
 ocrmypdf
 pcs
 poezio
@@ -62,7 +62,6 @@ python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
 python-hl7
-python-igraph
 python-inject
 python-injector
 python-invoke
@@ -73,7 +72,6 @@ python-jiter
 python-josepy
 python-lazyarray
 python-libcst::bootstrap:::
-libopenshot
 libunity
 libxc
 python-loguru
@@ -83,8 +81,6 @@ python-mechanize
 python-msal
 python-niaarmts
 opencv
-OpenImageIO
-openshadinglanguage
 python-oracledb
 python-orjson
 python-packvers
@@ -144,6 +140,7 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
+python-vascpy
 strongswan
 visidata
 python-watchfiles
