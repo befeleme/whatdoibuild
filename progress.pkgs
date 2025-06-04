@@ -4,7 +4,6 @@ avogadro2-libs
 binwalk
 borgbackup
 chirp
-llvm
 diceware
 did
 git-filter-repo
@@ -67,6 +66,9 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
+python-jsonschema-path
+python-jsonschema-specifications
+python-kafka
 qtile
 libunity
 libxc
@@ -75,6 +77,7 @@ python-markups
 python-mccabe
 python-mechanize
 python-msal
+mupdf
 python-niaaml
 python-niaarmts
 opencv
@@ -110,19 +113,18 @@ python-rdflib
 python-reactivex
 python-readability-lxml
 python-recordclass
-python-referencing
 python-remoto
 python-rosdep
 python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-snappy
 python-sphinxygen
 python-sqlalchemy1.4
 python-ssh-python
 python-stdlibs
 subversion
+sympy
 python-telnetlib3
 python-tenacity
 python-TestSlide
