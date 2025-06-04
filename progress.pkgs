@@ -26,8 +26,6 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
-python-aiohttp-cors
-python-aiohttp-retry
 python-aioquic
 python-aiosmtpd
 python-astdoc
@@ -48,7 +46,6 @@ python-confuse
 python-cramjam
 python-crcmod
 python-crick
-python-daikin
 python-dataclassy
 python-diff-cover
 root
@@ -136,6 +133,7 @@ python-textual
 python-toolz
 python-towncrier
 python-tpm2-pytss
+python-twilio
 python-txaio
 python-typeguard
 python-typing-inspect
@@ -155,7 +153,6 @@ sugar
 sugar-toolkit-gtk3
 python-twine
 ufw
-xonsh
 xpra
 yt-dlp
 zeek
