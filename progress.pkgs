@@ -59,6 +59,7 @@ python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
 python-hl7
+python-inflect
 python-inject
 python-injector
 python-invoke
@@ -124,12 +125,12 @@ python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
+python-TestSlide
 python-textual
 python-toolz
 python-towncrier
 python-tpm2-pytss
 python-txaio
-python-typeguard
 python-typing-inspect
 python-uvloop
 uwsgi
