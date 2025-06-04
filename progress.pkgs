@@ -1,3 +1,4 @@
+NiaAML-GUI
 ansible-core
 asv
 avogadro2-libs
@@ -5,7 +6,6 @@ binwalk
 borgbackup
 chirp
 diceware
-did
 git-filter-repo
 gnofract4d
 python-howdoi
@@ -23,8 +23,8 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
+python-PyMuPDF
 python-aiokafka
-python-aioquic
 python-aiosmtpd
 python-astdoc
 python-avocado
@@ -50,9 +50,11 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
+python-dns
 python-dunamai
 python-exdir
 python3-exiv2
+python-flake8
 python-flask-session
 python-fs
 python-fsleyes-widgets
@@ -66,22 +68,16 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
-python-jsonschema-path
-python-jsonschema-specifications
-python-kafka
+python-jsonschema
 qtile
 libunity
 libxc
 python-makefun
 python-markups
-python-mccabe
 python-mechanize
 python-msal
-mupdf
-python-niaaml
 python-niaarmts
 opencv
-python-oracledb
 python-orjson
 python-packvers
 python-paginate
@@ -100,6 +96,7 @@ python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
 python-pyemd
 pylibacl
+pylint
 python-pymdown-extensions
 python-pymeeus
 python-pyopencl
