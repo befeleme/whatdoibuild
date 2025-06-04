@@ -54,14 +54,12 @@ dlib
 python-dunamai
 python-exdir
 python3-exiv2
-python-fixit
 python-flask-session
 python-fs
 python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
 python-hl7
-python-hypothesmith:tests::::
 python-inject
 python-injector
 python-invoke
@@ -74,6 +72,7 @@ libunity
 libxc
 python-makefun
 python-markups
+python-mccabe
 python-mechanize
 python-msal
 python-niaaml
