@@ -59,13 +59,13 @@ python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
 python-hl7
-python-inflect
 python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
 python-irc
 python-janus
+python-jinja2_pluralize
 python-jiter
 python-josepy
 python-libcst::bootstrap:::
