@@ -7,6 +7,7 @@ chirp
 llvm
 diceware
 did
+frescobaldi
 git-filter-repo
 gnofract4d
 python-howdoi
@@ -23,7 +24,6 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
-python-Levenshtein
 python-aioquic
 python-aiosmtpd
 python-astdoc
@@ -37,7 +37,6 @@ python-capturer
 python-catkin_tools
 python-cerberus
 cjdns
-python-cleo
 python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
@@ -70,7 +69,6 @@ python-irc
 python-janus
 python-jiter
 python-josepy
-python-lazyarray
 python-libcst::bootstrap:::
 libunity
 libxc
@@ -95,7 +93,6 @@ python-pkginfo2
 python-priority
 protobuf
 python-pudb
-python-pulp
 python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
@@ -107,12 +104,10 @@ python-pymeeus
 python-pyopencl
 python-pyopengl
 pyproj
-python-pyscaffold
 pyserial-asyncio
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
-python-qpageview
 python-rdflib
 python-reactivex
 python-readability-lxml
@@ -131,6 +126,7 @@ python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
+python-textdistance
 python-textual
 python-toolz
 python-towncrier
@@ -138,7 +134,6 @@ python-tpm2-pytss
 python-txaio
 python-typeguard
 python-typing-inspect
-units-llnl
 python-uvloop
 uwsgi
 python-valkey
@@ -151,10 +146,13 @@ python-yappi
 python-zstarfile
 rpm-head-signing
 rss2email
+spectrographic
 sugar
 sugar-toolkit-gtk3
+translate-toolkit
 python-twine
 ufw
+ulauncher
 xpra
 yt-dlp
 zeek
