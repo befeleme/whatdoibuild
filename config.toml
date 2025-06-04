@@ -578,6 +578,9 @@ withouts = ["tests"]
 [[bconds.python-tablib]]
 withs = ["bootstrap"]
 
+[[bconds.llvm]]
+withouts = ["pgo"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
