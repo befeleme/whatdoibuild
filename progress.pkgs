@@ -7,7 +7,6 @@ chirp
 llvm
 diceware
 did
-frescobaldi
 git-filter-repo
 gnofract4d
 python-howdoi
@@ -51,7 +50,6 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
-python-ducc0
 python-dunamai
 python-exdir
 python3-exiv2
@@ -72,11 +70,11 @@ python-josepy
 python-libcst::bootstrap:::
 libunity
 libxc
-python-loguru
 python-makefun
 python-markups
 python-mechanize
 python-msal
+python-niaaml
 python-niaarmts
 opencv
 openvdb
@@ -126,7 +124,6 @@ python-stdlibs
 subversion
 python-telnetlib3
 python-tenacity
-python-textdistance
 python-textual
 python-toolz
 python-towncrier
@@ -146,13 +143,10 @@ python-yappi
 python-zstarfile
 rpm-head-signing
 rss2email
-spectrographic
 sugar
 sugar-toolkit-gtk3
-translate-toolkit
 python-twine
 ufw
-ulauncher
 xpra
 yt-dlp
 zeek
