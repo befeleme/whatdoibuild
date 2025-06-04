@@ -23,6 +23,7 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
+python-Levenshtein
 python-aioquic
 python-aiosmtpd
 python-astdoc
@@ -33,11 +34,10 @@ python-beartype
 python-billiard
 capstone
 python-capturer
-python-cascadio::bootstrap:::
 python-catkin_tools
 python-cerberus
 cjdns
-python-coincurve
+python-cleo
 python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
@@ -52,6 +52,7 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
+python-ducc0
 python-dunamai
 python-exdir
 python3-exiv2
@@ -60,7 +61,6 @@ python-fs
 python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
-coin-or-HiGHS
 python-hl7
 python-inject
 python-injector
@@ -76,13 +76,12 @@ libunity
 libxc
 python-loguru
 python-makefun
-python-mapbox-earcut
 python-markups
 python-mechanize
 python-msal
-python-nanobind
 python-niaarmts
 opencv
+openvdb
 python-oracledb
 python-orjson
 python-packvers
@@ -96,6 +95,7 @@ python-pkginfo2
 python-priority
 protobuf
 python-pudb
+python-pulp
 python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
@@ -113,7 +113,6 @@ python-pytest-twisted
 python-pyupgrade
 python-pyvlx
 python-qpageview
-python-rapidfuzz
 python-rdflib
 python-reactivex
 python-readability-lxml
@@ -125,7 +124,6 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-spglib
 python-sphinxygen
 python-sqlalchemy1.4
 python-ssh-python
@@ -140,6 +138,7 @@ python-tpm2-pytss
 python-txaio
 python-typeguard
 python-typing-inspect
+units-llnl
 python-uvloop
 uwsgi
 python-valkey
