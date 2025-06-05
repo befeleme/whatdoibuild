@@ -12,7 +12,6 @@ gnofract4d
 python-howdoi
 httpie
 ikiwiki
-ilua
 kernel
 kmymoney
 kurchu
@@ -28,6 +27,7 @@ poezio
 pysubnettree
 python-aiokafka
 python-aiosmtpd
+python-animatplot
 python-astdoc
 python-avocado
 python-awesomeversion
@@ -72,17 +72,18 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
-python-jupyter-server:tests::::
+python-jupyter-lsp
+python-jupyterlab-server
 qtile
 libunity
 libxc
 python-makefun
 python-markups
 python-mechanize
-python-metakernel
 python-msal
-python-nbsphinx
 python-niaarmts
+python-notebook-shim
+python-octave-kernel
 opencv
 python-orjson
 python-osc-lib
@@ -91,7 +92,6 @@ python-packvers
 python-paginate
 python-pamela
 python-paperwork-backend
-python-pari-jupyter
 patool
 petsc
 python-pika
@@ -150,6 +150,7 @@ python-webob
 python-wordcloud
 python-yappi
 python-zstarfile
+pythran
 rebase-helper
 rpm-head-signing
 rss2email
