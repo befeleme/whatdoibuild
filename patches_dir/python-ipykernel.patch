@@ -1,0 +1,9 @@
+diff --git a/python-ipykernel.spec b/python-ipykernel.spec
+index b918b54..8bca5a5 100644
+--- a/python-ipykernel.spec
++++ b/python-ipykernel.spec
+@@ -1,3 +1,4 @@
++%global _without_tests 1
+ %global modname ipykernel
+ 
+ # When we bootstrap new Python, we need to avoid a build dependnecy loop
