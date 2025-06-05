@@ -12,6 +12,7 @@ gnofract4d
 python-howdoi
 httpie
 ikiwiki
+ilua
 kernel
 kmymoney
 kurchu
@@ -34,6 +35,7 @@ python-beancount
 python-beartype
 python-billiard
 python-boto3
+python-branca
 python-pymongo
 capstone
 python-capturer
@@ -45,7 +47,6 @@ python-colcon-parallel-executor
 python-colorful
 python-confuse
 python-crcmod
-credslayer
 python-crick
 python-dataclassy
 python-diff-cover
@@ -68,22 +69,19 @@ python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
-python-ipyparallel
 python-irc
 python-janus
 python-josepy
-python-jupyter-console
-python-jupyter-kernel-singular
-python-jupyter-kernel-test
-python-jupyter-polymake
+python-jupyter-server:tests::::
 qtile
 libunity
 libxc
 python-makefun
 python-markups
 python-mechanize
+python-metakernel
 python-msal
-python-nbconvert:check-doc::::
+python-nbsphinx
 python-niaarmts
 opencv
 python-orjson
@@ -93,6 +91,7 @@ python-packvers
 python-paginate
 python-pamela
 python-paperwork-backend
+python-pari-jupyter
 patool
 petsc
 python-pika
@@ -114,7 +113,6 @@ python-pyopencl
 python-pyopengl
 pyproj
 pyserial-asyncio
-python-pytest-jupyter
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
@@ -129,7 +127,6 @@ python-rx
 signon-glib
 python-simframe
 python-sphinxygen
-python-spyder-kernels
 python-sqlalchemy1.4
 python-ssh-python
 python-stdlibs
