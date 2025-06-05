@@ -27,7 +27,6 @@ poezio
 pysubnettree
 python-aiokafka
 python-aiosmtpd
-python-AppTools
 python-astdoc
 python-avocado
 python-awesomeversion
@@ -56,6 +55,7 @@ python-django-contrib-comments
 python-django-filter
 dlib
 python-dunamai
+python-envisage
 python-exdir
 python3-exiv2
 python-flake8-comprehensions
@@ -63,7 +63,6 @@ python-flask-session
 python-fs
 python-fsleyes-widgets
 python-gphoto2
-python-h5io
 python-h5netcdf
 python-hl7
 python-inject
@@ -73,12 +72,12 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
-python-libNeuroML
 qtile
 libunity
 libxc
 python-makefun
 python-markups
+Mayavi
 python-mechanize
 python-msal
 python-neatdend
@@ -108,11 +107,12 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
+python-pynn
 python-pyopencl
 python-pyopengl
 pyproj
 pyserial-asyncio
-python-pytest-arraydiff
+python-pytest-astropy
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
