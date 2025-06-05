@@ -25,7 +25,10 @@ ocrmypdf
 pcs
 poezio
 pysubnettree
+python-aioeafm
+python-aioflo
 python-aiokafka
+python-aionotion
 python-aiosmtpd
 python-astdoc
 python-avocado
@@ -61,6 +64,7 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
+python-ftfy
 python-gphoto2
 python-h5netcdf
 python-hl7
@@ -79,6 +83,7 @@ python-markups
 python-mechanize
 python-msal
 python-neatdend
+python-netmiko
 python-niaarmts
 python-octave-kernel
 opencv
@@ -92,12 +97,13 @@ patool
 petsc
 python-pika
 python-pkginfo2
-poetry
+python-poetry-plugin-export
 python-praw
 python-priority
 protobuf
 python-pudb
 python-pure-protobuf
+python-pyairnow
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
@@ -108,9 +114,12 @@ python-pymdown-extensions
 python-pymeeus
 python-pyopencl
 python-pyopengl
+python-pyopenuv
 pyproj
+python-pyrad
 pyserial-asyncio
 python-pytest-twisted
+python-pytile
 python-pyupgrade
 python-pyvlx
 python-rdflib
@@ -124,6 +133,7 @@ python-rx
 python-scikit-image
 signon-glib
 python-simframe
+python-sklearn-nature-inspired-algorithms
 python-sphinxygen
 python-sqlalchemy1.4
 python-ssh-python
@@ -134,6 +144,7 @@ python-telnetlib3
 python-tenacity
 python-TestSlide
 python-textual
+python-toml-cli
 python-toolz
 python-towncrier
 python-tpm2-pytss
