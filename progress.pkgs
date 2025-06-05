@@ -7,6 +7,7 @@ borgbackup
 chirp
 copr-backend
 diceware
+did
 git-filter-repo
 gnofract4d
 python-howdoi
@@ -24,9 +25,11 @@ mrchem
 ocrmypdf
 pcs
 poezio
+pyplane
 pysubnettree
 python-aiokafka
 python-aiosmtpd
+python-annarchy
 python-astdoc
 python-avocado
 python-awesomeversion
@@ -34,6 +37,8 @@ python-beancount
 python-beartype
 python-billiard
 python-boto3
+python-boutdata
+python-brian2
 python-pymongo
 capstone
 python-capturer
@@ -60,7 +65,6 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-fsspec::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
@@ -71,6 +75,7 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
+python-lfpykit
 qtile
 libunity
 libxc
@@ -78,7 +83,10 @@ python-makefun
 python-markups
 python-mechanize
 python-msal
+python-ndindex
+python-neatdend
 python-niaarmts
+python-numpoly
 python-octave-kernel
 opencv
 python-orjson
@@ -92,6 +100,7 @@ patool
 petsc
 python-pika
 python-pkginfo2
+libpoly
 python-praw
 python-priority
 protobuf
@@ -127,10 +136,10 @@ python-sqlalchemy1.4
 python-ssh-python
 python-stdlibs
 subversion
-sympy
 python-telnetlib3
 python-tenacity
 python-TestSlide
+python-texext
 python-textual
 python-toolz
 python-towncrier
@@ -145,6 +154,7 @@ visidata
 python-webob
 python-wordcloud
 python-yappi
+python-zoidberg
 python-zstarfile
 pythran
 rebase-helper
