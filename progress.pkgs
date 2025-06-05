@@ -7,6 +7,7 @@ borgbackup
 chirp
 copr-backend
 diceware
+did
 git-filter-repo
 gnofract4d
 python-howdoi
@@ -27,7 +28,6 @@ poezio
 pysubnettree
 python-aiokafka
 python-aiosmtpd
-python-animatplot
 python-astdoc
 python-avocado
 python-awesomeversion
@@ -35,7 +35,6 @@ python-beancount
 python-beartype
 python-billiard
 python-boto3
-python-branca
 python-pymongo
 capstone
 python-capturer
@@ -60,8 +59,10 @@ python-exdir
 python3-exiv2
 python-flake8-comprehensions
 python-flask-session
+python-folium
 python-fs
 python-fsleyes-widgets
+python-fsspec::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
@@ -72,8 +73,6 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
-python-jupyter-lsp
-python-jupyterlab-server
 qtile
 libunity
 libxc
@@ -81,8 +80,8 @@ python-makefun
 python-markups
 python-mechanize
 python-msal
+python-nbclassic
 python-niaarmts
-python-notebook-shim
 python-octave-kernel
 opencv
 python-orjson
