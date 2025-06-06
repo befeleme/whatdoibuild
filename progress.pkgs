@@ -63,7 +63,6 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-geopmpy
 python-gphoto2
 python-h5netcdf
 python-hl7
@@ -103,6 +102,7 @@ python-pudb
 python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
+python-pydicom
 python-pydocstyle
 python-pyemd
 pylibacl
