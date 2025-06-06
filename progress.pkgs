@@ -75,6 +75,7 @@ python-josepy
 qtile
 libunity
 libxc
+python-lsprotocol
 python-makefun
 python-markups
 Mayavi
@@ -119,6 +120,7 @@ python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
+python-requests-cache
 python-rosdep
 python-rstcheck
 python-rx
