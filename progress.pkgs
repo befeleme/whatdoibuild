@@ -62,15 +62,14 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-fsspec::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
+python-huggingface-hub
 python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
-python-ipywidgets
 python-irc
 python-janus
 python-josepy
@@ -82,7 +81,6 @@ python-markups
 Mayavi
 python-mechanize
 python-msal
-python-nbdime
 python-neatdend
 python-niaarmts
 python-nikola
@@ -140,6 +138,7 @@ python-tenacity
 python-TestSlide
 python-textual
 python-toolz
+python-torch
 python-towncrier
 python-tpm2-pytss
 python-txaio
@@ -152,6 +151,7 @@ visidata
 python-webob
 python-wordcloud
 python-yappi
+python-zarr
 python-zstarfile
 rebase-helper
 rpm-head-signing
