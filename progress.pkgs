@@ -4,7 +4,6 @@ avogadro2-libs
 awscli2
 binwalk
 borgbackup
-centpkg
 chirp
 copr-backend
 diceware
@@ -22,10 +21,7 @@ linode-cli
 monkeytype
 mopidy
 mrchem
-nbdkit
-oci-cli
 ocrmypdf
-pagure-exporter
 pcs
 poezio
 pysubnettree
@@ -59,7 +55,6 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
-python-dns-lexicon
 python-dunamai
 python-envisage
 python-exdir
@@ -105,7 +100,6 @@ python-priority
 protobuf
 python-pudb
 python-pure-protobuf
-python-pvc
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
@@ -152,10 +146,8 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
-python-vevents
 strongswan
 visidata
-python-vpoller
 python-webob
 python-wordcloud
 python-yappi
