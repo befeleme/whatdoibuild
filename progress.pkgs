@@ -12,6 +12,7 @@ gnofract4d
 python-howdoi
 httpie
 ikiwiki
+jupyterlab
 kernel
 kmymoney
 kurchu
@@ -75,7 +76,6 @@ python-josepy
 qtile
 libunity
 libxc
-python-lsprotocol
 python-makefun
 python-markups
 Mayavi
@@ -104,6 +104,7 @@ python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
 python-pyemd
+python-pygls
 pylibacl
 pylint
 python-pymdown-extensions
@@ -120,7 +121,6 @@ python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
-python-requests-cache
 python-rosdep
 python-rstcheck
 python-rx
