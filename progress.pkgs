@@ -28,6 +28,9 @@ pysubnettree
 python-aiokafka
 python-aiosmtpd
 python-astdoc
+python-astroplan
+python-astropy-healpix
+python-astroscrappy
 python-avocado
 python-awesomeversion
 python-beancount
@@ -92,6 +95,7 @@ python-pamela
 python-paperwork-backend
 patool
 petsc
+python-photutils
 python-pika
 python-pkginfo2
 python-praw
@@ -107,15 +111,15 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
-python-pynn
 python-pyopencl
 python-pyopengl
 pyproj
+python-pyregion
 pyserial-asyncio
-python-pytest-astropy
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
+python-pyvo
 python-rdflib
 python-reactivex
 python-readability-lxml
