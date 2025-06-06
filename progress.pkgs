@@ -4,6 +4,7 @@ avogadro2-libs
 awscli2
 binwalk
 borgbackup
+centpkg
 chirp
 copr-backend
 diceware
@@ -22,7 +23,9 @@ monkeytype
 mopidy
 mrchem
 nbdkit
+oci-cli
 ocrmypdf
+pagure-exporter
 pcs
 poezio
 pysubnettree
@@ -32,18 +35,6 @@ python-aiosmtpd
 python-astdoc
 python-avocado
 python-awesomeversion
-python-azure-loganalytics
-python-azure-mgmt-advisor
-python-azure-mgmt-billing
-python-azure-mgmt-botservice
-python-azure-mgmt-consumption
-python-azure-mgmt-databoxedge
-python-azure-mgmt-datamigration
-python-azure-mgmt-devtestlabs
-python-azure-mgmt-dns
-python-azure-mgmt-managedservices
-python-azure-mgmt-maps
-python-azure-mgmt-marketplaceordering
 python-beancount
 python-beartype
 python-billiard
@@ -68,6 +59,7 @@ python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
+python-dns-lexicon
 python-dunamai
 python-envisage
 python-exdir
@@ -76,7 +68,6 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-gitlab
 python-gphoto2
 python-h5netcdf
 python-hl7
@@ -98,7 +89,6 @@ python-msal
 python-neatdend
 python-niaarmts
 python-nikola
-python-oci
 python-octave-kernel
 opencv
 python-osc-lib
@@ -115,6 +105,7 @@ python-priority
 protobuf
 python-pudb
 python-pure-protobuf
+python-pvc
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pydocstyle
@@ -130,7 +121,6 @@ pyserial-asyncio
 python-pytest-lsp
 python-pytest-twisted
 python-pyupgrade
-python-pyvirtualize
 python-pyvlx
 python-rasterio
 python-rdflib
@@ -162,9 +152,10 @@ python-typing-inspect
 python-uvloop
 uwsgi
 python-valkey
-python-vconnector
+python-vevents
 strongswan
 visidata
+python-vpoller
 python-webob
 python-wordcloud
 python-yappi
