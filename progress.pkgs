@@ -63,6 +63,7 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
+geopmd
 python-gphoto2
 python-h5netcdf
 python-hl7
@@ -80,6 +81,7 @@ python-makefun
 python-markups
 Mayavi
 python-mechanize
+python-mkdocs-test
 python-msal
 python-neatdend
 python-niaarmts
