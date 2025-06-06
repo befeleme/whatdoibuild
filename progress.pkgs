@@ -62,6 +62,7 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
+python-fsspec::bootstrap:::
 python-gphoto2
 python-h5netcdf
 python-hl7
@@ -69,10 +70,10 @@ python-inject
 python-injector
 python-invoke
 python-ipfshttpclient
+python-ipywidgets
 python-irc
 python-janus
 python-josepy
-python-jupyterlab-widgets
 qtile
 libunity
 libxc
@@ -81,9 +82,10 @@ python-markups
 Mayavi
 python-mechanize
 python-msal
+python-nbdime
 python-neatdend
 python-niaarmts
-python-notebook
+python-nikola
 python-octave-kernel
 opencv
 python-osc-lib
@@ -153,7 +155,6 @@ python-yappi
 python-zstarfile
 rebase-helper
 rpm-head-signing
-rpm-spec-language-server
 rss2email
 sugar
 sugar-toolkit-gtk3
