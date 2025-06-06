@@ -64,7 +64,6 @@ python-fs
 python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
-python-hdmf
 python-hl7
 python-imagecodecs
 python-inject
@@ -74,7 +73,6 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
-python-lazy-ops
 qtile
 libunity
 libxc
@@ -93,7 +91,6 @@ python-oslo-log
 python-packvers
 python-paginate
 python-pamela
-paperwork
 patool
 petsc
 python-pika
@@ -112,6 +109,7 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
+python-pynwb
 python-pyopencl
 python-pyopengl
 pyproj
