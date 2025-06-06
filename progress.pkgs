@@ -64,8 +64,9 @@ python-fs
 python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
+python-hdmf
 python-hl7
-python-huggingface-hub
+python-imagecodecs
 python-inject
 python-injector
 python-invoke
@@ -73,6 +74,7 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
+python-lazy-ops
 qtile
 libunity
 libxc
@@ -91,13 +93,14 @@ python-oslo-log
 python-packvers
 python-paginate
 python-pamela
-python-paperwork-backend
+paperwork
 patool
 petsc
 python-pika
 python-pkginfo2
 python-praw
 python-priority
+python-probeinterface
 protobuf
 python-pudb
 python-pure-protobuf
@@ -151,7 +154,6 @@ visidata
 python-webob
 python-wordcloud
 python-yappi
-python-zarr
 python-zstarfile
 rebase-helper
 rpm-head-signing
