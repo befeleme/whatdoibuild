@@ -64,8 +64,10 @@ python-flask-session
 python-fs
 python-fsleyes-widgets
 python-gphoto2
+python-gradunwarp
 python-h5netcdf
 python-hl7
+python-indexed_gzip
 python-inject
 python-injector
 python-invoke
@@ -75,16 +77,17 @@ python-janus
 python-josepy
 qtile
 libunity
-libxc
 python-makefun
 python-markups
 Mayavi
 python-mechanize
+python-medimages4tests
 python-msal
 python-neatdend
 python-niaarmts
-python-nibabel
 python-nikola
+python-nipy
+python-nitime
 python-octave-kernel
 opencv
 python-osc-lib
@@ -109,7 +112,6 @@ pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
-python-pynetdicom
 python-pyopencl
 python-pyopengl
 pyproj
@@ -143,6 +145,7 @@ python-toolz
 python-torch
 python-towncrier
 python-tpm2-pytss
+python-trx-python
 python-txaio
 python-typing-inspect
 python-uvloop
