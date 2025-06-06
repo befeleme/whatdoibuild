@@ -83,6 +83,7 @@ python-mechanize
 python-msal
 python-neatdend
 python-niaarmts
+python-nibabel
 python-nikola
 python-octave-kernel
 opencv
@@ -102,13 +103,13 @@ python-pudb
 python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
-python-pydicom
 python-pydocstyle
 python-pyemd
 pylibacl
 pylint
 python-pymdown-extensions
 python-pymeeus
+python-pynetdicom
 python-pyopencl
 python-pyopengl
 pyproj
