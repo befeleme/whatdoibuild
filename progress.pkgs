@@ -50,7 +50,6 @@ python-crcmod
 python-crick
 python-dataclassy
 python-diff-cover
-python-dipy
 root
 python-django-configurations
 python-django-contrib-comments
