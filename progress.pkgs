@@ -31,7 +31,6 @@ python-aiosmtpd
 python-astdoc
 python-avocado
 python-awesomeversion
-python-beaker
 python-beancount
 python-beartype
 python-billiard
@@ -47,6 +46,7 @@ python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
 python-confuse
+python-cornice
 python-crcmod
 python-crick
 python-dataclassy
@@ -110,7 +110,10 @@ python-pymeeus
 python-pyopencl
 python-pyopengl
 pyproj
-python-pyramid
+python-pyramid-fas-openid
+python-pyramid-mako
+python-pyramid-tm
+python-pyramid_sawing
 pyserial-asyncio
 python-pytest-lsp
 python-pytest-twisted
@@ -122,9 +125,7 @@ python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
-python-repoze-who-plugins-sa
 python-rosdep
-python-routes
 python-rstcheck
 python-rx
 python-scikit-image
@@ -143,7 +144,7 @@ python-toolz
 python-torch
 python-towncrier
 python-tpm2-pytss
-python-tw2-core
+python-tw2-forms
 python-txaio
 python-typing-inspect
 python-uvloop
@@ -151,8 +152,8 @@ uwsgi
 python-valkey
 strongswan
 visidata
+python-webdav4
 python-wordcloud
-python-wsgidav
 python-yappi
 python-zstarfile
 rebase-helper
