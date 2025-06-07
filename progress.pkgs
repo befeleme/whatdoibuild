@@ -31,6 +31,7 @@ python-aiosmtpd
 python-astdoc
 python-avocado
 python-awesomeversion
+python-backlash
 python-beancount
 python-beartype
 python-billiard
@@ -90,6 +91,7 @@ python-packvers
 python-paginate
 python-pamela
 patool
+python-pecan
 petsc
 python-pika
 python-pkginfo2
@@ -120,6 +122,7 @@ python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
+python-repoze-who
 python-rosdep
 python-rstcheck
 python-rx
@@ -146,7 +149,7 @@ uwsgi
 python-valkey
 strongswan
 visidata
-python-webob
+python-webtest
 python-wordcloud
 python-yappi
 python-zstarfile
