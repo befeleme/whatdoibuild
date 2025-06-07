@@ -1,4 +1,4 @@
-ansible-core
+ansible
 asv
 avogadro2-libs
 awscli2
@@ -27,6 +27,9 @@ pysubnettree
 python-Mastodon
 python-aiokafka
 python-aiosmtpd
+python-ansible-compat
+ansible-inventory-grapher
+python-ansible-runner
 python-astdoc
 python-avocado
 python-awesomeversion
