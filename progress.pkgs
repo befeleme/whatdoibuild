@@ -33,6 +33,7 @@ python-awesomeversion
 python-beancount
 python-beartype
 python-billiard
+bodhi-messages
 python-boutdata
 python-pymongo
 capstone
@@ -45,9 +46,11 @@ python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
 python-confuse
+copr-messaging
 python-crcmod
 python-crick
 python-dataclassy
+python-datanommer-models
 python-diff-cover
 root
 python-django-configurations
@@ -58,7 +61,7 @@ python-dunamai
 python-envisage
 python-exdir
 python3-exiv2
-fedora-messaging
+python-fedora-image-uploader-messages
 python-flake8-comprehensions
 python-flask-session
 python-fs
@@ -72,8 +75,10 @@ python-ipfshttpclient
 python-irc
 python-janus
 python-josepy
+python-koji-fedoramessaging-messages
 qtile
 libunity
+mailman3-fedmsg-plugin-schemas
 python-makefun
 python-markups
 Mayavi
@@ -82,12 +87,14 @@ python-msal
 python-neatdend
 python-niaarmts
 python-nikola
+python-noggin-messages
 python-octave-kernel
 opencv
 python-osc-lib
 python-oslo-log
 python-packvers
 python-paginate
+python-pagure-messages
 python-pamela
 patool
 petsc
@@ -119,6 +126,7 @@ python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
+python-robosignatory
 python-rosdep
 python-rstcheck
 python-rx
@@ -134,7 +142,6 @@ python-telnetlib3
 python-tenacity
 python-TestSlide
 python-textual
-python-tinyrpc
 python-toolz
 python-torch
 python-towncrier
