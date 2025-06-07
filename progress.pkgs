@@ -1,10 +1,10 @@
-ansible
 asv
 avogadro2-libs
 awscli2
 binwalk
 borgbackup
 chirp
+cinch
 copr-backend
 diceware
 git-filter-repo
@@ -27,8 +27,6 @@ pysubnettree
 python-Mastodon
 python-aiokafka
 python-aiosmtpd
-python-ansible-compat
-ansible-inventory-grapher
 python-ansible-runner
 python-astdoc
 python-avocado
@@ -113,6 +111,7 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytest-lsp
+python-pytest-testinfra
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
