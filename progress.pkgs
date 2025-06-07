@@ -58,6 +58,7 @@ python-dunamai
 python-envisage
 python-exdir
 python3-exiv2
+fedora-messaging
 python-flake8-comprehensions
 python-flask-session
 python-fs
@@ -90,7 +91,6 @@ python-paginate
 python-pamela
 patool
 petsc
-python-pika
 python-pkginfo2
 python-praw
 python-priority
@@ -134,6 +134,7 @@ python-telnetlib3
 python-tenacity
 python-TestSlide
 python-textual
+python-tinyrpc
 python-toolz
 python-torch
 python-towncrier
