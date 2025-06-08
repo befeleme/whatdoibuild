@@ -4,7 +4,6 @@ awscli2
 binwalk
 borgbackup
 chirp
-cinch
 copr-backend
 diceware
 git-filter-repo
@@ -111,7 +110,6 @@ python-pyopengl
 pyproj
 pyserial-asyncio
 python-pytest-lsp
-python-pytest-testinfra
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
