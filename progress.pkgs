@@ -139,7 +139,6 @@ python-tpm2-pytss
 python-txaio
 python-typing-inspect
 python-uvloop
-uwsgi
 python-valkey
 strongswan
 visidata
