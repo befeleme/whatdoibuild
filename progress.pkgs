@@ -50,7 +50,6 @@ python-crick
 python-dataclassy
 python-datanommer-commands
 python-diff-cover
-root
 python-django-configurations
 python-django-contrib-comments
 python-django-filter
