@@ -1,3 +1,4 @@
+asv
 avogadro2-libs
 awscli2
 binwalk
@@ -32,6 +33,7 @@ python-awesomeversion
 python-beancount
 python-beartype
 python-billiard
+python-boutdata
 python-pymongo
 capstone
 python-capturer
@@ -44,6 +46,7 @@ python-colcon-parallel-executor
 python-colorful
 python-confuse
 python-crcmod
+python-crick
 python-dataclassy
 python-datanommer-commands
 python-diff-cover
@@ -76,6 +79,7 @@ python-markups
 Mayavi
 python-mechanize
 python-msal
+python-neatdend
 python-niaarmts
 python-nikola
 python-octave-kernel
@@ -117,7 +121,9 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
+python-scikit-image
 signon-glib
+python-simframe
 python-sphinxygen
 python-sqlalchemy1.4
 python-ssh-python
