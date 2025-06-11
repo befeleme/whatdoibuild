@@ -55,6 +55,7 @@ python-dunamai
 python-envisage
 python-exdir
 python3-exiv2
+python-extractcode
 python-flake8-comprehensions
 python-flask-session
 python-fs
@@ -125,7 +126,6 @@ python-streamlink
 subversion
 python-telnetlib3
 python-tenacity
-python-testing.postgresql
 python-TestSlide
 python-textual
 python-toolz
@@ -133,9 +133,7 @@ python-torch
 python-towncrier
 python-tpm2-pytss
 python-txaio
-python-typecode
 python-typing-inspect
-python-user-agents
 python-uvloop
 python-valkey
 strongswan
