@@ -19,6 +19,7 @@ linode-cli
 monkeytype
 mopidy
 mrchem
+novelwriter
 ocrmypdf
 pcs
 poezio
@@ -59,6 +60,7 @@ python-dunamai
 python-envisage
 python-exdir
 python3-exiv2
+python-fastavro
 python-flake8-comprehensions
 python-flask-session
 python-fs
@@ -147,7 +149,6 @@ visidata
 python-wordcloud
 python-xnat:tests::::
 python-yappi
-python-zlib-ng
 rebase-helper
 rpm-head-signing
 rss2email
