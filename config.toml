@@ -54,7 +54,7 @@ new = ["python(abi) = 3.14", "libpython3.14.so.1.0()(64bit)", "libpython3.14d.so
 
 [components]
 excluded = ["python3.13", "python3.14", "avogadro2-libs", "kmymoney"]
-extra = ["python3-docs"]
+extra = []
 
 [cache_dir]
 dnf = "_dnf_cache_dir"
