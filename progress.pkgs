@@ -47,10 +47,12 @@ python-crcmod
 python-crick
 python-dataclassy
 python-diff-cover
+python-digitalocean
 python-django-configurations
 python-django-contrib-comments
 python-django-filter
 dlib
+python-drain3
 python-dunamai
 python-envisage
 python-exdir
@@ -69,6 +71,7 @@ python-invoke
 python-ipfshttpclient
 python-janus
 python-josepy
+python-jschema-to-python
 qtile
 libunity
 python-makefun
@@ -76,13 +79,14 @@ python-markups
 Mayavi
 python-mechanize
 python-msal
+python-music21
 python-neatdend
 python-niaarmts
 python-nikola
 python-octave-kernel
 opencv
 python-osc-lib
-python-oslo-log
+python-oslo-metrics
 python-pamela
 patool
 petsc
@@ -145,7 +149,6 @@ rpm-head-signing
 rss2email
 sugar
 sugar-toolkit-gtk3
-python-twine
 ufw
 xpra
 yt-dlp
