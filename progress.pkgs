@@ -1,5 +1,6 @@
 asv
 awscli2
+bandit
 binwalk
 borgbackup
 chirp
@@ -55,7 +56,6 @@ python-dunamai
 python-envisage
 python-exdir
 python3-exiv2
-python-extractcode
 python-flake8-comprehensions
 python-flask-session
 python-fs
@@ -116,7 +116,6 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
-python-sarif-om
 signon-glib
 python-simframe
 python-sphinxygen
