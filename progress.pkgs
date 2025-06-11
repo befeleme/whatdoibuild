@@ -7,7 +7,6 @@ chirp
 copr-backend
 diceware
 git-filter-repo
-gnofract4d
 python-howdoi
 httpie
 ikiwiki
@@ -18,6 +17,7 @@ linode-cli
 monkeytype
 mopidy
 mrchem
+mu
 ocrmypdf
 pcs
 poezio
@@ -25,9 +25,11 @@ pysubnettree
 python-Mastodon
 python-aiokafka
 python-aiosmtpd
+ansible-lint
 python-ansible-runner
 python-astdoc
 python-avocado
+python-avro
 python-awesomeversion
 python-beancount
 python-beartype
@@ -44,6 +46,7 @@ python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
 python-confuse
+python-contextily
 python-crcmod
 python-crick
 python-dataclassy
@@ -69,6 +72,7 @@ python-invoke
 python-ipfshttpclient
 python-janus
 python-josepy
+python-jupytext
 qtile
 libunity
 python-makefun
@@ -76,6 +80,7 @@ python-markups
 Mayavi
 python-mechanize
 python-msal
+python-nashpy
 python-neatdend
 python-niaarmts
 python-nikola
@@ -107,7 +112,6 @@ python-pytest-lsp
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
-python-rasterio
 python-rdflib
 python-reactivex
 python-readability-lxml
