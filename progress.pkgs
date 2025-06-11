@@ -1,5 +1,4 @@
 asv
-avogadro2-libs
 awscli2
 binwalk
 borgbackup
@@ -11,7 +10,6 @@ gnofract4d
 python-howdoi
 httpie
 ikiwiki
-kmymoney
 kurchu
 kvirc
 libpeas
