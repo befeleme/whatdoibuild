@@ -21,6 +21,7 @@ mu
 ocrmypdf
 pcs
 poezio
+pychess
 pysubnettree
 python-Mastodon
 python-aiokafka
@@ -85,6 +86,7 @@ python-neatdend
 python-niaarmts
 python-nikola
 python-octave-kernel
+python-odata-query
 opencv
 python-osc-lib
 python-pamela
@@ -123,7 +125,6 @@ python-rx
 signon-glib
 python-simframe
 python-sphinxygen
-python-sqlalchemy1.4
 python-ssh-python
 python-streamlink
 subversion
