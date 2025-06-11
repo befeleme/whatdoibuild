@@ -69,7 +69,7 @@ python-invoke
 python-ipfshttpclient
 python-janus
 python-josepy
-python-jupytext
+python-jupyter-cache
 qtile
 libunity
 python-makefun
