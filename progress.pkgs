@@ -17,7 +17,6 @@ linode-cli
 monkeytype
 mopidy
 mrchem
-mu
 ocrmypdf
 pcs
 poezio
@@ -26,11 +25,9 @@ pysubnettree
 python-Mastodon
 python-aiokafka
 python-aiosmtpd
-ansible-lint
 python-ansible-runner
 python-astdoc
 python-avocado
-python-avro
 python-awesomeversion
 python-beancount
 python-beartype
@@ -47,7 +44,6 @@ python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
 python-confuse
-python-contextily
 python-crcmod
 python-crick
 python-dataclassy
@@ -86,7 +82,6 @@ python-neatdend
 python-niaarmts
 python-nikola
 python-octave-kernel
-python-odata-query
 opencv
 python-osc-lib
 python-pamela
