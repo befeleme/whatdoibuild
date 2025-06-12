@@ -56,6 +56,7 @@ python-dunamai
 python-envisage
 python-exdir
 python3-exiv2
+python-fiat
 python-flake8-comprehensions
 python-flask-session
 python-fs
@@ -102,7 +103,6 @@ python-pyopencl
 python-pyopengl
 pyproj
 pyserial-asyncio
-python-pytest-cases
 python-pytest-lsp
 python-pytest-twisted
 python-pyupgrade
@@ -117,6 +117,19 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
+python-snakemake-executor-plugin-cluster-generic
+python-snakemake-executor-plugin-cluster-sync
+python-snakemake-executor-plugin-flux
+python-snakemake-executor-plugin-kubernetes
+python-snakemake-executor-plugin-slurm-jobstep
+python-snakemake-executor-plugin-tes
+python-snakemake-storage-plugin-fs
+python-snakemake-storage-plugin-ftp
+python-snakemake-storage-plugin-http
+python-snakemake-storage-plugin-s3
+python-snakemake-storage-plugin-webdav
+python-snakemake-storage-plugin-xrootd
+python-snakemake-storage-plugin-zenodo
 python-sphinxygen
 python-ssh-python
 python-streamlink
