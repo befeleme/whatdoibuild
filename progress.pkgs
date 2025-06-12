@@ -16,11 +16,9 @@ libpeas
 linode-cli
 monkeytype
 mopidy
-mrchem
 myst-nb
 ocrmypdf
 pcs
-picard
 poezio
 pychess
 pysubnettree
@@ -49,7 +47,6 @@ python-confuse
 python-crcmod
 python-crick
 python-dataclassy
-python-decopatch:tests::::
 python-diff-cover
 python-django-configurations
 python-django-contrib-comments
@@ -80,7 +77,6 @@ python-msal
 python-nashpy
 python-neatdend
 python-niaarmts
-python-nifti-mrs
 python-nikola
 python-octave-kernel
 opencv
@@ -106,6 +102,7 @@ python-pyopencl
 python-pyopengl
 pyproj
 pyserial-asyncio
+python-pytest-harvest
 python-pytest-lsp
 python-pytest-twisted
 python-pyupgrade
@@ -143,6 +140,7 @@ python-yappi
 rebase-helper
 rpm-head-signing
 rss2email
+spec2nii
 sugar
 sugar-toolkit-gtk3
 ufw
