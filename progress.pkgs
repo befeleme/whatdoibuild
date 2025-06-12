@@ -17,6 +17,7 @@ linode-cli
 monkeytype
 mopidy
 mrchem
+myst-nb
 ocrmypdf
 pcs
 poezio
@@ -60,7 +61,7 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-glymur
+python-fslpy
 python-gphoto2
 python-h5netcdf
 python-inject
@@ -69,7 +70,6 @@ python-invoke
 python-ipfshttpclient
 python-janus
 python-josepy
-python-jupyter-cache
 qtile
 libunity
 python-makefun
