@@ -102,8 +102,8 @@ python-pyopencl
 python-pyopengl
 pyproj
 pyserial-asyncio
-python-pytest-harvest
 python-pytest-lsp
+python-pytest-steps
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
@@ -140,7 +140,6 @@ python-yappi
 rebase-helper
 rpm-head-signing
 rss2email
-spec2nii
 sugar
 sugar-toolkit-gtk3
 ufw
