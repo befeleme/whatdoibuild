@@ -102,8 +102,8 @@ python-pyopencl
 python-pyopengl
 pyproj
 pyserial-asyncio
+python-pytest-cases
 python-pytest-lsp
-python-pytest-steps
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
