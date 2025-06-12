@@ -16,6 +16,7 @@ libpeas
 linode-cli
 monkeytype
 mopidy
+muse
 ocrmypdf
 pcs
 poezio
@@ -81,6 +82,7 @@ python-nikola
 python-octave-kernel
 opencv
 python-osc-lib
+python-owl_rl
 python-pamela
 patool
 petsc
@@ -101,12 +103,12 @@ python-pymeeus
 python-pyopencl
 python-pyopengl
 pyproj
+python-pyrdfa3
 pyserial-asyncio
 python-pytest-lsp
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
-python-rdflib
 python-reactivex
 python-readability-lxml
 python-recordclass
@@ -136,6 +138,7 @@ strongswan
 visidata
 python-wordcloud
 python-yappi
+zeitgeist
 rebase-helper
 rpm-head-signing
 rss2email
