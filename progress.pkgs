@@ -20,6 +20,7 @@ mrchem
 myst-nb
 ocrmypdf
 pcs
+picard
 poezio
 pychess
 pysubnettree
@@ -48,6 +49,7 @@ python-confuse
 python-crcmod
 python-crick
 python-dataclassy
+python-decopatch:tests::::
 python-diff-cover
 python-django-configurations
 python-django-contrib-comments
@@ -61,7 +63,6 @@ python-flake8-comprehensions
 python-flask-session
 python-fs
 python-fsleyes-widgets
-python-fslpy
 python-gphoto2
 python-h5netcdf
 python-inject
@@ -72,7 +73,6 @@ python-janus
 python-josepy
 qtile
 libunity
-python-makefun
 python-markups
 Mayavi
 python-mechanize
@@ -80,6 +80,7 @@ python-msal
 python-nashpy
 python-neatdend
 python-niaarmts
+python-nifti-mrs
 python-nikola
 python-octave-kernel
 opencv
