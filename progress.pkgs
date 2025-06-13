@@ -1,5 +1,4 @@
 asv
-awscli2
 bandit
 binwalk
 borgbackup
@@ -70,7 +69,6 @@ python-janus
 python-josepy
 qtile
 libunity
-lilv
 python-markups
 Mayavi
 python-mechanize
