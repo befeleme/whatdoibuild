@@ -55,7 +55,6 @@ python-dunamai
 python-envisage
 python-exdir
 python3-exiv2
-python-extruct
 python-fiat
 python-flake8-comprehensions
 python-flask-session
@@ -80,7 +79,6 @@ python-neatdend
 python-niaarmts
 python-nikola
 python-octave-kernel
-python-odml
 opencv
 python-osc-lib
 python-pamela
@@ -104,18 +102,19 @@ python-pyopencl
 python-pyopengl
 pyproj
 pyserial-asyncio
-python-pyshacl
 python-pytest-lsp
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
 python-reactivex
 python-readability-lxml
+python-recipe-scrapers
 python-recordclass
 python-remoto
 python-rosdep
 python-rstcheck
 python-rx
+python-scrape-schema-recipe
 signon-glib
 python-simframe
 python-sphinxygen
