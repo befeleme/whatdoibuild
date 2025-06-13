@@ -70,6 +70,7 @@ python-janus
 python-josepy
 qtile
 libunity
+lilv
 python-markups
 Mayavi
 python-mechanize
@@ -86,7 +87,6 @@ patool
 petsc
 python-pkginfo2
 python-praw
-python-priority
 protobuf
 python-pudb
 python-pure-protobuf
@@ -115,7 +115,6 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-sphinxygen
 python-ssh-python
 python-streamlink
 subversion
