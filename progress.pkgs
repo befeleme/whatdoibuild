@@ -108,13 +108,11 @@ python-pyupgrade
 python-pyvlx
 python-reactivex
 python-readability-lxml
-python-recipe-scrapers
 python-recordclass
 python-remoto
 python-rosdep
 python-rstcheck
 python-rx
-python-scrape-schema-recipe
 signon-glib
 python-simframe
 python-sphinxygen
