@@ -16,7 +16,6 @@ libpeas
 linode-cli
 monkeytype
 mopidy
-muse
 ocrmypdf
 pcs
 poezio
@@ -56,6 +55,7 @@ python-dunamai
 python-envisage
 python-exdir
 python3-exiv2
+python-extruct
 python-fiat
 python-flake8-comprehensions
 python-flask-session
@@ -80,9 +80,9 @@ python-neatdend
 python-niaarmts
 python-nikola
 python-octave-kernel
+python-odml
 opencv
 python-osc-lib
-python-owl_rl
 python-pamela
 patool
 petsc
@@ -103,8 +103,8 @@ python-pymeeus
 python-pyopencl
 python-pyopengl
 pyproj
-python-pyrdfa3
 pyserial-asyncio
+python-pyshacl
 python-pytest-lsp
 python-pytest-twisted
 python-pyupgrade
@@ -138,7 +138,6 @@ strongswan
 visidata
 python-wordcloud
 python-yappi
-zeitgeist
 rebase-helper
 rpm-head-signing
 rss2email
