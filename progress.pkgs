@@ -61,8 +61,8 @@ python-fs
 python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
+python-influxdb-client
 python-inject
-python-injector
 python-invoke
 python-ipfshttpclient
 python-janus
@@ -104,7 +104,6 @@ python-pytest-lsp
 python-pytest-twisted
 python-pyupgrade
 python-pyvlx
-python-reactivex
 python-readability-lxml
 python-recordclass
 python-remoto
@@ -138,6 +137,5 @@ rss2email
 sugar
 sugar-toolkit-gtk3
 ufw
-xpra
 yt-dlp
 zeek
