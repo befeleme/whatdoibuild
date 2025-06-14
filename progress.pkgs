@@ -13,7 +13,6 @@ kurchu
 kvirc
 libpeas
 linode-cli
-mailman3
 monkeytype
 mopidy
 ocrmypdf
@@ -56,7 +55,6 @@ python-exdir
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
-python-flask-mailman
 python-flask-session
 python-fs
 python-fsleyes-widgets
@@ -69,6 +67,7 @@ python-janus
 python-josepy
 qtile
 libunity
+python-mailman-hyperkitty
 python-markups
 Mayavi
 python-mechanize
