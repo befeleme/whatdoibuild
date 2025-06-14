@@ -13,6 +13,7 @@ kurchu
 kvirc
 libpeas
 linode-cli
+mailman3
 monkeytype
 mopidy
 ocrmypdf
@@ -22,7 +23,6 @@ pychess
 pysubnettree
 python-Mastodon
 python-aiokafka
-python-aiosmtpd
 python-ansible-runner
 python-astdoc
 python-avocado
@@ -56,12 +56,12 @@ python-exdir
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
+python-flask-mailman
 python-flask-session
 python-fs
 python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
-python-influxdb-client
 python-inject
 python-invoke
 python-ipfshttpclient
@@ -90,7 +90,6 @@ python-pudb
 python-pure-protobuf
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
-python-pydocstyle
 python-pyemd
 pylibacl
 pylint
