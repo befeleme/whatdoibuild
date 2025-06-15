@@ -46,7 +46,6 @@ python-confuse
 python-crcmod
 python-crick
 python-dataclassy
-python-defcon
 python-diff-cover
 python-django-configurations
 python-django-contrib-comments
@@ -125,7 +124,7 @@ python-towncrier
 python-tpm2-pytss
 python-txaio
 python-typing-inspect
-python-ufoLib2
+python-ufo2ft
 python-uvloop
 python-valkey
 strongswan
