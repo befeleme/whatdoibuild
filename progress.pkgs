@@ -46,6 +46,7 @@ python-confuse
 python-crcmod
 python-crick
 python-dataclassy
+python-defcon
 python-diff-cover
 python-django-configurations
 python-django-contrib-comments
@@ -75,7 +76,6 @@ python-nashpy
 python-ndeflib
 python-neatdend
 python-niaarmts
-python-nikola
 python-octave-kernel
 python-onigurumacffi
 opencv
@@ -125,10 +125,12 @@ python-towncrier
 python-tpm2-pytss
 python-txaio
 python-typing-inspect
+python-ufoLib2
 python-uvloop
 python-valkey
 strongswan
 visidata
+weasyprint
 python-wordcloud
 python-yappi
 rebase-helper
