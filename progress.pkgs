@@ -2,6 +2,7 @@ asv
 bandit
 binwalk
 borgbackup
+calibre
 chirp
 copr-backend
 diceware
@@ -67,16 +68,16 @@ python-janus
 python-josepy
 qtile
 libunity
-python-mailman-hyperkitty
 python-markups
 Mayavi
-python-mechanize
 python-msal
 python-nashpy
+python-ndeflib
 python-neatdend
 python-niaarmts
 python-nikola
 python-octave-kernel
+python-onigurumacffi
 opencv
 python-osc-lib
 python-pamela
@@ -87,6 +88,7 @@ python-praw
 protobuf
 python-pudb
 python-pure-protobuf
+python-pydes
 python-pycec
 python-pydantic-core:inline_snapshot_tests::::
 python-pyemd
