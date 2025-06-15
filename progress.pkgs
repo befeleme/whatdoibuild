@@ -23,7 +23,6 @@ poezio
 pychess
 pysubnettree
 python-Mastodon
-python-OBD
 python-aiokafka
 python-ansible-runner
 python-astdoc
@@ -117,7 +116,6 @@ python-simframe
 python-ssh-python
 python-streamlink
 subversion
-python-superqt
 python-telnetlib3
 python-tenacity
 python-TestSlide
@@ -132,7 +130,6 @@ python-uvloop
 python-valkey
 strongswan
 visidata
-python-vulture
 python-wordcloud
 python-yappi
 rebase-helper
