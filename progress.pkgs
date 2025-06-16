@@ -7,7 +7,6 @@ cantera
 chirp
 copr-backend
 diceware
-fontmake
 git-filter-repo
 python-howdoi
 httpie
@@ -88,7 +87,7 @@ python-pudb
 python-pure-protobuf
 python-pydes
 python-pycec
-python-pydantic-core:inline_snapshot_tests::::
+python-pydantic-core
 python-pyemd
 pylibacl
 pylint
@@ -105,6 +104,7 @@ python-pyvlx
 python-readability-lxml
 python-recordclass
 python-remoto
+python-rich-toolkit
 python-rosdep
 python-rstcheck
 python-rx
