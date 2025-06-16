@@ -71,7 +71,6 @@ libunity
 python-markups
 Mayavi
 python-msal
-python-nashpy
 python-ndeflib
 python-neatdend
 python-niaarmts
@@ -111,7 +110,6 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-ssh-python
 python-streamlink
 subversion
 python-telnetlib3
