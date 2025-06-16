@@ -25,7 +25,6 @@ pysubnettree
 python-Mastodon
 python-aiokafka
 python-ansible-runner
-python-aodhclient
 python-astdoc
 python-avocado
 python-awesomeversion
@@ -130,7 +129,6 @@ visidata
 weasyprint
 python-wordcloud
 python-yappi
-python-zaqarclient
 rebase-helper
 rpm-head-signing
 rss2email
