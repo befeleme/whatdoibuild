@@ -153,7 +153,7 @@ def are_all_done(*, packages_to_check, all_components, components_done, blocker_
             blocker_counter['general'][relevant_component] += 1
             blocking_components.add(relevant_component)
     if len(blocking_components) == 1:
-        blocker_counter['single'][blocking_components.pop()] += 1
+        blocker_counter['single'][next(iter(blocking_components))] += 1
     elif 1 < len(blocking_components) < 10:  # this is an arbitrarily chosen number to avoid cruft
         blocker_counter['combinations'][tuple(sorted(blocking_components))] += 1
     loop_detector[component] = sorted(blocking_components)
