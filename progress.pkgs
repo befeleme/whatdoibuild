@@ -1,4 +1,3 @@
-DisplayCAL
 asv
 bandit
 binwalk
@@ -7,8 +6,8 @@ calibre
 cantera
 chirp
 copr-backend
-cozy
 criu
+cura
 diceware
 git-filter-repo
 python-howdoi
@@ -29,7 +28,8 @@ python-aiokafka
 python-ansible-runner
 python-astdoc
 python-avocado
-python-aw-core
+python-aw-client
+python-aw-qt
 python-awesomeversion
 python-aws-xray-sdk
 python-beancount
@@ -64,7 +64,6 @@ python-fiat
 python-flake8-comprehensions
 python-flask-session
 python-fsleyes-widgets
-python-google-api-core:tests::::
 python-gphoto2
 grpc
 python-h5netcdf
@@ -75,7 +74,6 @@ python-josepy
 qtile
 libunity
 python-markups
-python-matrix-nio
 Mayavi
 python-msal
 python-ndeflib
@@ -120,7 +118,6 @@ python-streamlink
 subversion
 python-telnetlib3
 python-tenacity
-testcloud
 python-TestSlide
 python-textual
 python-toolz
@@ -128,22 +125,18 @@ python-torch
 python-towncrier
 python-txaio
 python-typing-inspect
-python-uranium
 python-uvloop
 python-valkey
 strongswan
 visidata
 weasyprint
 python-wordcloud
-python-wtf-peewee
 python-yappi
-python-yfinance
 rebase-helper
 rpm-head-signing
 rss2email
 sugar
 sugar-toolkit-gtk3
 ufw
-vorta
 yt-dlp
 zeek
