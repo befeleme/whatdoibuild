@@ -7,7 +7,6 @@ cantera
 chirp
 copr-backend
 criu
-cura
 diceware
 git-filter-repo
 python-howdoi
@@ -28,8 +27,6 @@ python-aiokafka
 python-ansible-runner
 python-astdoc
 python-avocado
-python-aw-client
-python-aw-qt
 python-awesomeversion
 python-aws-xray-sdk
 python-beancount
