@@ -62,7 +62,6 @@ python-flask-session
 python-fsleyes-widgets
 python-gphoto2
 python-h5netcdf
-python-inject
 python-invoke
 python-ipfshttpclient
 python-janus
@@ -133,7 +132,6 @@ rpm-head-signing
 rss2email
 sugar
 sugar-toolkit-gtk3
-tpm2-pkcs11
 ufw
 yt-dlp
 zeek
