@@ -18,7 +18,6 @@ libpeas
 linode-cli
 monkeytype
 mopidy
-nanopb
 ocrmypdf
 pcs
 poezio
@@ -63,8 +62,6 @@ python-fiat
 python-flake8-comprehensions
 python-flask-session
 python-fsleyes-widgets
-python-google-cloud-dns
-python-google-cloud-storage
 python-gphoto2
 python-h5netcdf
 python-invoke
@@ -113,6 +110,7 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
+python-snakemake-storage-plugin-gcs
 python-streamlink
 subversion
 python-telnetlib3
