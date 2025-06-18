@@ -63,10 +63,9 @@ python-fiat
 python-flake8-comprehensions
 python-flask-session
 python-fsleyes-widgets
-google-api-python-client
-python-google-cloud-core
+python-google-cloud-dns
+python-google-cloud-storage
 python-gphoto2
-python-grpc-google-iam-v1
 python-h5netcdf
 python-invoke
 python-ipfshttpclient
@@ -82,14 +81,12 @@ python-neatdend
 python-niaarmts
 python-octave-kernel
 python-onigurumacffi
-python-opencensus-proto
 opencv
 python-pamela
 patool
 petsc
 python-pkginfo2
 python-praw
-python-proto-plus
 python-pudb
 python-pure-protobuf
 python-pydes
