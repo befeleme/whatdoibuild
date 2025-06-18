@@ -1,6 +1,7 @@
 asv
 bandit
 binwalk
+blender
 borgbackup
 buildstream
 cantera
@@ -33,7 +34,7 @@ python-avocado
 python-awesomeversion
 python-aws-xray-sdk
 python-awsiotsdk
-python-azure-identity
+python-basemap
 python-beancount
 python-beartype
 python-billiard
@@ -41,6 +42,7 @@ python-boutdata
 python-pymongo
 capstone
 python-capturer
+python-cartopy
 python-catkin_tools
 python-cerberus
 python-chalice
@@ -72,6 +74,7 @@ python-flake8-comprehensions
 python-flask-session
 python-fsleyes-widgets
 python-fuzzywuzzy
+python-geopandas::bootstrap:::
 python-git-url-parse
 python-gphoto2
 python-h5netcdf
@@ -117,7 +120,6 @@ python-pymdown-extensions
 python-pymeeus
 python-pyopencl
 python-pyopengl
-pyproj
 pyserial-asyncio
 python-pytest-lsp
 python-pytest-twisted
@@ -132,6 +134,7 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
+python-snakemake-storage-plugin-azure
 python-stopit
 python-streamlink
 subversion
