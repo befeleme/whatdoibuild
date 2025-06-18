@@ -1,5 +1,4 @@
 asv
-audiotube
 bandit
 binwalk
 borgbackup
@@ -34,6 +33,7 @@ python-avocado
 python-awesomeversion
 python-aws-xray-sdk
 python-awsiotsdk
+python-azure-identity
 python-beancount
 python-beartype
 python-billiard
@@ -87,7 +87,6 @@ libunity
 python-markups
 Mayavi
 python-mpd
-python-msal-extensions
 python-ndeflib
 python-neatdend
 python-neurodsp
