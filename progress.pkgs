@@ -110,7 +110,6 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-snakemake-storage-plugin-gcs
 python-streamlink
 subversion
 python-telnetlib3
