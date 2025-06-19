@@ -70,6 +70,7 @@ python3-exiv2
 python-fiat
 python-flake8-comprehensions
 python-flask-session
+python-formulaic
 python-fsleyes-widgets
 python-fuzzywuzzy
 python-git-url-parse
@@ -78,7 +79,6 @@ python-h5netcdf
 python-invoke
 python-ipfshttpclient
 python-janus
-emacs-jedi
 python-josepy
 python-jsonpath-rw-ext
 python-ldappool
@@ -103,7 +103,6 @@ petsc
 python-pifpaf
 python-pkginfo2
 python-plotnine
-python-poetry-dynamic-versioning
 python-poyo
 python-praw
 python-pure-protobuf
