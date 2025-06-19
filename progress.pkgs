@@ -4,6 +4,7 @@ binwalk
 blender
 borgbackup
 buildstream
+cairo-dock-plug-ins
 cantera
 chirp
 copr-backend
@@ -136,7 +137,6 @@ signon-glib
 python-simframe
 python-stopit
 python-streamlink
-subversion
 python-telnetlib3
 python-tenacity
 python-TestSlide
@@ -159,5 +159,6 @@ rpm-head-signing
 rss2email
 sugar
 sugar-toolkit-gtk3
+trac
 ufw
 zeek
