@@ -26,6 +26,7 @@ poezio
 pychess
 pysubnettree
 python-Mastodon
+python-ROPGadget
 python-aiokafka
 python-amply
 python-ansible-runner
@@ -35,15 +36,12 @@ python-avocado
 python-awesomeversion
 python-aws-xray-sdk
 python-awsiotsdk
-python-basemap
 python-beancount
 python-beartype
 python-billiard
 python-boutdata
 python-pymongo
-capstone
 python-capturer
-python-cartopy
 python-catkin_tools
 python-cerberus
 python-chalice
@@ -66,16 +64,18 @@ python-django-filter
 dlib
 python-docx
 python-dunamai
+python-earthpy
 python-editdistance
 python-enrich
 python-envisage
+python-epc
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
 python-flask-session
 python-fsleyes-widgets
 python-fuzzywuzzy
-python-geopandas::bootstrap:::
+python-geodatasets
 python-git-url-parse
 python-gphoto2
 python-h5netcdf
@@ -105,6 +105,7 @@ patool
 petsc
 python-pifpaf
 python-pkginfo2
+python-plotnine
 python-poyo
 python-praw
 python-pure-protobuf
@@ -114,6 +115,7 @@ python-pycec
 python-pydantic-core
 python-pyeclib
 python-pyemd
+pygrib
 pylibacl
 pylint
 python-pymdown-extensions
@@ -132,7 +134,6 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
-python-sexpdata
 signon-glib
 python-simframe
 python-stopit
