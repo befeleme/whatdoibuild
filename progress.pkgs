@@ -107,7 +107,6 @@ python-pifpaf
 python-pkginfo2
 python-poyo
 python-praw
-python-pudb
 python-pure-protobuf
 python-py2pack
 python-pydes
@@ -133,6 +132,7 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
+python-sexpdata
 signon-glib
 python-simframe
 python-stopit
@@ -159,6 +159,5 @@ rpm-head-signing
 rss2email
 sugar
 sugar-toolkit-gtk3
-trac
 ufw
 zeek
