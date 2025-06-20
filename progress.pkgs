@@ -1,7 +1,6 @@
 asv
 bandit
 binwalk
-blender
 borgbackup
 buildstream
 cairo-dock-plug-ins
@@ -69,8 +68,6 @@ python-envisage
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
-python-flask-session
-python-formulaic
 python-fsleyes-widgets
 python-fuzzywuzzy
 python-git-url-parse
