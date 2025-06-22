@@ -47,7 +47,7 @@ python-cliff-tablib
 python-colcon-meson
 python-colcon-parallel-executor
 python-colorful
-python-conda-index::bootstrap:::
+conda-build
 python-confuse
 python-crcmod
 python-crick
@@ -66,8 +66,6 @@ python-enrich
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
-python-flask-mongoengine
-python-flask-security-too
 python-fsleyes-widgets
 python-fuzzywuzzy
 python-git-url-parse
@@ -90,16 +88,15 @@ python-neurodsp
 python-niaarmts
 python-octave-kernel
 python-odml
-python-ogr
 python-onigurumacffi
 opencv
 python-openid-teams
+packit
 python-pamela
 patool
 pcp
 petsc
 python-pifpaf
-python-pkg-depgraph
 python-pkginfo2
 python-plotnine
 python-poyo
@@ -134,7 +131,6 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-slixmpp-omemo
 python-stopit
 python-streamlink
 python-telnetlib3
