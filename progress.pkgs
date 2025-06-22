@@ -89,9 +89,9 @@ python-niaarmts
 python-octave-kernel
 python-odml
 python-onigurumacffi
+python-openapi-core
 opencv
 python-openid-teams
-packit
 python-pamela
 patool
 pcp
@@ -105,7 +105,6 @@ python-pure-protobuf
 python-py2pack
 python-pydes
 python-pycec
-python-pydantic-settings
 python-pyeclib
 python-pyemd
 pylibacl
@@ -131,6 +130,8 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
+python-sqlalchemy-helpers
+python-sqlmodel
 python-stopit
 python-streamlink
 python-telnetlib3
