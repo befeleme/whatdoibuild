@@ -1,4 +1,5 @@
 asv
+azure-cli
 bandit
 binwalk
 borgbackup
@@ -64,9 +65,7 @@ python-earthpy
 python-editdistance
 python-enrich
 python3-exiv2
-python-fabric
 python-fiat
-python-filecheck
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-fuzzywuzzy
