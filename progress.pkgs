@@ -64,13 +64,14 @@ python-earthpy
 python-editdistance
 python-enrich
 python3-exiv2
+python-fabric
 python-fiat
+python-filecheck
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-fuzzywuzzy
 python-git-url-parse
 python-gphoto2
-python-invoke
 python-ipfshttpclient
 python-janus
 python-josepy
