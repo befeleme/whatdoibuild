@@ -130,7 +130,6 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-sqlalchemy-helpers
 python-sqlmodel
 python-stopit
 python-streamlink
