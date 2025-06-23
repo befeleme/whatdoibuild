@@ -1,5 +1,5 @@
 asv
-azure-cli
+python-b4
 bandit
 binwalk
 borgbackup
@@ -10,7 +10,6 @@ chirp
 copr-backend
 criu
 diceware
-git-filter-repo
 python-howdoi
 httpie
 kurchu
@@ -89,7 +88,6 @@ python-niaarmts
 python-octave-kernel
 python-odml
 python-onigurumacffi
-python-openapi-core
 opencv
 python-openid-teams
 python-pamela
