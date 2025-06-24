@@ -45,7 +45,6 @@ python-click-help-colors
 python-cliff-tablib
 python-colcon-meson
 python-colcon-parallel-executor
-python-colorful
 conda-build
 python-confuse
 python-crcmod
