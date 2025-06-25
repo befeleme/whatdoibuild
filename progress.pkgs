@@ -45,10 +45,12 @@ python-click-help-colors
 python-cliff-tablib
 python-colcon-meson
 python-colcon-parallel-executor
+python-columnar
 conda-build
 python-confuse
 python-crcmod
 python-crick
+python-cytoolz
 python-daiquiri
 python-dataclassy
 python-datrie
@@ -89,6 +91,7 @@ python-onigurumacffi
 opencv
 python-openid-teams
 python-pamela
+python-partd
 patool
 pcp
 petsc
@@ -129,11 +132,11 @@ python-simframe
 python-sqlmodel
 python-stopit
 python-streamlink
+python-subliminal
 python-telnetlib3
 python-tenacity
 python-TestSlide
 python-textual
-python-toolz
 python-toposort
 python-torch
 python-towncrier
