@@ -54,8 +54,10 @@ python-daiquiri
 python-dataclassy
 python-datrie
 python-diff-cover
-python-django-configurations
+python-diskcache
+python-django-cacheops
 python-django-contrib-comments
+python-django-extensions
 python-django-filter
 dlib
 python-docx
@@ -91,7 +93,6 @@ python-openid-teams
 python-pamela
 python-partd
 patool
-petsc
 python-pifpaf
 python-pkginfo2
 python-plotnine
@@ -129,7 +130,6 @@ python-simframe
 python-sqlmodel
 python-stopit
 python-streamlink
-python-subliminal
 python-telnetlib3
 python-tenacity
 python-TestSlide
