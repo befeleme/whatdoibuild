@@ -39,13 +39,13 @@ python-billiard
 python-capturer
 python-catkin_tools
 python-cerberus
+python-certbot-dns-plesk
 python-chalice
 cjdns
 python-click-help-colors
 python-cliff-tablib
 python-colcon-meson
 python-colcon-parallel-executor
-python-columnar
 conda-build
 python-confuse
 python-crcmod
@@ -72,7 +72,6 @@ python-git-url-parse
 python-gphoto2
 python-ipfshttpclient
 python-janus
-python-josepy
 python-jsonpath-rw-ext
 python-ldappool
 libkdtree++
