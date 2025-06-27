@@ -9,7 +9,6 @@ chirp
 copr-backend
 criu
 diceware
-glances
 python-howdoi
 httpie
 kurchu
@@ -59,6 +58,7 @@ python-django-cacheops
 python-django-contrib-comments
 python-django-extensions
 python-django-filter
+python-django-mailman3
 dlib
 python-docx
 python-earthpy
@@ -95,7 +95,6 @@ python-partd
 patool
 python-pifpaf
 python-pkginfo2
-python-platformio
 python-plotnine
 python-poyo
 python-praw
