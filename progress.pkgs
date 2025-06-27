@@ -27,7 +27,6 @@ python-aiokafka
 python-amply
 python-ansible-runner
 python-anyconfig
-python-asn1tools
 python-astdoc
 python-avocado
 python-awesomeversion
@@ -78,7 +77,7 @@ python-ldappool
 libkdtree++
 qtile
 libunity
-python-llama-cpp-python
+python-logdetective
 python-markups
 Mayavi
 python-mpd
