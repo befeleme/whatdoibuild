@@ -9,6 +9,7 @@ chirp
 copr-backend
 criu
 diceware
+glances
 python-howdoi
 httpie
 kurchu
@@ -94,6 +95,7 @@ python-partd
 patool
 python-pifpaf
 python-pkginfo2
+python-platformio
 python-plotnine
 python-poyo
 python-praw
@@ -126,6 +128,7 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
+python-sphinx-autobuild
 python-sqlmodel
 python-stopit
 python-streamlink
