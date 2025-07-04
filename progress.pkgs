@@ -130,7 +130,6 @@ python-sqlmodel
 python-stopit
 python-streamlink
 python-telnetlib3
-python-tenacity
 python-TestSlide
 python-textual
 python-toposort
