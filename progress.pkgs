@@ -9,6 +9,7 @@ chirp
 copr-backend
 criu
 diceware
+dxf2gcode
 python-howdoi
 httpie
 kurchu
@@ -16,7 +17,6 @@ libpeas
 linode-cli
 mom
 monkeytype
-mopidy-mpd
 ocrmypdf
 pcs
 poezio
@@ -76,6 +76,7 @@ python-ldappool
 libkdtree++
 qtile
 libunity
+python-lsp-server
 python-markups
 Mayavi
 python-mpd
@@ -107,7 +108,8 @@ pylint
 python-pymdown-extensions
 python-pymeeus
 python-pyopencl
-python-pyopengl
+python-pyopengltk
+python-pyqtgraph
 python-pysaml2
 pyserial-asyncio
 python-pytest-lsp
@@ -119,7 +121,6 @@ python-qcelemental
 python-readability-lxml
 python-recordclass
 python-remoto
-python-rope
 python-rosdep
 python-rstcheck
 python-rx
@@ -129,7 +130,6 @@ python-sphinx-autobuild
 python-sqlmodel
 python-stopit
 python-streamlink
-python-telnetlib3
 python-TestSlide
 python-textual
 python-toposort
@@ -146,6 +146,7 @@ python-wordcloud
 python-yappi
 rpm-head-signing
 rss2email
+rtlsdr-scanner
 sugar
 sugar-toolkit-gtk3
 tmt
