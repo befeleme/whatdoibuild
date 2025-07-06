@@ -9,7 +9,6 @@ chirp
 copr-backend
 criu
 diceware
-gr-osmosdr
 python-howdoi
 httpie
 kurchu
@@ -124,7 +123,6 @@ python-rx
 signon-glib
 python-simframe
 python-sphinx-autobuild
-spyder
 python-sqlmodel
 python-stopit
 python-streamlink
