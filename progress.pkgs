@@ -9,10 +9,7 @@ chirp
 copr-backend
 criu
 diceware
-gr-funcube
-gr-hpsdr
-gr-iqbal
-gr-rds
+gr-osmosdr
 python-howdoi
 httpie
 kurchu
@@ -78,7 +75,6 @@ python-ldappool
 libkdtree++
 qtile
 libunity
-python-lsp-black
 python-markups
 Mayavi
 python-mpd
@@ -108,7 +104,6 @@ python-pyeclib
 python-pyemd
 pylibacl
 pylint
-python-pyls-spyder
 python-pymdown-extensions
 python-pymeeus
 python-pyopencl
@@ -129,6 +124,7 @@ python-rx
 signon-glib
 python-simframe
 python-sphinx-autobuild
+spyder
 python-sqlmodel
 python-stopit
 python-streamlink
