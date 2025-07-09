@@ -64,6 +64,7 @@ python-fiat
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-fuzzywuzzy
+ginga
 python-git-url-parse
 python-gphoto2
 python-ipfshttpclient
@@ -83,7 +84,6 @@ python-niaarmts
 python-octave-kernel
 python-odml
 python-onigurumacffi
-opencv
 python-openid-teams
 python-pamela
 python-partd
@@ -113,6 +113,7 @@ python-pyupgrade
 python-pyvlx
 python-q
 python-qcelemental
+python-qudida
 python-readability-lxml
 python-recordclass
 python-remoto
@@ -137,6 +138,7 @@ python-valkey
 strongswan
 visidata
 python-whichcraft
+python-willow
 python-wordcloud
 python-yappi
 rpm-head-signing
