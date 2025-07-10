@@ -66,11 +66,9 @@ python-fuzzywuzzy
 python-gammu
 python-git-url-parse
 python-gphoto2
-python-haversion
 python-ipfshttpclient
 python-janus
 python-jsonpath-rw-ext
-kiwi-boxed-plugin
 python-ldappool
 libkdtree++
 qtile
@@ -88,7 +86,6 @@ python-onigurumacffi
 python-openid-teams
 python-os-testr
 python-pamela
-python-partd
 patool
 python-pifpaf
 python-pkginfo2
@@ -121,7 +118,6 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
-python-sciunit
 signon-glib
 python-simframe
 python-sphinx-autobuild
