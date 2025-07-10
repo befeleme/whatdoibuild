@@ -9,7 +9,6 @@ copr-backend
 criu
 diceware
 python-howdoi
-httpie
 kurchu
 libpeas
 linode-cli
