@@ -7,6 +7,7 @@ cairo-dock-plug-ins
 cantera
 copr-backend
 criu
+python-dcrpm
 diceware
 python-howdoi
 kurchu
@@ -124,7 +125,6 @@ python-sqlmodel
 python-stopit
 python-streamlink
 python-testing.common.database
-python-TestSlide
 python-textual
 python-toposort
 python-torch
