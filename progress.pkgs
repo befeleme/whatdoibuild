@@ -7,7 +7,6 @@ cairo-dock-plug-ins
 cantera
 copr-backend
 criu
-python-dcrpm
 diceware
 python-howdoi
 kurchu
@@ -67,6 +66,7 @@ python-gammu
 python-git-url-parse
 python-gphoto2
 python-ipfshttpclient
+python-iso-639
 python-janus
 python-jsonpath-rw-ext
 python-ldappool
@@ -144,4 +144,5 @@ sugar
 sugar-toolkit-gtk3
 tmt
 wxGlade
+x-tile
 zeek
