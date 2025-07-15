@@ -9,7 +9,6 @@ copr-backend
 criu
 diceware
 python-howdoi
-kurchu
 libpeas
 linode-cli
 mom
@@ -44,7 +43,6 @@ python-colcon-meson
 python-colcon-parallel-executor
 conda-build
 python-crick
-python-cytoolz
 python-daiquiri
 python-dataclassy
 python-datrie
@@ -57,12 +55,14 @@ python-docx
 python-earthpy
 python-editdistance
 python-enrich
+python-eth-utils
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
 python-fsleyes-widgets
 python-fuzzywuzzy
 python-gammu
+python-geotiler
 python-git-url-parse
 python-gphoto2
 python-ipfshttpclient
