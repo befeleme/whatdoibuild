@@ -55,7 +55,7 @@ python-docx
 python-earthpy
 python-editdistance
 python-enrich
-python-eth-keyfile
+python-eth-account
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
@@ -142,7 +142,6 @@ rpm-head-signing
 sugar
 sugar-toolkit-gtk3
 tmt
-vyper
 wxGlade
 x-tile
 zeek
