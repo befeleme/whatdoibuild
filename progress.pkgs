@@ -55,9 +55,7 @@ python-docx
 python-earthpy
 python-editdistance
 python-enrich
-python-eth-event
-python-eth-keys
-python-eth-rlp
+python-eth-keyfile
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
@@ -131,7 +129,6 @@ python-toposort
 python-torch
 python-tosca-parser
 python-towncrier
-python-trie
 python-txaio
 python-typing-inspect
 python-uvloop
@@ -145,6 +142,7 @@ rpm-head-signing
 sugar
 sugar-toolkit-gtk3
 tmt
+vyper
 wxGlade
 x-tile
 zeek
