@@ -55,8 +55,9 @@ python-docx
 python-earthpy
 python-editdistance
 python-enrich
-python-eth-abi
+python-eth-event
 python-eth-keys
+python-eth-rlp
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
@@ -66,7 +67,6 @@ python-gammu
 python-geotiler
 python-git-url-parse
 python-gphoto2
-python-hexbytes
 python-ipfshttpclient
 python-iso-639
 python-janus
@@ -98,7 +98,6 @@ python-pure-protobuf
 python-py-algorand-sdk
 python-py2pack
 python-pydes
-python-py_ecc
 python-pybids
 python-pycec
 python-pyeclib
@@ -118,7 +117,6 @@ python-random2
 python-readability-lxml
 python-recordclass
 python-remoto
-python-rlp
 python-rosdep
 python-rstcheck
 python-rx
@@ -133,6 +131,7 @@ python-toposort
 python-torch
 python-tosca-parser
 python-towncrier
+python-trie
 python-txaio
 python-typing-inspect
 python-uvloop
