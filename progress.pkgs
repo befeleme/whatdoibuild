@@ -11,6 +11,7 @@ diceware
 python-howdoi
 libpeas
 linode-cli
+mkdocs-material::bootstrap:::
 mom
 monkeytype
 netstat-monitor
@@ -71,8 +72,12 @@ python-ldappool
 libkdtree++
 qtile
 libunity
+python-markdown-exec
 python-markups
 Mayavi
+python-memray
+python-mkdocs-autorefs
+python-mkdocs-d2-plugin
 python-mpd
 python-ndeflib
 python-neatdend
@@ -99,7 +104,6 @@ python-pycec
 python-pyeclib
 python-pyemd
 pylint
-python-pymdown-extensions
 python-pyopencl
 python-pysaml2
 pyserial-asyncio
@@ -121,7 +125,6 @@ python-sphinx-autobuild
 python-sqlmodel
 python-stopit
 python-testing.common.database
-python-textual
 python-toposort
 python-torch
 python-tosca-parser
@@ -132,7 +135,6 @@ python-valkey
 strongswan
 visidata
 python-whichcraft
-python-wordcloud
 python-yappi
 rpm-head-signing
 sugar
