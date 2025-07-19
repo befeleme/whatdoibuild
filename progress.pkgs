@@ -7,11 +7,11 @@ cairo-dock-plug-ins
 cantera
 copr-backend
 criu
+python-dcrpm
 diceware
 python-howdoi
 libpeas
 linode-cli
-mkdocs-material::bootstrap:::
 mom
 monkeytype
 netstat-monitor
@@ -20,6 +20,7 @@ pcs
 poezio
 pychess
 pysubnettree
+GeographicLib
 python-Mastodon
 python-aiokafka
 python-aiopg
@@ -33,7 +34,6 @@ python-beancount
 python-beartype
 python-billiard
 python-bluepyopt
-python-capturer
 python-catkin_tools
 python-chalice
 cjdns
@@ -41,6 +41,7 @@ python-click-help-colors
 python-cliff-tablib
 python-colcon-meson
 python-colcon-parallel-executor
+python-coloredlogs
 conda-build
 python-crick
 python-daiquiri
@@ -50,6 +51,7 @@ python-dingz
 python-django-cacheops
 python-django-contrib-comments
 python-django-filter
+python-django4.2
 dlib
 python-docx
 python-earthpy
@@ -72,12 +74,10 @@ python-ldappool
 libkdtree++
 qtile
 libunity
-python-markdown-exec
 python-markups
 Mayavi
-python-memray
-python-mkdocs-autorefs
-python-mkdocs-d2-plugin
+python-mkapi
+python-mkdocs-static-i18n
 python-mpd
 python-ndeflib
 python-neatdend
