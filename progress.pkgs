@@ -49,7 +49,6 @@ python-datrie
 python-dingz
 python-django-cacheops
 python-django-contrib-comments
-python-django-filter
 python-django4.2
 dlib
 python-docx
@@ -138,6 +137,7 @@ rpm-head-signing
 sugar
 sugar-toolkit-gtk3
 tmt
+transifex-client
 wxGlade
 x-tile
 zeek
