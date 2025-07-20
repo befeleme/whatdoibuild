@@ -43,7 +43,6 @@ python-colcon-meson
 python-colcon-parallel-executor
 conda-build
 python-crick
-python-cvdupdate
 python-daiquiri
 python-dataclassy
 python-datrie
@@ -78,7 +77,6 @@ libunity
 python-markups
 Mayavi
 python-mkapi
-python-mkdocs-git-revision-date-localized-plugin
 python-mpd
 python-ndeflib
 python-neatdend
