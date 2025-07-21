@@ -1,9 +1,0 @@
-diff --git a/mkdocs-material.spec b/mkdocs-material.spec
-index 66eb019..de76385 100644
---- a/mkdocs-material.spec
-+++ b/mkdocs-material.spec
-@@ -1,3 +1,4 @@
-+%global _with_bootstrap 1
- %global forgeurl https://github.com/squidfunk/mkdocs-material
- %bcond bootstrap 0
- 
