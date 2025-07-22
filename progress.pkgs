@@ -8,7 +8,6 @@ cantera
 copr-backend
 criu
 python-dcrpm
-diceware
 python-howdoi
 libpeas
 linode-cli
@@ -17,7 +16,6 @@ netstat-monitor
 ocrmypdf
 pcs
 poezio
-pychess
 pysubnettree
 ATpy
 GeographicLib
