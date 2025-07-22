@@ -8,10 +8,12 @@ cantera
 copr-backend
 criu
 python-dcrpm
+fros
 python-howdoi
 libpeas
 linode-cli
 mom
+mygnuhealth
 netstat-monitor
 ocrmypdf
 pcs
@@ -82,6 +84,7 @@ python-niaarmts
 python-octave-kernel
 python-odml
 python-onigurumacffi
+python-openctm
 python-openid-teams
 python-os-testr
 python-pamela
@@ -118,6 +121,7 @@ python-rx
 signon-glib
 python-simframe
 python-sphinx-autobuild
+python-sphinx-documatt-theme
 python-sqlmodel
 python-stopit
 python-testing.common.database
