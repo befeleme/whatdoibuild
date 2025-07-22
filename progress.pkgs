@@ -107,6 +107,7 @@ python-pytest-twisted
 python-pyupgrade
 python-q
 python-qcelemental
+python-ramalama
 python-random2
 python-readability-lxml
 python-recordclass
