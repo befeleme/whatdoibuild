@@ -68,6 +68,7 @@ python-ipfshttpclient
 python-iso-639
 python-janus
 python-jsonpath-rw-ext
+python-keystoneclient
 python-ldappool
 libkdtree++
 qtile
@@ -117,6 +118,7 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
+python-shade
 signon-glib
 python-simframe
 python-sphinx-autobuild
