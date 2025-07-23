@@ -8,6 +8,7 @@ cantera
 copr-backend
 criu
 python-dcrpm
+duplicity
 fros
 python-howdoi
 libpeas
@@ -117,15 +118,12 @@ python-remoto
 python-rosdep
 python-rstcheck
 python-rx
-python-shade
 signon-glib
 python-simframe
 python-sphinx-autobuild
 python-sphinx-documatt-theme
 python-sqlmodel
 python-stopit
-python-swiftclient
-python-tackerclient
 python-testing.common.database
 python-toposort
 python-torch
