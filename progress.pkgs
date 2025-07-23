@@ -42,7 +42,6 @@ python-colcon-meson
 python-colcon-parallel-executor
 conda-build
 python-crick
-python-daiquiri
 python-dataclassy
 python-datrie
 python-dingz
@@ -68,7 +67,6 @@ python-ipfshttpclient
 python-iso-639
 python-janus
 python-jsonpath-rw-ext
-python-keystoneclient
 python-ldappool
 libkdtree++
 qtile
@@ -86,6 +84,7 @@ python-odml
 python-onigurumacffi
 python-openctm
 python-openid-teams
+python-openstackclient:::with_doc::
 python-os-testr
 python-pamela
 patool
@@ -125,6 +124,8 @@ python-sphinx-autobuild
 python-sphinx-documatt-theme
 python-sqlmodel
 python-stopit
+python-swiftclient
+python-tackerclient
 python-testing.common.database
 python-toposort
 python-torch
