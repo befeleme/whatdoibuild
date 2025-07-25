@@ -1,7 +1,6 @@
 asv
 bandit
 binwalk
-borgbackup
 buildstream
 cairo-dock-plug-ins
 cantera
@@ -31,7 +30,6 @@ python-avocado
 python-aws-sam-translator
 python-awsiotsdk
 python-beancount
-python-beartype
 python-billiard
 python-bluepyopt
 python-catkin_tools
@@ -120,6 +118,7 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
+python-spdx-tools
 python-sphinx-autobuild
 python-sphinx-documatt-theme
 python-sqlmodel
