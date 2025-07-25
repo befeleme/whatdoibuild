@@ -118,7 +118,6 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-spdx-tools
 python-sphinx-autobuild
 python-sphinx-documatt-theme
 python-sqlmodel
