@@ -24,7 +24,6 @@ python-Mastodon
 python-aiokafka
 python-aiopg
 python-amply
-python-ansible-runner
 python-anyconfig
 python-avocado
 python-aws-sam-translator
@@ -76,6 +75,7 @@ python-mkapi
 python-mpd
 python-ndeflib
 python-neatdend
+python-network-runner
 python-neurodsp
 python-niaarmts
 python-octave-kernel
