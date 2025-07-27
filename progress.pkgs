@@ -1,6 +1,7 @@
 asv
 bandit
 binwalk
+bodhi-server
 buildstream
 cairo-dock-plug-ins
 cantera
@@ -16,6 +17,7 @@ mom
 mygnuhealth
 netstat-monitor
 ocrmypdf
+odcs
 poezio
 pysubnettree
 ATpy
@@ -29,7 +31,6 @@ python-avocado
 python-aws-sam-translator
 python-awsiotsdk
 python-beancount
-python-billiard
 python-bluepyopt
 python-catkin_tools
 python-chalice
@@ -137,6 +138,7 @@ python-yappi
 rpm-head-signing
 sugar
 sugar-toolkit-gtk3
+syncstar
 tmt
 transifex-client
 wxGlade
