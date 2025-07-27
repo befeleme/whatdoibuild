@@ -1,12 +1,10 @@
 asv
 bandit
 binwalk
-bodhi-server
 buildstream
 cairo-dock-plug-ins
 cantera
 copr-backend
-criu
 python-dcrpm
 duplicity
 fros
@@ -17,7 +15,6 @@ mom
 mygnuhealth
 netstat-monitor
 ocrmypdf
-odcs
 poezio
 pysubnettree
 ATpy
@@ -69,7 +66,6 @@ python-jsonpath-rw-ext
 python-ldappool
 libkdtree++
 qtile
-libunity
 python-markups
 Mayavi
 python-mkapi
@@ -136,9 +132,6 @@ visidata
 python-whichcraft
 python-yappi
 rpm-head-signing
-sugar
-sugar-toolkit-gtk3
-syncstar
 tmt
 transifex-client
 wxGlade
