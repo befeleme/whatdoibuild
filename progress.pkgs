@@ -75,9 +75,9 @@ python-neatdend
 python-network-runner
 python-neurodsp
 python-niaarmts
-python-novaclient
+python-novaclient-os-networks
+python-novaclient-os-virtual-interfaces
 python-octave-kernel
-python-octaviaclient
 python-odml
 python-onigurumacffi
 python-openctm
@@ -124,7 +124,6 @@ python-testing.common.database
 python-toposort
 python-torch
 python-tosca-parser
-python-troveclient
 python-txaio
 python-typing-inspect
 python-uvloop
