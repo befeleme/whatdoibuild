@@ -6,7 +6,6 @@ cairo-dock-plug-ins
 cantera
 copr-backend
 python-dcrpm
-duplicity
 fros
 python-howdoi
 libpeas
@@ -36,6 +35,7 @@ python-click-help-colors
 python-cliff-tablib
 python-colcon-meson
 python-colcon-parallel-executor
+python-colcon-ros-bundle
 conda-build
 python-crick
 python-dataclassy
@@ -50,7 +50,6 @@ python-earthpy
 python-editdistance
 python-enrich
 python-esbonio
-python-eth-tester
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
@@ -109,7 +108,6 @@ python-random2
 python-readability-lxml
 python-recordclass
 python-remoto
-python-rosdep
 python-rstcheck
 python-rx
 signon-glib
