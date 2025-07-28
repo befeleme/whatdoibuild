@@ -50,6 +50,7 @@ python-earthpy
 python-editdistance
 python-enrich
 python-esbonio
+python-eth-tester
 python3-exiv2
 python-fiat
 python-flake8-comprehensions
@@ -75,8 +76,6 @@ python-neatdend
 python-network-runner
 python-neurodsp
 python-niaarmts
-python-novaclient-os-networks
-python-novaclient-os-virtual-interfaces
 python-octave-kernel
 python-odml
 python-onigurumacffi
@@ -116,7 +115,6 @@ python-rstcheck
 python-rx
 signon-glib
 python-simframe
-python-sphinx-autobuild
 python-sphinx-documatt-theme
 python-sqlmodel
 python-stopit
