@@ -35,7 +35,6 @@ python-click-help-colors
 python-cliff-tablib
 python-colcon-meson
 python-colcon-parallel-executor
-python-colcon-ros-bundle
 conda-build
 python-crick
 python-dataclassy
@@ -58,6 +57,7 @@ python-fuzzywuzzy
 python-gammu
 python-git-url-parse
 python-gphoto2
+python-hudman
 python-ipfshttpclient
 python-iso-639
 python-janus
@@ -126,6 +126,7 @@ python-valkey
 strongswan
 visidata
 python-whichcraft
+python-wloc
 python-yappi
 rpm-head-signing
 tmt
