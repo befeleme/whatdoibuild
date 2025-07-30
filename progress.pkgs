@@ -36,7 +36,7 @@ python-cliff-tablib
 python-colcon-meson
 python-colcon-parallel-executor
 conda-build
-python-crick
+python-dask::bootstrap:::
 python-dataclassy
 python-datrie
 python-dingz
