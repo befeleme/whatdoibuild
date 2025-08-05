@@ -27,7 +27,6 @@ python-aws-sam-translator
 python-awsiotsdk
 python-beancount
 python-bluepyopt
-python-catkin_tools
 python-chalice
 cjdns
 python-click-help-colors
