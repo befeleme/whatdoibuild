@@ -60,6 +60,7 @@ python-iso-639
 python-janus
 python-jsonpath-rw-ext
 python-ldappool
+libnl3
 qtile
 python-markups
 python-mkapi
