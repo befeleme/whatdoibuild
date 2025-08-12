@@ -76,7 +76,7 @@ metadata_expire = 600000000
 [[repos.target]]
 repoid = "python3.14"
 # baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.14/fedora-rawhide-$basearch/"]
-baseurl = ["http://kojipkgs.fedoraproject.org/repos/f43-build/latest/$basearch/"]
+baseurl = ["http://kojipkgs.fedoraproject.org/repos/f44-build/latest/$basearch/"]
 metadata_expire = 60
 
 [bconds]
