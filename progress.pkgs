@@ -49,7 +49,6 @@ python-enrich
 python-esbonio
 python3-exiv2
 python-fiat
-python-flake8-comprehensions
 python-fsleyes-widgets
 python-fuzzywuzzy
 python-gammu
@@ -69,7 +68,10 @@ python-ndeflib
 python-neatdend
 python-network-runner
 python-neurodsp
+python-neurom
+python-niaarm
 python-niaarmts
+python-nilearn
 python-octave-kernel
 python-odml
 python-onigurumacffi
@@ -119,13 +121,13 @@ python-tosca-parser
 python-txaio
 python-typing-inspect
 python-uvloop
-python-valkey
 strongswan
 visidata
 python-whichcraft
 python-wloc
 python-yappi
 rpm-head-signing
+stats-collect
 tmt
 transifex-client
 wxGlade
