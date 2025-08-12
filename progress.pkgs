@@ -107,6 +107,7 @@ python-recordclass
 python-remoto
 python-rstcheck
 python-rx
+python-setuptools_git
 signon-glib
 python-simframe
 python-sphinx-documatt-theme
