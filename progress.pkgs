@@ -120,7 +120,6 @@ python-txaio
 python-typing-inspect
 python-uvloop
 strongswan
-visidata
 python-whichcraft
 python-wloc
 python-yappi
