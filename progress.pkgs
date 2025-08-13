@@ -32,7 +32,6 @@ cjdns
 python-click-help-colors
 python-cliff-tablib
 python-colcon-meson
-python-colcon-parallel-executor
 conda-build
 python-dask::bootstrap:::
 python-dataclassy
