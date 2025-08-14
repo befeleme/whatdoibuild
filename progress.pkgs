@@ -1,7 +1,6 @@
 asv
 bandit
 binwalk
-buildstream
 cairo-dock-plug-ins
 cantera
 copr-backend
@@ -91,7 +90,6 @@ python-pycec
 python-pyeclib
 python-pyemd
 pylint
-python-pyopencl
 python-pysaml2
 pyserial-asyncio
 python-pytest-twisted
@@ -105,7 +103,6 @@ python-readability-lxml
 python-recordclass
 python-remoto
 python-rstcheck
-python-rx
 python-setuptools_git
 signon-glib
 python-simframe
