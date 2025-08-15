@@ -24,7 +24,8 @@ python-anyconfig
 python-avocado
 python-aws-sam-translator
 python-awsiotsdk
-python-beancount
+python-beangulp
+python-beanprice
 python-bluepyopt
 python-chalice
 cjdns
@@ -60,7 +61,6 @@ python-ldappool
 libnl3
 qtile
 python-markups
-python-mkapi
 python-mpd
 python-ndeflib
 python-neatdend
@@ -115,7 +115,6 @@ python-tosca-parser
 python-txaio
 python-typing-inspect
 python-uvloop
-strongswan
 python-whichcraft
 python-wloc
 python-yappi
