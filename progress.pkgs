@@ -15,6 +15,7 @@ netstat-monitor
 ocrmypdf
 poezio
 pysubnettree
+APLpy
 ATpy
 GeographicLib
 python-aiokafka
@@ -26,6 +27,7 @@ python-aws-sam-translator
 python-awsiotsdk
 python-beangulp
 python-bluepyopt
+python-ccdproc
 python-chalice
 cjdns
 python-click-help-colors
@@ -35,7 +37,6 @@ conda-build
 python-dataclassy
 python-datrie
 python-dingz
-python-distributed
 python-django-cacheops
 python-django-contrib-comments
 python-django4.2
@@ -100,7 +101,6 @@ python-random2
 python-readability-lxml
 python-recordclass
 python-remoto
-python-reproject
 python-rstcheck
 python-setuptools_git
 signon-glib
