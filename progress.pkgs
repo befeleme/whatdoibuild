@@ -78,7 +78,6 @@ python-pkginfo2
 python-plotnine
 python-poyo
 python-praw
-python-pure-protobuf
 python-py-algorand-sdk
 python-py2pack
 python-pydes
@@ -95,7 +94,6 @@ python-q
 python-qcelemental
 python-ramalama
 python-random2
-python-readability-lxml
 python-recordclass
 python-remoto
 python-rstcheck
