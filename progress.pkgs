@@ -15,7 +15,6 @@ netstat-monitor
 ocrmypdf
 poezio
 pysubnettree
-APLpy
 ATpy
 GeographicLib
 python-aiokafka
@@ -25,9 +24,7 @@ python-anyconfig
 python-avocado
 python-aws-sam-translator
 python-awsiotsdk
-python-beangulp
 python-bluepyopt
-python-ccdproc
 python-chalice
 cjdns
 python-click-help-colors
@@ -44,6 +41,7 @@ dlib
 python-docx
 python-earthpy
 python-editdistance
+python-elasticsearch
 python-enrich
 python3-exiv2
 python-fiat
@@ -85,7 +83,6 @@ python-py-algorand-sdk
 python-py2pack
 python-pydes
 python-pybids
-python-pycec
 python-pyeclib
 python-pyemd
 pylint
@@ -116,10 +113,10 @@ python-typing-inspect
 python-uvloop
 python-whichcraft
 python-wloc
+wult
 python-xarray
 python-yappi
 rpm-head-signing
-stats-collect
 tmt
 transifex-client
 wxGlade
