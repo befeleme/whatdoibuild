@@ -32,10 +32,10 @@ python-click-help-colors
 python-cliff-tablib
 python-colcon-meson
 conda-build
-python-dask::bootstrap:::
 python-dataclassy
 python-datrie
 python-dingz
+python-distributed
 python-django-cacheops
 python-django-contrib-comments
 python-django4.2
@@ -100,6 +100,7 @@ python-random2
 python-readability-lxml
 python-recordclass
 python-remoto
+python-reproject
 python-rstcheck
 python-setuptools_git
 signon-glib
@@ -115,6 +116,7 @@ python-typing-inspect
 python-uvloop
 python-whichcraft
 python-wloc
+python-xarray
 python-yappi
 rpm-head-signing
 stats-collect
