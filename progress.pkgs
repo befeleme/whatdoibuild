@@ -34,7 +34,6 @@ conda-build
 python-dataclassy
 python-datrie
 python-dingz
-python-django-cacheops
 python-django-contrib-comments
 python-django4.2
 dlib
