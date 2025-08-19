@@ -60,6 +60,7 @@ python-janus
 python-jsonpath-rw-ext
 python-ldappool
 libnl3
+python-libpysal
 qtile
 python-markups
 metrics2mqtt
@@ -77,6 +78,7 @@ python-openctm
 python-openid-teams
 python-os-testr
 python-pamela
+python-pandas-flavor
 patool
 python-pifpaf
 python-pkginfo2
@@ -92,6 +94,7 @@ python-pyemd
 pylint
 python-pysaml2
 pyserial-asyncio
+python-pyshtools
 python-pytest-twisted
 python-pytimeparse
 python-pyupgrade
@@ -117,7 +120,8 @@ python-uvloop
 python-whichcraft
 python-wloc
 wult
-python-xarray
+python-xarray-einstats
+python-xbout
 python-yappi
 rpm-head-signing
 transifex-client
