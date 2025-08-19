@@ -25,7 +25,6 @@ python-aiokafka
 python-aiopg
 python-amply
 python-anyconfig
-python-arviz
 python-avocado
 python-aws-sam-translator
 python-awsiotsdk
@@ -61,7 +60,6 @@ python-jsonpath-rw-ext
 python-ldappool
 libnl3
 qtile
-python-mapclassify
 python-markups
 metrics2mqtt
 python-mpd
