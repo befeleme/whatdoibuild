@@ -25,6 +25,7 @@ python-aiokafka
 python-aiopg
 python-amply
 python-anyconfig
+python-arviz
 python-avocado
 python-aws-sam-translator
 python-awsiotsdk
@@ -45,7 +46,6 @@ dlib
 python-docx
 python-earthpy
 python-editdistance
-python-elasticsearch
 python-enrich
 python3-exiv2
 python-fiat
@@ -60,8 +60,8 @@ python-janus
 python-jsonpath-rw-ext
 python-ldappool
 libnl3
-python-libpysal
 qtile
+python-mapclassify
 python-markups
 metrics2mqtt
 python-mpd
@@ -78,9 +78,9 @@ python-openctm
 python-openid-teams
 python-os-testr
 python-pamela
-python-pandas-flavor
 patool
 python-pifpaf
+python-pingouin
 python-pkginfo2
 python-plotnine
 python-poyo
@@ -94,7 +94,6 @@ python-pyemd
 pylint
 python-pysaml2
 pyserial-asyncio
-python-pyshtools
 python-pytest-twisted
 python-pytimeparse
 python-pyupgrade
@@ -120,7 +119,6 @@ python-uvloop
 python-whichcraft
 python-wloc
 wult
-python-xarray-einstats
 python-xbout
 python-yappi
 rpm-head-signing
