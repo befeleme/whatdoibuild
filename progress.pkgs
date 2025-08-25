@@ -119,7 +119,7 @@ python-fiat
 python-filetype
 python-firkin
 python-friendlyloris
-python-fsleyes-props
+python-fsleyes
 python-fuzzywuzzy
 python-gammu
 python-gekitchen
@@ -319,7 +319,6 @@ python-wiffi
 python-winacl
 python-winsspi
 python-wloc
-python-wxnatpy
 python-xbout
 python-xboxapi
 python-xiaomi-gateway
