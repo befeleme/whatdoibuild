@@ -90,7 +90,6 @@ python-cxxfilt
 python-daikin
 python-danfossair
 python-dataclassy
-python-datalad
 python-dateutils
 python-datrie
 python-deconz
@@ -202,7 +201,6 @@ python-pingouin
 python-pkginfo2
 python-plaintable
 python-plugnplay
-python-pocketlint
 python-policyuniverse
 python3-postgresql
 python-poyo
@@ -331,7 +329,6 @@ python-zm
 rapid-photo-downloader
 rpm-head-signing
 rst2txt
-thonny
 transifex-client
 wad
 wapiti
