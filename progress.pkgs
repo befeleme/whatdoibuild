@@ -262,7 +262,6 @@ python-reparser
 python-requests-credssp
 python-retrying
 python-ring-doorbell
-python-rstcheck
 python-rtmidi
 scanless
 python-scikit-misc
