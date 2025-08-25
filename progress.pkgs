@@ -90,6 +90,7 @@ python-cxxfilt
 python-daikin
 python-danfossair
 python-dataclassy
+python-datalad
 python-dateutils
 python-datrie
 python-deconz
@@ -98,6 +99,7 @@ python-dfdatetime
 python-dictdumper
 python-didl-lite
 python-dingz
+distro-info
 python-django-contrib-comments
 python-django-threadedcomments
 python-django4.2:tests::::
@@ -195,12 +197,12 @@ python-openid-teams
 python-opensensemap-api
 python-os-testr
 python-pamela
-patool
 python-pifpaf
 python-pingouin
 python-pkginfo2
 python-plaintable
 python-plugnplay
+python-pocketlint
 python-policyuniverse
 python3-postgresql
 python-poyo
@@ -223,7 +225,7 @@ python-pyhomematic
 python-pyi2cflash
 python-pyinels
 python-pyiqvia
-pylint
+python-pylint-venv
 python-pylotoncycle
 python-pymata-express
 python-pymochad
@@ -301,7 +303,6 @@ python-toposort
 python-tosca-parser
 python-txaio
 python-typedecorator
-python-typing-inspect
 python-upnpy
 urlbuster
 python-uvloop
@@ -330,6 +331,7 @@ python-zm
 rapid-photo-downloader
 rpm-head-signing
 rst2txt
+thonny
 transifex-client
 wad
 wapiti
