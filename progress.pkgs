@@ -5,7 +5,6 @@ binwalk
 cairo-dock-plug-ins
 cantera
 cantoolz
-copr-backend
 cranc
 python-dcrpm
 fros
@@ -20,6 +19,7 @@ mygnuhealth
 netstat-monitor
 neuron
 ocrmypdf
+odcs
 pagure
 parsero
 past-time
@@ -87,6 +87,7 @@ python-crcelk
 credslayer
 python-cx-oracle
 python-cxxfilt
+python-cyipopt
 python-daikin
 python-danfossair
 python-dataclassy
@@ -141,6 +142,7 @@ python-hstspreload
 python-hudman
 python-imagehash
 python-instant
+python-intern
 python-ipgetter2
 python-iso-639
 python-itanium_demangler
@@ -149,6 +151,7 @@ python-javalang
 python-javaobj
 python-json2table
 python-jsonpath-rw-ext
+python-junit_xml
 python-keepassxc-browser
 kerberoast
 python-kismet-rest
@@ -204,6 +207,7 @@ python-plugnplay
 python-policyuniverse
 python3-postgresql
 python-poyo
+python-probeinterface
 python-promise
 pwncat
 python-py-algorand-sdk
@@ -212,6 +216,7 @@ python-pydes
 python-pyairnow
 python-pybalboa
 python-pybids
+python-pycatch22
 python-pycoingecko
 python-pycomm3
 python-pyeclib
@@ -245,6 +250,7 @@ python-pytest-twisted
 python-pytimeparse
 python-pyupgrade
 python-pyvit
+python-pyxdf
 python-q
 python-qcengine:tests::::
 python-queuelib
@@ -252,6 +258,7 @@ python-rak811
 python-ramalama
 python-random2
 python-rangeparser
+python-ratinabox
 python-rawkit
 python-readlike
 python-recordclass
