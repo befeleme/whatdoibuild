@@ -160,7 +160,6 @@ ldapdomaindump
 python-ldappool
 ldeep
 libnl3
-qtile
 python-linkheader
 python-livereload
 python-makeelf
@@ -331,6 +330,7 @@ python-yaswfp
 python-yattag
 python-zc-customdoctests
 python-zm
+qtile-extras
 rapid-photo-downloader
 rpm-head-signing
 rst2txt
