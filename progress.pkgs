@@ -62,6 +62,7 @@ python-ansicolors
 python-anyconfig
 python-aresponses
 python-astral
+python-autobahn
 python-avocado
 python-aws-sam-translator
 python-awsiotsdk
@@ -322,7 +323,6 @@ python-textparser
 python-textwrap3
 python-toposort
 python-tosca-parser
-python-txaio
 python-typedecorator
 python-upnpy
 urlbuster
