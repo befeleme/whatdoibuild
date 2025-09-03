@@ -1,6 +1,7 @@
 artifacts
 asv
 binwalk
+buildbot
 cairo-dock-plug-ins
 cantera
 cantoolz
@@ -91,6 +92,7 @@ python-cxxfilt
 python-cyipopt
 python-daikin
 python-danfossair
+python-daphne
 python-dataclassy
 python-dateutils
 python-datrie
