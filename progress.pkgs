@@ -30,6 +30,7 @@ python-ufl
 ATpy
 python-AWSIoTPythonSDK
 GeographicLib
+python-Naked
 python-accuweather
 python-adafruit-pureio
 python-adjustText
@@ -118,7 +119,6 @@ python-epi
 python-epson-projector
 python3-exiv2
 python-fiat
-python-filetype
 python-firkin
 python-formulaic
 python-friendlyloris
@@ -130,7 +130,6 @@ python-git-url-parse
 python-glances-api
 python-gphoto2
 python-graphql-relay
-python-habitipy
 python-hass-data-detective
 python-hatasmota
 python-hdate
@@ -181,7 +180,6 @@ python-mongoquery
 python-mpd
 python-mrcrowbar
 python-msldap
-python-munkres
 python-mystrom
 python-nanoid
 python-natlas-libnmap
@@ -213,6 +211,7 @@ python-pkginfo2
 python-plac
 python-plaintable
 python-plugnplay
+python-plumbum
 python-policyuniverse
 python3-postgresql
 python-poyo
