@@ -197,7 +197,6 @@ python-odml
 python-onigurumacffi
 python-openctm
 python-opendata-transport
-python-openid-teams
 python-opensensemap-api
 python-os-testr
 python-outdated
@@ -323,6 +322,7 @@ python-upnpy
 urlbuster
 python-uvloop
 python-velbus
+strongswan
 python-volkszaehler
 python-voluptuous-serialize
 python-vsure
