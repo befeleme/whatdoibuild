@@ -61,16 +61,19 @@ python-ansicolors
 python-anyconfig
 python-aresponses
 python-astral
+python-autograd
 python-avocado
 python-aws-sam-translator
 python-awsiotsdk
 python-baluhn
 python-betamax-matchers
 python-betamax-serializers
+python-bioframe
 python-cachy
 python-chalice
 python-check-manifest
 python-chirpstack-api
+python-ci-info
 cjdns
 python-click-help-colors
 python-cliff-tablib
@@ -218,6 +221,7 @@ pwncat
 python-py-algorand-sdk
 python-py27hash
 python-py2pack
+python-pyABF
 python-pydes
 python-pyactivetwo
 python-pyairnow
@@ -291,6 +295,7 @@ python-shodan
 signon-glib
 python-simframe
 sipvicious
+python-sklearn-genetic-opt
 python-slacker
 python-smi
 snallygaster
@@ -298,6 +303,7 @@ socialscan
 python-socks5line
 python-sortedcollections
 python-sphinx-documatt-theme
+python-sphinx-sitemap
 python-sphinxcontrib-asyncio
 python-sphinxcontrib-phpdomain
 python-sphobjinv
@@ -318,9 +324,11 @@ python-textwrap3
 python-toposort
 python-tosca-parser
 python-typedecorator
+python-universal-pathlib
 python-upnpy
 urlbuster
 python-uvloop
+python-vconnector
 python-velbus
 strongswan
 python-volkszaehler
