@@ -1,4 +1,5 @@
 artifacts
+asciinema
 asv
 cairo-dock-plug-ins
 cantera
@@ -30,6 +31,23 @@ python-AWSIoTPythonSDK
 GeographicLib
 python-Naked
 python-PyLEMS
+python-XStatic
+python-XStatic-Angular
+python-XStatic-Angular-Bootstrap
+python-XStatic-Angular-Gettext
+python-XStatic-Angular-lrdragndrop
+python-XStatic-Hogan
+python-XStatic-JQuery-Migrate
+python-XStatic-JQuery-TableSorter
+python-XStatic-JQuery-quicksearch
+python-XStatic-JSEncrypt
+python-XStatic-Jasmine
+python-XStatic-Magic-Search
+python-XStatic-QUnit
+python-XStatic-Rickshaw
+python-XStatic-Spin
+python-XStatic-smart-table
+python-XStatic-termjs
 python-accuweather
 python-adafruit-pureio
 python-adjustText
@@ -122,6 +140,7 @@ python-epson-projector
 python3-exiv2
 python-fiat
 python-firkin
+flann
 python-formulaic
 python-friendlyloris
 python-fuzzywuzzy
@@ -132,12 +151,14 @@ python-git-url-parse
 python-glances-api
 python-gphoto2
 python-graphql-relay
+python-grip
 python-hass-data-detective
 python-hatasmota
 python-hdate
 python-hdf5storage
 python-hgdistver
 python-hikvision
+hokuyoaist
 python-hole
 python-homeconnect
 python-homeworks
@@ -164,6 +185,7 @@ python-lazy-ops
 ldapdomaindump
 python-ldappool
 ldeep
+libfreenect
 libnl3
 python-linkheader
 python-livereload
@@ -189,8 +211,6 @@ python-nessus-file-reader
 python-netdata
 python-network-runner
 python-neurodsp
-python-neurom
-python-nilearn
 python-nrf24
 python-nuheat
 python-octave-kernel
@@ -208,6 +228,7 @@ python-pingouin
 python-pkginfo2
 python-plac
 python-plaintable
+python-plotly
 python-plugnplay
 python-plumbum
 python-policyuniverse
@@ -303,6 +324,7 @@ python-sklearn-genetic-opt
 python-slacker
 python-smi
 snallygaster
+python-snuggs
 socialscan
 python-socks5line
 python-sortedcollections
@@ -357,7 +379,6 @@ python-yattag
 python-zc-customdoctests
 python-zm
 rapid-photo-downloader
-rpm-head-signing
 rst2txt
 transifex-client
 wad
