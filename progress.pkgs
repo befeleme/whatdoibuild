@@ -13,6 +13,7 @@ hypershell
 ipa-hcc
 linode-cli
 mom
+mu
 mygnuhealth
 netstat-monitor
 neuron
@@ -127,6 +128,7 @@ dlib
 dnsgen
 python-dnslib
 python-docx
+dput-ng
 python-dtfabric
 python-earthpy
 python-easyco
@@ -312,7 +314,6 @@ python-rtmidi
 scanless
 python-scikit-misc
 python-sciunit
-python-sentinels
 python-setuptools_git
 python-shade
 python-shelly
