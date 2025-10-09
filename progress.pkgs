@@ -13,7 +13,6 @@ hypershell
 ipa-hcc
 linode-cli
 mom
-mu
 mygnuhealth
 netstat-monitor
 neuron
@@ -98,7 +97,6 @@ python-click-help-colors
 python-cliff-tablib
 python-cloudant
 python-coapthon3
-python-colcon-meson
 python-commandparse
 python-compal
 conda-build
@@ -198,6 +196,7 @@ python-marshmallow-enum
 python-masscan
 python-metno
 metrics2mqtt
+python-microfs
 python-mido
 python-minidump
 python-mizani
@@ -214,6 +213,7 @@ python-netdata
 python-network-runner
 python-neurodsp
 python-nrf24
+python-nudatus
 python-nuheat
 python-octave-kernel
 python-odml
@@ -274,6 +274,7 @@ python-pyotgw
 python-pypcapkit
 python-pypck
 python-pyprocdev
+python-pyqtchart
 python-pyriemann
 python-pysaml2
 pyserial-asyncio
