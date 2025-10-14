@@ -8,7 +8,6 @@ cranc
 python-dcrpm
 fros
 hashid
-python-howdoi
 hypershell
 ipa-hcc
 linode-cli
@@ -78,6 +77,7 @@ python-ana
 python-ansicolors
 python-aresponses
 python-astral
+python-atomicwrites
 python-autograd
 python-avocado
 python-aws-sam-translator
@@ -377,7 +377,6 @@ python-xiaomi-gateway
 python-xpath-expressions
 python-yappi
 python-yaswfp
-python-yattag
 python-zc-customdoctests
 python-zm
 rapid-photo-downloader
