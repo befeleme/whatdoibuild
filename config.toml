@@ -5,9 +5,6 @@
 #- python3.N:
 #    macros:
 #      %global _with_bootstrap 1  # bump the release so it's greater even with ~bootstrap
-#      %global _without_rpmwheels 1
-#      %global _without_tests 1
-#      %global _without_optimizations 1
 #- gdb: # not blocking (yet)
 #    macros:
 #      %global _without_python 1
