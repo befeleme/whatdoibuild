@@ -148,9 +148,6 @@ withouts = ["tests"]
 [[bconds.python-more-itertools]]
 withouts = ["tests"]
 
-[[bconds.python-atomicwrites]]
-withouts = ["docs", "tests"]
-
 [[bconds.python-fixtures]]
 withs = ["bootstrap"]
 
@@ -253,9 +250,6 @@ withs = ["bootstrap"]
 [[bconds.python-libcst]]
 withs = ["bootstrap"]
 
-[[bconds.python-databases]]
-withs = ["bootstrap"]
-
 [[bconds.scipy]]
 withouts = ["pythran"]
 
@@ -301,9 +295,6 @@ withouts = ["tests"]
 #[[bconds.python-azure-common]]
 #withouts = ["tests"]
 
-[[bconds.python-azure-mgmt-core]]
-withouts = ["tests"]
-
 [[bconds.python-subprocess-tee]]
 withouts = ["tests"]
 
@@ -312,9 +303,6 @@ withs = ["bootstrap"]
 
 [[bconds.python-tox]]
 withs = ["bootstrap"]
-
-[[bconds.python-pytest-rerunfailures]]
-withouts = ["tests"]
 
 [[bconds.python-fsspec]]
 withs = ["bootstrap"]
@@ -357,9 +345,6 @@ withouts = ["tests"]
 
 [[bconds.python-dns]]
 withouts = ["trio", "curio", "doh"]
-
-[[bconds.python-networkx]]
-withs = ["bootstrap"]
 
 [[bconds.python-beautifulsoup4]]
 withouts = ["soupsieve", "tests"]
@@ -536,9 +521,6 @@ withouts = ["inline_snapshot_tests"]
 withouts = ["tests"]
 
 [[bconds.python-django5]]
-withouts = ["tests"]
-
-[[bconds."python-django4.2"]]
 withouts = ["tests"]
 
 [[bconds.python-pyproject-hooks]]
