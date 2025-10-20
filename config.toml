@@ -565,6 +565,12 @@ withouts = ["tests"]
 [[bconds.python-hatch-vcs]]
 withs = ["bootstrap"]
 
+[[bconds.python-cobalt]]
+withs = ["bootstrap"]
+
+[[bconds.vtk]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
