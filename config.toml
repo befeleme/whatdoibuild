@@ -559,6 +559,9 @@ withs = ["bootstrap"]
 [[bconds.llvm]]
 withouts = ["pgo"]
 
+[[bconds.python-pathspec]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
