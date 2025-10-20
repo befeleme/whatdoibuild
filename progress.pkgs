@@ -1,12 +1,10 @@
 Io-language
+coccinelle
 getdp
-guake
 link-grammar
 nordugrid-arc
 pylibgamerzilla
-python-defusedxml
 python-dill
-python-dtoc
 re2
 python-kadmin
 lensfun
@@ -14,7 +12,5 @@ protobuf
 sip
 libsolv
 python-tornado
-zinnia
-python-zope-exceptions:tests::::
 renderdoc
 weechat
