@@ -571,6 +571,9 @@ withs = ["bootstrap"]
 [[bconds.vtk]]
 withs = ["bootstrap"]
 
+[[bconds.python-trove-classifiers]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
