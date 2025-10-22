@@ -5,7 +5,6 @@ getdp
 gobject-introspection
 knot
 link-grammar
-mlpack
 nordugrid-arc
 pylibgamerzilla
 python-astroid
@@ -41,8 +40,7 @@ python-psycopg2
 pyproj
 sip
 python-pysdl2
-python-rosdep
-python-rosinstall_generator
+python-pytest-venv
 python-rstr
 libsolv
 python-sqlalchemy1.4
@@ -50,7 +48,10 @@ python-tabulate
 python-tornado
 totpcgi
 python-translitcodec
+python-virtualenv-api
 xapian-bindings
 renderdoc
 retis
+python-tox::bootstrap:::
+vex
 weechat
