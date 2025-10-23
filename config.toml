@@ -482,7 +482,7 @@ withouts = ["tests"]
 withs = ["bootstrap"]
 
 [[bconds.python-build]]
-withouts = ["uv"]
+withouts = ["extras"]
 
 [[bconds.meson]]
 withouts = ["check"]
