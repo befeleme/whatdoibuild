@@ -574,6 +574,12 @@ withs = ["bootstrap"]
 [[bconds.python-trove-classifiers]]
 withouts = ["tests"]
 
+[[bconds.python-snakemake-interface-common]]
+withs = ["bootstrap"]
+
+[[bconds.python-snakemake-interface-scheduler-plugins]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
