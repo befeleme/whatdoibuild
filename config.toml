@@ -580,6 +580,12 @@ withs = ["bootstrap"]
 [[bconds.python-snakemake-interface-scheduler-plugins]]
 withs = ["bootstrap"]
 
+[[bconds.python-snakemake-interface-logger-plugins]]
+withs = ["bootstrap"]
+
+[[bconds.python-azure-mgmt-core]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
