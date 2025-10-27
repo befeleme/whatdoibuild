@@ -14,7 +14,6 @@ nordugrid-arc
 obs-studio
 pylibgamerzilla
 python-astroid
-python-azure-mgmt-core:tests::::
 python-backrefs
 python-beartype
 python-blessed
@@ -60,7 +59,6 @@ rmol
 python-rq
 python-rstr
 python-setproctitle
-python-snakemake-interface-logger-plugins::bootstrap:::
 libsolv
 python-sqlalchemy1.4
 python-stdlibs
