@@ -224,7 +224,7 @@ withouts = ["check","doc"]
 withouts = ["tests"]
 
 [[bconds.pybind11]]
-withouts = ["tests"]
+withouts = ["optional_tests"]
 
 [[bconds.python-nbconvert]]
 withouts = ["check", "doc"]
