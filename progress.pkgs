@@ -70,6 +70,7 @@ totpcgi
 trademgen
 python-translitcodec
 python-trio
+python-types-psutil
 python-uharfbuzz
 xapian-bindings
 python-xmlschema
