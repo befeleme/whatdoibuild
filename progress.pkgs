@@ -9,12 +9,12 @@ knot
 kopeninghours
 kvirc
 lammps
-libarrow
 link-grammar
 nordugrid-arc
 nwchem
 obs-studio
 pylibgamerzilla
+python-ana
 python-astroid
 python-backrefs
 python-beartype
@@ -28,8 +28,10 @@ dftd4
 python-dill
 dionaea
 root
+python-dnslib
 python-eth-stdlib
 gpgme
+python-huami-token
 javapackages-tools
 python-kadmin
 libkolabxml
@@ -64,7 +66,7 @@ python-setproctitle
 libsolv
 python-sqlalchemy1.4
 python-stdlibs
-python-tabulate
+python-tabulate::bootstrap:::
 python-tornado
 totpcgi
 trademgen
