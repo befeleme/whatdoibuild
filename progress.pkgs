@@ -14,7 +14,6 @@ nordugrid-arc
 nwchem
 obs-studio
 pylibgamerzilla
-python-ana
 python-astroid
 python-backrefs
 python-beartype
@@ -28,10 +27,8 @@ dftd4
 python-dill
 dionaea
 root
-python-dnslib
 python-eth-stdlib
 gpgme
-python-huami-token
 javapackages-tools
 python-kadmin
 libkolabxml
@@ -80,5 +77,4 @@ python-zlib-ng
 remmina
 renderdoc
 retis
-tiled
 weechat
