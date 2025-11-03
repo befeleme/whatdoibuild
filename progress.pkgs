@@ -2,6 +2,7 @@ Io-language
 bumpversion
 cantor
 ceph
+python-ebranch
 elements
 getdp
 khal
@@ -23,6 +24,7 @@ python-cairocffi
 python-chai
 cmake
 python-colcon-core
+python-colormath2
 dftd4
 python-dill
 dionaea
