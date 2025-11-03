@@ -586,6 +586,12 @@ withs = ["bootstrap"]
 [[bconds.python-azure-mgmt-core]]
 withouts = ["tests"]
 
+[[bconds.python-networkx]]
+withs = ["bootstrap"]
+
+[[bconds.python-questionary]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
