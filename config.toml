@@ -592,6 +592,9 @@ withs = ["bootstrap"]
 [[bconds.python-questionary]]
 withs = ["bootstrap"]
 
+[[bconds.python-paste-deploy]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
