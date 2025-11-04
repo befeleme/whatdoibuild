@@ -24,6 +24,7 @@ python-cairocffi
 python-chai
 cmake
 python-colcon-core
+python-copr-common
 dftd4
 python-dill
 dionaea
@@ -63,10 +64,8 @@ python-qt5
 rmol
 python-rq
 python-rstr
-python-setproctitle
 libsolv
 python-sqlalchemy1.4
-python-stdlibs
 python-tabulate::bootstrap:::
 python-tornado
 totpcgi
@@ -81,4 +80,5 @@ python-zlib-ng
 remmina
 renderdoc
 retis
+targetd
 weechat
