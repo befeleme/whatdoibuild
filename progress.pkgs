@@ -8,7 +8,6 @@ ceph
 elements
 quodlibet
 getdp
-kernel
 khal
 knot
 kopeninghours
@@ -37,7 +36,6 @@ python-dill
 dionaea
 root
 dnf-plugin-perfmetrics
-python-dunamai
 python-eth-stdlib
 python-exdir
 python-fido2
@@ -80,7 +78,6 @@ python-readme-renderer
 rmol
 python-rq
 python-rstr
-ruff
 libsolv
 python-sqlalchemy1.4
 python-tabulate::bootstrap:::
