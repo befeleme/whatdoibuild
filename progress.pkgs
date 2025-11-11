@@ -8,7 +8,6 @@ ceph
 elements
 quodlibet
 getdp
-git-imerge
 khal
 knot
 kopeninghours
@@ -40,6 +39,7 @@ dnf-plugin-perfmetrics
 python-eth-stdlib
 python-exdir
 python-fido2
+fonttools:graphite_extra-interpolatable_extra-plot_extra-symfont_extra-tests-ufo_extra-woff_extra::::
 python-fs
 gpgme
 javapackages-tools
@@ -88,7 +88,6 @@ totpcgi
 trademgen
 python-translitcodec
 python-trio
-python-uharfbuzz
 python-valkey
 xapian-bindings
 libyui
