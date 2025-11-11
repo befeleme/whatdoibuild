@@ -1,4 +1,5 @@
 Io-language
+python-apprise
 awscli2
 blueman
 breezy
@@ -39,7 +40,7 @@ dnf-plugin-perfmetrics
 python-eth-stdlib
 python-exdir
 python-fido2
-fonttools:graphite_extra-interpolatable_extra-plot_extra-symfont_extra-tests-ufo_extra-woff_extra::::
+python-flask-oidc
 python-fs
 gpgme
 javapackages-tools
@@ -55,11 +56,11 @@ libxc
 python-lmdb
 python-markdown-callouts
 python-markdown_2
+python-mechanicalsoup
 python-mirrors-countme
 moose
 netplan
 notmuch
-python-oauthlib
 onnxruntime
 opentrep
 python-pipdeptree
