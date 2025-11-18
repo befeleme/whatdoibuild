@@ -51,6 +51,7 @@ class RebuildContext:
         loop_detector: Map of components to their blocking components
         missing_packages: Map of components to their missing package names
         unresolvable_components: Set of components whose dependencies cannot be resolved
+        prerel_abi_blocked_components: Set of components blocked by unsatisfied prerel-abi dependencies
     """
     components: ReverseLookupDict
     components_done: ReverseLookupDict
@@ -63,6 +64,7 @@ class RebuildContext:
     loop_detector: dict = field(default_factory=dict)
     missing_packages: dict = field(default_factory=lambda: collections.defaultdict(set))
     unresolvable_components: set = field(default_factory=set)
+    prerel_abi_blocked_components: set = field(default_factory=set)
 
 
 def _query_packages_by_deps(sack_getter, deps, excluded_components):
@@ -291,9 +293,11 @@ def report_blocking_components(loop_detector):
         log('    • ' + ' → '.join(loop))
 
 
-def get_component_status_info(component, missing_packages, components, unresolvable_components):
+def get_component_status_info(component, missing_packages, components, unresolvable_components, prerel_abi_blocked_components=None):
     """Generate status information for a component explaining why it's blocked."""
-    if component in unresolvable_components:
+    if prerel_abi_blocked_components and component in prerel_abi_blocked_components:
+        return " (unsatisfied prerel-abi dependency)"
+    elif component in unresolvable_components:
         return " (can't resolve dependencies)"
     elif component in components:
         if component in missing_packages:
@@ -309,6 +313,67 @@ def get_component_status_info(component, missing_packages, components, unresolva
             return " (ready)"  # This should never happen, but keep it for debugging
     else:
         return f" (build failed)"
+
+
+def _filter_components_with_unsatisfied_prerel_abi(components_done):
+    """
+    Filter out components that have unsatisfied python(prerel-abi) dependencies.
+
+    Some packages require python(prerel-abi) = X.Y.Z~alphaN which should match
+    the current_version defined in config.toml [prerel] section.
+
+    Args:
+        components_done: ReverseLookupDict of components that have been built
+
+    Returns:
+        Tuple of (filtered_components, blocked_components) where:
+        - filtered_components: ReverseLookupDict with components that have matching prerel-abi removed
+        - blocked_components: set of component names that were filtered (should not be rebuilt)
+    """
+    import re
+
+    # Get the expected prerel-abi version from config
+    expected_version = CONFIG.get('prerel', {}).get('current_version')
+    if not expected_version:
+        log('  • Warning: No prerel.current_version found in config.toml, skipping prerel-abi filtering')
+        return components_done, set()
+
+    filtered = ReverseLookupDict()
+    blocked_components = set()
+
+    for component, packages in components_done.items():
+        component_has_unsatisfied_prerel = False
+
+        for pkg in packages:
+            for req in pkg.requires:
+                req_str = str(req)
+                if 'python(prerel-abi)' in req_str:
+                    # Extract version from requirement string
+                    # Format: python(prerel-abi) = X.Y.Z~alphaN
+                    match = re.search(r'python\(prerel-abi\)\s*=\s*([^\s]+)', req_str)
+                    if match:
+                        required_version = match.group(1)
+                        if required_version != expected_version:
+                            log(f'  • Filtering {component}: required {req_str}, expected python(prerel-abi) = {expected_version}')
+                            component_has_unsatisfied_prerel = True
+                            blocked_components.add(component)
+                            break
+                    else:
+                        log(f'  • Warning: Could not parse prerel-abi requirement: {req_str}')
+
+            if component_has_unsatisfied_prerel:
+                break
+
+        # Only include this component if it doesn't have unsatisfied prerel-abi deps
+        if not component_has_unsatisfied_prerel:
+            filtered[component] = packages
+
+    filtered.default_factory = None
+
+    if blocked_components:
+        log(f'• Filtered out {len(blocked_components)} components with unsatisfied prerel-abi dependencies.')
+
+    return filtered, blocked_components
 
 
 def initialize_component_data():
@@ -330,12 +395,16 @@ def initialize_component_data():
         excluded_components=tuple(CONFIG['components']['excluded'])
     )
     
+    # Filter out components with unsatisfied prerel-abi dependencies
+    components_done, prerel_abi_blocked = _filter_components_with_unsatisfied_prerel_abi(components_done)
+    
     binary_rpms = components.all_values()
     
     return RebuildContext(
         components=components,
         components_done=components_done,
-        binary_rpms=binary_rpms
+        binary_rpms=binary_rpms,
+        prerel_abi_blocked_components=prerel_abi_blocked
     )
 
 
@@ -480,12 +549,18 @@ def generate_reports(ctx):
     """
     log('\nThe 50 most commonly needed components are:')
     for component, count in ctx.blocker_counter['general'].most_common(50):
-        status_info = get_component_status_info(component, ctx.missing_packages, ctx.components, ctx.unresolvable_components)
+        status_info = get_component_status_info(
+            component, ctx.missing_packages, ctx.components, 
+            ctx.unresolvable_components, ctx.prerel_abi_blocked_components
+        )
         log(f'{count:>5} {component:<35} {status_info}')
     
     log('\nThe 20 most commonly last-blocking components are:')
     for component, count in ctx.blocker_counter['single'].most_common(20):
-        status_info = get_component_status_info(component, ctx.missing_packages, ctx.components, ctx.unresolvable_components)
+        status_info = get_component_status_info(
+            component, ctx.missing_packages, ctx.components,
+            ctx.unresolvable_components, ctx.prerel_abi_blocked_components
+        )
         log(f'{count:>5} {component:<35} {status_info}')
     
     log('\nThe 20 most commonly last-blocking small combinations of components are:')
