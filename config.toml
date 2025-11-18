@@ -74,6 +74,9 @@ baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.15/f
 # baseurl = ["http://kojipkgs.fedoraproject.org/repos/f44-build/latest/$basearch/"]
 metadata_expire = 60
 
+[prerel]
+current_version = "3.15.0~alpha7"
+
 [bconds]
 [[bconds.python-setuptools]]
 withs = ["bootstrap"]
