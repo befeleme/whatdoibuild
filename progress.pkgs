@@ -8,6 +8,7 @@ cantor
 ceph
 elements
 quodlibet
+fmf-jinja
 getdp
 khal
 kopeninghours
@@ -15,7 +16,6 @@ kvirc
 lammps
 libreoffice
 link-grammar
-nordugrid-arc
 powerline
 pylibgamerzilla
 python-ansible-pylibssh
@@ -27,7 +27,6 @@ python-botocore
 python-cairocffi
 python-chai
 cmake
-python-colcon-core
 dftd4
 python-dill
 dionaea
@@ -43,10 +42,10 @@ jc
 python-kadmin
 libkolabxml
 python-lazy-object-proxy
+samba
 lensfun
 libftdi
 librepo
-libxc
 python-markdown-callouts
 python-markdown_2
 python-mechanicalsoup
@@ -65,10 +64,10 @@ pygame
 pyproj
 sip
 python-pyqt6
-python-pysdl2
 python-qt5
 python-readme-renderer
 rmol
+python-rpyc
 python-rq
 python-rstr
 scipy:pythran::::
