@@ -3,7 +3,6 @@ python-apprise
 awscli2
 blueman
 breezy
-bumpversion
 cantor
 ceph
 elements
@@ -16,13 +15,11 @@ libreoffice
 link-grammar
 powerline
 pylibgamerzilla
-python-ansible-pylibssh
 python-backrefs
 python-beartype
 python-blessed
 bmap-tools
 python-botocore
-python-cairocffi
 python-chai
 cmake
 python-coincurve
@@ -61,7 +58,6 @@ python-pulp
 python-pure-eval
 pygame
 pyproj
-sip
 python-pyqt6
 python-qt5
 python-readme-renderer
