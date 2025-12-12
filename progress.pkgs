@@ -11,7 +11,6 @@ khal
 kvirc
 libreoffice
 link-grammar
-lirc
 powerline
 python-backrefs
 python-beartype
@@ -36,9 +35,7 @@ python-kadmin
 python-lazy-object-proxy
 samba
 librepo
-python-manatools
 python-markdown-callouts
-python-markdown_2
 python-mechanicalsoup
 python-mirrors-countme
 moose
@@ -65,10 +62,8 @@ python-tabulate::bootstrap:::
 python-time-machine
 python-tinygrad
 python-tornado
-totpcgi
 trademgen
 python-translitcodec
-urjtag
 python-valkey
 xapian-bindings
 python-zlib-ng
