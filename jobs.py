@@ -247,7 +247,7 @@ def are_all_done(component, packages_to_check, ctx):
                 else:
                     log(f'      ✗ {required_package.name}')
                 
-                ctx.missing_packages[component].add(required_package.name)
+                ctx.missing_packages[component].add(relevant_component)
                 all_available = False
                 component_is_blocking = True
         
