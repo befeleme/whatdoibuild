@@ -598,6 +598,9 @@ withouts = ["tests"]
 [[bconds.python-llm]]
 withouts = ["tests"]
 
+[[bconds.python-rjsmin]]
+withouts = ["docs"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
