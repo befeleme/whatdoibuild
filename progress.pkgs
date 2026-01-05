@@ -1,14 +1,13 @@
 python-apprise
 awscli2
-blueman
 borgbackup
 breezy
 cantor
 ceph
+cmakelang
 quodlibet
 libreoffice
 link-grammar
-powerline
 python-autopage
 python-backrefs
 python-beartype
@@ -39,10 +38,8 @@ python-mirrors-countme
 moose
 netplan
 onnxruntime
-opentrep
 python-pikepdf
 python-pipdeptree
-python-precis_i18n
 protobuf
 python-psycopg2
 python-pure-eval
@@ -67,4 +64,3 @@ renderdoc
 retis
 rpmlint
 xen
-yle-dl
