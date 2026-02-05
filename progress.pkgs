@@ -6,7 +6,6 @@ quodlibet
 kicad
 libreoffice
 pcs
-python-autopage
 python-backrefs
 python-beartype
 bmap-tools
@@ -16,19 +15,16 @@ python-cheroot
 python-coincurve
 root
 python-exdir
+python-exiv2
 python-falcon
 python-fido2
-python-filecheck
-python-flask-babel
 python-flask-oidc
 python-giacpy
 python-inquirer
 jc
 python-joblib
 python-kadmin
-libcamera
 libkml
-librealsense
 libsvm
 python-markdown-callouts
 python-matplotlib
@@ -52,7 +48,6 @@ python-readme-renderer
 python-rstr
 scipy:pythran::::
 swig
-sword
 python-tabulate::bootstrap:::
 python-time-machine
 python-translitcodec
