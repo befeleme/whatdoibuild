@@ -1,11 +1,15 @@
+amdsmi
 ansible-core
 python-apprise
-cmakelang
 esptool
 quodlibet
 kicad
 libreoffice
+osc
 pcs
+python-azure-storage-file-datalake
+python-azure-storage-file-share
+python-azure-storage-queue
 python-backrefs
 python-beartype
 bmap-tools
@@ -24,6 +28,7 @@ python-inquirer
 jc
 python-joblib
 python-kadmin
+kiwi-boxed-plugin
 libkml
 libsvm
 python-markdown-callouts
@@ -32,10 +37,10 @@ python-mirrors-countme
 moose
 python-multiprocess
 mupdf
+python-opentelemetry-api
 openvino
 petsc
 python-pipdeptree
-python-progressbar2
 python-psycopg2
 python-pure-eval
 python-pygtkspellcheck
@@ -60,3 +65,4 @@ python-zlib-ng
 python-zope-testrunner
 renderdoc
 rpmlint
+tito
