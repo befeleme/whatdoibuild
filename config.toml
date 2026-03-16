@@ -106,9 +106,6 @@ withouts = ["doc"]
 withs = ["bootstrap"]
 withouts = ["tests"]
 
-[[bconds.python-mock]]
-withouts = ["tests"]
-
 [[bconds.python-extras]]
 withs = ["bootstrap"]
 
