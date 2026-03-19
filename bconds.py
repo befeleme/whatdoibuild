@@ -1,6 +1,7 @@
 import argparse
 import datetime
 import functools
+import json
 import os
 import pathlib
 import sys
@@ -291,6 +292,143 @@ def build_reverse_id_lookup():
         pass
 
 
+def serialize_bcond_config(bcond_config):
+    """
+    Convert bcond_config to JSON-serializable dict.
+    Handles Path → str and tuple → list conversions.
+    """
+    serialized = {}
+
+    for key in ('withs', 'withouts', 'replacements'):
+        if key in bcond_config:
+            serialized[key] = bcond_config[key]
+
+    serialized['id'] = bcond_config['id']
+
+    if 'koji_task_id' in bcond_config:
+        serialized['koji_task_id'] = bcond_config['koji_task_id']
+
+    # Store only SRPM filename (not full path, as paths differ between users)
+    if 'srpm' in bcond_config:
+        serialized['srpm_filename'] = bcond_config['srpm'].name
+
+    # Convert tuple to list for JSON
+    if 'buildrequires' in bcond_config:
+        serialized['buildrequires'] = list(bcond_config['buildrequires'])
+
+    return serialized
+
+
+def deserialize_bcond_config(config_dict):
+    """
+    Convert JSON dict back to bcond_config format.
+    Reconstructs Path and converts list → tuple.
+    """
+    bcond_config = {}
+
+    for key in ('withs', 'withouts', 'replacements', 'id', 'koji_task_id'):
+        if key in config_dict:
+            bcond_config[key] = config_dict[key]
+
+    if 'srpm_filename' in config_dict:
+        repopath = pathlib.Path(CONFIG['cache_dir']['fedpkg']) / config_dict['id']
+        srpm_path = repopath / config_dict['srpm_filename']
+        # Only set if file exists (user may not have downloaded it)
+        if srpm_path.exists():
+            bcond_config['srpm'] = srpm_path
+
+    # Convert list to tuple (rpm_requires returns tuple for caching)
+    if 'buildrequires' in config_dict:
+        bcond_config['buildrequires'] = tuple(config_dict['buildrequires'])
+
+    return bcond_config
+
+
+def save_bconds_cache(filename='bconds_cache.json'):
+    """
+    Save bcond configurations with BuildRequires to JSON file.
+    Only saves configs that have 'buildrequires' populated.
+    Merges with existing cache file if it exists.
+    Removes cached entries for components no longer in config.toml.
+    """
+    # Load existing cache if it exists
+    existing_bconds = {}
+    try:
+        with open(filename) as f:
+            existing_cache = json.load(f)
+            existing_bconds = existing_cache.get('bconds', {})
+    except FileNotFoundError:
+        pass  # No existing cache, start fresh
+    except json.JSONDecodeError as e:
+        log(f'Warning: Could not parse existing cache file, will overwrite: {e}')
+
+    # Collect new configs with buildrequires
+    new_bconds = {}
+    for component_name, bcond_configs in CONFIG['bconds'].items():
+        configs_with_br = [
+            serialize_bcond_config(cfg)
+            for cfg in bcond_configs
+            if 'buildrequires' in cfg
+        ]
+        if configs_with_br:
+            new_bconds[component_name] = configs_with_br
+
+    # Merge: start with existing cache, but only keep components still in config.toml
+    merged_bconds = {}
+    for component_name in CONFIG['bconds'].keys():
+        # Prefer new data if available, otherwise keep existing
+        if component_name in new_bconds:
+            merged_bconds[component_name] = new_bconds[component_name]
+        elif component_name in existing_bconds:
+            merged_bconds[component_name] = existing_bconds[component_name]
+
+    cache_data = {
+        'generated_at': datetime.datetime.now().isoformat(),
+        'bconds': merged_bconds
+    }
+
+    try:
+        with open(filename, 'w') as f:
+            json.dump(cache_data, f, indent=2)
+        return len([cfg for configs in merged_bconds.values() for cfg in configs])
+    except Exception as e:
+        log(f'Warning: Failed to save bconds cache: {e}')
+        return 0
+
+
+def load_bconds_cache(filename='bconds_cache.json'):
+    """
+    Load bcond configurations from JSON file into CONFIG['bconds'].
+    Returns number of configs loaded.
+    """
+    try:
+        with open(filename) as f:
+            cache_data = json.load(f)
+    except FileNotFoundError:
+        raise FileNotFoundError(f'Cache file {filename} not found')
+    except json.JSONDecodeError as e:
+        raise ValueError(f'Invalid JSON in cache file: {e}')
+
+    loaded_count = 0
+    for component_name, config_dicts in cache_data.get('bconds', {}).items():
+        # Ensure component exists in CONFIG['bconds']
+        if component_name not in CONFIG['bconds']:
+            log(f'Warning: Component {component_name} in cache but not in config.toml, skipping')
+            continue
+
+        # Match cached configs to existing configs by ID
+        for config_dict in config_dicts:
+            deserialized = deserialize_bcond_config(config_dict)
+
+            for existing_config in CONFIG['bconds'][component_name]:
+                if existing_config.get('id') == deserialized['id']:
+                    existing_config.update(deserialized)
+                    loaded_count += 1
+                    break
+
+    return loaded_count
+
+
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -335,5 +473,12 @@ if __name__ == '__main__':
         koji_status.cache_clear()
 
     log(f'Extracted BuildRequires from {extracted_count} SRPMs.')
+
+    # Save cache if any BuildRequires were extracted
+    if extracted_count > 0:
+        saved_count = save_bconds_cache()
+        if saved_count > 0:
+            log(f'Saved {saved_count} bcond configs to bconds_cache.json')
+
     if not_extracted_count := sum(len(bcond_configs) for bcond_configs in CONFIG['bconds'].values()) - extracted_count:
         sys.exit(f'{not_extracted_count} SRPMs remain to be built/downloaded/extracted, run this again in a while.')
