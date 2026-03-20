@@ -3,9 +3,6 @@ llvm
 diffoscope
 fapolicy-analyzer
 kernel
-kicad
-libreoffice
-mercurial
 opae
 osc
 python-pyside6
@@ -33,11 +30,9 @@ dionaea
 root
 espresso
 python-exiv2
-python-flask-oidc
 python-inquirer
 jc
 python-joblib
-python-kadmin
 libCombine
 libftdi
 libkml
@@ -51,7 +46,6 @@ python-neo
 netplan
 python-patsy
 petsc
-python-pipdeptree
 python-psycopg2
 python-pygtkspellcheck
 pylint
