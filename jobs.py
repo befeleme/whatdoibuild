@@ -1,6 +1,7 @@
 import collections
 from dataclasses import dataclass, field
 import functools
+import json
 import os
 import sys
 
@@ -291,6 +292,7 @@ def report_blocking_components(loop_detector):
     log('\nDetected dependency loops:')
     for loop in sorted(loops, key=lambda t: -len(t)):
         log('    • ' + ' → '.join(loop))
+    return loops
 
 
 def get_component_status_info(component, missing_packages, components, unresolvable_components, prerel_abi_blocked_components=None):
@@ -540,13 +542,35 @@ def process_component(component, ctx):
         check_bcond_builds(component, number_of_resolved, ctx)
 
 
+def assemble_component_info(component, count, ctx):
+    entry = {
+        'component': component,
+        'count': count,
+    }
+    if component in ctx.unresolvable_components:
+        entry['unresolvable'] = True
+    if component in ctx.prerel_abi_blocked_components:
+        entry['prerel_abi_blocked'] = True
+    if component in ctx.missing_packages:
+        entry['blocked_by'] = sorted(ctx.missing_packages[component])
+    return entry
+
+
 def generate_reports(ctx):
     """
     Generate and print all summary reports.
-    
+    Also saves the report data to commonly-needed-report.json.
+
     Args:
         ctx: RebuildContext with statistics and component data
     """
+    report_data = {
+        'most_commonly_needed': [],
+        'most_commonly_last_blocking': [],
+        'most_commonly_last_blocking_combinations': [],
+        'dependency_loops': []
+    }
+
     log('\nThe 50 most commonly needed components are:')
     for component, count in ctx.blocker_counter['general'].most_common(50):
         status_info = get_component_status_info(
@@ -554,7 +578,10 @@ def generate_reports(ctx):
             ctx.unresolvable_components, ctx.prerel_abi_blocked_components
         )
         log(f'{count:>5} {component:<35} {status_info}')
-    
+
+        entry = assemble_component_info(component, count, ctx)
+        report_data['most_commonly_needed'].append(entry)
+
     log('\nThe 20 most commonly last-blocking components are:')
     for component, count in ctx.blocker_counter['single'].most_common(20):
         status_info = get_component_status_info(
@@ -562,12 +589,25 @@ def generate_reports(ctx):
             ctx.unresolvable_components, ctx.prerel_abi_blocked_components
         )
         log(f'{count:>5} {component:<35} {status_info}')
-    
+
+        entry = assemble_component_info(component, count, ctx)
+        report_data['most_commonly_last_blocking'].append(entry)
+
     log('\nThe 20 most commonly last-blocking small combinations of components are:')
     for components_tuple, count in ctx.blocker_counter['combinations'].most_common(20):
         log(f'{count:>5} {", ".join(components_tuple)}')
-    
-    report_blocking_components(ctx.loop_detector)
+
+        report_data['most_commonly_last_blocking_combinations'].append({
+            'components': list(components_tuple),
+            'count': count
+        })
+
+    loops = report_blocking_components(ctx.loop_detector)
+    report_data['dependency_loops'] = [list(loop) for loop in loops] 
+
+    with open('commonly-needed-report.json', 'w') as f:
+        json.dump(report_data, f, indent=2)
+    log('\nReport saved to commonly-needed-report.json')
 
 
 def main():
