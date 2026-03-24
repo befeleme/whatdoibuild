@@ -3,7 +3,6 @@ llvm
 diffoscope
 fapolicy-analyzer
 kernel
-opae
 osc
 python-pyside6
 python-ansible-runner
@@ -24,6 +23,7 @@ python-beartype
 bmap-tools
 python-bytecode
 python-chai
+llvm21
 subscription-manager
 python-cytoolz
 dionaea
