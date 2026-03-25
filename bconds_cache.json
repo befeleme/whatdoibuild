@@ -3226,6 +3226,32 @@
         ]
       }
     ],
+    "python-django6": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-django6:tests::::",
+        "srpm_filename": "python-django6-6.0.2-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "bash-completion",
+          "make",
+          "pyproject-rpm-macros",
+          "python3-asgiref",
+          "python3-devel",
+          "python3dist(asgiref) >= 3.9.1",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyenchant)",
+          "python3dist(setuptools) >= 77.0.3",
+          "python3dist(sphinx) >= 4.5",
+          "python3dist(sphinx-lint)",
+          "python3dist(sphinxcontrib-spelling)",
+          "python3dist(sqlparse) >= 0.5"
+        ]
+      }
+    ],
     "python-pyproject-hooks": [
       {
         "withouts": [

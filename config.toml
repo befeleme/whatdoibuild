@@ -520,6 +520,9 @@ withouts = ["tests"]
 [[bconds.python-django5]]
 withouts = ["tests"]
 
+[[bconds.python-django6]]
+withouts = ["tests"]
+
 [[bconds.python-pyproject-hooks]]
 withouts = ["tests"]
 
