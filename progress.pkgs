@@ -44,11 +44,11 @@ morphio
 python-multiprocess
 python-neo
 netplan
+python-oslo-config:::repo_bootstrap::
 python-patsy
 petsc
 python-psycopg2
 python-pygtkspellcheck
-pylint
 pyproj
 python-pyqt6
 python-pyvmomi
@@ -69,4 +69,3 @@ python-zope-testrunner
 recoll
 renderdoc
 rpmlint
-sourcextractor++
