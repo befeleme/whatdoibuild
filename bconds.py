@@ -462,7 +462,7 @@ if __name__ == '__main__':
             if args.packages and pkg not in args.packages:
                 continue
             for bcond_config in bcond_configs:
-                if 'buildrequires' not in bcond_config:
+                if 'srpm' not in bcond_config:
                     something_was_downloaded |= download_srpm_if_possible(bcond_config)
                     if extract_buildrequires_if_possible(bcond_config):
                         extracted_count += 1
