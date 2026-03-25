@@ -607,6 +607,9 @@ withouts = ["tests"]
 [[bconds.python-menuinst]]
 withs = ["bootstrap"]
 
+[[bconds.python-cliff]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
