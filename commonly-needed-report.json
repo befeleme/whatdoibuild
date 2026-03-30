@@ -136,7 +136,6 @@
         "python-cmd2",
         "python-debtcollector",
         "python-oslo-config",
-        "python-oslo-context",
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
