@@ -1,4 +1,3 @@
-python-apprise
 llvm
 diffoscope
 fapolicy-analyzer
@@ -45,6 +44,7 @@ python-multiprocess
 python-neo
 netplan
 python-oslo-config:::repo_bootstrap::
+python-oslo-context
 python-patsy
 petsc
 python-psycopg2
@@ -55,6 +55,7 @@ python-pyvmomi
 qpid-proton
 python-qt5
 python-readme-renderer
+python-rnc2rng
 python-rstr
 python-symengine
 python-time-machine
