@@ -64,7 +64,6 @@ xapian-bindings
 xcfun
 libyui
 python-zlib-ng
-python-zope-testrunner
 recoll
 renderdoc
 rpmlint
