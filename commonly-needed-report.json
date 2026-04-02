@@ -21,7 +21,6 @@
       "count": 75,
       "blocked_by": [
         "python-pg8000",
-        "python-psycopg2",
         "python-scramp"
       ]
     },
@@ -218,10 +217,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-psycopg2",
-      "count": 14
-    },
-    {
       "component": "python-keystoneclient",
       "count": 14,
       "blocked_by": [
@@ -292,13 +287,6 @@
       "count": 12,
       "blocked_by": [
         "python-orjson"
-      ]
-    },
-    {
-      "component": "python3-openid",
-      "count": 12,
-      "blocked_by": [
-        "python-psycopg2"
       ]
     },
     {
@@ -416,13 +404,6 @@
       ]
     },
     {
-      "component": "python-peewee",
-      "count": 9,
-      "blocked_by": [
-        "python-psycopg2"
-      ]
-    },
-    {
       "component": "python-backrefs",
       "count": 9
     },
@@ -443,15 +424,36 @@
     {
       "component": "python-zarr",
       "count": 9
+    },
+    {
+      "component": "python-blosc2",
+      "count": 9,
+      "blocked_by": [
+        "python-ndindex"
+      ]
+    },
+    {
+      "component": "python-pydantic-settings",
+      "count": 9,
+      "blocked_by": [
+        "python-pydantic",
+        "python-pydantic-core"
+      ]
+    },
+    {
+      "component": "python-watchfiles",
+      "count": 8,
+      "blocked_by": [
+        "python-dirty-equals"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-sqlalchemy",
-      "count": 18,
+      "count": 19,
       "blocked_by": [
         "python-pg8000",
-        "python-psycopg2",
         "python-scramp"
       ]
     },
@@ -473,17 +475,6 @@
       "blocked_by": [
         "python-deepdiff"
       ]
-    },
-    {
-      "component": "python-peewee",
-      "count": 6,
-      "blocked_by": [
-        "python-psycopg2"
-      ]
-    },
-    {
-      "component": "python-psycopg2",
-      "count": 6
     },
     {
       "component": "python-time-machine",
@@ -509,13 +500,6 @@
       "count": 5,
       "blocked_by": [
         "pyproj"
-      ]
-    },
-    {
-      "component": "python3-openid",
-      "count": 5,
-      "blocked_by": [
-        "python-psycopg2"
       ]
     },
     {
@@ -583,6 +567,27 @@
     {
       "component": "python-joblib",
       "count": 3
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "python-matplotlib",
+      "count": 2
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-ftfy",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -652,6 +657,13 @@
     },
     {
       "components": [
+        "python-alembic",
+        "python-sqlalchemy"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
         "python-google-api-core",
         "python-proto-plus"
       ],
@@ -717,23 +729,8 @@
     },
     {
       "components": [
-        "python-openid-cla",
-        "python-openid-teams",
-        "python3-openid"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-cattrs",
         "python-requests-cache"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-alembic",
-        "python-sqlalchemy"
       ],
       "count": 2
     },
@@ -745,6 +742,13 @@
         "python-pydantic",
         "python-pydantic-core",
         "python-python-ulid"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-flask-sqlalchemy",
+        "python-sqlalchemy"
       ],
       "count": 2
     }
