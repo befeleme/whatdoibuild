@@ -3153,7 +3153,7 @@
           "inline_snapshot_tests"
         ],
         "id": "python-pydantic-core:inline_snapshot_tests::::",
-        "srpm_filename": "python-pydantic-core-2.41.5-3.fc45.src.rpm",
+        "srpm_filename": "python-pydantic-core-2.41.5-4.fc45.src.rpm",
         "buildrequires": [
           "(crate(ahash/default) >= 0.8.12 with crate(ahash/default) < 0.9.0~)",
           "(crate(base64/default) >= 0.22.1 with crate(base64/default) < 0.23.0~)",

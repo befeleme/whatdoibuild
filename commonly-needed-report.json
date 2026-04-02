@@ -1,20 +1,8 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic-core",
-      "count": 105,
-      "blocked_by": [
-        "python-dirty-equals",
-        "python-inline-snapshot"
-      ]
-    },
-    {
       "component": "python-pydantic",
-      "count": 104,
-      "blocked_by": [
-        "python-dirty-equals",
-        "python-pydantic-core"
-      ]
+      "count": 104
     },
     {
       "component": "python-sqlalchemy",
@@ -106,10 +94,8 @@
       "component": "python-sqlmodel",
       "count": 24,
       "blocked_by": [
-        "python-dirty-equals",
         "python-fastapi",
         "python-pydantic",
-        "python-pydantic-core",
         "python-sqlalchemy"
       ]
     },
@@ -161,7 +147,6 @@
         "python-google-cloud-storage",
         "python-proto-plus",
         "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
@@ -244,8 +229,7 @@
       "count": 14,
       "blocked_by": [
         "python-cytoolz",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-pydantic"
       ]
     },
     {
@@ -284,18 +268,7 @@
     },
     {
       "component": "python-cattrs",
-      "count": 12,
-      "blocked_by": [
-        "python-orjson"
-      ]
-    },
-    {
-      "component": "python-dirty-equals",
-      "count": 12,
-      "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
-      ]
+      "count": 12
     },
     {
       "component": "python-cinderclient",
@@ -308,13 +281,6 @@
         "python-oslo-serialization",
         "python-oslo-utils",
         "python-stestr"
-      ]
-    },
-    {
-      "component": "python-orjson",
-      "count": 11,
-      "blocked_by": [
-        "python-pendulum"
       ]
     },
     {
@@ -436,19 +402,41 @@
       "component": "python-pydantic-settings",
       "count": 9,
       "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-pydantic"
       ]
     },
     {
       "component": "python-watchfiles",
+      "count": 8
+    },
+    {
+      "component": "fonttools",
       "count": 8,
       "blocked_by": [
-        "python-dirty-equals"
+        "fonttools",
+        "python-glyphsLib",
+        "python-ufo2ft",
+        "python-ufoLib2",
+        "sympy"
+      ]
+    },
+    {
+      "component": "poetry",
+      "count": 8
+    },
+    {
+      "component": "python-versioningit",
+      "count": 8,
+      "blocked_by": [
+        "python-pydantic"
       ]
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-pydantic",
+      "count": 28
+    },
     {
       "component": "python-sqlalchemy",
       "count": 19,
@@ -471,28 +459,13 @@
     },
     {
       "component": "poetry",
-      "count": 7,
-      "blocked_by": [
-        "python-deepdiff"
-      ]
-    },
-    {
-      "component": "python-time-machine",
-      "count": 5
-    },
-    {
-      "component": "python-orjson",
-      "count": 5,
-      "blocked_by": [
-        "python-pendulum"
-      ]
+      "count": 7
     },
     {
       "component": "python-versioningit",
       "count": 5,
       "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-pydantic"
       ]
     },
     {
@@ -526,6 +499,13 @@
       ]
     },
     {
+      "component": "python-gitlab",
+      "count": 3,
+      "blocked_by": [
+        "python-gql"
+      ]
+    },
+    {
       "component": "libyui",
       "count": 3,
       "prerel_abi_blocked": true
@@ -534,8 +514,7 @@
       "component": "python-oci",
       "count": 3,
       "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-pydantic"
       ]
     },
     {
@@ -550,19 +529,8 @@
       ]
     },
     {
-      "component": "python-dirty-equals",
-      "count": 3,
-      "blocked_by": [
-        "python-pydantic",
-        "python-pydantic-core"
-      ]
-    },
-    {
       "component": "python-cattrs",
-      "count": 3,
-      "blocked_by": [
-        "python-orjson"
-      ]
+      "count": 3
     },
     {
       "component": "python-joblib",
@@ -588,20 +556,17 @@
         "python-spdx-tools",
         "scancode-toolkit"
       ]
+    },
+    {
+      "component": "libftdi",
+      "count": 2,
+      "prerel_abi_blocked": true
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
         "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 27
-    },
-    {
-      "components": [
-        "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-sqlalchemy",
         "python-sqlmodel",
@@ -643,8 +608,7 @@
       "components": [
         "python-cytoolz",
         "python-eth-utils",
-        "python-pydantic",
-        "python-pydantic-core"
+        "python-pydantic"
       ],
       "count": 5
     },
@@ -668,13 +632,6 @@
         "python-proto-plus"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "rpkg",
-        "rpmlint"
-      ],
-      "count": 3
     },
     {
       "components": [
@@ -722,7 +679,6 @@
     {
       "components": [
         "python-pydantic",
-        "python-pydantic-core",
         "python-pydantic-settings"
       ],
       "count": 3
@@ -736,11 +692,9 @@
     },
     {
       "components": [
-        "python-jiter",
         "python-llm",
         "python-openai",
         "python-pydantic",
-        "python-pydantic-core",
         "python-python-ulid"
       ],
       "count": 2
@@ -749,6 +703,21 @@
       "components": [
         "python-flask-sqlalchemy",
         "python-sqlalchemy"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "conda",
+        "conda-build",
+        "python-menuinst"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-celery",
+        "python-kombu"
       ],
       "count": 2
     }
