@@ -421,14 +421,24 @@
       ]
     },
     {
-      "component": "poetry",
-      "count": 8
-    },
-    {
       "component": "python-versioningit",
       "count": 8,
       "blocked_by": [
         "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-oslo-log",
+      "count": 8,
+      "blocked_by": [
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-oslo-config",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-reno",
+        "python-stestr"
       ]
     }
   ],
@@ -456,10 +466,6 @@
       "blocked_by": [
         "llvm"
       ]
-    },
-    {
-      "component": "poetry",
-      "count": 7
     },
     {
       "component": "python-versioningit",
@@ -559,6 +565,11 @@
     },
     {
       "component": "libftdi",
+      "count": 2,
+      "prerel_abi_blocked": true
+    },
+    {
+      "component": "qpid-proton",
       "count": 2,
       "prerel_abi_blocked": true
     }

@@ -1,12 +1,12 @@
 alot
 llvm
-copr-dist-git
 diffoscope
 eric
 fapolicy-analyzer
-fedpkg
 kernel
+mass-prebuild
 mlpack
+nanopb
 osc
 paraview
 pyp2rpm
@@ -40,6 +40,7 @@ root
 python-django-allauth
 espresso
 python-exiv2
+python-ftfy
 python-graph-tool
 python-inquirer
 jc
@@ -53,6 +54,7 @@ moose
 morphio
 python-multiprocess
 python-neo
+python-netmiko
 netplan
 python-opytimizer
 python-oslo-config:::repo_bootstrap::
@@ -60,11 +62,12 @@ python-partd
 python-patsy
 pcp
 petsc
-poetry
+python-poetry-plugin-export
 python-pydantic
 python-pygtkspellcheck
 python-pynwb
 pyproj
+python-pyshacl
 python-pyvmomi
 python-qcustomplot-pyqt
 qpid-proton
@@ -75,9 +78,9 @@ python-scikit-image
 python-simple-salesforce
 python-symengine
 python-textual
+python-toml-cli
 python-translitcodec
 python-treq
-python-trx-python
 python-watchfiles
 python-websockets
 xapian-bindings
@@ -88,4 +91,5 @@ python-zlib-ng
 rebase-helper
 recoll
 renderdoc
+rss2email
 vimiv-qt
