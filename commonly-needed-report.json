@@ -1,15 +1,10 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic",
-      "count": 104
-    },
-    {
       "component": "python-sqlalchemy",
       "count": 75,
       "blocked_by": [
-        "python-pg8000",
-        "python-scramp"
+        "python-pg8000"
       ]
     },
     {
@@ -95,7 +90,6 @@
       "count": 24,
       "blocked_by": [
         "python-fastapi",
-        "python-pydantic",
         "python-sqlalchemy"
       ]
     },
@@ -146,7 +140,6 @@
         "python-google-cloud-core",
         "python-google-cloud-storage",
         "python-proto-plus",
-        "python-pydantic",
         "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
@@ -228,8 +221,7 @@
       "component": "python-eth-utils",
       "count": 14,
       "blocked_by": [
-        "python-cytoolz",
-        "python-pydantic"
+        "python-cytoolz"
       ]
     },
     {
@@ -399,13 +391,6 @@
       ]
     },
     {
-      "component": "python-pydantic-settings",
-      "count": 9,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-watchfiles",
       "count": 8
     },
@@ -421,13 +406,6 @@
       ]
     },
     {
-      "component": "python-versioningit",
-      "count": 8,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-oslo-log",
       "count": 8,
       "blocked_by": [
@@ -440,19 +418,38 @@
         "python-reno",
         "python-stestr"
       ]
+    },
+    {
+      "component": "python-fastapi",
+      "count": 7,
+      "blocked_by": [
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-sqlalchemy",
+        "python-sqlmodel",
+        "python-uvicorn",
+        "python-watchfiles",
+        "python-websockets"
+      ]
+    },
+    {
+      "component": "python-jupyterlab-widgets",
+      "count": 7,
+      "blocked_by": [
+        "jupyterlab"
+      ]
+    },
+    {
+      "component": "python-multiprocess",
+      "count": 7
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "python-pydantic",
-      "count": 28
-    },
-    {
       "component": "python-sqlalchemy",
       "count": 19,
       "blocked_by": [
-        "python-pg8000",
-        "python-scramp"
+        "python-pg8000"
       ]
     },
     {
@@ -468,17 +465,22 @@
       ]
     },
     {
-      "component": "python-versioningit",
+      "component": "python-websockets",
       "count": 5,
-      "blocked_by": [
-        "python-pydantic"
-      ]
+      "prerel_abi_blocked": true
     },
     {
       "component": "python-shapely",
       "count": 5,
       "blocked_by": [
         "pyproj"
+      ]
+    },
+    {
+      "component": "python-gitlab",
+      "count": 4,
+      "blocked_by": [
+        "python-gql"
       ]
     },
     {
@@ -492,9 +494,11 @@
       ]
     },
     {
-      "component": "python-websockets",
+      "component": "conda",
       "count": 4,
-      "prerel_abi_blocked": true
+      "blocked_by": [
+        "conda"
+      ]
     },
     {
       "component": "jupyterlab",
@@ -505,22 +509,17 @@
       ]
     },
     {
-      "component": "python-gitlab",
-      "count": 3,
-      "blocked_by": [
-        "python-gql"
-      ]
-    },
-    {
       "component": "libyui",
       "count": 3,
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-oci",
+      "component": "python-jsonpickle",
       "count": 3,
       "blocked_by": [
-        "python-pydantic"
+        "python-joblib",
+        "python-scikit-learn",
+        "python-sqlalchemy"
       ]
     },
     {
@@ -558,7 +557,6 @@
       "count": 2,
       "blocked_by": [
         "python-beartype",
-        "python-ftfy",
         "python-spdx-tools",
         "scancode-toolkit"
       ]
@@ -572,12 +570,15 @@
       "component": "qpid-proton",
       "count": 2,
       "prerel_abi_blocked": true
+    },
+    {
+      "component": "python-zlib-ng",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "python-pydantic",
         "python-smart_open",
         "python-sqlalchemy",
         "python-sqlmodel",
@@ -617,9 +618,15 @@
     },
     {
       "components": [
+        "python-alembic",
+        "python-sqlalchemy"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
         "python-cytoolz",
-        "python-eth-utils",
-        "python-pydantic"
+        "python-eth-utils"
       ],
       "count": 5
     },
@@ -629,13 +636,6 @@
         "python-backrefs"
       ],
       "count": 5
-    },
-    {
-      "components": [
-        "python-alembic",
-        "python-sqlalchemy"
-      ],
-      "count": 4
     },
     {
       "components": [
@@ -670,13 +670,6 @@
     },
     {
       "components": [
-        "conda",
-        "python-menuinst"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-cliff",
         "python-cmd2",
         "python-debtcollector",
@@ -689,10 +682,11 @@
     },
     {
       "components": [
-        "python-pydantic",
-        "python-pydantic-settings"
+        "python-uvicorn",
+        "python-watchfiles",
+        "python-websockets"
       ],
-      "count": 3
+      "count": 2
     },
     {
       "components": [
@@ -704,9 +698,7 @@
     {
       "components": [
         "python-llm",
-        "python-openai",
-        "python-pydantic",
-        "python-python-ulid"
+        "python-openai"
       ],
       "count": 2
     },
@@ -720,8 +712,7 @@
     {
       "components": [
         "conda",
-        "conda-build",
-        "python-menuinst"
+        "conda-build"
       ],
       "count": 2
     },
@@ -729,6 +720,15 @@
       "components": [
         "python-celery",
         "python-kombu"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-cytoolz",
+        "python-eth-utils",
+        "python-hexbytes",
+        "python-rlp"
       ],
       "count": 2
     }
