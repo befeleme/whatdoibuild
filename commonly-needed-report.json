@@ -1,13 +1,6 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-sqlalchemy",
-      "count": 75,
-      "blocked_by": [
-        "python-pg8000"
-      ]
-    },
-    {
       "component": "python-cmd2",
       "count": 55
     },
@@ -89,8 +82,7 @@
       "component": "python-sqlmodel",
       "count": 24,
       "blocked_by": [
-        "python-fastapi",
-        "python-sqlalchemy"
+        "python-fastapi"
       ]
     },
     {
@@ -145,7 +137,6 @@
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
         "python-snakemake-storage-plugin-s3",
-        "python-sqlalchemy",
         "python-sqlmodel"
       ]
     },
@@ -245,13 +236,6 @@
       ]
     },
     {
-      "component": "python-alembic",
-      "count": 12,
-      "blocked_by": [
-        "python-sqlalchemy"
-      ]
-    },
-    {
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
@@ -338,7 +322,6 @@
         "python-ndindex",
         "python-partd",
         "python-scikit-image",
-        "python-sqlalchemy",
         "python-tables",
         "python-xarray",
         "python-zarr"
@@ -425,7 +408,6 @@
       "blocked_by": [
         "fastapi-cli",
         "fastapi-cloud-cli",
-        "python-sqlalchemy",
         "python-sqlmodel",
         "python-uvicorn",
         "python-watchfiles",
@@ -442,16 +424,21 @@
     {
       "component": "python-multiprocess",
       "count": 7
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 7
+    },
+    {
+      "component": "python-tables",
+      "count": 7,
+      "blocked_by": [
+        "python-blosc2",
+        "python-ndindex"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-sqlalchemy",
-      "count": 19,
-      "blocked_by": [
-        "python-pg8000"
-      ]
-    },
     {
       "component": "python-pyside6",
       "count": 13,
@@ -466,7 +453,7 @@
     },
     {
       "component": "python-websockets",
-      "count": 5,
+      "count": 6,
       "prerel_abi_blocked": true
     },
     {
@@ -518,8 +505,7 @@
       "count": 3,
       "blocked_by": [
         "python-joblib",
-        "python-scikit-learn",
-        "python-sqlalchemy"
+        "python-scikit-learn"
       ]
     },
     {
@@ -546,6 +532,18 @@
       "count": 3,
       "blocked_by": [
         "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "python-fastapi",
+      "count": 3,
+      "blocked_by": [
+        "fastapi-cli",
+        "fastapi-cloud-cli",
+        "python-sqlmodel",
+        "python-uvicorn",
+        "python-watchfiles",
+        "python-websockets"
       ]
     },
     {
@@ -580,7 +578,6 @@
     {
       "components": [
         "python-smart_open",
-        "python-sqlalchemy",
         "python-sqlmodel",
         "snakemake"
       ],
@@ -599,7 +596,7 @@
         "python-joblib",
         "python-scikit-learn"
       ],
-      "count": 7
+      "count": 8
     },
     {
       "components": [
@@ -615,13 +612,6 @@
         "python-pytest-astropy"
       ],
       "count": 6
-    },
-    {
-      "components": [
-        "python-alembic",
-        "python-sqlalchemy"
-      ],
-      "count": 5
     },
     {
       "components": [
@@ -690,6 +680,13 @@
     },
     {
       "components": [
+        "python-fastapi",
+        "python-uvicorn"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
         "python-cattrs",
         "python-requests-cache"
       ],
@@ -704,22 +701,8 @@
     },
     {
       "components": [
-        "python-flask-sqlalchemy",
-        "python-sqlalchemy"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "conda",
         "conda-build"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-celery",
-        "python-kombu"
       ],
       "count": 2
     },
@@ -729,6 +712,22 @@
         "python-eth-utils",
         "python-hexbytes",
         "python-rlp"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "pyproj",
+        "python-geopandas",
+        "python-shapely"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-google-api-core",
+        "python-google-cloud-core",
+        "python-proto-plus"
       ],
       "count": 2
     }

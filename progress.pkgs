@@ -1,9 +1,9 @@
 alot
+bodhi-server
 llvm
 diffoscope
 eric
 fapolicy-analyzer
-fastapi-new
 kernel
 mlpack
 osc
@@ -11,6 +11,7 @@ paraview
 pyp2rpm
 python-pyside6
 python-streamlink
+python-alembic1.14
 python-ansible-runner
 python-avocado
 python-azure-loganalytics
@@ -55,13 +56,11 @@ python-multiprocess
 python-neo
 netplan
 python-opytimizer
-python-oracledb
 python-oslo-config:::repo_bootstrap::
 python-partd
 python-patsy
 pcp
 petsc
-python-pg8000
 python-pygtkspellcheck
 python-pynwb
 pyproj
@@ -79,13 +78,10 @@ python-textual
 python-toml-cli
 python-translitcodec
 python-treq
-python-ua-parser
 python-watchfiles
 python-websockets
-python-wxnatpy
 xapian-bindings
 xcfun
-python-xnat4tests
 libyui
 python-zarr
 python-zlib-ng
