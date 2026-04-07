@@ -7,6 +7,7 @@ eric
 fapolicy-analyzer
 kernel
 mlpack
+mycli
 osc
 paraview
 pyp2rpm
@@ -50,7 +51,7 @@ python-joblib
 libCombine
 libftdi
 libkml
-python-llm:tests::::
+python-llm-echo
 python-markdown-callouts
 python-mirrors-countme
 moose

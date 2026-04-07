@@ -518,12 +518,9 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-llm",
+      "component": "qpid-proton",
       "count": 2,
-      "blocked_by": [
-        "python-llm",
-        "python-llm-echo"
-      ]
+      "prerel_abi_blocked": true
     }
   ],
   "most_commonly_last_blocking_combinations": [
