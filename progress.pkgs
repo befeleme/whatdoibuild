@@ -33,8 +33,8 @@ python-bytecode
 python-cattrs
 python-chai
 llvm21
+python-cliff::bootstrap:::
 subscription-manager
-python-cmd2
 python-cytoolz
 python-deap
 dionaea
