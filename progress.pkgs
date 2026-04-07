@@ -7,7 +7,6 @@ eric
 fapolicy-analyzer
 kernel
 mlpack
-mycli
 osc
 paraview
 pyp2rpm
@@ -51,7 +50,6 @@ python-joblib
 libCombine
 libftdi
 libkml
-python-llm-echo
 python-markdown-callouts
 python-mirrors-countme
 moose
@@ -60,8 +58,8 @@ python-mplcairo
 python-multiprocess
 python-neo
 netplan
+python-openstacksdk
 python-opytimizer
-python-oslo-config:::repo_bootstrap::
 python-partd
 python-patsy
 pcp
