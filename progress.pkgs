@@ -14,6 +14,7 @@ python-pyside6
 python-streamlink
 python-alembic1.14
 python-ansible-runner
+ara
 python-avocado
 python-azure-loganalytics
 python-azure-mgmt-advisor
@@ -33,7 +34,6 @@ python-bytecode
 python-cattrs
 python-chai
 llvm21
-python-cliff::bootstrap:::
 subscription-manager
 python-cytoolz
 python-deap
