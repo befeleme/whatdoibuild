@@ -1,4 +1,5 @@
 alot
+awscli2
 bodhi-server
 llvm
 diffoscope
@@ -41,6 +42,7 @@ root
 python-django-allauth
 espresso
 python-exiv2
+python-gitlab
 python-graph-tool
 python-inquirer
 jc
@@ -48,10 +50,12 @@ python-joblib
 libCombine
 libftdi
 libkml
+python-llm:tests::::
 python-markdown-callouts
 python-mirrors-countme
 moose
 morphio
+python-mplcairo
 python-multiprocess
 python-neo
 netplan
@@ -62,6 +66,7 @@ python-patsy
 pcp
 petsc
 python-pygtkspellcheck
+pylint
 python-pynwb
 pyproj
 python-pyvmomi
@@ -79,7 +84,6 @@ python-toml-cli
 python-translitcodec
 python-treq
 python-watchfiles
-python-websockets
 xapian-bindings
 xcfun
 libyui
