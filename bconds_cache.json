@@ -3887,6 +3887,24 @@
           "python3dist(pip) >= 19"
         ]
       }
+    ],
+    "python-vcs-versioning": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-vcs-versioning::bootstrap:::",
+        "srpm_filename": "python-vcs-versioning-1.1.1-2.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 20",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 77.0.3"
+        ]
+      }
     ]
   }
 }

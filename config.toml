@@ -616,6 +616,9 @@ withs = ["bootstrap"]
 [[bconds.python-stevedore]]
 withs = ["bootstrap"]
 
+[[bconds.python-vcs-versioning]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
