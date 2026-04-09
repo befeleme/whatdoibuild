@@ -3507,6 +3507,61 @@
         ]
       }
     ],
+    "llvm21": [
+      {
+        "withouts": [
+          "pgo"
+        ],
+        "id": "llvm21:pgo::::",
+        "srpm_filename": "llvm21-21.1.8-4.fc45.src.rpm",
+        "buildrequires": [
+          "binutils-devel",
+          "binutils-gold",
+          "chrpath",
+          "clang(major) = 21",
+          "cmake",
+          "doxygen",
+          "elfutils-libelf-devel",
+          "emacs",
+          "gcc",
+          "gcc-c++",
+          "gnupg2",
+          "graphviz",
+          "libatomic",
+          "libedit-devel",
+          "libffi-devel",
+          "libxml2-devel",
+          "libzstd-devel",
+          "multilib-rpm-config",
+          "ncurses-devel",
+          "ninja-build",
+          "perl",
+          "perl(Digest::MD5)",
+          "perl(File::Copy)",
+          "perl(File::Find)",
+          "perl(File::Path)",
+          "perl(File::Temp)",
+          "perl(FindBin)",
+          "perl(Hash::Util)",
+          "perl(Sys::Hostname)",
+          "perl(Term::ANSIColor)",
+          "perl(Text::ParseWords)",
+          "perl(lib)",
+          "perl-Data-Dumper",
+          "perl-Encode",
+          "perl-generators",
+          "procps-ng",
+          "python3-devel",
+          "python3-myst-parser",
+          "python3-pexpect",
+          "python3-psutil",
+          "python3-sphinx",
+          "swig",
+          "valgrind-devel",
+          "zlib-devel"
+        ]
+      }
+    ],
     "python-pathspec": [
       {
         "withouts": [
