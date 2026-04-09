@@ -75,7 +75,7 @@ baseurl = ["https://copr-be.cloud.fedoraproject.org/results/@python/python3.15/f
 metadata_expire = 60
 
 [prerel]
-current_version = "3.15.0~alpha7"
+current_version = "3.15.0~alpha8"
 
 [bconds]
 [[bconds.python-setuptools]]
