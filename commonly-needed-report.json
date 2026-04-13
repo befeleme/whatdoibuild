@@ -255,15 +255,9 @@
       ]
     },
     {
-      "component": "thrift",
-      "count": 7,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-scikit-image",
       "count": 7,
       "blocked_by": [
-        "python-pywt",
         "scipy"
       ]
     },
@@ -313,8 +307,7 @@
       "count": 6,
       "prerel_abi_blocked": true,
       "blocked_by": [
-        "scipy",
-        "thrift"
+        "scipy"
       ]
     },
     {
@@ -391,12 +384,16 @@
         "python-shapely",
         "scipy"
       ]
+    },
+    {
+      "component": "pylint",
+      "count": 5
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "scipy",
-      "count": 42,
+      "count": 44,
       "prerel_abi_blocked": true
     },
     {
@@ -555,8 +552,7 @@
     {
       "components": [
         "gnuradio",
-        "scipy",
-        "thrift"
+        "scipy"
       ],
       "count": 5
     },
