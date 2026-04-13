@@ -1,32 +1,9 @@
 {
   "most_commonly_needed": [
     {
-      "component": "fonttools",
-      "count": 126,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "fonttools",
-        "python-glyphsLib",
-        "python-matplotlib",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "python-uharfbuzz",
-        "scipy",
-        "sympy"
-      ]
-    },
-    {
       "component": "scipy",
       "count": 124,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-matplotlib",
-      "count": 111,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "fonttools"
-      ]
     },
     {
       "component": "python-joblib",
@@ -36,8 +13,6 @@
       "component": "sympy",
       "count": 29,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
         "scipy"
       ]
     },
@@ -95,17 +70,10 @@
       ]
     },
     {
-      "component": "python-websockets",
-      "count": 20,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-shapely",
       "count": 18,
       "blocked_by": [
-        "fonttools",
-        "pyproj",
-        "python-matplotlib"
+        "pyproj"
       ]
     },
     {
@@ -113,8 +81,6 @@
       "count": 18,
       "prerel_abi_blocked": true,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image",
@@ -163,8 +129,7 @@
       "component": "python-uvicorn",
       "count": 13,
       "blocked_by": [
-        "python-watchfiles",
-        "python-websockets"
+        "python-watchfiles"
       ]
     },
     {
@@ -209,13 +174,11 @@
       "component": "python-dask",
       "count": 10,
       "blocked_by": [
-        "fonttools",
         "python-blosc2",
         "python-crick",
         "python-dask",
         "python-distributed",
         "python-fastavro",
-        "python-matplotlib",
         "python-ndindex",
         "python-partd",
         "python-scikit-image",
@@ -288,8 +251,7 @@
         "fastapi-cloud-cli",
         "python-sqlmodel",
         "python-uvicorn",
-        "python-watchfiles",
-        "python-websockets"
+        "python-watchfiles"
       ]
     },
     {
@@ -301,8 +263,6 @@
       "component": "python-scikit-image",
       "count": 7,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
         "python-pywt",
         "scipy"
       ]
@@ -319,9 +279,7 @@
       "component": "python-xarray",
       "count": 7,
       "blocked_by": [
-        "fonttools",
         "python-dask",
-        "python-matplotlib",
         "python-partd",
         "python-rasterio",
         "python-seaborn",
@@ -400,10 +358,37 @@
       "component": "python-seaborn",
       "count": 5,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
         "python-patsy",
         "python-statsmodels",
+        "scipy"
+      ]
+    },
+    {
+      "component": "python-eth-abi",
+      "count": 5,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-eth-keys",
+      "count": 5,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-geopandas",
+      "count": 5,
+      "blocked_by": [
+        "pyproj",
+        "python-fiona",
+        "python-joblib",
+        "python-mapclassify",
+        "python-scikit-learn",
+        "python-shapely",
         "scipy"
       ]
     }
@@ -411,7 +396,7 @@
   "most_commonly_last_blocking": [
     {
       "component": "scipy",
-      "count": 29,
+      "count": 42,
       "prerel_abi_blocked": true
     },
     {
@@ -423,37 +408,19 @@
       ]
     },
     {
-      "component": "fonttools",
-      "count": 12,
-      "prerel_abi_blocked": true,
-      "blocked_by": [
-        "fonttools",
-        "python-glyphsLib",
-        "python-matplotlib",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "python-uharfbuzz",
-        "scipy",
-        "sympy"
-      ]
-    },
-    {
-      "component": "python-websockets",
-      "count": 8,
-      "prerel_abi_blocked": true
-    },
-    {
       "component": "python-openstacksdk",
       "count": 6
     },
     {
       "component": "sympy",
-      "count": 4,
+      "count": 6,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
         "scipy"
       ]
+    },
+    {
+      "component": "pylint",
+      "count": 4
     },
     {
       "component": "libyui",
@@ -469,8 +436,6 @@
       "count": 3,
       "prerel_abi_blocked": true,
       "blocked_by": [
-        "fonttools",
-        "python-matplotlib",
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image",
@@ -487,18 +452,21 @@
       ]
     },
     {
-      "component": "python-sqlalchemy1.4",
+      "component": "python-pygls",
+      "count": 3
+    },
+    {
+      "component": "python-shapely",
       "count": 3,
-      "prerel_abi_blocked": true
+      "blocked_by": [
+        "pyproj"
+      ]
     },
     {
       "component": "python-lsp-server",
       "count": 3,
       "blocked_by": [
-        "fonttools",
-        "pylint",
-        "python-matplotlib",
-        "python-websockets"
+        "pylint"
       ]
     },
     {
@@ -509,13 +477,8 @@
         "fastapi-cloud-cli",
         "python-sqlmodel",
         "python-uvicorn",
-        "python-watchfiles",
-        "python-websockets"
+        "python-watchfiles"
       ]
-    },
-    {
-      "component": "pylint",
-      "count": 3
     },
     {
       "component": "go-vendor-tools",
@@ -545,6 +508,10 @@
       "count": 2
     },
     {
+      "component": "pyproj",
+      "count": 2
+    },
+    {
       "component": "conda-build",
       "count": 2,
       "blocked_by": [
@@ -555,13 +522,6 @@
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
-        "fonttools",
-        "python-matplotlib"
-      ],
-      "count": 35
-    },
-    {
-      "components": [
         "python-smart_open",
         "python-sqlmodel",
         "snakemake"
@@ -570,11 +530,11 @@
     },
     {
       "components": [
-        "fonttools",
-        "python-matplotlib",
+        "python-joblib",
+        "python-scikit-learn",
         "scipy"
       ],
-      "count": 14
+      "count": 7
     },
     {
       "components": [
@@ -602,14 +562,6 @@
     },
     {
       "components": [
-        "python-joblib",
-        "python-scikit-learn",
-        "scipy"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-cytoolz",
         "python-eth-utils"
       ],
@@ -624,10 +576,16 @@
     },
     {
       "components": [
-        "fonttools",
-        "python-matplotlib",
         "scipy",
         "sympy"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
       ],
       "count": 4
     },
@@ -647,14 +605,6 @@
     },
     {
       "components": [
-        "python-astropy",
-        "python-pytest-arraydiff",
-        "python-pytest-astropy"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "OpenColorIO",
         "vtk"
       ],
@@ -663,8 +613,7 @@
     {
       "components": [
         "python-uvicorn",
-        "python-watchfiles",
-        "python-websockets"
+        "python-watchfiles"
       ],
       "count": 2
     },
@@ -694,9 +643,10 @@
     },
     {
       "components": [
-        "fonttools",
-        "pyproj",
-        "python-matplotlib"
+        "python-joblib",
+        "python-multiprocess",
+        "python-scikit-learn",
+        "scipy"
       ],
       "count": 2
     },
@@ -706,6 +656,21 @@
         "python-eth-utils",
         "python-hexbytes",
         "python-rlp"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-fslpy",
+        "scipy"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "pyproj",
+        "python-geopandas",
+        "python-shapely"
       ],
       "count": 2
     }
