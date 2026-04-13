@@ -2,7 +2,7 @@
   "most_commonly_needed": [
     {
       "component": "fonttools",
-      "count": 127,
+      "count": 126,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "fonttools",
@@ -17,7 +17,7 @@
     },
     {
       "component": "scipy",
-      "count": 123,
+      "count": 124,
       "prerel_abi_blocked": true
     },
     {
@@ -168,13 +168,6 @@
       ]
     },
     {
-      "component": "jupyterlab",
-      "count": 13,
-      "blocked_by": [
-        "python-requests-cache"
-      ]
-    },
-    {
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
@@ -254,22 +247,15 @@
       "count": 9
     },
     {
-      "component": "python-notebook",
-      "count": 9,
-      "blocked_by": [
-        "jupyterlab"
-      ]
-    },
-    {
-      "component": "python-zarr",
-      "count": 9
-    },
-    {
       "component": "python-pytest-astropy",
       "count": 9,
       "blocked_by": [
         "python-pytest-arraydiff"
       ]
+    },
+    {
+      "component": "python-zarr",
+      "count": 9
     },
     {
       "component": "python-blosc2",
@@ -310,13 +296,6 @@
       "component": "thrift",
       "count": 7,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-jupyterlab-widgets",
-      "count": 7,
-      "blocked_by": [
-        "jupyterlab"
-      ]
     },
     {
       "component": "python-scikit-image",
@@ -381,15 +360,6 @@
       ]
     },
     {
-      "component": "python-ipywidgets",
-      "count": 6,
-      "blocked_by": [
-        "jupyterlab",
-        "python-jupyterlab-widgets",
-        "python-notebook"
-      ]
-    },
-    {
       "component": "python-jsonpickle",
       "count": 6,
       "blocked_by": [
@@ -404,6 +374,37 @@
       "blocked_by": [
         "python-cytoolz",
         "python-eth-utils"
+      ]
+    },
+    {
+      "component": "python-google-cloud-core",
+      "count": 6,
+      "blocked_by": [
+        "python-google-api-core",
+        "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-fslpy",
+      "count": 5,
+      "blocked_by": [
+        "python-trimesh",
+        "scipy"
+      ]
+    },
+    {
+      "component": "python-readme-renderer",
+      "count": 5
+    },
+    {
+      "component": "python-seaborn",
+      "count": 5,
+      "blocked_by": [
+        "fonttools",
+        "python-matplotlib",
+        "python-patsy",
+        "python-statsmodels",
+        "scipy"
       ]
     }
   ],
@@ -423,7 +424,7 @@
     },
     {
       "component": "fonttools",
-      "count": 13,
+      "count": 12,
       "prerel_abi_blocked": true,
       "blocked_by": [
         "fonttools",
@@ -438,19 +439,12 @@
     },
     {
       "component": "python-websockets",
-      "count": 7,
+      "count": 8,
       "prerel_abi_blocked": true
     },
     {
       "component": "python-openstacksdk",
       "count": 6
-    },
-    {
-      "component": "jupyterlab",
-      "count": 4,
-      "blocked_by": [
-        "python-requests-cache"
-      ]
     },
     {
       "component": "sympy",
@@ -498,6 +492,16 @@
       "prerel_abi_blocked": true
     },
     {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "fonttools",
+        "pylint",
+        "python-matplotlib",
+        "python-websockets"
+      ]
+    },
+    {
       "component": "python-fastapi",
       "count": 3,
       "blocked_by": [
@@ -523,10 +527,6 @@
       ]
     },
     {
-      "component": "python-requests-cache",
-      "count": 2
-    },
-    {
       "component": "libftdi",
       "count": 2,
       "prerel_abi_blocked": true
@@ -543,6 +543,13 @@
     {
       "component": "python-multiprocess",
       "count": 2
+    },
+    {
+      "component": "conda-build",
+      "count": 2,
+      "blocked_by": [
+        "python-conda-index"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -551,7 +558,7 @@
         "fonttools",
         "python-matplotlib"
       ],
-      "count": 34
+      "count": 35
     },
     {
       "components": [
@@ -580,6 +587,13 @@
     },
     {
       "components": [
+        "python-torch",
+        "sympy"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
         "gnuradio",
         "scipy",
         "thrift"
@@ -598,13 +612,6 @@
       "components": [
         "python-cytoolz",
         "python-eth-utils"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-torch",
-        "sympy"
       ],
       "count": 5
     },
