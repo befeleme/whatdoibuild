@@ -2,9 +2,7 @@ alot
 awscli2
 beets
 bodhi-server
-ceph
 eric
-gr-osmosdr
 kicad
 myst-nb
 osc
@@ -14,7 +12,6 @@ pyp2rpm
 python-streamlink
 python-alembic1.14
 python-ansible-runner
-python-AppTools
 python-azure-loganalytics
 python-azure-mgmt-advisor
 python-azure-mgmt-billing
@@ -40,10 +37,8 @@ root
 python-django-allauth
 espresso
 python-exiv2
-python-geopmpy
 python-giacpy
 python-graph-tool
-python-h5io
 python-inquirer
 jc
 python-joblib
@@ -54,6 +49,7 @@ libftdi
 libkml
 python-markdown-callouts
 materialx
+Mayavi
 python-metakernel
 python-mirrors-countme
 moose
@@ -63,7 +59,6 @@ python-multiprocess
 python-neo
 netplan
 python-numpoly
-onnxruntime
 openshadinglanguage
 python-openstacksdk
 python-opytimizer
@@ -81,7 +76,6 @@ python-qcustomplot-pyqt
 qpid-proton
 pyqtwebengine
 python-readme-renderer
-python-rich-argparse
 python-rstcheck
 python-rstr
 python-scikit-image
