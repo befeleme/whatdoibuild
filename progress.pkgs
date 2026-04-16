@@ -7,7 +7,6 @@ kicad
 myst-nb
 osc
 pagure-exporter
-paraview
 pyp2rpm
 python-streamlink
 python-alembic1.14
@@ -42,8 +41,6 @@ python-graph-tool
 python-inquirer
 jc
 python-joblib
-kf6-kjobwidgets
-kf6-kxmlgui
 libCombine
 libftdi
 libkml
