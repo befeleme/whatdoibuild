@@ -9,6 +9,7 @@ osc
 pagure-exporter
 pyp2rpm
 python-streamlink
+python-accelerate
 python-alembic1.14
 python-ansible-runner
 python-azure-loganalytics
@@ -34,6 +35,7 @@ python-cytoolz
 dionaea
 root
 python-django-allauth
+python-einops
 espresso
 python-exiv2
 python-giacpy
@@ -83,7 +85,6 @@ python-superqt
 python-symengine
 python-textual
 python-toml-cli
-python-torch
 python-translitcodec
 python-treq
 python-watchfiles
