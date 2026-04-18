@@ -29,10 +29,6 @@
       ]
     },
     {
-      "component": "python-openstacksdk",
-      "count": 22
-    },
-    {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
@@ -59,20 +55,6 @@
       "component": "python-cytoolz",
       "count": 18,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-osc-lib",
-      "count": 16,
-      "blocked_by": [
-        "python-openstacksdk"
-      ]
-    },
-    {
-      "component": "python-keystoneclient",
-      "count": 14,
-      "blocked_by": [
-        "python-openstacksdk"
-      ]
     },
     {
       "component": "python-proto-plus",
@@ -115,20 +97,15 @@
       "component": "python-openstackclient",
       "count": 11,
       "blocked_by": [
-        "python-aodhclient",
         "python-heatclient",
         "python-ironicclient",
-        "python-keystoneclient",
         "python-manilaclient",
         "python-mistralclient",
         "python-neutronclient",
         "python-octaviaclient",
         "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib",
         "python-swiftclient",
-        "python-troveclient",
-        "python-zaqarclient"
+        "python-troveclient"
       ]
     },
     {
@@ -281,10 +258,7 @@
       "component": "python-swiftclient",
       "count": 4,
       "blocked_by": [
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib"
+        "python-openstackclient"
       ]
     },
     {
@@ -352,10 +326,6 @@
       "count": 3
     },
     {
-      "component": "python-astropy-healpix",
-      "count": 3
-    },
-    {
       "component": "python-trimesh",
       "count": 3,
       "blocked_by": [
@@ -364,12 +334,54 @@
         "python-shapely",
         "usd"
       ]
+    },
+    {
+      "component": "python-rasterio",
+      "count": 3,
+      "blocked_by": [
+        "python-shapely"
+      ]
+    },
+    {
+      "component": "python-fastavro",
+      "count": 3,
+      "blocked_by": [
+        "python-zlib-ng"
+      ]
+    },
+    {
+      "component": "python-statsmodels",
+      "count": 3,
+      "blocked_by": [
+        "python-patsy"
+      ]
+    },
+    {
+      "component": "python-eth-keyfile",
+      "count": 3,
+      "blocked_by": [
+        "python-cytoolz",
+        "python-eth-keys",
+        "python-eth-utils",
+        "python-py_ecc"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
-      "component": "python-openstacksdk",
-      "count": 6
+      "component": "python-openstackclient",
+      "count": 8,
+      "blocked_by": [
+        "python-heatclient",
+        "python-ironicclient",
+        "python-manilaclient",
+        "python-mistralclient",
+        "python-neutronclient",
+        "python-octaviaclient",
+        "python-openstackclient",
+        "python-swiftclient",
+        "python-troveclient"
+      ]
     },
     {
       "component": "python-shapely",
@@ -504,15 +516,6 @@
     },
     {
       "components": [
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
         "python-cytoolz",
         "python-eth-utils"
       ],
@@ -531,13 +534,6 @@
         "python-proto-plus"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 3
     },
     {
       "components": [
@@ -588,14 +584,6 @@
     },
     {
       "components": [
-        "python-keystoneclient",
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-dask",
         "python-partd"
       ],
@@ -640,6 +628,31 @@
         "materialx",
         "pyproj",
         "usd"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-shapely",
+        "python-uranium"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "google-api-python-client",
+        "python-google-api-core",
+        "python-proto-plus",
+        "python-swiftclient"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "fastapi-cloud-cli",
+        "python-fastapi",
+        "python-uvicorn",
+        "python-watchfiles"
       ],
       "count": 1
     }
