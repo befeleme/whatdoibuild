@@ -5,6 +5,7 @@ bodhi-server
 eric
 kicad
 myst-nb
+novelwriter
 osc
 pagure-exporter
 pyp2rpm
@@ -42,7 +43,6 @@ python-exiv2
 python-giacpy
 python-glanceclient
 python-graph-tool
-python-heatclient
 python-inquirer
 jc
 python-joblib
@@ -89,14 +89,12 @@ python-textual
 python-toml-cli
 python-translitcodec
 python-treq
-python-troveclient
 python-watchfiles
 weasyprint
 xapian-bindings
 xcfun
 libyui
 python-zarr
-python-zlib-ng
 rebase-helper
 recoll
 renderdoc
