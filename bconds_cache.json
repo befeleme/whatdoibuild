@@ -3142,6 +3142,51 @@
         ]
       }
     ],
+    "python-fastapi": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-fastapi::bootstrap:::",
+        "srpm_filename": "python-fastapi-0.136.0-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(httpx) < 1~~ with python3dist(httpx) >= 0.23)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(a2wsgi) >= 1.9",
+          "python3dist(annotated-doc) >= 0.0.2",
+          "python3dist(anyio[trio]) >= 3.2.1",
+          "python3dist(dirty-equals) >= 0.9",
+          "python3dist(email-validator) >= 2",
+          "python3dist(fastar) >= 0.9",
+          "python3dist(flask) >= 3",
+          "python3dist(httpx) >= 0.23",
+          "python3dist(inline-snapshot) >= 0.21.1",
+          "python3dist(itsdangerous) >= 1.1",
+          "python3dist(jinja2) >= 3.1.5",
+          "python3dist(orjson) >= 3.9.3",
+          "python3dist(packaging)",
+          "python3dist(pdm-backend)",
+          "python3dist(pip) >= 19",
+          "python3dist(pydantic) >= 2.9",
+          "python3dist(pydantic-extra-types) >= 2",
+          "python3dist(pydantic-settings) >= 2",
+          "python3dist(pytest) >= 8",
+          "python3dist(pytest-timeout) >= 2.4",
+          "python3dist(pytest-xdist[psutil]) >= 2.5",
+          "python3dist(python-multipart) >= 0.0.18",
+          "python3dist(pyyaml) >= 5.3.1",
+          "python3dist(sqlalchemy)",
+          "python3dist(starlette) >= 0.46",
+          "python3dist(typing-extensions) >= 4.8",
+          "python3dist(typing-inspection) >= 0.4.2",
+          "python3dist(ujson) >= 5.8",
+          "python3dist(uvicorn) >= 0.12",
+          "python3dist(uvicorn[standard]) >= 0.12"
+        ]
+      }
+    ],
     "python-pydantic-core": [
       {
         "withouts": [
