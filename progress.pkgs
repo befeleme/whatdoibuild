@@ -46,6 +46,7 @@ python-inquirer
 jc
 libCombine
 libkml
+python-lsp-server
 python-markdown-callouts
 materialx
 Mayavi
@@ -67,7 +68,6 @@ python-pydoctor
 python-pygls
 python-pygtkspellcheck
 python-jnius
-pylint
 python-pynwb
 python-pyvmomi
 python-qcustomplot-pyqt
