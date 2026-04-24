@@ -61,9 +61,11 @@ python-niaaml
 python-numpoly
 openshadinglanguage
 python-opytimizer
+python-osc-placement
 python-partd
 python-patsy
 petsc
+python-pyexiftool
 python-pygls
 python-pygtkspellcheck
 python-jnius
@@ -94,7 +96,6 @@ python-watchfiles
 weasyprint
 xapian-bindings
 xcfun
-libyui
 python-zarr
 rebase-helper
 recoll
