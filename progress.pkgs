@@ -32,12 +32,13 @@ python-cartopy
 python-chai
 llvm21
 subscription-manager
-python-cytoolz
 dionaea
 root
 python-django-allauth
 python-einops
 espresso
+python-eth-event
+python-eth-keys
 python-exiv2
 python-giacpy
 python-glanceclient
@@ -61,11 +62,9 @@ python-niaaml
 python-numpoly
 openshadinglanguage
 python-opytimizer
-python-osc-placement
 python-partd
 python-patsy
 petsc
-python-pyexiftool
 python-pygls
 python-pygtkspellcheck
 python-jnius
@@ -96,7 +95,6 @@ python-watchfiles
 weasyprint
 xapian-bindings
 xcfun
-python-zarr
 rebase-helper
 recoll
 renderdoc
