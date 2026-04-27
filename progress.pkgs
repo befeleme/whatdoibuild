@@ -49,7 +49,6 @@ python-inquirer
 jc
 libCombine
 libkml
-python-lsp-server
 python-markdown-callouts
 materialx
 Mayavi
