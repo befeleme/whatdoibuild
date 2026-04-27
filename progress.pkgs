@@ -1,6 +1,8 @@
+NiaAML-GUI
 alot
 beets
 bodhi-server
+duplicity
 eric
 kicad
 novelwriter
@@ -9,8 +11,10 @@ pagure-exporter
 pyp2rpm
 python-streamlink
 python-accelerate
+certbot
 python-alembic1.14
 python-ansible-runner
+python-ast-monitor
 python-astroquery
 python-azure-loganalytics
 python-azure-mgmt-advisor
@@ -23,8 +27,6 @@ python-azure-mgmt-dns
 python-azure-mgmt-managedservices
 python-azure-mgmt-maps
 python-azure-mgmt-marketplaceordering
-python-backrefs
-python-beartype
 bmap-tools
 bout++
 python-bytecode
@@ -32,6 +34,7 @@ python-cartopy
 python-chai
 llvm21
 subscription-manager
+python-dask::bootstrap:::
 dionaea
 root
 python-django-allauth
@@ -41,7 +44,6 @@ python-eth-event
 python-eth-keys
 python-exiv2
 python-giacpy
-python-glanceclient
 python-graph-tool
 python-inquirer
 jc
@@ -58,14 +60,11 @@ morphio
 python-mplcairo
 python-neo
 netplan
-python-niaaml
 python-numpoly
 openshadinglanguage
 python-opytimizer
-python-partd
 python-patsy
 petsc
-python-pygls
 python-pygtkspellcheck
 python-jnius
 python-pynwb
@@ -78,7 +77,6 @@ python-rasterio
 python-readme-renderer
 python-rstcheck
 python-rstr
-python-saharaclient
 python-SALib
 python-simple-salesforce
 python-sphinx-book-theme
@@ -91,10 +89,11 @@ python-toml-cli
 python-translitcodec
 python-treq
 python-uranium
-python-watchfiles
 weasyprint
 xapian-bindings
 xcfun
 rebase-helper
 recoll
 renderdoc
+rpm-spec-language-server
+scancode-toolkit
