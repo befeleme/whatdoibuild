@@ -49,6 +49,7 @@ python-inquirer
 jc
 libCombine
 libkml
+qtile
 python-markdown-callouts
 materialx
 Mayavi
@@ -62,7 +63,6 @@ netplan
 python-numpoly
 openshadinglanguage
 python-opytimizer
-python-patsy
 petsc
 python-pygtkspellcheck
 python-jnius
@@ -73,7 +73,6 @@ qpid-proton
 pyqtwebengine
 python-qudida
 python-rasterio
-python-readme-renderer
 python-rstcheck
 python-rstr
 python-SALib
