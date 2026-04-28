@@ -87,9 +87,6 @@ withs = ["bootstrap"]
 [[bconds.python-pip]]
 withouts = ["tests", "man"]
 
-[[bconds.python-six]]
-withouts = ["tests"]
-
 [[bconds.python-tomli-w]]
 withouts = ["check"]
 
