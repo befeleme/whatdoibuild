@@ -196,10 +196,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-uranium",
-      "count": 1
-    },
-    {
       "component": "scancode-toolkit",
       "count": 1
     },
@@ -285,6 +281,10 @@
       "blocked_by": [
         "python-toml-cli"
       ]
+    },
+    {
+      "component": "python-toml-cli",
+      "count": 1
     }
   ],
   "most_commonly_last_blocking": [
@@ -374,10 +374,6 @@
       "prerel_abi_blocked": true
     },
     {
-      "component": "python-uranium",
-      "count": 1
-    },
-    {
       "component": "scancode-toolkit",
       "count": 1
     },
@@ -395,6 +391,10 @@
     },
     {
       "component": "certbot",
+      "count": 1
+    },
+    {
+      "component": "python-numpoly",
       "count": 1
     }
   ],

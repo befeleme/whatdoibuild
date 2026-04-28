@@ -1,11 +1,10 @@
-NiaAML-GUI
 alot
 beets
 bodhi-server
+cura
 duplicity
 eric
 kicad
-novelwriter
 osc
 pagure-exporter
 pyp2rpm
@@ -14,7 +13,6 @@ python-accelerate
 certbot
 python-alembic1.14
 python-ansible-runner
-python-ast-monitor
 python-astroquery
 python-azure-loganalytics
 python-azure-mgmt-advisor
@@ -46,7 +44,6 @@ python-exiv2
 python-giacpy
 python-inquirer
 jc
-libCombine
 libkml
 qtile
 python-markdown-callouts
@@ -70,7 +67,6 @@ python-pyvmomi
 python-qcustomplot-pyqt
 qpid-proton
 pyqtwebengine
-python-qudida
 python-rasterio
 python-rstcheck
 python-rstr
@@ -85,7 +81,6 @@ python-textual
 python-toml-cli
 python-translitcodec
 python-treq
-python-uranium
 weasyprint
 xapian-bindings
 xcfun
