@@ -1,7 +1,6 @@
 alot
 beets
 bodhi-server
-cura
 duplicity
 eric
 kicad
@@ -32,9 +31,9 @@ python-cartopy
 python-chai
 llvm21
 subscription-manager
-python-dask::bootstrap:::
 dionaea
 root
+python-distributed
 python-django-allauth
 python-einops
 espresso
@@ -47,7 +46,6 @@ jc
 libkml
 qtile
 python-markdown-callouts
-materialx
 Mayavi
 python-metakernel
 python-mirrors-countme
@@ -57,7 +55,6 @@ python-mplcairo
 python-neo
 netplan
 python-numpoly
-openshadinglanguage
 python-opytimizer
 petsc
 python-pygtkspellcheck
@@ -81,11 +78,11 @@ python-textual
 python-toml-cli
 python-translitcodec
 python-treq
+usd
 weasyprint
 xapian-bindings
 xcfun
 rebase-helper
-recoll
 renderdoc
 rpm-spec-language-server
 scancode-toolkit
