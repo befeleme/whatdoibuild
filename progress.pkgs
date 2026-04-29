@@ -43,7 +43,6 @@ python-exiv2
 python-giacpy
 python-inquirer
 jc
-libkml
 qtile
 python-markdown-callouts
 Mayavi
@@ -64,7 +63,6 @@ python-pyvmomi
 python-qcustomplot-pyqt
 qpid-proton
 pyqtwebengine
-python-rasterio
 python-rstcheck
 python-rstr
 python-SALib
@@ -81,6 +79,7 @@ python-treq
 usd
 weasyprint
 xapian-bindings
+python-xarray
 xcfun
 rebase-helper
 renderdoc
