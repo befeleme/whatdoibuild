@@ -36,7 +36,6 @@ root
 python-distributed
 python-django-allauth
 python-einops
-espresso
 python-eth-event
 python-eth-keys
 python-exiv2
