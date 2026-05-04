@@ -30,7 +30,6 @@ python-bytecode
 python-cartopy
 python-chai
 llvm21
-subscription-manager
 dionaea
 root
 python-distributed
