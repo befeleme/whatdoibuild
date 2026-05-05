@@ -1,7 +1,5 @@
 alot
 bodhi-server
-duplicity
-kicad
 osc
 pagure-exporter
 pyp2rpm
@@ -9,7 +7,6 @@ python-streamlink
 python-accelerate
 certbot
 python-alembic1.14
-python-ansible-runner
 python-astroquery
 python-azure-loganalytics
 python-azure-mgmt-advisor
@@ -37,6 +34,7 @@ python-eth-event
 python-eth-keys
 python-exiv2
 python-giacpy
+python-goocalendar
 python-inquirer
 jc
 qtile
@@ -63,7 +61,6 @@ python-rstcheck
 python-rstr
 python-SALib
 python-simple-salesforce
-python-sphinx-book-theme
 python-steps
 sundials
 python-superqt
