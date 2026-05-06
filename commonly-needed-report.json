@@ -12,10 +12,6 @@
       ]
     },
     {
-      "component": "python-eth-keys",
-      "count": 5
-    },
-    {
       "component": "python-django-allauth",
       "count": 4
     },
@@ -40,13 +36,6 @@
       "component": "qpid-proton",
       "count": 3,
       "prerel_abi_blocked": true
-    },
-    {
-      "component": "python-eth-keyfile",
-      "count": 3,
-      "blocked_by": [
-        "python-eth-keys"
-      ]
     },
     {
       "component": "pyqtwebengine",
@@ -85,14 +74,6 @@
     {
       "component": "python-distributed",
       "count": 2
-    },
-    {
-      "component": "python-eth-account",
-      "count": 2,
-      "blocked_by": [
-        "python-eth-keyfile",
-        "python-eth-keys"
-      ]
     },
     {
       "component": "python-neo",
@@ -300,10 +281,6 @@
       "count": 2
     },
     {
-      "component": "python-eth-keys",
-      "count": 2
-    },
-    {
       "component": "python-fslpy",
       "count": 2,
       "blocked_by": [
@@ -360,6 +337,13 @@
     {
       "component": "python-distributed",
       "count": 1
+    },
+    {
+      "component": "python-mapclassify",
+      "count": 1,
+      "blocked_by": [
+        "python-libpysal"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -367,14 +351,6 @@
       "components": [
         "python-django-allauth",
         "python-django-mailman3"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-eth-account",
-        "python-eth-keyfile",
-        "python-eth-keys"
       ],
       "count": 2
     },
@@ -407,13 +383,6 @@
       "components": [
         "python-distributed",
         "python-xarray"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-eth-keyfile",
-        "python-eth-keys"
       ],
       "count": 1
     },

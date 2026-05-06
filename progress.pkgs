@@ -26,12 +26,10 @@ python-cartopy
 python-chai
 llvm21
 dionaea
-root
 python-distributed
 python-django-allauth
 python-einops
 python-eth-event
-python-eth-keys
 python-exiv2
 python-giacpy
 python-inquirer
