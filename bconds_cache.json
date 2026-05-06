@@ -4066,6 +4066,25 @@
           "python3dist(wheel) >= 0.40"
         ]
       }
+    ],
+    "manifold": [
+      {
+        "withouts": [
+          "python"
+        ],
+        "id": "manifold:python::::",
+        "srpm_filename": "manifold-3.4.1-5.fc45.src.rpm",
+        "buildrequires": [
+          "cmake",
+          "doxygen",
+          "gcc-c++",
+          "openvdb-devel >= 11",
+          "pkgconfig(assimp)",
+          "pkgconfig(gtest)",
+          "pkgconfig(tbb)",
+          "polyclipping2-devel"
+        ]
+      }
     ]
   }
 }
