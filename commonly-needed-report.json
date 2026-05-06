@@ -24,6 +24,7 @@
       "count": 4,
       "blocked_by": [
         "blender",
+        "manifold",
         "python-ezdxf",
         "usd"
       ]
@@ -229,8 +230,11 @@
       "count": 1
     },
     {
-      "component": "python-superqt",
-      "count": 1
+      "component": "manifold",
+      "count": 1,
+      "blocked_by": [
+        "python-trimesh"
+      ]
     },
     {
       "component": "python-ezdxf",
@@ -271,9 +275,14 @@
       "count": 3,
       "blocked_by": [
         "blender",
+        "manifold",
         "python-ezdxf",
         "usd"
       ]
+    },
+    {
+      "component": "pyqtwebengine",
+      "count": 2
     },
     {
       "component": "go-vendor-tools",
@@ -311,10 +320,6 @@
     {
       "component": "xapian-bindings",
       "count": 2
-    },
-    {
-      "component": "pyqtwebengine",
-      "count": 1
     },
     {
       "component": "usd",
@@ -445,14 +450,8 @@
     },
     {
       "components": [
-        "pyqtwebengine",
-        "python-superqt"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
         "blender",
+        "manifold",
         "python-ezdxf",
         "usd"
       ],

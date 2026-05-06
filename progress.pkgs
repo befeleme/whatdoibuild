@@ -37,6 +37,7 @@ python-giacpy
 python-inquirer
 jc
 qtile
+manifold:python::::
 python-markdown-callouts
 Mayavi
 python-metakernel
@@ -45,7 +46,6 @@ moose
 morphio
 python-mplcairo
 python-neo
-netplan
 python-numpoly
 python-opytimizer
 petsc
@@ -62,7 +62,6 @@ python-SALib
 python-simple-salesforce
 python-steps
 sundials
-python-superqt
 python-symengine
 python-textual
 python-toml-cli
