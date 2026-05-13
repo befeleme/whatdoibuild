@@ -634,6 +634,9 @@ withouts = ["tests"]
 [[bconds.python-platformdirs]]
 withouts = ["tests"]
 
+[[bconds.python-jaraco-context]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
