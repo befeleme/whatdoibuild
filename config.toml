@@ -631,6 +631,9 @@ withouts = ["check"]
 [[bconds.python-flit]]
 withouts = ["tests"]
 
+[[bconds.python-platformdirs]]
+withouts = ["tests"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
