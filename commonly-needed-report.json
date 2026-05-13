@@ -1331,20 +1331,18 @@
   ],
   "dependency_loops": [
     [
-      "python-azure-identity",
-      "python-msal-extensions",
-      "python-msal",
-      "python-azure-identity"
+      "python-os-service-types",
+      "python-os-service-types"
     ],
     [
-      "python-msal",
-      "python-msal"
-    ],
-    [
+      "python-jaraco-collections",
       "python-jaraco-context",
       "python-jaraco-test",
-      "python-jaraco-text",
-      "python-jaraco-context"
+      "python-jaraco-collections"
+    ],
+    [
+      "python-ruamel-yaml-clib",
+      "python-ruamel-yaml-clib"
     ],
     [
       "python-distlib",
@@ -1356,31 +1354,11 @@
       "python-distlib"
     ],
     [
-      "python-jaraco-context",
-      "python-portend",
-      "python-jaraco-context"
-    ],
-    [
-      "python-jaraco-collections",
-      "python-jaraco-context",
-      "python-jaraco-test",
-      "python-jaraco-collections"
-    ],
-    [
-      "ninja-build",
-      "ninja-build"
-    ],
-    [
       "python-discovery",
       "python-platformdirs",
       "python-tomlkit",
       "python-poetry-core",
       "python-discovery"
-    ],
-    [
-      "python-azure-identity",
-      "python-msal",
-      "python-azure-identity"
     ],
     [
       "python-jaraco-context",
@@ -1395,23 +1373,9 @@
       "python-jaraco-collections"
     ],
     [
-      "python-ruamel-yaml-clib",
-      "python-ruamel-yaml-clib"
-    ],
-    [
-      "python-flit",
-      "python-responses",
-      "python-wheel",
-      "python-flit"
-    ],
-    [
-      "grpc",
-      "python-google-auth",
-      "grpc"
-    ],
-    [
       "python-jaraco-collections",
       "python-jaraco-context",
+      "python-portend",
       "python-jaraco-collections"
     ],
     [
@@ -1424,13 +1388,20 @@
     ],
     [
       "python-jaraco-context",
+      "python-portend",
+      "python-tempora",
       "python-jaraco-context"
     ],
     [
       "python-jaraco-context",
       "python-portend",
-      "python-tempora",
       "python-jaraco-context"
+    ],
+    [
+      "python-flit",
+      "python-responses",
+      "python-wheel",
+      "python-flit"
     ],
     [
       "python-keystoneauth1",
@@ -1438,14 +1409,43 @@
       "python-keystoneauth1"
     ],
     [
+      "ninja-build",
+      "ninja-build"
+    ],
+    [
+      "python-azure-identity",
+      "python-msal-extensions",
+      "python-msal",
+      "python-azure-identity"
+    ],
+    [
+      "python-msal",
+      "python-msal"
+    ],
+    [
+      "python-jaraco-context",
+      "python-jaraco-context"
+    ],
+    [
       "python-jaraco-collections",
       "python-jaraco-context",
-      "python-portend",
       "python-jaraco-collections"
     ],
     [
-      "python-os-service-types",
-      "python-os-service-types"
+      "python-azure-identity",
+      "python-msal",
+      "python-azure-identity"
+    ],
+    [
+      "python-jaraco-context",
+      "python-jaraco-test",
+      "python-jaraco-text",
+      "python-jaraco-context"
+    ],
+    [
+      "grpc",
+      "python-google-auth",
+      "grpc"
     ]
   ]
 }

@@ -1,7 +1,6 @@
 ansible-bender
 arandr
 asciidoc
-hplip
 link-grammar
 python-XStatic
 python-XStatic-Angular-UUID
@@ -25,7 +24,6 @@ python-logfury
 lttng-tools
 python3-mallard-ducktype
 net-snmp
-opensips
 python-phply
 python-phyghtmap
 python-pluggy:tests::::
@@ -40,7 +38,6 @@ python-types-pygments
 python-types-requests
 python-typing-extensions
 python-uri-template
-python-urllib-gssapi
 python-varlink
 python-webrtcvad
 rdiff-backup
