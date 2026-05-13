@@ -637,6 +637,15 @@ withouts = ["tests"]
 [[bconds.python-jaraco-context]]
 withouts = ["tests"]
 
+[[bconds.ninja-build]]
+withs = ["bootstrap"]
+
+[[bconds.python-google-auth]]
+withouts = ["grpcio"]
+
+[[bconds.python-os-service-types]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(

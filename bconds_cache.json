@@ -4218,6 +4218,65 @@
           "python3dist(setuptools-scm[toml]) >= 3.4.1"
         ]
       }
+    ],
+    "python-google-auth": [
+      {
+        "withouts": [
+          "grpcio"
+        ],
+        "id": "python-google-auth:grpcio::::",
+        "srpm_filename": "python-google-auth-2.47.0-1.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(aiohttp) < 4~~ with python3dist(aiohttp) >= 3.6.2)",
+          "(python3dist(requests) < 3~~ with python3dist(requests) >= 2.20)",
+          "(python3dist(rsa) < 5~~ with python3dist(rsa) >= 3.1.4)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(aiohttp)",
+          "python3dist(aioresponses)",
+          "python3dist(certifi)",
+          "python3dist(cryptography)",
+          "python3dist(cryptography) >= 38.0.3",
+          "python3dist(flask)",
+          "python3dist(freezegun)",
+          "python3dist(grpcio)",
+          "python3dist(oauth2client)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pyasn1-modules) >= 0.2.1",
+          "python3dist(pyopenssl)",
+          "python3dist(pyopenssl) >= 20",
+          "python3dist(pytest)",
+          "python3dist(pytest-asyncio)",
+          "python3dist(pytest-cov)",
+          "python3dist(pytest-localserver)",
+          "python3dist(responses)",
+          "python3dist(setuptools) >= 40.8",
+          "python3dist(urllib3)"
+        ]
+      }
+    ],
+    "python-os-service-types": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-os-service-types::bootstrap:::",
+        "srpm_filename": "python-os-service-types-1.8.2-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "((python3dist(pbr) < 2.1 or python3dist(pbr) > 2.1) with python3dist(pbr) >= 2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "/usr/bin/gpgv2",
+          "git-core",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pbr) >= 2",
+          "python3dist(pbr) >= 6.1.1",
+          "python3dist(pip) >= 19",
+          "python3dist(typing-extensions) >= 4.1"
+        ]
+      }
     ]
   }
 }
