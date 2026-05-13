@@ -4158,6 +4158,28 @@
           "python3dist(wheel) >= 0.29"
         ]
       }
+    ],
+    "python-flit": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-flit:tests::::",
+        "srpm_filename": "python-flit-3.12.0-7.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(flit-core) < 4~~ with python3dist(flit-core) >= 3.11)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(docutils)",
+          "python3dist(flit-core) >= 3.12",
+          "python3dist(packaging)",
+          "python3dist(pip)",
+          "python3dist(pip) >= 19",
+          "python3dist(requests)",
+          "python3dist(tomli-w)"
+        ]
+      }
     ]
   }
 }
