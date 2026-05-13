@@ -625,6 +625,9 @@ withouts = ["xarray"]
 [[bconds.manifold]]
 withouts = ["python"]
 
+[[bconds.python-distlib]]
+withouts = ["check"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(

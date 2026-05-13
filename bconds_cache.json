@@ -4138,6 +4138,26 @@
           "polyclipping2-devel"
         ]
       }
+    ],
+    "python-distlib": [
+      {
+        "withouts": [
+          "check"
+        ],
+        "id": "python-distlib:check::::",
+        "srpm_filename": "python-distlib-0.4.0-6.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-pytest",
+          "python3-test",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 44",
+          "python3dist(wheel) >= 0.29"
+        ]
+      }
     ]
   }
 }
