@@ -333,6 +333,7 @@ def _filter_components_with_unsatisfied_prerel_abi(components_done):
         - blocked_components: set of component names that were filtered (should not be rebuilt)
     """
     import re
+    import rpm
 
     # Get the expected prerel-abi version from config
     expected_version = CONFIG.get('prerel', {}).get('current_version')
@@ -350,12 +351,12 @@ def _filter_components_with_unsatisfied_prerel_abi(components_done):
             for req in pkg.requires:
                 req_str = str(req)
                 if 'python(prerel-abi)' in req_str:
-                    # Extract version from requirement string
-                    # Format: python(prerel-abi) = X.Y.Z~alphaN
-                    match = re.search(r'python\(prerel-abi\)\s*=\s*([^\s]+)', req_str)
+                    match = re.search(r'python\(prerel-abi\)\s*(>=|=)\s*([^\s]+)', req_str)
                     if match:
-                        required_version = match.group(1)
-                        if required_version != expected_version:
+                        op, required_version = match.group(1), match.group(2)
+                        cmp = rpm.labelCompare(('0', expected_version, None), ('0', required_version, None))
+                        unsatisfied = (op == '>=' and cmp < 0) or (op == '=' and cmp != 0)
+                        if unsatisfied:
                             log(f'  • Filtering {component}: required {req_str}, expected python(prerel-abi) = {expected_version}')
                             component_has_unsatisfied_prerel = True
                             blocked_components.add(component)
