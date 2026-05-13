@@ -4198,6 +4198,26 @@
           "python3dist(pip) >= 19"
         ]
       }
+    ],
+    "python-jaraco-context": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-jaraco-context:tests::::",
+        "srpm_filename": "python-jaraco-context-6.1.0-3.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(coherent-licensed)",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(setuptools) >= 77",
+          "python3dist(setuptools-scm) >= 3.4.1",
+          "python3dist(setuptools-scm[toml]) >= 3.4.1"
+        ]
+      }
     ]
   }
 }
