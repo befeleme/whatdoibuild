@@ -650,7 +650,7 @@
     },
     {
       "component": "python-hypothesis",
-      "count": 15,
+      "count": 16,
       "blocked_by": [
         "numpy",
         "python-Bottleneck",
@@ -675,7 +675,7 @@
     },
     {
       "component": "python-pytest-cov",
-      "count": 12,
+      "count": 13,
       "blocked_by": [
         "python-discovery",
         "python-distlib",
@@ -736,10 +736,6 @@
       ]
     },
     {
-      "component": "python-flake8",
-      "count": 7
-    },
-    {
       "component": "at-spi2-core",
       "count": 6,
       "blocked_by": [
@@ -793,6 +789,15 @@
         "numpy",
         "python-pytest-asyncio",
         "python-pytest-timeout"
+      ]
+    },
+    {
+      "component": "python-pytest-asyncio",
+      "count": 4,
+      "blocked_by": [
+        "python-hypothesis",
+        "python-tomlkit",
+        "tomcli"
       ]
     }
   ],
@@ -973,13 +978,17 @@
   ],
   "dependency_loops": [
     [
+      "python-azure-identity",
+      "python-msal",
+      "python-azure-identity"
+    ],
+    [
       "vtk",
       "vtk"
     ],
     [
-      "python-azure-identity",
       "python-msal",
-      "python-azure-identity"
+      "python-msal"
     ],
     [
       "python-azure-identity",
@@ -990,10 +999,6 @@
     [
       "python-ruamel-yaml-clib",
       "python-ruamel-yaml-clib"
-    ],
-    [
-      "python-msal",
-      "python-msal"
     ]
   ]
 }
