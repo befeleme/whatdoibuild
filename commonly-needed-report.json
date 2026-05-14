@@ -306,7 +306,6 @@
         "python-kiwisolver",
         "python-meson-python",
         "python-pillow",
-        "python-pyqt6",
         "python-pytest-timeout",
         "python-pytest-xdist",
         "python-wxpython4"
@@ -661,10 +660,6 @@
       ]
     },
     {
-      "component": "python-pyqt6",
-      "count": 7
-    },
-    {
       "component": "python-pdm-backend",
       "count": 7,
       "blocked_by": [
@@ -736,6 +731,10 @@
         "python-pytest-xdist",
         "python-virtualenv"
       ]
+    },
+    {
+      "component": "mercurial",
+      "count": 5
     },
     {
       "component": "python-redis",
@@ -957,27 +956,27 @@
   ],
   "dependency_loops": [
     [
-      "python-msal",
-      "python-msal"
-    ],
-    [
-      "vtk",
-      "vtk"
-    ],
-    [
-      "python-azure-identity",
-      "python-msal",
-      "python-azure-identity"
-    ],
-    [
       "python-azure-identity",
       "python-msal-extensions",
       "python-msal",
       "python-azure-identity"
     ],
     [
+      "python-azure-identity",
+      "python-msal",
+      "python-azure-identity"
+    ],
+    [
       "python-ruamel-yaml-clib",
       "python-ruamel-yaml-clib"
+    ],
+    [
+      "python-msal",
+      "python-msal"
+    ],
+    [
+      "vtk",
+      "vtk"
     ]
   ]
 }
