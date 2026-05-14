@@ -309,7 +309,6 @@
         "python-pyqt6",
         "python-pytest-timeout",
         "python-pytest-xdist",
-        "python-qt5",
         "python-wxpython4"
       ]
     },
@@ -529,7 +528,6 @@
       "component": "python-aiohttp",
       "count": 83,
       "blocked_by": [
-        "python-aiodns",
         "python-aiohappyeyeballs",
         "python-aiosignal",
         "python-execnet",
@@ -538,7 +536,6 @@
         "python-multidict",
         "python-pkgconfig",
         "python-propcache",
-        "python-pycares",
         "python-pytest-mock",
         "python-pytest-xdist",
         "python-yarl",
@@ -575,7 +572,7 @@
   "most_commonly_last_blocking": [
     {
       "component": "numpy",
-      "count": 51,
+      "count": 54,
       "blocked_by": [
         "python-meson-python"
       ]
@@ -591,7 +588,7 @@
     },
     {
       "component": "python-psutil",
-      "count": 18,
+      "count": 20,
       "blocked_by": [
         "python-execnet",
         "python-pytest-xdist"
@@ -611,25 +608,21 @@
     },
     {
       "component": "python-pillow",
-      "count": 12,
+      "count": 13,
       "blocked_by": [
         "pybind11"
       ]
     },
     {
-      "component": "python-qt5",
-      "count": 11
-    },
-    {
       "component": "python-pytest-mock",
-      "count": 11,
+      "count": 12,
       "blocked_by": [
         "python-pytest-asyncio"
       ]
     },
     {
       "component": "dnf5",
-      "count": 9,
+      "count": 10,
       "blocked_by": [
         "python-breathe"
       ]
@@ -666,6 +659,10 @@
         "python-tox-current-env",
         "python-virtualenv"
       ]
+    },
+    {
+      "component": "python-pyqt6",
+      "count": 7
     },
     {
       "component": "python-pdm-backend",
@@ -794,14 +791,14 @@
         "python-tox-current-env",
         "python-virtualenv"
       ],
-      "count": 80
+      "count": 81
     },
     {
       "components": [
         "boost",
         "numpy"
       ],
-      "count": 41
+      "count": 42
     },
     {
       "components": [
@@ -904,6 +901,18 @@
     },
     {
       "components": [
+        "python-aiohappyeyeballs",
+        "python-aiohttp",
+        "python-aiosignal",
+        "python-frozenlist",
+        "python-multidict",
+        "python-propcache",
+        "python-yarl"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
         "python-poetry-core",
         "python-pytest-asyncio"
       ],
@@ -944,16 +953,13 @@
         "python-poetry-core"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "python-semantic_version",
-        "python-setuptools-rust"
-      ],
-      "count": 4
     }
   ],
   "dependency_loops": [
+    [
+      "python-msal",
+      "python-msal"
+    ],
     [
       "vtk",
       "vtk"
@@ -972,10 +978,6 @@
     [
       "python-ruamel-yaml-clib",
       "python-ruamel-yaml-clib"
-    ],
-    [
-      "python-msal",
-      "python-msal"
     ]
   ]
 }
