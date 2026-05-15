@@ -3034,31 +3034,21 @@
     "python-build": [
       {
         "withouts": [
-          "extras"
+          "extras",
+          "tests"
         ],
-        "id": "python-build:extras::::",
+        "id": "python-build:extras-tests::::",
         "srpm_filename": "python-build-1.5.0-2.fc45.src.rpm",
         "buildrequires": [
           "(python3dist(tomli) if python3-devel < 3.11)",
           "pyproject-rpm-macros",
           "pyproject-rpm-macros >= 0-41",
           "python3-devel",
-          "python3dist(filelock) >= 3",
           "python3dist(flit-core) >= 3.11",
           "python3dist(packaging)",
           "python3dist(packaging) >= 24",
           "python3dist(pip) >= 19",
-          "python3dist(pip) >= 22.3",
-          "python3dist(pyproject-hooks)",
-          "python3dist(pytest) >= 6.2.4",
-          "python3dist(pytest-mock) >= 2",
-          "python3dist(pytest-rerunfailures) >= 9.1",
-          "python3dist(pytest-xdist) >= 1.34",
-          "python3dist(setuptools) >= 67.8",
-          "python3dist(setuptools-scm) >= 6",
-          "python3dist(uv) >= 0.1.18",
-          "python3dist(virtualenv) >= 20.0.35",
-          "python3dist(wheel) >= 0.36"
+          "python3dist(pyproject-hooks)"
         ]
       }
     ],
@@ -4275,6 +4265,25 @@
           "python3dist(pbr) >= 6.1.1",
           "python3dist(pip) >= 19",
           "python3dist(typing-extensions) >= 4.1"
+        ]
+      }
+    ],
+    "python-poetry-core": [
+      {
+        "withouts": [
+          "tests"
+        ],
+        "id": "python-poetry-core:tests::::",
+        "srpm_filename": "python-poetry-core-2.3.2-2.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(fastjsonschema) < 3~~ with python3dist(fastjsonschema) >= 2.18)",
+          "(python3dist(lark) < 2~~ with python3dist(lark) >= 1.1.3)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 24.2",
+          "python3dist(pip) >= 19"
         ]
       }
     ]

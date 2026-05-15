@@ -476,7 +476,7 @@ withouts = ["tests"]
 withs = ["bootstrap"]
 
 [[bconds.python-build]]
-withouts = ["extras"]
+withouts = ["extras", "tests"]
 
 [[bconds.meson]]
 withouts = ["check"]
@@ -645,6 +645,9 @@ withouts = ["grpcio"]
 
 [[bconds.python-os-service-types]]
 withs = ["bootstrap"]
+
+[[bconds.python-poetry-core]]
+withouts = ["tests"]
 
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
