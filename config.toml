@@ -617,7 +617,7 @@ withs = ["bootstrap"]
 withs = ["bootstrap"]
 
 [[bconds.python-scikit-build-core]]
-withouts = ["optional_tests"]
+withouts = ["tests"]
 
 [[bconds.pyproj]]
 withouts = ["xarray"]
