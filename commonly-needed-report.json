@@ -2,10 +2,7 @@
   "most_commonly_needed": [
     {
       "component": "python-mdurl",
-      "count": 195,
-      "blocked_by": [
-        "python-pytest-randomly"
-      ]
+      "count": 195
     },
     {
       "component": "python-markdown-it-py",
@@ -39,7 +36,6 @@
         "python-mpmath",
         "python-openstep-plist",
         "python-pooch",
-        "python-pytest-randomly",
         "python-ufo2ft",
         "python-ufoLib2",
         "python-unicodedata2",
@@ -376,18 +372,6 @@
       ]
     },
     {
-      "component": "python-django6",
-      "count": 45,
-      "blocked_by": [
-        "python-oracledb",
-        "python-psycopg3",
-        "python-pymemcache",
-        "python-redis",
-        "python-sphinxcontrib-spelling",
-        "python-tblib"
-      ]
-    },
-    {
       "component": "python-jupyter-client",
       "count": 44,
       "blocked_by": [
@@ -457,21 +441,16 @@
       "blocked_by": [
         "python-dulwich"
       ]
+    },
+    {
+      "component": "h5py",
+      "count": 37,
+      "blocked_by": [
+        "python-cached_property"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
-    {
-      "component": "python-django6",
-      "count": 20,
-      "blocked_by": [
-        "python-oracledb",
-        "python-psycopg3",
-        "python-pymemcache",
-        "python-redis",
-        "python-sphinxcontrib-spelling",
-        "python-tblib"
-      ]
-    },
     {
       "component": "dnf5",
       "count": 18,
@@ -490,6 +469,22 @@
       ]
     },
     {
+      "component": "python-furo",
+      "count": 12,
+      "blocked_by": [
+        "python-diagnostic",
+        "python-markdown-it-py",
+        "python-mdit-py-plugins",
+        "python-mdurl",
+        "python-myst-parser",
+        "python-rich",
+        "python-sphinx-design",
+        "python-sphinx-inline-tabs",
+        "python-sphinx-tabs",
+        "python-sphinx-theme-builder"
+      ]
+    },
+    {
       "component": "python-setuptools80",
       "count": 11,
       "blocked_by": [
@@ -504,6 +499,26 @@
         "python-pytest-subprocess",
         "python-rich",
         "python-typer"
+      ]
+    },
+    {
+      "component": "fonttools",
+      "count": 10,
+      "blocked_by": [
+        "fonttools",
+        "python-booleanoperations",
+        "python-cffsubr",
+        "python-fontMath",
+        "python-glyphsLib",
+        "python-kiwisolver",
+        "python-matplotlib",
+        "python-mpmath",
+        "python-openstep-plist",
+        "python-pooch",
+        "python-ufo2ft",
+        "python-ufoLib2",
+        "python-unicodedata2",
+        "sympy"
       ]
     },
     {
@@ -531,53 +546,8 @@
       ]
     },
     {
-      "component": "fonttools",
-      "count": 9,
-      "blocked_by": [
-        "fonttools",
-        "python-booleanoperations",
-        "python-cffsubr",
-        "python-fontMath",
-        "python-glyphsLib",
-        "python-kiwisolver",
-        "python-matplotlib",
-        "python-mpmath",
-        "python-openstep-plist",
-        "python-pooch",
-        "python-pytest-randomly",
-        "python-ufo2ft",
-        "python-ufoLib2",
-        "python-unicodedata2",
-        "sympy"
-      ]
-    },
-    {
-      "component": "python-furo",
-      "count": 9,
-      "blocked_by": [
-        "python-diagnostic",
-        "python-markdown-it-py",
-        "python-mdit-py-plugins",
-        "python-mdurl",
-        "python-myst-parser",
-        "python-rich",
-        "python-sphinx-design",
-        "python-sphinx-inline-tabs",
-        "python-sphinx-tabs",
-        "python-sphinx-theme-builder"
-      ]
-    },
-    {
-      "component": "python-pytest-randomly",
-      "count": 8,
-      "blocked_by": [
-        "python-factory-boy",
-        "python-faker"
-      ]
-    },
-    {
       "component": "python-redis",
-      "count": 8
+      "count": 9
     },
     {
       "component": "argparse-manpage",
@@ -585,7 +555,7 @@
     },
     {
       "component": "python-jwt",
-      "count": 6,
+      "count": 7,
       "unresolvable": true
     },
     {
@@ -645,6 +615,17 @@
         "python-zope-interface",
         "python-zope-testrunner"
       ]
+    },
+    {
+      "component": "python-reportlab",
+      "count": 5,
+      "blocked_by": [
+        "python-html5lib"
+      ]
+    },
+    {
+      "component": "python-tornado",
+      "count": 5
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -834,13 +815,13 @@
   ],
   "dependency_loops": [
     [
-      "python-msal",
-      "python-msal"
-    ],
-    [
       "python-azure-identity",
       "python-msal",
       "python-azure-identity"
+    ],
+    [
+      "python-msal",
+      "python-msal"
     ],
     [
       "python-azure-identity",
