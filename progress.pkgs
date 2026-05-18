@@ -17,7 +17,6 @@ mercurial
 monkeytype
 obs-studio
 pew
-python-configupdater
 python-Pallets-Sphinx-Themes
 python-XStatic
 python-XStatic-Angular-UUID
@@ -63,7 +62,6 @@ dionaea
 python-dirty-equals::bootstrap:::
 root
 python-django-angular
-python-django-compressor
 dnf-plugin-perfmetrics
 python-easyprocess
 python-eccodes
@@ -114,7 +112,6 @@ kf6-kxmlgui
 python-kiwisolver
 libkolabxml
 python-lap
-python-lazy_load
 python-lesscpy
 libftdi
 libkml
@@ -128,7 +125,6 @@ python3-mallard-ducktype
 manifold:python::::
 python-markdown-callouts
 python-mathics-scanner
-python-mdurl
 python-migen
 python-mirrors-countme
 python-mkdocs-get-deps
@@ -142,7 +138,6 @@ python-netaddr:docs::::
 onnxruntime
 python-opcodes
 openbabel
-python-openstep-plist
 opentrep
 python-pandas::bootstrap:::
 pass-audit
@@ -157,7 +152,6 @@ protobuf
 python-psycopg2
 python-pybtex
 python-pygeoif
-python-pygments-git
 pymilia
 python-pynest2d
 pyproj
@@ -165,7 +159,6 @@ python-pyquery
 python-pysdl2
 python-pyswip
 python-pytest-expect
-python-pytest-flake8-path
 python-pytest-freezegun
 python-pytest-freezer
 python-pytest-qt
@@ -206,9 +199,9 @@ trademgen
 python-translitcodec
 python-triton
 python-typeguard
-python-unicodedata2
 python-vcstool
 python-virtualenvwrapper
+weasyprint
 python-webrtcvad
 python-websockets
 xapian-bindings
