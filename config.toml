@@ -245,7 +245,7 @@ withs = ["bootstrap"]
 withs = ["bootstrap"]
 
 [[bconds.scipy]]
-withouts = ["pythran"]
+withouts = ["pythran", "pooch", "tests"]
 
 [[bconds.python-pandas]]
 withs = ["bootstrap"]

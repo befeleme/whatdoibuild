@@ -1243,18 +1243,29 @@
     "scipy": [
       {
         "withouts": [
-          "pythran"
+          "pythran",
+          "pooch",
+          "tests"
         ],
-        "id": "scipy:pythran::::",
+        "id": "scipy:pooch-pythran-tests::::",
         "srpm_filename": "scipy-1.16.2-3.fc45.src.rpm",
         "buildrequires": [
+          "(python3dist(meson-python) < 0.21~~ with python3dist(meson-python) >= 0.15)",
+          "(python3dist(numpy) < 2.6~~ with python3dist(numpy) >= 1.25.2)",
+          "(python3dist(numpy) < 2.6~~ with python3dist(numpy) >= 2)",
+          "(python3dist(pybind11) < 3.1~~ with python3dist(pybind11) >= 2.13.2)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
           "flexiblas-devel",
           "gcc-c++",
           "gcc-gfortran",
           "pybind11-devel",
+          "pyproject-rpm-macros",
           "pyproject-rpm-macros >= 1.15",
           "python3-devel",
-          "python3-numpy-f2py"
+          "python3-numpy-f2py",
+          "python3dist(cython) >= 3.0.8",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19"
         ]
       }
     ],
