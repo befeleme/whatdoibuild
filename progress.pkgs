@@ -1,6 +1,5 @@
 arandr
 argparse-manpage
-deluge
 dnf-plugin-diff
 kmymoney
 link-grammar
@@ -48,7 +47,6 @@ python-fields
 python-gast
 python-genshi
 gnulib
-gpgmepy
 python-holidays
 python-hypothesmith
 python-icalendar
@@ -63,6 +61,7 @@ python-kiwisolver
 python-lesscpy
 libmamba
 librealsense
+librepo
 libsvm
 libxc
 python-linuxdoc
@@ -106,7 +105,6 @@ python-requirements-parser
 python-robotframework
 python-rstr
 python-scales
-python-selenium
 python-sentinels
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
@@ -136,4 +134,3 @@ renderdoc
 supervisor
 thefuck
 ubertooth
-urh

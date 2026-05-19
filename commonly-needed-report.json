@@ -104,8 +104,7 @@
       "component": "python-requests-oauthlib",
       "count": 82,
       "blocked_by": [
-        "python-requests-mock",
-        "python-selenium"
+        "python-requests-mock"
       ]
     },
     {
@@ -221,7 +220,6 @@
       "component": "python-dulwich",
       "count": 52,
       "blocked_by": [
-        "gpgmepy",
         "python-invoke",
         "python-markdown-it-py",
         "python-paramiko",
@@ -692,7 +690,7 @@
         "python-twisted",
         "python-zope-interface"
       ],
-      "count": 13
+      "count": 14
     },
     {
       "components": [
@@ -843,9 +841,8 @@
   ],
   "dependency_loops": [
     [
-      "python-azure-identity",
       "python-msal",
-      "python-azure-identity"
+      "python-msal"
     ],
     [
       "python-azure-identity",
@@ -854,8 +851,9 @@
       "python-azure-identity"
     ],
     [
+      "python-azure-identity",
       "python-msal",
-      "python-msal"
+      "python-azure-identity"
     ]
   ]
 }
