@@ -52,8 +52,6 @@ condor
 python-copr-common
 python-crossword
 csdiff
-cvc5
-python-dbus-fast
 python-dbus-next
 python-deprecated
 python-diff-cover
@@ -78,9 +76,7 @@ python-ftputil
 python-gast
 python-gattlib
 python-genshi
-python-giacpy
 gnulib
-re2
 python-graphql-core
 python-guessit
 hamlib
@@ -99,7 +95,6 @@ python-json-logger
 python-jupymake
 python-jupyter-packaging
 python-kaptan
-python-keyring
 kf6-kcalendarcore
 kf6-kcoreaddons
 kf6-kguiaddons
@@ -146,7 +141,6 @@ roca-detect
 python-phply
 python-plaster-pastedeploy
 python-pluginlib
-python-pmw
 python-ppft
 protobuf
 python-psycopg2
@@ -187,8 +181,6 @@ python-sqlalchemy1.4
 python-ssdeep
 python-stdnum
 stp
-superlu_dist
-python-supersmoother
 swig
 thrift
 python-time-machine

@@ -328,6 +328,11 @@
       ]
     },
     {
+      "component": "python-jwt",
+      "count": 45,
+      "unresolvable": true
+    },
+    {
       "component": "python-netaddr",
       "count": 45,
       "blocked_by": [
@@ -350,11 +355,6 @@
       ]
     },
     {
-      "component": "python-jwt",
-      "count": 44,
-      "unresolvable": true
-    },
-    {
       "component": "python-cached_property",
       "count": 43
     },
@@ -368,10 +368,6 @@
         "python-httpcore",
         "python-httpx"
       ]
-    },
-    {
-      "component": "python-keyring",
-      "count": 43
     },
     {
       "component": "python-requests-mock",
@@ -421,6 +417,13 @@
     {
       "component": "python-redis",
       "count": 37
+    },
+    {
+      "component": "protobuf3",
+      "count": 36,
+      "blocked_by": [
+        "python-setuptools80"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -510,7 +513,7 @@
     },
     {
       "component": "protobuf3",
-      "count": 6,
+      "count": 7,
       "blocked_by": [
         "python-setuptools80"
       ]
@@ -666,15 +669,15 @@
     {
       "components": [
         "python-markdown-it-py",
-        "python-mdit-py-plugins",
-        "python-myst-parser"
+        "python-rich"
       ],
-      "count": 7
+      "count": 8
     },
     {
       "components": [
         "python-markdown-it-py",
-        "python-rich"
+        "python-mdit-py-plugins",
+        "python-myst-parser"
       ],
       "count": 7
     },
@@ -766,21 +769,5 @@
       "count": 5
     }
   ],
-  "dependency_loops": [
-    [
-      "python-azure-identity",
-      "python-msal",
-      "python-azure-identity"
-    ],
-    [
-      "python-msal",
-      "python-msal"
-    ],
-    [
-      "python-azure-identity",
-      "python-msal-extensions",
-      "python-msal",
-      "python-azure-identity"
-    ]
-  ]
+  "dependency_loops": []
 }
