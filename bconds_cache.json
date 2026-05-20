@@ -4288,6 +4288,42 @@
           "python3dist(pip) >= 19"
         ]
       }
+    ],
+    "python-msal": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-msal::bootstrap:::",
+        "srpm_filename": "python-msal-1.36.0-3.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "(python3dist(cryptography) < 49~~ with python3dist(cryptography) >= 2.5)",
+          "(python3dist(pyjwt) < 3~~ with python3dist(pyjwt) >= 1)",
+          "(python3dist(pyjwt[crypto]) < 3~~ with python3dist(pyjwt[crypto]) >= 1)",
+          "(python3dist(requests) < 3~~ with python3dist(requests) >= 2)",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(setuptools) >= 40.8"
+        ]
+      }
+    ],
+    "python-setuptools80": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-setuptools80::bootstrap:::",
+        "srpm_filename": "python-setuptools80-80.10.2-5.fc45~bootstrap.src.rpm",
+        "buildrequires": [
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3-rpm-generators >= 12-8",
+          "unzip"
+        ]
+      }
     ]
   }
 }

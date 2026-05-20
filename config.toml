@@ -649,6 +649,12 @@ withs = ["bootstrap"]
 [[bconds.python-poetry-core]]
 withouts = ["tests"]
 
+[[bconds.python-msal]]
+withs = ["bootstrap"]
+
+[[bconds.python-setuptools80]]
+withs = ["bootstrap"]
+
 # [[bconds.OpenColorIO]]
 # %global bootstrap 1
 # we lack config syntax for that :(
