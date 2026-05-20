@@ -39,12 +39,13 @@
     {
       "component": "python-pydantic-core",
       "count": 107,
-      "unresolvable": true,
       "blocked_by": [
+        "python-Bottleneck",
         "python-asttokens",
         "python-dirty-equals",
         "python-inline-snapshot",
         "python-markdown-it-py",
+        "python-pandas",
         "python-rich"
       ]
     },
@@ -59,24 +60,13 @@
       ]
     },
     {
-      "component": "python-zope-interface",
-      "count": 89,
-      "blocked_by": [
-        "python-furo",
-        "python-repoze-sphinx-autointerface",
-        "python-zope-event",
-        "python-zope-interface",
-        "python-zope-testing"
-      ]
-    },
-    {
       "component": "python-pandas",
-      "count": 85,
+      "count": 86,
       "unresolvable": true
     },
     {
       "component": "python-Bottleneck",
-      "count": 85,
+      "count": 86,
       "blocked_by": [
         "python-numpydoc"
       ]
@@ -149,15 +139,6 @@
       ]
     },
     {
-      "component": "python-zmq",
-      "count": 59,
-      "blocked_by": [
-        "python-gevent",
-        "python-zope-event",
-        "python-zope-interface"
-      ]
-    },
-    {
       "component": "python-rich-argparse",
       "count": 58,
       "blocked_by": [
@@ -217,21 +198,6 @@
       ]
     },
     {
-      "component": "python-setuptools80",
-      "count": 51,
-      "blocked_by": [
-        "python-annotated-doc",
-        "python-build",
-        "python-jaraco-collections",
-        "python-jaraco-test",
-        "python-jaraco-text",
-        "python-markdown-it-py",
-        "python-pytest-subprocess",
-        "python-rich",
-        "python-typer"
-      ]
-    },
-    {
       "component": "python-stestr",
       "count": 51,
       "blocked_by": [
@@ -267,8 +233,7 @@
         "python-anyio",
         "python-h2",
         "python-httpcore",
-        "python-httpx",
-        "python-zope-interface"
+        "python-httpx"
       ]
     },
     {
@@ -276,20 +241,6 @@
       "count": 45,
       "blocked_by": [
         "python-furo"
-      ]
-    },
-    {
-      "component": "python-jupyter-client",
-      "count": 44,
-      "blocked_by": [
-        "ipython",
-        "python-anyio",
-        "python-asttokens",
-        "python-ipykernel",
-        "python-jupyter-client",
-        "python-pytest-jupyter",
-        "python-stack-data",
-        "python-zmq"
       ]
     },
     {
@@ -341,13 +292,6 @@
       ]
     },
     {
-      "component": "protobuf3",
-      "count": 36,
-      "blocked_by": [
-        "python-setuptools80"
-      ]
-    },
-    {
       "component": "python-arrow",
       "count": 36,
       "unresolvable": true
@@ -384,9 +328,7 @@
         "python-asttokens",
         "python-ipykernel",
         "python-ipyparallel",
-        "python-jupyter-client",
-        "python-stack-data",
-        "python-zmq"
+        "python-stack-data"
       ]
     },
     {
@@ -408,7 +350,6 @@
         "python-httpx",
         "python-ipykernel",
         "python-isoduration",
-        "python-jupyter-client",
         "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
@@ -426,8 +367,7 @@
         "python-webcolors",
         "python-websocket-client",
         "python-zarr",
-        "python-zict",
-        "python-zmq"
+        "python-zict"
       ]
     },
     {
@@ -464,7 +404,6 @@
         "python-ipykernel",
         "python-ipywidgets",
         "python-isoduration",
-        "python-jupyter-client",
         "python-jupyter-events",
         "python-jupyter-lsp",
         "python-jupyter-server",
@@ -477,8 +416,7 @@
         "python-notebook-shim",
         "python-stack-data",
         "python-webcolors",
-        "python-websocket-client",
-        "python-zmq"
+        "python-websocket-client"
       ]
     },
     {
@@ -506,9 +444,61 @@
       "blocked_by": [
         "mercurial"
       ]
+    },
+    {
+      "component": "python-toolz",
+      "count": 32
+    },
+    {
+      "component": "python-zipp",
+      "count": 31,
+      "blocked_by": [
+        "python-annotated-doc",
+        "python-jaraco-collections",
+        "python-jaraco-test",
+        "python-jaraco-text",
+        "python-markdown-it-py",
+        "python-rich",
+        "python-typer"
+      ]
+    },
+    {
+      "component": "python-bleach",
+      "count": 31,
+      "blocked_by": [
+        "python-html5lib"
+      ]
+    },
+    {
+      "component": "python-watchdog",
+      "count": 31,
+      "unresolvable": true
+    },
+    {
+      "component": "python-furo",
+      "count": 31,
+      "blocked_by": [
+        "python-diagnostic",
+        "python-markdown-it-py",
+        "python-mdit-py-plugins",
+        "python-myst-parser",
+        "python-rich",
+        "python-sphinx-design",
+        "python-sphinx-inline-tabs",
+        "python-sphinx-tabs",
+        "python-sphinx-theme-builder"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-flask",
+      "count": 19,
+      "blocked_by": [
+        "python-dotenv",
+        "python-sphinx-tabs"
+      ]
+    },
     {
       "component": "dnf5",
       "count": 18,
@@ -517,16 +507,27 @@
       ]
     },
     {
-      "component": "python-flask",
-      "count": 18,
+      "component": "python-twisted",
+      "count": 17,
       "blocked_by": [
-        "python-dotenv",
-        "python-sphinx-tabs"
+        "python-anyio",
+        "python-h2",
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
+      "component": "python-sqlalchemy",
+      "count": 13,
+      "blocked_by": [
+        "python-pg8000",
+        "python-psycopg2",
+        "python-scramp"
       ]
     },
     {
       "component": "python-furo",
-      "count": 12,
+      "count": 13,
       "blocked_by": [
         "python-diagnostic",
         "python-markdown-it-py",
@@ -540,34 +541,10 @@
       ]
     },
     {
-      "component": "python-setuptools80",
-      "count": 11,
-      "blocked_by": [
-        "python-annotated-doc",
-        "python-build",
-        "python-jaraco-collections",
-        "python-jaraco-test",
-        "python-jaraco-text",
-        "python-markdown-it-py",
-        "python-pytest-subprocess",
-        "python-rich",
-        "python-typer"
-      ]
-    },
-    {
       "component": "python-pdm-backend",
       "count": 10,
       "blocked_by": [
         "mercurial"
-      ]
-    },
-    {
-      "component": "python-sqlalchemy",
-      "count": 9,
-      "blocked_by": [
-        "python-pg8000",
-        "python-psycopg2",
-        "python-scramp"
       ]
     },
     {
@@ -587,13 +564,6 @@
       "blocked_by": [
         "imath",
         "vtk"
-      ]
-    },
-    {
-      "component": "protobuf3",
-      "count": 7,
-      "blocked_by": [
-        "python-setuptools80"
       ]
     },
     {
@@ -620,8 +590,6 @@
       "count": 6,
       "blocked_by": [
         "python-twisted",
-        "python-zope-exceptions",
-        "python-zope-interface",
         "python-zope-testrunner"
       ]
     },
@@ -630,10 +598,25 @@
       "count": 6
     },
     {
+      "component": "python-zope-testrunner",
+      "count": 6,
+      "blocked_by": [
+        "python-manuel",
+        "python-sphinxcontrib-programoutput"
+      ]
+    },
+    {
       "component": "python-requests-oauthlib",
       "count": 5,
       "blocked_by": [
         "python-requests-mock"
+      ]
+    },
+    {
+      "component": "grpc",
+      "count": 5,
+      "blocked_by": [
+        "python-google-auth"
       ]
     },
     {
@@ -659,13 +642,6 @@
       "blocked_by": [
         "python-html5lib"
       ]
-    },
-    {
-      "component": "python-requests-mock",
-      "count": 5,
-      "blocked_by": [
-        "python-requests-futures"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -674,26 +650,30 @@
         "python-msrest",
         "python-requests-oauthlib"
       ],
-      "count": 35
+      "count": 36
     },
     {
       "components": [
         "python-kiwisolver",
         "python-matplotlib"
       ],
-      "count": 24
-    },
-    {
-      "components": [
-        "python-twisted",
-        "python-zope-interface"
-      ],
-      "count": 14
+      "count": 25
     },
     {
       "components": [
         "python-markdown-it-py",
         "python-rich"
+      ],
+      "count": 12
+    },
+    {
+      "components": [
+        "python-pydantic",
+        "python-pydantic-core",
+        "python-smart_open",
+        "python-sqlalchemy",
+        "python-sqlmodel",
+        "snakemake"
       ],
       "count": 12
     },
@@ -707,13 +687,9 @@
     {
       "components": [
         "python-pydantic",
-        "python-pydantic-core",
-        "python-smart_open",
-        "python-sqlalchemy",
-        "python-sqlmodel",
-        "snakemake"
+        "python-pydantic-core"
       ],
-      "count": 11
+      "count": 10
     },
     {
       "components": [
@@ -721,13 +697,6 @@
         "python-watchdog"
       ],
       "count": 10
-    },
-    {
-      "components": [
-        "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 9
     },
     {
       "components": [
@@ -745,6 +714,14 @@
         "python-mdit-py-plugins",
         "python-myst-parser"
       ],
+      "count": 8
+    },
+    {
+      "components": [
+        "ipython",
+        "python-asttokens",
+        "python-stack-data"
+      ],
       "count": 7
     },
     {
@@ -752,8 +729,7 @@
         "fedora-messaging",
         "python-crochet",
         "python-pika",
-        "python-twisted",
-        "python-zope-interface"
+        "python-twisted"
       ],
       "count": 7
     },
@@ -769,19 +745,10 @@
       "components": [
         "python-fsspec",
         "python-mpmath",
-        "python-setuptools80",
         "python-torch",
         "sympy"
       ],
       "count": 7
-    },
-    {
-      "components": [
-        "ipython",
-        "python-asttokens",
-        "python-stack-data"
-      ],
-      "count": 6
     },
     {
       "components": [
@@ -800,9 +767,7 @@
         "ipython",
         "python-asttokens",
         "python-ipykernel",
-        "python-jupyter-client",
-        "python-stack-data",
-        "python-zmq"
+        "python-stack-data"
       ],
       "count": 6
     },
@@ -816,9 +781,7 @@
     {
       "components": [
         "gnuradio",
-        "python-pyopengl",
-        "python-pyqtgraph",
-        "python-zmq"
+        "python-pyqtgraph"
       ],
       "count": 5
     },
@@ -836,6 +799,14 @@
         "python-zipp"
       ],
       "count": 5
+    },
+    {
+      "components": [
+        "python-astropy",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy"
+      ],
+      "count": 4
     }
   ],
   "dependency_loops": []

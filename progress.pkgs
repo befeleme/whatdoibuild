@@ -29,6 +29,7 @@ python-catkin_tools
 python-cerberus
 python-chai
 python-click-plugins
+python-decopatch:tests::::
 python-deprecated
 python-dill
 dionaea
@@ -39,7 +40,6 @@ python-django-configurations
 dnf-plugin-perfmetrics
 python-dns:curio-doh-trio::::
 python-eccodes
-espresso
 python-et_xmlfile
 python-exceptiongroup
 python-exiv2
@@ -47,9 +47,11 @@ python-extractcode
 python-eyed3
 python-fastprogress
 python-fields
+python-flufl-bounce
 python-gast
 python-genshi
 gnulib
+gnuradio
 python-holidays
 python-hypothesmith
 python-icalendar
@@ -73,8 +75,8 @@ python-migen
 python-mirrors-countme
 python-moddb
 moose
-python-msal::bootstrap:::
 python-nagiosplugin
+python-nbclient:check::::
 python-neovim
 net-snmp
 python-netaddr:docs::::
@@ -84,7 +86,6 @@ python-pandas::bootstrap:::
 petsc
 roca-detect
 python-phply
-python-setuptools80::bootstrap:::
 python-plaster-pastedeploy
 python-pluginlib
 protobuf
