@@ -476,7 +476,7 @@ withouts = ["tests"]
 withs = ["bootstrap"]
 
 [[bconds.python-build]]
-withouts = ["extras", "tests"]
+withouts = ["extras"]
 
 [[bconds.meson]]
 withouts = ["check"]

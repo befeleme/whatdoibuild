@@ -2525,7 +2525,7 @@
           "docs"
         ],
         "id": "python-netaddr:docs::::",
-        "srpm_filename": "python-netaddr-1.3.0-11.fc45.src.rpm",
+        "srpm_filename": "python-netaddr-1.3.0-12.fc45.src.rpm",
         "buildrequires": [
           "(python3dist(tomli) if python3-devel < 3.11)",
           "pyproject-rpm-macros",
@@ -2543,7 +2543,7 @@
           "bootstrap"
         ],
         "id": "python-dirty-equals::bootstrap:::",
-        "srpm_filename": "python-dirty-equals-0.11-5.fc45~bootstrap.src.rpm",
+        "srpm_filename": "python-dirty-equals-0.11-6.fc45~bootstrap.src.rpm",
         "buildrequires": [
           "(python3dist(tomli) if python3-devel < 3.11)",
           "pyproject-rpm-macros",
@@ -3045,11 +3045,10 @@
     "python-build": [
       {
         "withouts": [
-          "extras",
-          "tests"
+          "extras"
         ],
-        "id": "python-build:extras-tests::::",
-        "srpm_filename": "python-build-1.5.0-2.fc45.src.rpm",
+        "id": "python-build:extras::::",
+        "srpm_filename": "python-build-1.5.0-3.fc45.src.rpm",
         "buildrequires": [
           "(python3dist(tomli) if python3-devel < 3.11)",
           "pyproject-rpm-macros",
