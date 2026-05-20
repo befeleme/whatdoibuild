@@ -6,6 +6,7 @@ kmymoney
 link-grammar
 mercurial
 monkeytype
+pykakasi
 python-XStatic
 python-XStatic-Angular-UUID
 python-XStatic-Angular-Vis
@@ -18,7 +19,6 @@ python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
 python-apipkg
-python-astroid
 python-autodocsumm
 python-beartype
 python-binary-manager
@@ -30,10 +30,8 @@ python-cerberus
 python-chai
 python-click-plugins
 python-decopatch:tests::::
-python-deprecated
 python-dill
 dionaea
-python-dirty-equals::bootstrap:::
 root
 python-django-angular
 python-django-configurations
@@ -51,7 +49,6 @@ python-flufl-bounce
 python-gast
 python-genshi
 gnulib
-gnuradio
 python-holidays
 python-hypothesmith
 python-icalendar
@@ -76,10 +73,8 @@ python-mirrors-countme
 python-moddb
 moose
 python-nagiosplugin
-python-nbclient:check::::
 python-neovim
 net-snmp
-python-netaddr:docs::::
 python-nibabel
 python-opcodes
 python-pandas::bootstrap:::
@@ -112,6 +107,7 @@ python-scales
 python-scooby
 python-sentinels
 python-sphinx-argparse-cli
+python-sphinx-autoapi
 python-sphinx-kr-theme
 python-sphinxcontrib-autoprogram
 python-sphinxcontrib-chapeldomain
@@ -133,9 +129,7 @@ xapian-bindings
 xcfun
 python-xmlschema
 python-yamlloader
-libyui
 python-zict
-python-zlib-ng
 renderdoc
 supervisor
 thefuck
