@@ -1,11 +1,12 @@
-argparse-manpage
 ceph
 llvm
 copr-cli
+distgen
 dnf-plugin-diff
 fail2ban
 kmymoney
 link-grammar
+module-build
 monkeytype
 pykakasi
 python-OBD
@@ -57,7 +58,6 @@ gnulib
 python-holidays
 python-hypothesmith
 python-icalendar
-python-iplotx
 ipython
 javapackages-tools
 jc
@@ -65,6 +65,7 @@ emacs-jedi
 python-joblib
 python-kaptan
 python-lesscpy
+389-ds-base
 libmamba
 librealsense
 libsvm
@@ -76,6 +77,8 @@ python-mathics-scanner
 python-meshio
 python-migen
 python-mirrors-countme
+python-mkapi
+python-mkdocs-static-i18n
 python-moddb
 moose
 python-mplcairo
@@ -84,7 +87,6 @@ python-neovim
 net-snmp
 python-nibabel
 python-opcodes
-openms
 openvdb
 python-opfunu
 python-orjson

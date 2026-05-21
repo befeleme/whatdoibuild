@@ -188,11 +188,6 @@
       ]
     },
     {
-      "component": "python-watchdog",
-      "count": 31,
-      "unresolvable": true
-    },
-    {
       "component": "python-joblib",
       "count": 30
     },
@@ -348,13 +343,6 @@
       ]
     },
     {
-      "component": "mkdocs",
-      "count": 22,
-      "blocked_by": [
-        "python-watchdog"
-      ]
-    },
-    {
       "component": "python-openstacksdk",
       "count": 22,
       "blocked_by": [
@@ -440,6 +428,23 @@
         "python-jaraco-text",
         "python-typer"
       ]
+    },
+    {
+      "component": "python-astropy",
+      "count": 18,
+      "blocked_by": [
+        "pre-commit",
+        "python-pytest-arraydiff",
+        "python-pytest-astropy",
+        "python-scikit-image"
+      ]
+    },
+    {
+      "component": "python-progressbar2",
+      "count": 16,
+      "blocked_by": [
+        "python-dill"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -460,7 +465,7 @@
     },
     {
       "component": "python-pydantic",
-      "count": 17,
+      "count": 18,
       "blocked_by": [
         "python-dns",
         "python-email-validator"
@@ -495,17 +500,21 @@
     },
     {
       "component": "python-pdm-backend",
-      "count": 11
-    },
-    {
-      "component": "argparse-manpage",
-      "count": 8
+      "count": 12
     },
     {
       "component": "python-requests-oauthlib",
       "count": 7,
       "blocked_by": [
         "python-requests-mock"
+      ]
+    },
+    {
+      "component": "koji",
+      "count": 7,
+      "blocked_by": [
+        "python-requests-mock",
+        "qpid-proton"
       ]
     },
     {
@@ -516,12 +525,9 @@
       ]
     },
     {
-      "component": "koji",
+      "component": "libvirt-python",
       "count": 6,
-      "blocked_by": [
-        "python-requests-mock",
-        "qpid-proton"
-      ]
+      "unresolvable": true
     },
     {
       "component": "python-flexmock",
@@ -543,11 +549,6 @@
       ]
     },
     {
-      "component": "python-watchdog",
-      "count": 5,
-      "unresolvable": true
-    },
-    {
       "component": "python-pycurl",
       "count": 5,
       "blocked_by": [
@@ -562,13 +563,23 @@
       ]
     },
     {
-      "component": "libvirt-python",
-      "count": 5,
-      "unresolvable": true
-    },
-    {
       "component": "python-dill",
       "count": 5
+    },
+    {
+      "component": "ansible-core",
+      "count": 4,
+      "blocked_by": [
+        "python-requests_ntlm",
+        "python-winrm"
+      ]
+    },
+    {
+      "component": "python-docopt-ng",
+      "count": 4,
+      "blocked_by": [
+        "python-pdm-backend"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -593,13 +604,6 @@
       "components": [
         "python-httpcore",
         "python-httpx"
-      ],
-      "count": 11
-    },
-    {
-      "components": [
-        "mkdocs",
-        "python-watchdog"
       ],
       "count": 11
     },
@@ -738,6 +742,14 @@
         "python-pbs-installer"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "python-blosc2",
+        "python-ndindex",
+        "python-tables"
+      ],
+      "count": 3
     }
   ],
   "dependency_loops": []
