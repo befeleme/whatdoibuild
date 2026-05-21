@@ -1,26 +1,12 @@
 {
   "most_commonly_needed": [
     {
-      "component": "python-pydantic-core",
-      "count": 107,
-      "blocked_by": [
-        "python-inline-snapshot",
-        "python-pandas"
-      ]
-    },
-    {
       "component": "python-pydantic",
       "count": 106,
       "blocked_by": [
         "python-dns",
-        "python-email-validator",
-        "python-pydantic-core"
+        "python-email-validator"
       ]
-    },
-    {
-      "component": "python-pandas",
-      "count": 86,
-      "unresolvable": true
     },
     {
       "component": "python-httpcore",
@@ -60,8 +46,7 @@
       "component": "python-flask",
       "count": 68,
       "blocked_by": [
-        "python-dotenv",
-        "python-sphinx-tabs"
+        "python-dotenv"
       ]
     },
     {
@@ -176,10 +161,7 @@
     },
     {
       "component": "python-myst-parser",
-      "count": 35,
-      "blocked_by": [
-        "python-pytest-regressions"
-      ]
+      "count": 35
     },
     {
       "component": "python-ipykernel",
@@ -272,8 +254,7 @@
       "blocked_by": [
         "python-myst-parser",
         "python-sphinx-design",
-        "python-sphinx-inline-tabs",
-        "python-sphinx-tabs"
+        "python-sphinx-inline-tabs"
       ]
     },
     {
@@ -426,7 +407,6 @@
         "python-httpx",
         "python-pdm-backend",
         "python-pydantic",
-        "python-pydantic-core",
         "python-sqlalchemy",
         "python-starlette"
       ]
@@ -460,6 +440,23 @@
     {
       "component": "python-dill",
       "count": 22
+    },
+    {
+      "component": "python-google-auth",
+      "count": 22,
+      "blocked_by": [
+        "grpc",
+        "python-flask"
+      ]
+    },
+    {
+      "component": "python-jupyter-events",
+      "count": 22,
+      "blocked_by": [
+        "python-arrow",
+        "python-isoduration",
+        "python-webcolors"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -467,8 +464,7 @@
       "component": "python-flask",
       "count": 21,
       "blocked_by": [
-        "python-dotenv",
-        "python-sphinx-tabs"
+        "python-dotenv"
       ]
     },
     {
@@ -488,11 +484,6 @@
       ]
     },
     {
-      "component": "python-pandas",
-      "count": 17,
-      "unresolvable": true
-    },
-    {
       "component": "python-sqlalchemy",
       "count": 15,
       "blocked_by": [
@@ -501,13 +492,20 @@
       ]
     },
     {
+      "component": "python-pydantic",
+      "count": 13,
+      "blocked_by": [
+        "python-dns",
+        "python-email-validator"
+      ]
+    },
+    {
       "component": "python-furo",
       "count": 13,
       "blocked_by": [
         "python-myst-parser",
         "python-sphinx-design",
-        "python-sphinx-inline-tabs",
-        "python-sphinx-tabs"
+        "python-sphinx-inline-tabs"
       ]
     },
     {
@@ -515,15 +513,12 @@
       "count": 12
     },
     {
-      "component": "python-pdm-backend",
+      "component": "python-myst-parser",
       "count": 10
     },
     {
-      "component": "python-myst-parser",
-      "count": 8,
-      "blocked_by": [
-        "python-pytest-regressions"
-      ]
+      "component": "python-pdm-backend",
+      "count": 10
     },
     {
       "component": "argparse-manpage",
@@ -535,13 +530,6 @@
       "blocked_by": [
         "imath",
         "vtk"
-      ]
-    },
-    {
-      "component": "python-pytest-regressions",
-      "count": 8,
-      "blocked_by": [
-        "python-pandas"
       ]
     },
     {
@@ -585,6 +573,13 @@
       ]
     },
     {
+      "component": "python-dotenv",
+      "count": 5,
+      "blocked_by": [
+        "ipython"
+      ]
+    },
+    {
       "component": "grpc",
       "count": 5,
       "blocked_by": [
@@ -616,14 +611,6 @@
     {
       "components": [
         "python-pydantic",
-        "python-pydantic-core"
-      ],
-      "count": 13
-    },
-    {
-      "components": [
-        "python-pydantic",
-        "python-pydantic-core",
         "python-smart_open",
         "python-sqlalchemy",
         "python-sqlmodel",
@@ -768,10 +755,17 @@
         "python-cytoolz",
         "python-eth-utils",
         "python-pydantic",
-        "python-pydantic-core",
         "python-toolz"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "python-flask",
+        "python-httpbin",
+        "python-pytest-httpbin"
+      ],
+      "count": 3
     }
   ],
   "dependency_loops": []
