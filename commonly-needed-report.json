@@ -545,10 +545,7 @@
     },
     {
       "component": "python-pyqtgraph",
-      "count": 5,
-      "blocked_by": [
-        "python-pydata-sphinx-theme"
-      ]
+      "count": 5
     },
     {
       "component": "python-watchdog",
@@ -567,8 +564,11 @@
       "count": 5
     },
     {
-      "component": "python-pydata-sphinx-theme",
-      "count": 5
+      "component": "python-requests-mock",
+      "count": 5,
+      "blocked_by": [
+        "python-requests-futures"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -587,7 +587,7 @@
         "python-sqlmodel",
         "snakemake"
       ],
-      "count": 13
+      "count": 14
     },
     {
       "components": [
@@ -655,6 +655,13 @@
     },
     {
       "components": [
+        "python-importlib-metadata",
+        "python-zipp"
+      ],
+      "count": 6
+    },
+    {
+      "components": [
         "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
@@ -666,13 +673,6 @@
         "python-msrest",
         "python-msrestazure",
         "python-requests-oauthlib"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
-        "python-importlib-metadata",
-        "python-zipp"
       ],
       "count": 5
     },
