@@ -242,10 +242,7 @@
     },
     {
       "component": "dnf5",
-      "count": 30,
-      "blocked_by": [
-        "python-breathe"
-      ]
+      "count": 30
     },
     {
       "component": "sympy",
@@ -495,10 +492,7 @@
     },
     {
       "component": "dnf5",
-      "count": 19,
-      "blocked_by": [
-        "python-breathe"
-      ]
+      "count": 19
     },
     {
       "component": "python-sqlalchemy",
@@ -570,10 +564,7 @@
     },
     {
       "component": "python-zope-testrunner",
-      "count": 6,
-      "blocked_by": [
-        "python-sphinxcontrib-programoutput"
-      ]
+      "count": 6
     },
     {
       "component": "python-dotenv",
