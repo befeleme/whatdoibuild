@@ -1,4 +1,3 @@
-arandr
 argparse-manpage
 copr-cli
 dnf-plugin-diff
@@ -52,7 +51,9 @@ gnulib
 python-holidays
 python-hypothesmith
 python-icalendar
+python-inflect
 python-inkex
+ipython
 javapackages-tools
 jc
 emacs-jedi
@@ -120,7 +121,6 @@ python-toolz
 python-tpm2-pytss
 python-translitcodec
 python-triton
-python-typeguard
 python-vcstool
 weasyprint
 python-webrtcvad

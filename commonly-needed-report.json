@@ -40,7 +40,6 @@
       "count": 107,
       "blocked_by": [
         "python-Bottleneck",
-        "python-asttokens",
         "python-inline-snapshot",
         "python-markdown-it-py",
         "python-pandas",
@@ -99,11 +98,6 @@
       ]
     },
     {
-      "component": "python-asttokens",
-      "count": 78,
-      "unresolvable": true
-    },
-    {
       "component": "python-sqlalchemy",
       "count": 77,
       "blocked_by": [
@@ -121,19 +115,8 @@
       ]
     },
     {
-      "component": "python-stack-data",
-      "count": 62,
-      "blocked_by": [
-        "python-asttokens"
-      ]
-    },
-    {
       "component": "ipython",
-      "count": 60,
-      "blocked_by": [
-        "python-asttokens",
-        "python-stack-data"
-      ]
+      "count": 60
     },
     {
       "component": "python-rich-argparse",
@@ -247,9 +230,7 @@
       "component": "python-dotenv",
       "count": 43,
       "blocked_by": [
-        "ipython",
-        "python-asttokens",
-        "python-stack-data"
+        "ipython"
       ]
     },
     {
@@ -315,10 +296,8 @@
       "count": 35,
       "blocked_by": [
         "ipython",
-        "python-asttokens",
         "python-ipykernel",
-        "python-ipyparallel",
-        "python-stack-data"
+        "python-ipyparallel"
       ]
     },
     {
@@ -330,7 +309,6 @@
         "libarrow",
         "python-anyio",
         "python-arrow",
-        "python-asttokens",
         "python-bleach",
         "python-dask",
         "python-distributed",
@@ -350,7 +328,6 @@
         "python-notebook-shim",
         "python-numcodecs",
         "python-partd",
-        "python-stack-data",
         "python-tblib",
         "python-toolz",
         "python-webcolors",
@@ -371,10 +348,8 @@
       "count": 33,
       "blocked_by": [
         "ipython",
-        "python-asttokens",
         "python-kiwisolver",
-        "python-matplotlib",
-        "python-stack-data"
+        "python-matplotlib"
       ]
     },
     {
@@ -456,6 +431,36 @@
       "blocked_by": [
         "python-breathe"
       ]
+    },
+    {
+      "component": "sympy",
+      "count": 30,
+      "blocked_by": [
+        "antlr4-project",
+        "ipython",
+        "llvm",
+        "python-furo",
+        "python-kiwisolver",
+        "python-markdown-it-py",
+        "python-matplotlib",
+        "python-mdit-py-plugins",
+        "python-mpmath",
+        "python-myst-parser"
+      ]
+    },
+    {
+      "component": "python-importlib-metadata",
+      "count": 29,
+      "blocked_by": [
+        "python-annotated-doc",
+        "python-jaraco-collections",
+        "python-jaraco-test",
+        "python-jaraco-text",
+        "python-markdown-it-py",
+        "python-rich",
+        "python-typer",
+        "python-zipp"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -535,6 +540,10 @@
       ]
     },
     {
+      "component": "ipython",
+      "count": 7
+    },
+    {
       "component": "python-requests-oauthlib",
       "count": 6,
       "blocked_by": [
@@ -606,13 +615,6 @@
       "blocked_by": [
         "python-flask",
         "python-websockets"
-      ]
-    },
-    {
-      "component": "python-anyio",
-      "count": 5,
-      "blocked_by": [
-        "python-exceptiongroup"
       ]
     }
   ],
@@ -698,14 +700,6 @@
     },
     {
       "components": [
-        "ipython",
-        "python-asttokens",
-        "python-stack-data"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
         "fedora-messaging",
         "python-crochet",
         "python-pika",
@@ -737,9 +731,7 @@
     {
       "components": [
         "ipython",
-        "python-asttokens",
-        "python-ipykernel",
-        "python-stack-data"
+        "python-ipykernel"
       ],
       "count": 6
     },
@@ -781,6 +773,16 @@
         "python-msrestazure",
         "python-requests-oauthlib",
         "python-vcrpy"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-cytoolz",
+        "python-eth-utils",
+        "python-pydantic",
+        "python-pydantic-core",
+        "python-toolz"
       ],
       "count": 4
     }
