@@ -1,14 +1,15 @@
+academic-admin
 argparse-manpage
 awscli2
 llvm
 copr-cli
 dnf-plugin-diff
+frescobaldi
 kmymoney
 libarrow
 link-grammar
 mlpack
 monkeytype
-pyinstrument
 pykakasi
 python-OBD
 python-XStatic
@@ -51,7 +52,7 @@ python-extractcode
 python-eyed3
 python-fastprogress
 python-fields
-flann
+python-fixit
 python-flufl-bounce
 python-gast
 gnulib
@@ -75,7 +76,6 @@ python-linuxdoc
 python3-mallard-ducktype
 manifold:python::::
 python-markdown-callouts
-python-marshmallow
 python-mathics-scanner
 python-meshio
 python-migen
@@ -84,7 +84,6 @@ python-moddb
 moose
 python-mplcairo
 python-nagiosplugin
-python-nbconvert:check-doc::::
 python-neovim
 net-snmp
 python-nibabel
@@ -113,7 +112,6 @@ python-pytest-tldr
 python-pytest-tornado
 pywhispercpp
 python-qcustomplot-pyqt
-python-qpageview
 qpid-proton
 pyqtwebengine
 python-readchar
@@ -133,12 +131,11 @@ python-ssdeep
 python-sshtunnel
 python-stdnum
 stp
-python-subliminal
 python-toolz
 python-tpm2-pytss
-python-trailrunner
 python-translitcodec
 python-triton
+python-usort
 python-vcstool
 weasyprint
 python-webrtcvad
@@ -149,7 +146,6 @@ python-yamlloader
 python-zict
 python-zope-testrunner
 renderdoc
-reuse
 supervisor
 thefuck
 ubertooth

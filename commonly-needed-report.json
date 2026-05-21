@@ -180,7 +180,6 @@
         "python-jupyter-lsp",
         "python-jupyter-server",
         "python-jupyterlab-server",
-        "python-nbconvert",
         "python-notebook",
         "python-notebook-shim",
         "python-numcodecs",
@@ -305,31 +304,6 @@
       "blocked_by": [
         "imath",
         "vtk"
-      ]
-    },
-    {
-      "component": "python-nbconvert",
-      "count": 28,
-      "blocked_by": [
-        "ipython",
-        "jupyterlab",
-        "python-arrow",
-        "python-httpcore",
-        "python-httpx",
-        "python-ipykernel",
-        "python-ipywidgets",
-        "python-isoduration",
-        "python-jupyter-events",
-        "python-jupyter-lsp",
-        "python-jupyter-server",
-        "python-jupyterlab-server",
-        "python-jupyterlab-widgets",
-        "python-nbconvert",
-        "python-nbsphinx",
-        "python-notebook",
-        "python-notebook-shim",
-        "python-pydata-sphinx-theme",
-        "python-webcolors"
       ]
     },
     {
@@ -471,6 +445,14 @@
         "python-sqlalchemy",
         "python-sqlmodel"
       ]
+    },
+    {
+      "component": "koji",
+      "count": 21,
+      "blocked_by": [
+        "python-requests-mock",
+        "qpid-proton"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -547,6 +529,13 @@
       ]
     },
     {
+      "component": "python-dotenv",
+      "count": 6,
+      "blocked_by": [
+        "ipython"
+      ]
+    },
+    {
       "component": "koji",
       "count": 6,
       "blocked_by": [
@@ -565,13 +554,6 @@
     {
       "component": "python-zope-testrunner",
       "count": 6
-    },
-    {
-      "component": "python-dotenv",
-      "count": 5,
-      "blocked_by": [
-        "ipython"
-      ]
     },
     {
       "component": "grpc",
@@ -673,19 +655,19 @@
     },
     {
       "components": [
+        "ipython",
+        "python-ipykernel"
+      ],
+      "count": 7
+    },
+    {
+      "components": [
         "python-fsspec",
         "python-mpmath",
         "python-torch",
         "sympy"
       ],
       "count": 7
-    },
-    {
-      "components": [
-        "ipython",
-        "python-ipykernel"
-      ],
-      "count": 6
     },
     {
       "components": [
