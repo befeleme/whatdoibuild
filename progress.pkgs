@@ -6,7 +6,6 @@ dnf-plugin-diff
 fail2ban
 kmymoney
 link-grammar
-module-build
 monkeytype
 pykakasi
 python-OBD
@@ -65,7 +64,6 @@ emacs-jedi
 python-joblib
 python-kaptan
 python-lesscpy
-389-ds-base
 libmamba
 librealsense
 libsvm
@@ -78,7 +76,7 @@ python-meshio
 python-migen
 python-mirrors-countme
 python-mkapi
-python-mkdocs-static-i18n
+python-mkdocs-git-revision-date-localized-plugin
 python-moddb
 moose
 python-mplcairo
