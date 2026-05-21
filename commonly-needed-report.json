@@ -162,35 +162,6 @@
       ]
     },
     {
-      "component": "python-fsspec",
-      "count": 35,
-      "blocked_by": [
-        "ipython",
-        "jupyterlab",
-        "python-arrow",
-        "python-dask",
-        "python-distributed",
-        "python-fsspec",
-        "python-httpcore",
-        "python-httpx",
-        "python-ipykernel",
-        "python-isoduration",
-        "python-jupyter-events",
-        "python-jupyter-lsp",
-        "python-jupyter-server",
-        "python-jupyterlab-server",
-        "python-notebook",
-        "python-notebook-shim",
-        "python-numcodecs",
-        "python-partd",
-        "python-tblib",
-        "python-toolz",
-        "python-webcolors",
-        "python-zarr",
-        "python-zict"
-      ]
-    },
-    {
       "component": "python-mpmath",
       "count": 33,
       "blocked_by": [
@@ -461,6 +432,13 @@
         "python-pytest-jupyter",
         "python-webcolors"
       ]
+    },
+    {
+      "component": "python-shapely",
+      "count": 20,
+      "blocked_by": [
+        "pyproj"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -490,7 +468,7 @@
     },
     {
       "component": "python-pydantic",
-      "count": 14,
+      "count": 15,
       "blocked_by": [
         "python-dns",
         "python-email-validator"
@@ -508,17 +486,17 @@
       "count": 13
     },
     {
-      "component": "python-pdm-backend",
-      "count": 11
-    },
-    {
       "component": "python-dns",
-      "count": 10,
+      "count": 11,
       "blocked_by": [
         "python-h2",
         "python-httpcore",
         "python-httpx"
       ]
+    },
+    {
+      "component": "python-pdm-backend",
+      "count": 11
     },
     {
       "component": "argparse-manpage",
@@ -669,7 +647,6 @@
     },
     {
       "components": [
-        "python-fsspec",
         "python-mpmath",
         "python-torch",
         "sympy"
