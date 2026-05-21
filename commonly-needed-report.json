@@ -17,16 +17,8 @@
       ]
     },
     {
-      "component": "python-kiwisolver",
-      "count": 114
-    },
-    {
       "component": "python-matplotlib",
-      "count": 112,
-      "blocked_by": [
-        "python-inkex",
-        "python-kiwisolver"
-      ]
+      "count": 112
     },
     {
       "component": "python-anyio",
@@ -348,7 +340,6 @@
       "count": 33,
       "blocked_by": [
         "ipython",
-        "python-kiwisolver",
         "python-matplotlib"
       ]
     },
@@ -440,7 +431,6 @@
         "ipython",
         "llvm",
         "python-furo",
-        "python-kiwisolver",
         "python-markdown-it-py",
         "python-matplotlib",
         "python-mdit-py-plugins",
@@ -461,9 +451,33 @@
         "python-typer",
         "python-zipp"
       ]
+    },
+    {
+      "component": "python-keystoneauth1",
+      "count": 29,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-dulwich",
+        "python-markdown-it-py",
+        "python-openstackdocstheme",
+        "python-oslo-config",
+        "python-oslo-utils",
+        "python-oslotest",
+        "python-requests-mock",
+        "python-rich",
+        "python-rich-argparse",
+        "python-stestr"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
+    {
+      "component": "python-matplotlib",
+      "count": 27
+    },
     {
       "component": "dnf5",
       "count": 19,
@@ -608,14 +622,6 @@
       "component": "python-watchdog",
       "count": 5,
       "unresolvable": true
-    },
-    {
-      "component": "python-pycurl",
-      "count": 5,
-      "blocked_by": [
-        "python-flask",
-        "python-websockets"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -625,13 +631,6 @@
         "python-requests-oauthlib"
       ],
       "count": 36
-    },
-    {
-      "components": [
-        "python-kiwisolver",
-        "python-matplotlib"
-      ],
-      "count": 27
     },
     {
       "components": [
@@ -785,6 +784,14 @@
         "python-toolz"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "breezy",
+        "mercurial",
+        "python-dulwich"
+      ],
+      "count": 3
     }
   ],
   "dependency_loops": []
