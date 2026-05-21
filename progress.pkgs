@@ -9,6 +9,7 @@ libarrow
 link-grammar
 mlpack
 monkeytype
+novelwriter
 pykakasi
 python-OBD
 python-XStatic
@@ -22,8 +23,8 @@ python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
-python-amd-debug-tools
 python-apipkg
+python-application-properties
 python-autodocsumm
 python-beartype
 python-binary-manager
@@ -37,7 +38,6 @@ python-chai
 llvm21
 python-click-plugins
 python-cmd2
-python-conda-index::bootstrap:::
 python-decopatch:tests::::
 python-dill
 dionaea
@@ -54,6 +54,7 @@ python-eyed3
 python-fastprogress
 python-fields
 python-flufl-bounce
+python-furo
 python-gast
 gnulib
 python-graph-tool
@@ -73,13 +74,12 @@ libsvm
 python-linuxdoc
 python3-mallard-ducktype
 manifold:python::::
-python-manuel
 python-markdown-callouts
 python-mathics-scanner
 python-meshio
 python-migen
 python-mirrors-countme
-python-missingno
+python-mistune
 python-moddb
 moose
 python-mplcairo
@@ -102,9 +102,7 @@ python-pydata-sphinx-theme
 python-pygeoif
 python-PyGithub
 python-pygtkspellcheck
-python-pyjson5
 python-pynwb
-python-pypdf
 pyproj
 python-pysdl2
 python-pyswip
@@ -125,8 +123,6 @@ python-scales
 python-sentinels
 python-sphinx-argparse-cli
 python-sphinx-autoapi
-python-sphinx-design
-python-sphinx-inline-tabs
 python-sphinx-kr-theme
 python-sphinxcontrib-autoprogram
 python-sphinxcontrib-chapeldomain

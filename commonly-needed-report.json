@@ -139,10 +139,7 @@
     },
     {
       "component": "python-mistune",
-      "count": 37,
-      "blocked_by": [
-        "python-sphinx-design"
-      ]
+      "count": 37
     },
     {
       "component": "python-arrow",
@@ -246,11 +243,7 @@
     },
     {
       "component": "python-furo",
-      "count": 31,
-      "blocked_by": [
-        "python-sphinx-design",
-        "python-sphinx-inline-tabs"
-      ]
+      "count": 31
     },
     {
       "component": "python-joblib",
@@ -493,11 +486,7 @@
     },
     {
       "component": "python-furo",
-      "count": 15,
-      "blocked_by": [
-        "python-sphinx-design",
-        "python-sphinx-inline-tabs"
-      ]
+      "count": 15
     },
     {
       "component": "python-pydantic",
@@ -563,7 +552,6 @@
       "component": "python-zope-testrunner",
       "count": 6,
       "blocked_by": [
-        "python-manuel",
         "python-sphinxcontrib-programoutput"
       ]
     },
@@ -585,8 +573,7 @@
       "component": "python-pyqtgraph",
       "count": 5,
       "blocked_by": [
-        "python-pydata-sphinx-theme",
-        "python-sphinx-design"
+        "python-pydata-sphinx-theme"
       ]
     },
     {
