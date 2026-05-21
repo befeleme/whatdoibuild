@@ -167,7 +167,6 @@
       "blocked_by": [
         "ipython",
         "jupyterlab",
-        "libarrow",
         "python-arrow",
         "python-dask",
         "python-distributed",
@@ -240,10 +239,6 @@
       "count": 30
     },
     {
-      "component": "dnf5",
-      "count": 30
-    },
-    {
       "component": "sympy",
       "count": 30,
       "blocked_by": [
@@ -302,7 +297,6 @@
       "component": "vtk",
       "count": 28,
       "blocked_by": [
-        "imath",
         "vtk"
       ]
     },
@@ -453,6 +447,20 @@
         "python-requests-mock",
         "qpid-proton"
       ]
+    },
+    {
+      "component": "python-jupyter-server",
+      "count": 21,
+      "blocked_by": [
+        "ipython",
+        "python-arrow",
+        "python-ipykernel",
+        "python-isoduration",
+        "python-jupyter-events",
+        "python-jupyter-server",
+        "python-pytest-jupyter",
+        "python-webcolors"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -473,15 +481,26 @@
       ]
     },
     {
-      "component": "dnf5",
-      "count": 19
-    },
-    {
       "component": "python-sqlalchemy",
-      "count": 15,
+      "count": 16,
       "blocked_by": [
         "python-pg8000",
         "python-scramp"
+      ]
+    },
+    {
+      "component": "python-pydantic",
+      "count": 14,
+      "blocked_by": [
+        "python-dns",
+        "python-email-validator"
+      ]
+    },
+    {
+      "component": "vtk",
+      "count": 13,
+      "blocked_by": [
+        "vtk"
       ]
     },
     {
@@ -489,20 +508,12 @@
       "count": 13
     },
     {
-      "component": "python-pydantic",
-      "count": 13,
-      "blocked_by": [
-        "python-dns",
-        "python-email-validator"
-      ]
-    },
-    {
       "component": "python-pdm-backend",
       "count": 11
     },
     {
       "component": "python-dns",
-      "count": 9,
+      "count": 10,
       "blocked_by": [
         "python-h2",
         "python-httpcore",
@@ -512,14 +523,6 @@
     {
       "component": "argparse-manpage",
       "count": 8
-    },
-    {
-      "component": "vtk",
-      "count": 8,
-      "blocked_by": [
-        "imath",
-        "vtk"
-      ]
     },
     {
       "component": "python-requests-oauthlib",
@@ -583,6 +586,10 @@
     },
     {
       "component": "python-reportlab",
+      "count": 5
+    },
+    {
+      "component": "python-pydata-sphinx-theme",
       "count": 5
     }
   ],
@@ -671,13 +678,6 @@
     },
     {
       "components": [
-        "imath",
-        "vtk"
-      ],
-      "count": 5
-    },
-    {
-      "components": [
         "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
@@ -755,6 +755,14 @@
         "python-pbs-installer"
       ],
       "count": 4
+    },
+    {
+      "components": [
+        "python-flask",
+        "python-httpbin",
+        "python-pytest-httpbin"
+      ],
+      "count": 3
     }
   ],
   "dependency_loops": []
