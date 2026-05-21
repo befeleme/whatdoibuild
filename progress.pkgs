@@ -1,6 +1,7 @@
 Macaulay2
 argparse-manpage
 awscli2
+llvm
 copr-cli
 dnf-plugin-diff
 kmymoney
@@ -21,6 +22,7 @@ python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
+python-amd-debug-tools
 python-apipkg
 python-autodocsumm
 python-beartype
@@ -32,8 +34,10 @@ python-bytecode
 python-catkin_tools
 python-cerberus
 python-chai
+llvm21
 python-click-plugins
 python-cmd2
+python-conda-index::bootstrap:::
 python-decopatch:tests::::
 python-dill
 dionaea
@@ -53,7 +57,6 @@ python-flufl-bounce
 python-gast
 gnulib
 python-graph-tool
-python-hatch-requirements-txt
 python-holidays
 python-hypothesmith
 python-icalendar
@@ -70,15 +73,16 @@ libsvm
 python-linuxdoc
 python3-mallard-ducktype
 manifold:python::::
+python-manuel
 python-markdown-callouts
 python-mathics-scanner
 python-meshio
 python-migen
 python-mirrors-countme
+python-missingno
 python-moddb
 moose
 python-mplcairo
-python-myst-parser
 python-nagiosplugin
 python-neovim
 net-snmp
@@ -97,7 +101,10 @@ python-pybtex
 python-pydata-sphinx-theme
 python-pygeoif
 python-PyGithub
+python-pygtkspellcheck
+python-pyjson5
 python-pynwb
+python-pypdf
 pyproj
 python-pysdl2
 python-pyswip
@@ -115,10 +122,11 @@ python-requirements-parser
 python-robotframework
 python-rstr
 python-scales
-python-seaborn
 python-sentinels
 python-sphinx-argparse-cli
 python-sphinx-autoapi
+python-sphinx-design
+python-sphinx-inline-tabs
 python-sphinx-kr-theme
 python-sphinxcontrib-autoprogram
 python-sphinxcontrib-chapeldomain
@@ -126,7 +134,6 @@ python-ssdeep
 python-sshtunnel
 python-stdnum
 stp
-python-textdistance
 python-toolz
 python-tpm2-pytss
 python-translitcodec
@@ -143,5 +150,4 @@ renderdoc
 supervisor
 thefuck
 ubertooth
-ulauncher
 yt-dlp

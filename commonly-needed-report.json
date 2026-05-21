@@ -160,10 +160,6 @@
       ]
     },
     {
-      "component": "python-myst-parser",
-      "count": 35
-    },
-    {
       "component": "python-ipykernel",
       "count": 35,
       "blocked_by": [
@@ -252,7 +248,6 @@
       "component": "python-furo",
       "count": 31,
       "blocked_by": [
-        "python-myst-parser",
         "python-sphinx-design",
         "python-sphinx-inline-tabs"
       ]
@@ -276,8 +271,7 @@
         "ipython",
         "llvm",
         "python-furo",
-        "python-mpmath",
-        "python-myst-parser"
+        "python-mpmath"
       ]
     },
     {
@@ -351,7 +345,6 @@
         "python-jupyterlab-server",
         "python-jupyterlab-widgets",
         "python-mistune",
-        "python-myst-parser",
         "python-nbconvert",
         "python-nbsphinx",
         "python-notebook",
@@ -457,12 +450,19 @@
         "python-isoduration",
         "python-webcolors"
       ]
+    },
+    {
+      "component": "mkdocs",
+      "count": 22,
+      "blocked_by": [
+        "python-watchdog"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-flask",
-      "count": 21,
+      "count": 22,
       "blocked_by": [
         "python-dotenv"
       ]
@@ -492,6 +492,14 @@
       ]
     },
     {
+      "component": "python-furo",
+      "count": 15,
+      "blocked_by": [
+        "python-sphinx-design",
+        "python-sphinx-inline-tabs"
+      ]
+    },
+    {
       "component": "python-pydantic",
       "count": 13,
       "blocked_by": [
@@ -500,21 +508,8 @@
       ]
     },
     {
-      "component": "python-furo",
-      "count": 13,
-      "blocked_by": [
-        "python-myst-parser",
-        "python-sphinx-design",
-        "python-sphinx-inline-tabs"
-      ]
-    },
-    {
       "component": "ipython",
       "count": 12
-    },
-    {
-      "component": "python-myst-parser",
-      "count": 10
     },
     {
       "component": "python-pdm-backend",
@@ -533,19 +528,19 @@
       ]
     },
     {
-      "component": "python-requests-oauthlib",
-      "count": 7,
-      "blocked_by": [
-        "python-requests-mock"
-      ]
-    },
-    {
       "component": "python-dns",
-      "count": 7,
+      "count": 8,
       "blocked_by": [
         "python-h2",
         "python-httpcore",
         "python-httpx"
+      ]
+    },
+    {
+      "component": "python-requests-oauthlib",
+      "count": 7,
+      "blocked_by": [
+        "python-requests-mock"
       ]
     },
     {
@@ -598,6 +593,13 @@
       "component": "python-watchdog",
       "count": 5,
       "unresolvable": true
+    },
+    {
+      "component": "python-pycurl",
+      "count": 5,
+      "blocked_by": [
+        "python-flask"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -623,7 +625,7 @@
         "mkdocs",
         "python-watchdog"
       ],
-      "count": 10
+      "count": 11
     },
     {
       "components": [
