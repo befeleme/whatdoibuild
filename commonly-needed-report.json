@@ -13,7 +13,6 @@
       "count": 85,
       "blocked_by": [
         "python-flask",
-        "python-h2",
         "python-httpbin",
         "python-pytest-httpbin"
       ]
@@ -22,7 +21,6 @@
       "component": "python-httpx",
       "count": 83,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-uvicorn"
       ]
@@ -109,7 +107,6 @@
       "component": "python-twisted",
       "count": 48,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-httpx"
       ]
@@ -118,7 +115,6 @@
       "component": "python-dns",
       "count": 44,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-httpx"
       ]
@@ -136,11 +132,6 @@
       "blocked_by": [
         "python-requests-futures"
       ]
-    },
-    {
-      "component": "python-arrow",
-      "count": 36,
-      "unresolvable": true
     },
     {
       "component": "python-debtcollector",
@@ -183,10 +174,6 @@
     },
     {
       "component": "python-pdm-backend",
-      "count": 32
-    },
-    {
-      "component": "python-toolz",
       "count": 32
     },
     {
@@ -269,13 +256,6 @@
       "count": 28,
       "blocked_by": [
         "vtk"
-      ]
-    },
-    {
-      "component": "python-isoduration",
-      "count": 28,
-      "blocked_by": [
-        "python-arrow"
       ]
     },
     {
@@ -364,8 +344,6 @@
       "component": "python-jupyter-events",
       "count": 22,
       "blocked_by": [
-        "python-arrow",
-        "python-isoduration",
         "python-webcolors"
       ]
     },
@@ -424,9 +402,7 @@
       "count": 21,
       "blocked_by": [
         "ipython",
-        "python-arrow",
         "python-ipykernel",
-        "python-isoduration",
         "python-jupyter-events",
         "python-jupyter-server",
         "python-pytest-jupyter",
@@ -438,6 +414,31 @@
       "count": 20,
       "blocked_by": [
         "pyproj"
+      ]
+    },
+    {
+      "component": "python-jaraco-text",
+      "count": 20,
+      "blocked_by": [
+        "python-annotated-doc",
+        "python-typer"
+      ]
+    },
+    {
+      "component": "python-starlette",
+      "count": 19,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
+      "component": "python-jaraco-collections",
+      "count": 19,
+      "blocked_by": [
+        "python-annotated-doc",
+        "python-jaraco-text",
+        "python-typer"
       ]
     }
   ],
@@ -453,9 +454,16 @@
       "component": "python-twisted",
       "count": 21,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-httpx"
+      ]
+    },
+    {
+      "component": "python-pydantic",
+      "count": 17,
+      "blocked_by": [
+        "python-dns",
+        "python-email-validator"
       ]
     },
     {
@@ -464,14 +472,6 @@
       "blocked_by": [
         "python-pg8000",
         "python-scramp"
-      ]
-    },
-    {
-      "component": "python-pydantic",
-      "count": 15,
-      "blocked_by": [
-        "python-dns",
-        "python-email-validator"
       ]
     },
     {
@@ -489,7 +489,6 @@
       "component": "python-dns",
       "count": 12,
       "blocked_by": [
-        "python-h2",
         "python-httpcore",
         "python-httpx"
       ]
@@ -592,17 +591,17 @@
     },
     {
       "components": [
-        "mkdocs",
-        "python-watchdog"
+        "python-httpcore",
+        "python-httpx"
       ],
       "count": 11
     },
     {
       "components": [
-        "python-httpcore",
-        "python-httpx"
+        "mkdocs",
+        "python-watchdog"
       ],
-      "count": 9
+      "count": 11
     },
     {
       "components": [
@@ -679,6 +678,14 @@
     },
     {
       "components": [
+        "python-flask",
+        "python-httpbin",
+        "python-pytest-httpbin"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
         "python-autopage",
         "python-cliff",
         "python-cmd2",
@@ -716,10 +723,8 @@
     },
     {
       "components": [
-        "python-cytoolz",
         "python-eth-utils",
-        "python-pydantic",
-        "python-toolz"
+        "python-pydantic"
       ],
       "count": 4
     },
@@ -733,14 +738,6 @@
         "python-pbs-installer"
       ],
       "count": 4
-    },
-    {
-      "components": [
-        "python-flask",
-        "python-httpbin",
-        "python-pytest-httpbin"
-      ],
-      "count": 3
     }
   ],
   "dependency_loops": []

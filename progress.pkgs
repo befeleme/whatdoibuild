@@ -4,7 +4,6 @@ llvm
 copr-cli
 dnf-plugin-diff
 fail2ban
-gr-osmosdr
 kmymoney
 link-grammar
 monkeytype
@@ -53,12 +52,12 @@ python-fields
 python-flufl-bounce
 python-gast
 gdal
+python-geotiler
 gnulib
-python-graph-tool
 python-holidays
 python-hypothesmith
 python-icalendar
-python-img2pdf
+python-iplotx
 ipython
 javapackages-tools
 jc
@@ -127,7 +126,6 @@ python-ssdeep
 python-sshtunnel
 python-stdnum
 stp
-python-toolz
 python-tpm2-pytss
 python-translitcodec
 python-triton
