@@ -138,10 +138,6 @@
       ]
     },
     {
-      "component": "python-mistune",
-      "count": 37
-    },
-    {
       "component": "python-arrow",
       "count": 36,
       "unresolvable": true
@@ -184,7 +180,6 @@
         "python-jupyter-lsp",
         "python-jupyter-server",
         "python-jupyterlab-server",
-        "python-mistune",
         "python-nbconvert",
         "python-notebook",
         "python-notebook-shim",
@@ -242,10 +237,6 @@
       "unresolvable": true
     },
     {
-      "component": "python-furo",
-      "count": 31
-    },
-    {
       "component": "python-joblib",
       "count": 30
     },
@@ -263,7 +254,6 @@
         "antlr4-project",
         "ipython",
         "llvm",
-        "python-furo",
         "python-mpmath"
       ]
     },
@@ -337,7 +327,6 @@
         "python-jupyter-server",
         "python-jupyterlab-server",
         "python-jupyterlab-widgets",
-        "python-mistune",
         "python-nbconvert",
         "python-nbsphinx",
         "python-notebook",
@@ -450,12 +439,47 @@
       "blocked_by": [
         "python-watchdog"
       ]
+    },
+    {
+      "component": "python-openstacksdk",
+      "count": 22,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-keystoneauth1",
+        "python-oslo-config",
+        "python-oslotest",
+        "python-requests-mock",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "snakemake",
+      "count": 22,
+      "blocked_by": [
+        "python-flask",
+        "python-google-api-core",
+        "python-google-auth",
+        "python-google-cloud-core",
+        "python-google-cloud-storage",
+        "python-proto-plus",
+        "python-pydantic",
+        "python-requests-oauthlib",
+        "python-smart_open",
+        "python-snakemake-executor-plugin-cluster-generic",
+        "python-snakemake-storage-plugin-fs",
+        "python-snakemake-storage-plugin-http",
+        "python-snakemake-storage-plugin-s3",
+        "python-sqlalchemy",
+        "python-sqlmodel"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
     {
       "component": "python-flask",
-      "count": 22,
+      "count": 24,
       "blocked_by": [
         "python-dotenv"
       ]
@@ -485,8 +509,8 @@
       ]
     },
     {
-      "component": "python-furo",
-      "count": 15
+      "component": "ipython",
+      "count": 13
     },
     {
       "component": "python-pydantic",
@@ -497,12 +521,17 @@
       ]
     },
     {
-      "component": "ipython",
-      "count": 12
+      "component": "python-pdm-backend",
+      "count": 11
     },
     {
-      "component": "python-pdm-backend",
-      "count": 10
+      "component": "python-dns",
+      "count": 9,
+      "blocked_by": [
+        "python-h2",
+        "python-httpcore",
+        "python-httpx"
+      ]
     },
     {
       "component": "argparse-manpage",
@@ -514,15 +543,6 @@
       "blocked_by": [
         "imath",
         "vtk"
-      ]
-    },
-    {
-      "component": "python-dns",
-      "count": 8,
-      "blocked_by": [
-        "python-h2",
-        "python-httpcore",
-        "python-httpx"
       ]
     },
     {
@@ -587,6 +607,10 @@
       "blocked_by": [
         "python-flask"
       ]
+    },
+    {
+      "component": "python-reportlab",
+      "count": 5
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -750,11 +774,14 @@
     },
     {
       "components": [
-        "python-flask",
-        "python-httpbin",
-        "python-pytest-httpbin"
+        "poetry",
+        "python-CacheControl",
+        "python-findpython",
+        "python-httpcore",
+        "python-httpx",
+        "python-pbs-installer"
       ],
-      "count": 3
+      "count": 4
     }
   ],
   "dependency_loops": []
