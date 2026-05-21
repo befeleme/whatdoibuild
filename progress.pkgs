@@ -2,14 +2,10 @@ Macaulay2
 argparse-manpage
 awscli2
 copr-cli
-cozy
 dnf-plugin-diff
-hgsvn
 kmymoney
-lazygal
 link-grammar
 monkeytype
-powerline
 pykakasi
 python-OBD
 python-XStatic
@@ -25,8 +21,6 @@ python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
 python-apipkg
 python-autodocsumm
-python-aw-client
-python-aw-qt
 python-beartype
 python-binary-manager
 python-blessed
@@ -43,6 +37,7 @@ dionaea
 root
 python-django-angular
 python-django-configurations
+python-django-haystack
 dnf-plugin-perfmetrics
 python-dns:curio-doh-trio::::
 python-eccodes
@@ -52,16 +47,13 @@ python-extractcode
 python-eyed3
 python-fastprogress
 python-fields
-python-flask-openid
 python-flufl-bounce
 python-gast
 gnulib
 python-graph-tool
 python-holidays
-python-html5lib
 python-hypothesmith
 python-icalendar
-python-interface-meta
 ipython
 javapackages-tools
 jc
@@ -88,10 +80,8 @@ python-neovim
 net-snmp
 python-nibabel
 python-opcodes
-python-openid-cla
 python-orjson
 python-pandas::bootstrap:::
-python-paste-script
 python-pdm-backend
 petsc
 roca-detect
@@ -99,7 +89,6 @@ python-phply
 python-plaster-pastedeploy
 python-pluginlib
 protobuf
-python-pure-protobuf
 python-pybtex
 python-pygeoif
 python-PyGithub
@@ -115,11 +104,13 @@ qpid-proton
 pyqtwebengine
 python-readchar
 python-readme-renderer
-python-relatorio
+python-recipe-scrapers
+python-reportlab
 python-requirements-parser
 python-robotframework
 python-rstr
 python-scales
+python-scrape-schema-recipe
 python-sentinels
 python-sphinx-argparse-cli
 python-sphinx-autoapi
@@ -134,8 +125,6 @@ python-toolz
 python-tpm2-pytss
 python-translitcodec
 python-triton
-python-tw2-core
-python-uv-dynamic-versioning
 python-vcstool
 weasyprint
 python-webrtcvad
@@ -148,5 +137,4 @@ renderdoc
 supervisor
 thefuck
 ubertooth
-vorta
 yt-dlp

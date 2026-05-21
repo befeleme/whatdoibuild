@@ -113,10 +113,6 @@
       ]
     },
     {
-      "component": "python-html5lib",
-      "count": 49
-    },
-    {
       "component": "python-typer",
       "count": 48,
       "blocked_by": [
@@ -157,13 +153,6 @@
       ]
     },
     {
-      "component": "python-mdit-py-plugins",
-      "count": 40,
-      "blocked_by": [
-        "python-pytest-regressions"
-      ]
-    },
-    {
       "component": "python-mistune",
       "count": 37,
       "blocked_by": [
@@ -189,7 +178,6 @@
       "component": "python-myst-parser",
       "count": 35,
       "blocked_by": [
-        "python-mdit-py-plugins",
         "python-pytest-regressions"
       ]
     },
@@ -210,11 +198,9 @@
         "jupyterlab",
         "libarrow",
         "python-arrow",
-        "python-bleach",
         "python-dask",
         "python-distributed",
         "python-fsspec",
-        "python-html5lib",
         "python-httpcore",
         "python-httpx",
         "python-ipykernel",
@@ -276,13 +262,6 @@
       ]
     },
     {
-      "component": "python-bleach",
-      "count": 31,
-      "blocked_by": [
-        "python-html5lib"
-      ]
-    },
-    {
       "component": "python-watchdog",
       "count": 31,
       "unresolvable": true
@@ -291,7 +270,6 @@
       "component": "python-furo",
       "count": 31,
       "blocked_by": [
-        "python-mdit-py-plugins",
         "python-myst-parser",
         "python-sphinx-design",
         "python-sphinx-inline-tabs",
@@ -317,7 +295,6 @@
         "ipython",
         "llvm",
         "python-furo",
-        "python-mdit-py-plugins",
         "python-mpmath",
         "python-myst-parser"
       ]
@@ -382,8 +359,6 @@
         "ipython",
         "jupyterlab",
         "python-arrow",
-        "python-bleach",
-        "python-html5lib",
         "python-httpcore",
         "python-httpx",
         "python-ipykernel",
@@ -394,7 +369,6 @@
         "python-jupyter-server",
         "python-jupyterlab-server",
         "python-jupyterlab-widgets",
-        "python-mdit-py-plugins",
         "python-mistune",
         "python-myst-parser",
         "python-nbconvert",
@@ -467,6 +441,25 @@
         "python-google-cloud-storage",
         "python-proto-plus"
       ]
+    },
+    {
+      "component": "python-vcrpy",
+      "count": 23,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
+      "component": "python-scikit-learn",
+      "count": 22,
+      "blocked_by": [
+        "python-joblib"
+      ]
+    },
+    {
+      "component": "python-dill",
+      "count": 22
     }
   ],
   "most_commonly_last_blocking": [
@@ -480,7 +473,7 @@
     },
     {
       "component": "python-twisted",
-      "count": 19,
+      "count": 20,
       "blocked_by": [
         "python-h2",
         "python-httpcore",
@@ -511,7 +504,6 @@
       "component": "python-furo",
       "count": 13,
       "blocked_by": [
-        "python-mdit-py-plugins",
         "python-myst-parser",
         "python-sphinx-design",
         "python-sphinx-inline-tabs",
@@ -527,8 +519,11 @@
       "count": 10
     },
     {
-      "component": "python-html5lib",
-      "count": 9
+      "component": "python-myst-parser",
+      "count": 8,
+      "blocked_by": [
+        "python-pytest-regressions"
+      ]
     },
     {
       "component": "argparse-manpage",
@@ -540,6 +535,13 @@
       "blocked_by": [
         "imath",
         "vtk"
+      ]
+    },
+    {
+      "component": "python-pytest-regressions",
+      "count": 8,
+      "blocked_by": [
+        "python-pandas"
       ]
     },
     {
@@ -572,13 +574,6 @@
       "blocked_by": [
         "python-twisted",
         "python-zope-testrunner"
-      ]
-    },
-    {
-      "component": "python-pytest-regressions",
-      "count": 6,
-      "blocked_by": [
-        "python-pandas"
       ]
     },
     {
@@ -671,13 +666,6 @@
     },
     {
       "components": [
-        "python-mdit-py-plugins",
-        "python-myst-parser"
-      ],
-      "count": 8
-    },
-    {
-      "components": [
         "python-mpmath",
         "sympy"
       ],
@@ -763,6 +751,15 @@
       "components": [
         "python-google-auth",
         "python-requests-oauthlib"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
+        "python-hupper",
+        "python-plaster-pastedeploy",
+        "python-pyramid",
+        "python-zope-deprecation"
       ],
       "count": 4
     },
