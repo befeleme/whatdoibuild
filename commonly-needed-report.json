@@ -2,10 +2,7 @@
   "most_commonly_needed": [
     {
       "component": "python-pydantic",
-      "count": 106,
-      "blocked_by": [
-        "python-email-validator"
-      ]
+      "count": 106
     },
     {
       "component": "python-httpcore",
@@ -45,10 +42,6 @@
       "blocked_by": [
         "python-dotenv"
       ]
-    },
-    {
-      "component": "ipython",
-      "count": 60
     },
     {
       "component": "python-msrest",
@@ -97,10 +90,7 @@
     },
     {
       "component": "python-dotenv",
-      "count": 43,
-      "blocked_by": [
-        "ipython"
-      ]
+      "count": 43
     },
     {
       "component": "python-requests-mock",
@@ -123,17 +113,13 @@
       "component": "python-ipykernel",
       "count": 35,
       "blocked_by": [
-        "ipython",
         "python-ipykernel",
         "python-ipyparallel"
       ]
     },
     {
       "component": "python-mpmath",
-      "count": 33,
-      "blocked_by": [
-        "ipython"
-      ]
+      "count": 33
     },
     {
       "component": "python-oslo-utils",
@@ -157,7 +143,6 @@
       "count": 30,
       "blocked_by": [
         "antlr4-project",
-        "ipython",
         "llvm",
         "python-mpmath"
       ]
@@ -186,13 +171,6 @@
         "python-cmd2",
         "python-oslo-config",
         "python-stestr"
-      ]
-    },
-    {
-      "component": "vtk",
-      "count": 28,
-      "blocked_by": [
-        "vtk"
       ]
     },
     {
@@ -396,10 +374,7 @@
     },
     {
       "component": "python-cattrs",
-      "count": 14,
-      "blocked_by": [
-        "python-pymongo"
-      ]
+      "count": 14
     },
     {
       "component": "python-proto-plus",
@@ -443,7 +418,6 @@
       "component": "python-jupyterlab-server",
       "count": 14,
       "blocked_by": [
-        "ipython",
         "python-ipykernel",
         "python-pytest-jupyter",
         "python-requests-mock"
@@ -454,6 +428,17 @@
       "count": 14,
       "blocked_by": [
         "python-pydantic"
+      ]
+    },
+    {
+      "component": "pyproj",
+      "count": 13
+    },
+    {
+      "component": "python-crochet",
+      "count": 13,
+      "blocked_by": [
+        "python-twisted"
       ]
     }
   ],
@@ -475,29 +460,15 @@
     },
     {
       "component": "python-pydantic",
-      "count": 20,
-      "blocked_by": [
-        "python-email-validator"
-      ]
+      "count": 20
     },
     {
       "component": "python-sqlalchemy",
-      "count": 16,
+      "count": 17,
       "blocked_by": [
         "python-pg8000",
         "python-scramp"
       ]
-    },
-    {
-      "component": "vtk",
-      "count": 13,
-      "blocked_by": [
-        "vtk"
-      ]
-    },
-    {
-      "component": "ipython",
-      "count": 13
     },
     {
       "component": "koji",
@@ -509,16 +480,21 @@
     },
     {
       "component": "python-dotenv",
-      "count": 7,
-      "blocked_by": [
-        "ipython"
-      ]
+      "count": 7
     },
     {
       "component": "python-requests-oauthlib",
       "count": 7,
       "blocked_by": [
         "python-requests-mock"
+      ]
+    },
+    {
+      "component": "python-ipykernel",
+      "count": 7,
+      "blocked_by": [
+        "python-ipykernel",
+        "python-ipyparallel"
       ]
     },
     {
@@ -590,8 +566,12 @@
       ]
     },
     {
-      "component": "python-build",
+      "component": "python-cattrs",
       "count": 4
+    },
+    {
+      "component": "python-black",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -651,13 +631,6 @@
         "python-crochet",
         "python-pika",
         "python-twisted"
-      ],
-      "count": 7
-    },
-    {
-      "components": [
-        "ipython",
-        "python-ipykernel"
       ],
       "count": 7
     },
@@ -758,6 +731,14 @@
       "components": [
         "python-dotenv",
         "python-pytest-env"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-httpcore",
+        "python-httpx",
+        "python-pydantic"
       ],
       "count": 3
     }
