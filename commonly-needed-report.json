@@ -80,13 +80,6 @@
       ]
     },
     {
-      "component": "python-annotated-doc",
-      "count": 53,
-      "blocked_by": [
-        "python-pdm-backend"
-      ]
-    },
-    {
       "component": "python-stestr",
       "count": 51,
       "blocked_by": [
@@ -97,11 +90,7 @@
     },
     {
       "component": "python-typer",
-      "count": 48,
-      "blocked_by": [
-        "python-annotated-doc",
-        "python-pdm-backend"
-      ]
+      "count": 48
     },
     {
       "component": "python-twisted",
@@ -173,14 +162,9 @@
       ]
     },
     {
-      "component": "python-pdm-backend",
-      "count": 32
-    },
-    {
       "component": "python-zipp",
       "count": 31,
       "blocked_by": [
-        "python-annotated-doc",
         "python-jaraco-collections",
         "python-jaraco-test",
         "python-jaraco-text",
@@ -205,7 +189,6 @@
       "component": "python-importlib-metadata",
       "count": 29,
       "blocked_by": [
-        "python-annotated-doc",
         "python-jaraco-collections",
         "python-jaraco-test",
         "python-jaraco-text",
@@ -226,13 +209,6 @@
         "python-oslotest",
         "python-requests-mock",
         "python-stestr"
-      ]
-    },
-    {
-      "component": "python-webcolors",
-      "count": 29,
-      "blocked_by": [
-        "python-pdm-backend"
       ]
     },
     {
@@ -287,11 +263,9 @@
       "component": "python-sqlmodel",
       "count": 25,
       "blocked_by": [
-        "python-annotated-doc",
         "python-fastapi",
         "python-httpcore",
         "python-httpx",
-        "python-pdm-backend",
         "python-pydantic",
         "python-sqlalchemy",
         "python-starlette"
@@ -337,10 +311,7 @@
     },
     {
       "component": "python-jupyter-events",
-      "count": 22,
-      "blocked_by": [
-        "python-webcolors"
-      ]
+      "count": 22
     },
     {
       "component": "python-openstacksdk",
@@ -393,8 +364,7 @@
         "python-ipykernel",
         "python-jupyter-events",
         "python-jupyter-server",
-        "python-pytest-jupyter",
-        "python-webcolors"
+        "python-pytest-jupyter"
       ]
     },
     {
@@ -408,7 +378,6 @@
       "component": "python-jaraco-text",
       "count": 20,
       "blocked_by": [
-        "python-annotated-doc",
         "python-typer"
       ]
     },
@@ -424,7 +393,6 @@
       "component": "python-jaraco-collections",
       "count": 19,
       "blocked_by": [
-        "python-annotated-doc",
         "python-jaraco-text",
         "python-typer"
       ]
@@ -444,6 +412,38 @@
       "count": 16,
       "blocked_by": [
         "python-dill"
+      ]
+    },
+    {
+      "component": "python-notebook-shim",
+      "count": 16,
+      "blocked_by": [
+        "python-jupyter-events",
+        "python-jupyter-server",
+        "python-pytest-jupyter"
+      ]
+    },
+    {
+      "component": "python-osc-lib",
+      "count": 16,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-openstacksdk",
+        "python-oslo-utils",
+        "python-oslotest",
+        "python-requests-mock",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-pika",
+      "count": 15,
+      "blocked_by": [
+        "python-twisted"
       ]
     }
   ],
@@ -465,7 +465,7 @@
     },
     {
       "component": "python-pydantic",
-      "count": 18,
+      "count": 19,
       "blocked_by": [
         "python-dns",
         "python-email-validator"
@@ -499,22 +499,18 @@
       ]
     },
     {
-      "component": "python-pdm-backend",
-      "count": 12
+      "component": "koji",
+      "count": 8,
+      "blocked_by": [
+        "python-requests-mock",
+        "qpid-proton"
+      ]
     },
     {
       "component": "python-requests-oauthlib",
       "count": 7,
       "blocked_by": [
         "python-requests-mock"
-      ]
-    },
-    {
-      "component": "koji",
-      "count": 7,
-      "blocked_by": [
-        "python-requests-mock",
-        "qpid-proton"
       ]
     },
     {
@@ -563,6 +559,10 @@
       ]
     },
     {
+      "component": "python-nibabel",
+      "count": 5
+    },
+    {
       "component": "python-dill",
       "count": 5
     },
@@ -575,11 +575,8 @@
       ]
     },
     {
-      "component": "python-docopt-ng",
-      "count": 4,
-      "blocked_by": [
-        "python-pdm-backend"
-      ]
+      "component": "python-blessed",
+      "count": 4
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -605,7 +602,7 @@
         "python-httpcore",
         "python-httpx"
       ],
-      "count": 11
+      "count": 13
     },
     {
       "components": [
@@ -736,7 +733,6 @@
       "components": [
         "poetry",
         "python-CacheControl",
-        "python-findpython",
         "python-httpcore",
         "python-httpx",
         "python-pbs-installer"
