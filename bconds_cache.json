@@ -2027,7 +2027,7 @@
           "extras"
         ],
         "id": "python-lxml:extras::::",
-        "srpm_filename": "python-lxml-6.1.0-2.fc45.src.rpm",
+        "srpm_filename": "python-lxml-6.1.1-2.fc45.src.rpm",
         "buildrequires": [
           "(python3dist(tomli) if python3-devel < 3.11)",
           "gcc",
