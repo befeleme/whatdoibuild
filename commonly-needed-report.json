@@ -4,7 +4,6 @@
       "component": "python-pydantic",
       "count": 106,
       "blocked_by": [
-        "python-dns",
         "python-email-validator"
       ]
     },
@@ -97,14 +96,6 @@
       ]
     },
     {
-      "component": "python-dns",
-      "count": 44,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
-    },
-    {
       "component": "python-dotenv",
       "count": 43,
       "blocked_by": [
@@ -158,10 +149,6 @@
       ]
     },
     {
-      "component": "python-zipp",
-      "count": 31
-    },
-    {
       "component": "python-joblib",
       "count": 30
     },
@@ -173,13 +160,6 @@
         "ipython",
         "llvm",
         "python-mpmath"
-      ]
-    },
-    {
-      "component": "python-importlib-metadata",
-      "count": 29,
-      "blocked_by": [
-        "python-zipp"
       ]
     },
     {
@@ -415,14 +395,9 @@
       ]
     },
     {
-      "component": "python-nibabel",
-      "count": 14
-    },
-    {
       "component": "python-cattrs",
       "count": 14,
       "blocked_by": [
-        "python-dns",
         "python-pymongo"
       ]
     },
@@ -434,6 +409,51 @@
         "python-google-api-core",
         "python-google-auth",
         "python-proto-plus"
+      ]
+    },
+    {
+      "component": "python-keystoneclient",
+      "count": 14,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-openstacksdk",
+        "python-oslo-config",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-oslotest",
+        "python-requests-mock",
+        "python-stestr"
+      ]
+    },
+    {
+      "component": "python-uvicorn",
+      "count": 14,
+      "blocked_by": [
+        "python-a2wsgi",
+        "python-dotenv",
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
+      "component": "python-jupyterlab-server",
+      "count": 14,
+      "blocked_by": [
+        "ipython",
+        "python-ipykernel",
+        "python-pytest-jupyter",
+        "python-requests-mock"
+      ]
+    },
+    {
+      "component": "python-eth-utils",
+      "count": 14,
+      "blocked_by": [
+        "python-pydantic"
       ]
     }
   ],
@@ -455,9 +475,8 @@
     },
     {
       "component": "python-pydantic",
-      "count": 19,
+      "count": 20,
       "blocked_by": [
-        "python-dns",
         "python-email-validator"
       ]
     },
@@ -479,14 +498,6 @@
     {
       "component": "ipython",
       "count": 13
-    },
-    {
-      "component": "python-dns",
-      "count": 12,
-      "blocked_by": [
-        "python-httpcore",
-        "python-httpx"
-      ]
     },
     {
       "component": "koji",
@@ -549,10 +560,6 @@
       ]
     },
     {
-      "component": "python-nibabel",
-      "count": 5
-    },
-    {
       "component": "python-dill",
       "count": 5
     },
@@ -573,6 +580,18 @@
         "python-pytest-astropy",
         "python-scikit-image"
       ]
+    },
+    {
+      "component": "python-vcrpy",
+      "count": 4,
+      "blocked_by": [
+        "python-httpcore",
+        "python-httpx"
+      ]
+    },
+    {
+      "component": "python-build",
+      "count": 4
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -624,7 +643,7 @@
         "python-mpmath",
         "sympy"
       ],
-      "count": 7
+      "count": 8
     },
     {
       "components": [
@@ -649,13 +668,6 @@
         "sympy"
       ],
       "count": 7
-    },
-    {
-      "components": [
-        "python-importlib-metadata",
-        "python-zipp"
-      ],
-      "count": 6
     },
     {
       "components": [
@@ -714,6 +726,13 @@
     },
     {
       "components": [
+        "python-joblib",
+        "python-scikit-learn"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
         "python-google-auth",
         "python-requests-oauthlib"
       ],
@@ -737,9 +756,8 @@
     },
     {
       "components": [
-        "python-httpcore",
-        "python-httpx",
-        "python-pydantic"
+        "python-dotenv",
+        "python-pytest-env"
       ],
       "count": 3
     }
