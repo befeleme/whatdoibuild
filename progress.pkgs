@@ -4,6 +4,7 @@ copr-cli
 distgen
 dnf-plugin-diff
 fail2ban
+gramps
 kmymoney
 link-grammar
 monkeytype
@@ -35,6 +36,7 @@ llvm21
 python-click-plugins
 python-cmd2
 python-decopatch:tests::::
+python-deepdiff:tests::::
 python-dill
 dionaea
 root
@@ -50,6 +52,7 @@ python-eyed3
 python-fastprogress
 python-fields
 python-flufl-bounce
+python-fvs
 python-gast
 gdal
 python-geotiler
@@ -85,9 +88,7 @@ python-neovim
 net-snmp
 python-nibabel
 python-opcodes
-openvdb
 python-opfunu
-python-orjson
 python-pdm-backend
 petsc
 roca-detect
