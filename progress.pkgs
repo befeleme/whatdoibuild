@@ -2,7 +2,6 @@ alot
 ansible
 ansible-builder
 ceph
-copr-backend
 dnf-plugin-diff
 eric
 fail2ban
@@ -11,11 +10,11 @@ kicad
 kmymoney
 link-grammar
 monkeytype
+myst-nb
 ocrmypdf
 osc
 pg_activity
 pykakasi
-pyplane
 python-streamlink
 python-OBD
 python-XStatic
@@ -37,7 +36,6 @@ python-apipkg
 python-beartype
 python-binary-manager
 bmap-tools
-python-boutdata
 python-bytecode
 python-catkin_tools
 python-cerberus
@@ -69,11 +67,9 @@ python-hypothesmith
 jc
 emacs-jedi
 python-jsonpickle
-python-jupyter-cache
 python-jupyter-console
 python-kaptan
 samba
-python-lfpykit
 libmamba
 librealsense
 libsvm
@@ -102,10 +98,8 @@ python-opytimizer
 petsc
 roca-detect
 python-phply
-python-piper-tts
 python-plaster-pastedeploy
 python-pluginlib
-libpoly
 protobuf
 python-pybtex
 python-pydantic
@@ -139,8 +133,8 @@ python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
 stp
-python-texext
 python-tpm2-pytss
+python-transforms3d
 python-translitcodec
 python-treq
 python-triton
