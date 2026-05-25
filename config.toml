@@ -641,7 +641,7 @@ withouts = ["tests"]
 withs = ["bootstrap"]
 
 [[bconds.python-google-auth]]
-withouts = ["grpcio"]
+withouts = ["grpcio", "tests"]
 
 [[bconds.python-os-service-types]]
 withs = ["bootstrap"]
