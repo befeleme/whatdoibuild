@@ -1,7 +1,6 @@
 alot
+ansible-builder
 ansible-core
-beets
-bindep
 ceph
 llvm
 dnf-plugin-diff
@@ -31,6 +30,7 @@ python-apipkg
 python-beartype
 python-binary-manager
 bmap-tools
+bodhi-messages
 python-bugzilla
 python-bytecode
 python-catkin_tools
@@ -38,7 +38,7 @@ python-cerberus
 python-chai
 llvm21
 python-cmd2
-python-daphne
+copr-messaging
 python-decopatch:tests::::
 python-dill
 dionaea
@@ -53,7 +53,7 @@ python-eventlet
 python-exiv2
 python-extractcode
 python-fastprogress
-fedora-messaging
+python-fedora-image-uploader-messages
 python-fields
 flatpak-module-tools
 python-gast
@@ -65,17 +65,17 @@ python-holidays
 python-huggingface-hub
 python-hypothesmith
 python-icalendar
-freeipa-desktop-profile
 jc
 emacs-jedi
 python-jupyter-console
 python-kaptan
-python-klein
+python-koji-fedoramessaging-messages
 samba
 libmamba
 librealsense
 libsvm
 python-linuxdoc
+mailman3-fedmsg-plugin-schemas
 python3-mallard-ducktype
 manifold:python::::
 python-markdown-callouts
@@ -92,8 +92,10 @@ python-msrest
 python-nagiosplugin
 python-neovim
 net-snmp
+python-noggin-messages
 python-opcodes
 python-opfunu
+python-pagure-messages
 petsc
 roca-detect
 python-phply
@@ -117,10 +119,10 @@ python-pyvmomi
 pywhispercpp
 pyqtwebengine
 python-qudida
-radicale
 python-readchar
 python-readme-renderer
 python-requirements-parser
+python-robosignatory
 python-robotframework
 python-rstr
 python-scales
@@ -132,7 +134,6 @@ python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-stdnum
 stp
-python-tinyrpc
 python-tpm2-pytss
 python-translitcodec
 python-treq
@@ -147,9 +148,7 @@ python-yamlloader
 python-zict
 python-zope-testrunner
 renderdoc
-showcert
 supervisor
-syncplay
 thefuck
 ubertooth
 variety

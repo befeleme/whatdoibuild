@@ -275,10 +275,6 @@
       ]
     },
     {
-      "component": "fedora-messaging",
-      "count": 12
-    },
-    {
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
@@ -450,6 +446,14 @@
       "blocked_by": [
         "python-pydantic"
       ]
+    },
+    {
+      "component": "python-tables",
+      "count": 8,
+      "blocked_by": [
+        "python-blosc2",
+        "python-ndindex"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -475,10 +479,6 @@
       "blocked_by": [
         "llvm"
       ]
-    },
-    {
-      "component": "fedora-messaging",
-      "count": 8
     },
     {
       "component": "python-zope-testrunner",
@@ -572,6 +572,16 @@
       "count": 3,
       "blocked_by": [
         "python-sqlalchemy"
+      ]
+    },
+    {
+      "component": "python-lsp-server",
+      "count": 3,
+      "blocked_by": [
+        "pylint",
+        "python-dill",
+        "python-pytoolconfig",
+        "python-rope"
       ]
     }
   ],
@@ -684,6 +694,13 @@
     },
     {
       "components": [
+        "python-alembic",
+        "python-sqlalchemy"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
         "grpc",
         "python-google-api-core",
         "python-proto-plus"
@@ -706,6 +723,13 @@
     },
     {
       "components": [
+        "python-fastapi",
+        "python-pydantic"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
         "python-autopage",
         "python-cliff",
         "python-cmd2",
@@ -719,21 +743,6 @@
         "python-hexbytes",
         "python-pydantic",
         "python-rlp"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-dill",
-        "python-fslpy"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "pyproj",
-        "python-geopandas",
-        "python-shapely"
       ],
       "count": 2
     }
