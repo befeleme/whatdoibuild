@@ -3,6 +3,7 @@ beets
 ceph
 llvm
 dnf-plugin-diff
+dogtag-pki
 eric
 fail2ban
 kicad
@@ -24,6 +25,7 @@ python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
+antlr4-project
 python-apipkg
 python-beartype
 python-binary-manager
@@ -50,21 +52,20 @@ python-exiv2
 python-extractcode
 python-fastprogress
 python-fields
+flatpak-module-tools
 python-gast
 gdal
 python-geotiler
 gnulib
-python-google-auth:grpcio-tests::::
+grpc
 python-holidays
 python-huggingface-hub
 python-hypothesmith
 python-icalendar
-javapackages-tools
 jc
 emacs-jedi
 python-jupyter-console
 python-kaptan
-koji
 samba
 libmamba
 librealsense
@@ -100,7 +101,6 @@ python-pygeoif
 python-PyGithub
 python-pygtkspellcheck
 python-jnius
-python-pyngus
 pyproj
 python-pyscaffold
 python-pysdl2
