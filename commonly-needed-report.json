@@ -62,10 +62,6 @@
       ]
     },
     {
-      "component": "sympy",
-      "count": 30
-    },
-    {
       "component": "python-keystoneauth1",
       "count": 29,
       "blocked_by": [
@@ -299,16 +295,12 @@
       "component": "python-torch",
       "count": 11,
       "blocked_by": [
-        "python-peachpy",
-        "sympy"
+        "python-peachpy"
       ]
     },
     {
       "component": "python-ndindex",
-      "count": 11,
-      "blocked_by": [
-        "sympy"
-      ]
+      "count": 11
     },
     {
       "component": "python-pydantic-settings",
@@ -459,6 +451,13 @@
       "blocked_by": [
         "python-zope-testrunner"
       ]
+    },
+    {
+      "component": "poetry",
+      "count": 7,
+      "blocked_by": [
+        "python-CacheControl"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -471,14 +470,17 @@
       "count": 29
     },
     {
-      "component": "sympy",
-      "count": 10
-    },
-    {
       "component": "python-flexmock",
       "count": 8,
       "blocked_by": [
         "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "python-torch",
+      "count": 8,
+      "blocked_by": [
+        "python-peachpy"
       ]
     },
     {
@@ -520,7 +522,6 @@
         "python-ezdxf",
         "python-scikit-image",
         "python-shapely",
-        "sympy",
         "usd"
       ]
     },
@@ -622,13 +623,6 @@
     },
     {
       "components": [
-        "python-torch",
-        "sympy"
-      ],
-      "count": 8
-    },
-    {
-      "components": [
         "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
@@ -706,6 +700,13 @@
         "python-proto-plus"
       ],
       "count": 3
+    },
+    {
+      "components": [
+        "python-glyphsLib",
+        "python-ufo2ft"
+      ],
+      "count": 2
     },
     {
       "components": [
