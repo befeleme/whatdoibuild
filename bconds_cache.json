@@ -1269,6 +1269,33 @@
         ]
       }
     ],
+    "python-pandas": [
+      {
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-pandas::bootstrap:::",
+        "srpm_filename": "python-pandas-3.0.3-1.fc45~bootstrap.1.src.rpm",
+        "buildrequires": [
+          "(python3dist(cython) < 4~a0 with python3dist(cython) > 3.1.0)",
+          "(python3dist(meson) < 2~~ with python3dist(meson) >= 1.2.1)",
+          "(python3dist(meson-python) < 1~~ with python3dist(meson-python) >= 0.17.1)",
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "gcc",
+          "gcc-c++",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(numpy) >= 2",
+          "python3dist(numpy) >= 2.3.3",
+          "python3dist(packaging)",
+          "python3dist(pip) >= 19",
+          "python3dist(python-dateutil) >= 2.8.2",
+          "python3dist(versioneer)",
+          "python3dist(versioneer[toml])",
+          "python3dist(wheel)"
+        ]
+      }
+    ],
     "python-fasteners": [
       {
         "withouts": [
