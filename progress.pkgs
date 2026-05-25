@@ -1,9 +1,10 @@
+alot
 ansible-core
 beets
+bindep
 ceph
 llvm
 dnf-plugin-diff
-dogtag-pki
 eric
 fail2ban
 kicad
@@ -11,6 +12,7 @@ kmymoney
 link-grammar
 monkeytype
 ocrmypdf
+paraview
 pg_activity
 pykakasi
 python-OBD
@@ -25,7 +27,6 @@ python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
-antlr4-project
 python-apipkg
 python-beartype
 python-binary-manager
@@ -37,6 +38,7 @@ python-cerberus
 python-chai
 llvm21
 python-cmd2
+python-daphne
 python-decopatch:tests::::
 python-dill
 dionaea
@@ -51,6 +53,7 @@ python-eventlet
 python-exiv2
 python-extractcode
 python-fastprogress
+fedora-messaging
 python-fields
 flatpak-module-tools
 python-gast
@@ -62,10 +65,12 @@ python-holidays
 python-huggingface-hub
 python-hypothesmith
 python-icalendar
+freeipa-desktop-profile
 jc
 emacs-jedi
 python-jupyter-console
 python-kaptan
+python-klein
 samba
 libmamba
 librealsense
@@ -112,6 +117,7 @@ python-pyvmomi
 pywhispercpp
 pyqtwebengine
 python-qudida
+radicale
 python-readchar
 python-readme-renderer
 python-requirements-parser
@@ -126,10 +132,11 @@ python-sphinxcontrib-chapeldomain
 python-sshtunnel
 python-stdnum
 stp
+python-tinyrpc
 python-tpm2-pytss
 python-translitcodec
+python-treq
 python-triton
-python-twisted
 usd
 python-vcstool
 python-webrtcvad
@@ -140,7 +147,9 @@ python-yamlloader
 python-zict
 python-zope-testrunner
 renderdoc
+showcert
 supervisor
+syncplay
 thefuck
 ubertooth
 variety
