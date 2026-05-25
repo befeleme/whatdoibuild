@@ -5,14 +5,6 @@
       "count": 105
     },
     {
-      "component": "python-sqlalchemy",
-      "count": 78,
-      "blocked_by": [
-        "python-pg8000",
-        "python-scramp"
-      ]
-    },
-    {
       "component": "python-msrest",
       "count": 57
     },
@@ -132,8 +124,7 @@
       "count": 25,
       "blocked_by": [
         "python-fastapi",
-        "python-pydantic",
-        "python-sqlalchemy"
+        "python-pydantic"
       ]
     },
     {
@@ -173,7 +164,6 @@
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
         "python-snakemake-storage-plugin-s3",
-        "python-sqlalchemy",
         "python-sqlmodel"
       ]
     },
@@ -254,13 +244,6 @@
       "count": 12
     },
     {
-      "component": "python-alembic",
-      "count": 12,
-      "blocked_by": [
-        "python-sqlalchemy"
-      ]
-    },
-    {
       "component": "python-google-api-core",
       "count": 12,
       "blocked_by": [
@@ -307,7 +290,6 @@
         "python-distributed",
         "python-ndindex",
         "python-scikit-image",
-        "python-sqlalchemy",
         "python-tables",
         "python-xarray",
         "python-zict"
@@ -466,6 +448,17 @@
         "python-oslotest",
         "python-stestr"
       ]
+    },
+    {
+      "component": "python-plaster-pastedeploy",
+      "count": 7
+    },
+    {
+      "component": "python-zope-deprecation",
+      "count": 7,
+      "blocked_by": [
+        "python-zope-testrunner"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -478,36 +471,28 @@
       "count": 29
     },
     {
-      "component": "python-sqlalchemy",
-      "count": 20,
+      "component": "sympy",
+      "count": 10
+    },
+    {
+      "component": "python-flexmock",
+      "count": 8,
       "blocked_by": [
-        "python-pg8000",
-        "python-scramp"
+        "python-zope-testrunner"
       ]
     },
     {
-      "component": "sympy",
-      "count": 9
+      "component": "grpc",
+      "count": 7
     },
     {
       "component": "python-zope-testrunner",
       "count": 7
     },
     {
-      "component": "grpc",
-      "count": 6
-    },
-    {
       "component": "libvirt-python",
       "count": 6,
       "unresolvable": true
-    },
-    {
-      "component": "python-flexmock",
-      "count": 6,
-      "blocked_by": [
-        "python-zope-testrunner"
-      ]
     },
     {
       "component": "python-astropy",
@@ -516,6 +501,13 @@
         "python-pytest-arraydiff",
         "python-pytest-astropy",
         "python-scikit-image"
+      ]
+    },
+    {
+      "component": "python-pytest-django",
+      "count": 5,
+      "blocked_by": [
+        "python-django-configurations"
       ]
     },
     {
@@ -530,13 +522,6 @@
         "python-shapely",
         "sympy",
         "usd"
-      ]
-    },
-    {
-      "component": "python-pytest-django",
-      "count": 4,
-      "blocked_by": [
-        "python-django-configurations"
       ]
     },
     {
@@ -578,10 +563,7 @@
     },
     {
       "component": "python-jsonpickle",
-      "count": 3,
-      "blocked_by": [
-        "python-sqlalchemy"
-      ]
+      "count": 3
     },
     {
       "component": "python-lsp-server",
@@ -606,6 +588,10 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
+    },
+    {
+      "component": "pylint",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -613,7 +599,6 @@
       "components": [
         "python-pydantic",
         "python-smart_open",
-        "python-sqlalchemy",
         "python-sqlmodel",
         "snakemake"
       ],
@@ -659,6 +644,14 @@
     },
     {
       "components": [
+        "python-blosc2",
+        "python-ndindex",
+        "python-tables"
+      ],
+      "count": 4
+    },
+    {
+      "components": [
         "python-autopage",
         "python-cliff",
         "python-cmd2",
@@ -701,16 +694,8 @@
     },
     {
       "components": [
-        "python-blosc2",
-        "python-ndindex",
-        "python-tables"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
-        "python-alembic",
-        "python-sqlalchemy"
+        "python-fastapi",
+        "python-pydantic"
       ],
       "count": 3
     },
@@ -721,13 +706,6 @@
         "python-proto-plus"
       ],
       "count": 3
-    },
-    {
-      "components": [
-        "python-fastapi",
-        "python-pydantic"
-      ],
-      "count": 2
     },
     {
       "components": [
@@ -772,6 +750,14 @@
       "components": [
         "grpc",
         "python-grpcio-gcp",
+        "python-proto-plus"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-google-api-core",
+        "python-google-cloud-core",
         "python-proto-plus"
       ],
       "count": 2

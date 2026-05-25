@@ -16,6 +16,7 @@ pg_activity
 pykakasi
 python-streamlink
 python-OBD
+TurboGears2
 python-XStatic
 python-XStatic-Angular-UUID
 python-XStatic-Angular-Vis
@@ -27,6 +28,7 @@ python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
+python-alembic1.14
 ansible-lint
 python-ansible-runner
 python-apipkg
@@ -35,11 +37,11 @@ python-binary-manager
 bmap-tools
 python-bytecode
 python-catkin_tools
-python-cclib
 python-cerberus
 python-chai
 llvm21
 python-cmd2
+python-datanommer-models
 python-decopatch:tests::::
 dionaea
 root
@@ -54,7 +56,7 @@ python-exiv2
 python-extractcode
 python-fastprogress
 python-fields
-python-filecheck
+python-flask-migrate
 flatpak-module-tools
 gdal
 python-geotiler
@@ -65,6 +67,7 @@ python-huggingface-hub
 python-hypothesmith
 jc
 emacs-jedi
+python-jsonpickle
 python-jupyter-console
 python-kaptan
 samba
@@ -90,10 +93,12 @@ python-neovim
 net-snmp
 python-opcodes
 python-opfunu
+python-optuna
 python-opytimizer
 petsc
 roca-detect
 python-phply
+python-piexif
 python-plaster-pastedeploy
 python-pluginlib
 protobuf
@@ -107,6 +112,7 @@ pylint
 pyproj
 python-pyscaffold
 python-pysdl2
+python-pyshark
 python-pyswip
 python-pytest-subtests
 python-pytest-tldr
@@ -118,11 +124,12 @@ python-qudida
 python-readchar
 python-readme-renderer
 python-requirements-parser
+resalloc
 python-rstr
 python-SALib
 python-scales
-python-scramp
 python-sentinels
+python-slackclient
 python-social-auth-core
 python-sphinx-argparse-cli
 python-sphinx-kr-theme
@@ -134,7 +141,6 @@ python-tpm2-pytss
 python-translitcodec
 python-treq
 python-triton
-python-ua-parser-builtins
 usd
 python-vcstool
 python-webrtcvad
