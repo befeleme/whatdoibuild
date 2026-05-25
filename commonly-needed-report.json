@@ -200,10 +200,7 @@
     },
     {
       "component": "koji",
-      "count": 21,
-      "blocked_by": [
-        "qpid-proton"
-      ]
+      "count": 21
     },
     {
       "component": "python-shapely",
@@ -252,7 +249,7 @@
     },
     {
       "component": "grpc",
-      "count": 15,
+      "count": 14,
       "blocked_by": [
         "python-google-auth"
       ]
@@ -487,6 +484,10 @@
       ]
     },
     {
+      "component": "koji",
+      "count": 9
+    },
+    {
       "component": "sympy",
       "count": 9,
       "blocked_by": [
@@ -495,24 +496,17 @@
       ]
     },
     {
-      "component": "koji",
-      "count": 8,
-      "blocked_by": [
-        "qpid-proton"
-      ]
-    },
-    {
-      "component": "grpc",
-      "count": 7,
-      "blocked_by": [
-        "python-google-auth"
-      ]
-    },
-    {
       "component": "python-google-auth",
       "count": 7,
       "blocked_by": [
         "grpc"
+      ]
+    },
+    {
+      "component": "grpc",
+      "count": 6,
+      "blocked_by": [
+        "python-google-auth"
       ]
     },
     {

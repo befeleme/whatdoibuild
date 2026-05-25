@@ -48,13 +48,13 @@ python-et_xmlfile
 python-eventlet
 python-exiv2
 python-extractcode
-python-eyed3
 python-fastprogress
 python-fields
 python-gast
 gdal
 python-geotiler
 gnulib
+python-google-auth:grpcio-tests::::
 python-holidays
 python-huggingface-hub
 python-hypothesmith
@@ -64,6 +64,7 @@ jc
 emacs-jedi
 python-jupyter-console
 python-kaptan
+koji
 samba
 libmamba
 librealsense
@@ -99,6 +100,7 @@ python-pygeoif
 python-PyGithub
 python-pygtkspellcheck
 python-jnius
+python-pyngus
 pyproj
 python-pyscaffold
 python-pysdl2
@@ -108,7 +110,6 @@ python-pytest-tldr
 python-pytest-tornado
 python-pyvmomi
 pywhispercpp
-qpid-proton
 pyqtwebengine
 python-qudida
 python-readchar
