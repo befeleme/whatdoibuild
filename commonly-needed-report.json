@@ -150,10 +150,6 @@
       ]
     },
     {
-      "component": "python-dill",
-      "count": 22
-    },
-    {
       "component": "python-openstacksdk",
       "count": 22,
       "blocked_by": [
@@ -202,10 +198,7 @@
     },
     {
       "component": "python-progressbar2",
-      "count": 16,
-      "blocked_by": [
-        "python-dill"
-      ]
+      "count": 16
     },
     {
       "component": "python-osc-lib",
@@ -454,6 +447,14 @@
         "python-blosc2",
         "python-ndindex"
       ]
+    },
+    {
+      "component": "python-xarray",
+      "count": 8,
+      "blocked_by": [
+        "python-dask",
+        "python-rasterio"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -510,10 +511,6 @@
       ]
     },
     {
-      "component": "python-dill",
-      "count": 5
-    },
-    {
       "component": "ansible-core",
       "count": 4
     },
@@ -526,6 +523,20 @@
       "count": 4,
       "blocked_by": [
         "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-trimesh",
+      "count": 4,
+      "blocked_by": [
+        "blender",
+        "manifold",
+        "python-cascadio",
+        "python-ezdxf",
+        "python-scikit-image",
+        "python-shapely",
+        "sympy",
+        "usd"
       ]
     },
     {
@@ -547,20 +558,6 @@
       "count": 3
     },
     {
-      "component": "python-trimesh",
-      "count": 3,
-      "blocked_by": [
-        "blender",
-        "manifold",
-        "python-cascadio",
-        "python-ezdxf",
-        "python-scikit-image",
-        "python-shapely",
-        "sympy",
-        "usd"
-      ]
-    },
-    {
       "component": "python-zc-lockfile",
       "count": 3,
       "blocked_by": [
@@ -579,9 +576,16 @@
       "count": 3,
       "blocked_by": [
         "pylint",
-        "python-dill",
         "python-pytoolconfig",
         "python-rope"
+      ]
+    },
+    {
+      "component": "python-CacheControl",
+      "count": 3,
+      "blocked_by": [
+        "python-cherrypy",
+        "python-zc-lockfile"
       ]
     }
   ],
@@ -709,13 +713,6 @@
     },
     {
       "components": [
-        "pylint",
-        "python-dill"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-progressbar2",
         "rpkg"
       ],
@@ -743,6 +740,14 @@
         "python-hexbytes",
         "python-pydantic",
         "python-rlp"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "pyproj",
+        "python-geopandas",
+        "python-shapely"
       ],
       "count": 2
     }

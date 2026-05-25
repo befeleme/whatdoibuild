@@ -38,7 +38,6 @@ python-chai
 llvm21
 python-cmd2
 python-decopatch:tests::::
-python-dill
 dionaea
 root
 python-django-angular
@@ -71,6 +70,7 @@ libmamba
 librealsense
 libsvm
 python-linuxdoc
+python-lmfit
 python3-mallard-ducktype
 manifold:python::::
 python-markdown-callouts
@@ -84,16 +84,19 @@ python-mkdocs-git-revision-date-localized-plugin
 moose
 python-mplcairo
 python-msrest
+python-multiprocess
 python-nagiosplugin
 python-neovim
 net-snmp
 python-opcodes
 python-opfunu
+python-opytimizer
 petsc
 roca-detect
 python-phply
 python-plaster-pastedeploy
 python-pluginlib
+python-progressbar2
 protobuf
 python-pybtex
 python-pydantic
@@ -101,6 +104,7 @@ python-pygeoif
 python-PyGithub
 python-pygtkspellcheck
 python-jnius
+pylint
 pyproj
 python-pyscaffold
 python-pysdl2
