@@ -71,10 +71,7 @@
     },
     {
       "component": "sympy",
-      "count": 30,
-      "blocked_by": [
-        "llvm"
-      ]
+      "count": 30
     },
     {
       "component": "python-keystoneauth1",
@@ -426,13 +423,6 @@
       "unresolvable": true
     },
     {
-      "component": "python-versioningit",
-      "count": 8,
-      "blocked_by": [
-        "python-pydantic"
-      ]
-    },
-    {
       "component": "python-tables",
       "count": 8,
       "blocked_by": [
@@ -461,6 +451,21 @@
       "blocked_by": [
         "python-pydantic"
       ]
+    },
+    {
+      "component": "python-oslo-log",
+      "count": 8,
+      "blocked_by": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-oslo-config",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-oslotest",
+        "python-stestr"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -470,7 +475,7 @@
     },
     {
       "component": "python-pydantic",
-      "count": 28
+      "count": 29
     },
     {
       "component": "python-sqlalchemy",
@@ -482,10 +487,7 @@
     },
     {
       "component": "sympy",
-      "count": 9,
-      "blocked_by": [
-        "llvm"
-      ]
+      "count": 9
     },
     {
       "component": "python-zope-testrunner",
@@ -505,13 +507,6 @@
       "count": 6,
       "blocked_by": [
         "python-zope-testrunner"
-      ]
-    },
-    {
-      "component": "python-versioningit",
-      "count": 5,
-      "blocked_by": [
-        "python-pydantic"
       ]
     },
     {
@@ -559,10 +554,26 @@
       ]
     },
     {
+      "component": "python-nbsphinx",
+      "count": 3,
+      "blocked_by": [
+        "python-pybtex",
+        "python-pybtex-docutils",
+        "python-sphinxcontrib-bibtex"
+      ]
+    },
+    {
       "component": "python-zc-lockfile",
       "count": 3,
       "blocked_by": [
         "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "pythran",
+      "count": 3,
+      "blocked_by": [
+        "python-nbsphinx"
       ]
     },
     {
@@ -595,10 +606,6 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
-    },
-    {
-      "component": "pylint",
-      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -702,13 +709,6 @@
     },
     {
       "components": [
-        "python-beniget",
-        "pythran"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-alembic",
         "python-sqlalchemy"
       ],
@@ -765,6 +765,14 @@
         "python-openstacksdk",
         "python-oslo-utils",
         "python-stestr"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "grpc",
+        "python-grpcio-gcp",
+        "python-proto-plus"
       ],
       "count": 2
     }
