@@ -9,83 +9,54 @@
       "count": 57
     },
     {
-      "component": "python-cliff",
-      "count": 56,
-      "blocked_by": [
-        "python-cliff",
-        "python-stestr"
-      ]
-    },
-    {
-      "component": "python-stestr",
-      "count": 51,
-      "blocked_by": [
-        "python-cliff"
-      ]
-    },
-    {
       "component": "python-debtcollector",
-      "count": 36,
-      "blocked_by": [
-        "python-cliff",
-        "python-stestr"
-      ]
+      "count": 36
     },
     {
       "component": "python-oslo-utils",
       "count": 32,
       "blocked_by": [
-        "python-cliff",
         "python-debtcollector",
         "python-oslo-config",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
       "component": "python-keystoneauth1",
       "count": 29,
       "blocked_by": [
-        "python-cliff",
         "python-debtcollector",
         "python-oslo-config",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
       "component": "python-oslotest",
       "count": 29,
       "blocked_by": [
-        "python-cliff",
-        "python-oslo-config",
-        "python-stestr"
+        "python-oslo-config"
       ]
     },
     {
       "component": "python-oslo-config",
       "count": 27,
       "blocked_by": [
-        "python-cliff",
         "python-debtcollector",
         "python-oslo-config",
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
       "component": "python-oslo-serialization",
       "count": 25,
       "blocked_by": [
-        "python-cliff",
         "python-debtcollector",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
@@ -108,11 +79,9 @@
       "component": "python-openstacksdk",
       "count": 22,
       "blocked_by": [
-        "python-cliff",
         "python-keystoneauth1",
         "python-oslo-config",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
@@ -150,28 +119,24 @@
       "component": "python-osc-lib",
       "count": 16,
       "blocked_by": [
-        "python-cliff",
         "python-debtcollector",
         "python-keystoneauth1",
         "python-openstacksdk",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
       "component": "python-keystoneclient",
       "count": 14,
       "blocked_by": [
-        "python-cliff",
         "python-debtcollector",
         "python-keystoneauth1",
         "python-openstacksdk",
         "python-oslo-config",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
@@ -201,12 +166,10 @@
       "component": "python-cinderclient",
       "count": 12,
       "blocked_by": [
-        "python-cliff",
         "python-debtcollector",
         "python-keystoneauth1",
         "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-stestr"
+        "python-oslo-utils"
       ]
     },
     {
@@ -236,7 +199,6 @@
       "blocked_by": [
         "python-aodhclient",
         "python-cinderclient",
-        "python-cliff",
         "python-debtcollector",
         "python-futurist",
         "python-gnocchiclient",
@@ -257,7 +219,6 @@
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-stestr",
         "python-swiftclient",
         "python-troveclient",
         "python-zaqarclient"
@@ -330,13 +291,11 @@
       "component": "python-oslo-log",
       "count": 8,
       "blocked_by": [
-        "python-cliff",
         "python-debtcollector",
         "python-oslo-config",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ]
     },
     {
@@ -426,6 +385,14 @@
         "python-rignore",
         "python-sqlmodel"
       ]
+    },
+    {
+      "component": "python-beartype",
+      "count": 6
+    },
+    {
+      "component": "python-jsonpickle",
+      "count": 6
     }
   ],
   "most_commonly_last_blocking": [
@@ -477,6 +444,13 @@
       ]
     },
     {
+      "component": "python-oslotest",
+      "count": 5,
+      "blocked_by": [
+        "python-oslo-config"
+      ]
+    },
+    {
       "component": "python-trimesh",
       "count": 4,
       "blocked_by": [
@@ -520,6 +494,18 @@
       ]
     },
     {
+      "component": "python-oslo-config",
+      "count": 3,
+      "blocked_by": [
+        "python-debtcollector",
+        "python-oslo-config",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-oslotest"
+      ]
+    },
+    {
       "component": "pythran",
       "count": 3,
       "blocked_by": [
@@ -553,17 +539,6 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
-    },
-    {
-      "component": "pylint",
-      "count": 3
-    },
-    {
-      "component": "python-syrupy",
-      "count": 3,
-      "blocked_by": [
-        "python-pydantic"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -575,13 +550,6 @@
         "snakemake"
       ],
       "count": 18
-    },
-    {
-      "components": [
-        "python-cliff",
-        "python-stestr"
-      ],
-      "count": 10
     },
     {
       "components": [
@@ -604,14 +572,6 @@
         "python-pytest-astropy"
       ],
       "count": 6
-    },
-    {
-      "components": [
-        "python-cliff",
-        "python-oslotest",
-        "python-stestr"
-      ],
-      "count": 4
     },
     {
       "components": [
@@ -661,14 +621,12 @@
     },
     {
       "components": [
-        "python-cliff",
         "python-debtcollector",
         "python-oslo-config",
         "python-oslo-log",
         "python-oslo-serialization",
         "python-oslo-utils",
-        "python-oslotest",
-        "python-stestr"
+        "python-oslotest"
       ],
       "count": 3
     },
@@ -676,13 +634,6 @@
       "components": [
         "python-glyphsLib",
         "python-ufo2ft"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-cliff",
-        "python-django-health-check"
       ],
       "count": 2
     },
@@ -705,12 +656,10 @@
     },
     {
       "components": [
-        "python-cliff",
         "python-debtcollector",
         "python-keystoneauth1",
         "python-openstacksdk",
-        "python-oslo-utils",
-        "python-stestr"
+        "python-oslo-utils"
       ],
       "count": 2
     },
@@ -730,6 +679,30 @@
         "python-xmlschema"
       ],
       "count": 2
+    },
+    {
+      "components": [
+        "python-pydantic",
+        "python-pydantic-settings"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-et_xmlfile",
+        "python-niaaml",
+        "python-niapy",
+        "python-openpyxl"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-fslpy",
+        "python-nifti-mrs",
+        "spec2nii"
+      ],
+      "count": 1
     }
   ],
   "dependency_loops": []
