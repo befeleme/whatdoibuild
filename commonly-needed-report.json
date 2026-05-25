@@ -197,10 +197,6 @@
       ]
     },
     {
-      "component": "python-progressbar2",
-      "count": 16
-    },
-    {
       "component": "python-osc-lib",
       "count": 16,
       "blocked_by": [
@@ -455,6 +451,13 @@
         "python-dask",
         "python-rasterio"
       ]
+    },
+    {
+      "component": "python-pytest-django",
+      "count": 8,
+      "blocked_by": [
+        "python-django-configurations"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -490,6 +493,10 @@
       "count": 6
     },
     {
+      "component": "python-bugzilla",
+      "count": 6
+    },
+    {
       "component": "libvirt-python",
       "count": 6,
       "unresolvable": true
@@ -499,6 +506,13 @@
       "count": 6,
       "blocked_by": [
         "python-zope-testrunner"
+      ]
+    },
+    {
+      "component": "python-versioningit",
+      "count": 5,
+      "blocked_by": [
+        "python-pydantic"
       ]
     },
     {
@@ -513,17 +527,6 @@
     {
       "component": "ansible-core",
       "count": 4
-    },
-    {
-      "component": "python-bugzilla",
-      "count": 4
-    },
-    {
-      "component": "python-versioningit",
-      "count": 4,
-      "blocked_by": [
-        "python-pydantic"
-      ]
     },
     {
       "component": "python-trimesh",
@@ -554,6 +557,13 @@
       ]
     },
     {
+      "component": "python-specfile",
+      "count": 3,
+      "blocked_by": [
+        "python-flexmock"
+      ]
+    },
+    {
       "component": "python-icalendar",
       "count": 3
     },
@@ -579,14 +589,6 @@
         "python-pytoolconfig",
         "python-rope"
       ]
-    },
-    {
-      "component": "python-CacheControl",
-      "count": 3,
-      "blocked_by": [
-        "python-cherrypy",
-        "python-zc-lockfile"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -602,17 +604,17 @@
     },
     {
       "components": [
-        "python-msrest",
-        "python-msrestazure"
-      ],
-      "count": 9
-    },
-    {
-      "components": [
         "python-autopage",
         "python-cliff",
         "python-cmd2",
         "python-stestr"
+      ],
+      "count": 10
+    },
+    {
+      "components": [
+        "python-msrest",
+        "python-msrestazure"
       ],
       "count": 9
     },
@@ -713,13 +715,6 @@
     },
     {
       "components": [
-        "python-progressbar2",
-        "rpkg"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-fastapi",
         "python-pydantic"
       ],
@@ -748,6 +743,19 @@
         "pyproj",
         "python-geopandas",
         "python-shapely"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-autopage",
+        "python-cliff",
+        "python-cmd2",
+        "python-debtcollector",
+        "python-keystoneauth1",
+        "python-openstacksdk",
+        "python-oslo-utils",
+        "python-stestr"
       ],
       "count": 2
     }

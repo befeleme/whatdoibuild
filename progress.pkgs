@@ -1,8 +1,10 @@
 alot
 ansible-builder
 ansible-core
+centpkg
 ceph
 llvm
+copr-dist-git
 dnf-plugin-diff
 eric
 fail2ban
@@ -11,10 +13,12 @@ kmymoney
 link-grammar
 monkeytype
 ocrmypdf
+osc
 paraview
 pg_activity
 pykakasi
 python-OBD
+ProDy
 python-XStatic
 python-XStatic-Angular-UUID
 python-XStatic-Angular-Vis
@@ -70,7 +74,6 @@ libmamba
 librealsense
 libsvm
 python-linuxdoc
-python-lmfit
 python3-mallard-ducktype
 manifold:python::::
 python-markdown-callouts
@@ -84,7 +87,6 @@ python-mkdocs-git-revision-date-localized-plugin
 moose
 python-mplcairo
 python-msrest
-python-multiprocess
 python-nagiosplugin
 python-neovim
 net-snmp
@@ -96,7 +98,6 @@ roca-detect
 python-phply
 python-plaster-pastedeploy
 python-pluginlib
-python-progressbar2
 protobuf
 python-pybtex
 python-pydantic
@@ -121,6 +122,7 @@ python-readme-renderer
 python-requirements-parser
 python-robotframework
 python-rstr
+python-SALib
 python-scales
 python-sentinels
 python-social-auth-core
