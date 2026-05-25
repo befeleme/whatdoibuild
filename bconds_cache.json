@@ -4345,6 +4345,35 @@
           "unzip"
         ]
       }
+    ],
+    "python-versioningit": [
+      {
+        "withouts": [
+          "pydantic_tests"
+        ],
+        "id": "python-versioningit:pydantic_tests::::",
+        "srpm_filename": "python-versioningit-3.3.0-6.fc45.src.rpm",
+        "buildrequires": [
+          "(python3dist(tomli) if python3-devel < 3.11)",
+          "git-core",
+          "mercurial",
+          "pyproject-rpm-macros",
+          "python3-devel",
+          "python3dist(build) >= 0.7",
+          "python3dist(editables)",
+          "python3dist(hatchling)",
+          "python3dist(packaging)",
+          "python3dist(packaging) >= 17.1",
+          "python3dist(pip)",
+          "python3dist(pip) >= 19",
+          "python3dist(pytest)",
+          "python3dist(pytest-mock)",
+          "python3dist(setuptools) >= 42",
+          "python3dist(tox) >= 3.3",
+          "python3dist(tox-current-env) >= 0.0.16",
+          "python3dist(wheel)"
+        ]
+      }
     ]
   }
 }
