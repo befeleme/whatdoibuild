@@ -35,6 +35,7 @@ python-ansible-runner
 python-apipkg
 python-beartype
 python-binary-manager
+python-blosc2
 bmap-tools
 python-bytecode
 python-catkin_tools
@@ -88,7 +89,6 @@ moose
 python-mplcairo
 python-msrest
 python-nagiosplugin
-python-ndindex
 python-neovim
 net-snmp
 python-numpoly

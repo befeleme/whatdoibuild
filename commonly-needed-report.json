@@ -284,7 +284,6 @@
         "python-blosc2",
         "python-dask",
         "python-distributed",
-        "python-ndindex",
         "python-scikit-image",
         "python-tables",
         "python-xarray",
@@ -297,10 +296,6 @@
       "blocked_by": [
         "python-peachpy"
       ]
-    },
-    {
-      "component": "python-ndindex",
-      "count": 11
     },
     {
       "component": "python-pydantic-settings",
@@ -355,16 +350,12 @@
       "blocked_by": [
         "python-astropy",
         "python-blosc2",
-        "python-ndindex",
         "python-tables"
       ]
     },
     {
       "component": "python-blosc2",
-      "count": 10,
-      "blocked_by": [
-        "python-ndindex"
-      ]
+      "count": 10
     },
     {
       "component": "python-zope-testrunner",
@@ -400,8 +391,7 @@
       "component": "python-tables",
       "count": 8,
       "blocked_by": [
-        "python-blosc2",
-        "python-ndindex"
+        "python-blosc2"
       ]
     },
     {
@@ -457,6 +447,13 @@
       "count": 7,
       "blocked_by": [
         "python-CacheControl"
+      ]
+    },
+    {
+      "component": "python-scikit-image",
+      "count": 7,
+      "blocked_by": [
+        "pythran"
       ]
     }
   ],
@@ -639,7 +636,6 @@
     {
       "components": [
         "python-blosc2",
-        "python-ndindex",
         "python-tables"
       ],
       "count": 4
