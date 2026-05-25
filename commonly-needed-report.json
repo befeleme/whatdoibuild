@@ -400,10 +400,6 @@
       "count": 10
     },
     {
-      "component": "python-bugzilla",
-      "count": 9
-    },
-    {
       "component": "python-flexmock",
       "count": 9,
       "blocked_by": [
@@ -458,6 +454,13 @@
       "blocked_by": [
         "python-django-configurations"
       ]
+    },
+    {
+      "component": "python-inline-snapshot",
+      "count": 8,
+      "blocked_by": [
+        "python-pydantic"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -493,10 +496,6 @@
       "count": 6
     },
     {
-      "component": "python-bugzilla",
-      "count": 6
-    },
-    {
       "component": "libvirt-python",
       "count": 6,
       "unresolvable": true
@@ -523,10 +522,6 @@
         "python-pytest-astropy",
         "python-scikit-image"
       ]
-    },
-    {
-      "component": "ansible-core",
-      "count": 4
     },
     {
       "component": "python-trimesh",
@@ -593,6 +588,17 @@
         "python-cherrypy",
         "python-zc-lockfile"
       ]
+    },
+    {
+      "component": "python-pcodedmp",
+      "count": 3,
+      "blocked_by": [
+        "python-pcodedmp"
+      ]
+    },
+    {
+      "component": "pylint",
+      "count": 3
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -697,7 +703,6 @@
     {
       "components": [
         "python-beniget",
-        "python-gast",
         "pythran"
       ],
       "count": 3

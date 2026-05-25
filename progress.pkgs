@@ -1,6 +1,6 @@
 alot
+ansible
 ansible-builder
-ansible-core
 ceph
 llvm
 dnf-plugin-diff
@@ -13,7 +13,6 @@ link-grammar
 monkeytype
 ocrmypdf
 osc
-paraview
 pg_activity
 pykakasi
 python-OBD
@@ -28,11 +27,14 @@ python-XStatic-Json2yaml
 python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
+python-ansible-compat
+ansible-inventory-grapher
+python-ansible-runner
 python-apipkg
 python-beartype
+python-beniget
 python-binary-manager
 bmap-tools
-python-bugzilla
 python-bytecode
 python-catkin_tools
 python-cerberus
@@ -54,7 +56,6 @@ python-extractcode
 python-fastprogress
 python-fields
 flatpak-module-tools
-python-gast
 gdal
 python-geotiler
 gnulib
@@ -132,14 +133,11 @@ python-translitcodec
 python-treq
 python-triton
 usd
-python-vatnumber
 python-vcstool
-vdirsyncer
 python-webrtcvad
 xapian-bindings
 xcfun
 python-xmlschema
-python-yaml2ical
 python-yamlloader
 python-zict
 python-zope-testrunner
