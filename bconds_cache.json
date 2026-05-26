@@ -2332,12 +2332,12 @@
     ],
     "python-openstackclient": [
       {
-        "replacements": {
-          "with_doc": "0"
-        },
-        "id": "python-openstackclient:::with_doc::",
+        "withs": [
+          "bootstrap"
+        ],
+        "id": "python-openstackclient::bootstrap:::",
+        "srpm_filename": "python-openstackclient-10.0.0-2.fc45~bootstrap.src.rpm",
         "buildrequires": [
-          "((python3dist(pbr) < 2.1 or python3dist(pbr) > 2.1) with python3dist(pbr) >= 2)",
           "(python3dist(tomli) if python3-devel < 3.11)",
           "/usr/bin/gpgv2",
           "git-core",
@@ -2348,9 +2348,10 @@
           "python3dist(cryptography) >= 2.7",
           "python3dist(ddt) >= 1.0.1",
           "python3dist(fixtures) >= 3",
+          "python3dist(hacking) >= 8",
           "python3dist(iso8601) >= 0.1.11",
-          "python3dist(openstacksdk) >= 4.6",
-          "python3dist(osc-lib) >= 2.3",
+          "python3dist(openstacksdk) >= 4.12",
+          "python3dist(osc-lib) >= 4.6",
           "python3dist(oslo-i18n) >= 3.15.3",
           "python3dist(packaging)",
           "python3dist(pbr) >= 2",
@@ -2365,7 +2366,8 @@
           "python3dist(testtools) >= 2.2",
           "python3dist(tox) >= 4.3",
           "python3dist(tox-current-env) >= 0.0.16",
-          "python3dist(wrapt) >= 1.7"
+          "python3dist(wrapt) >= 1.7",
+          "systemd-rpm-macros"
         ]
       }
     ],
