@@ -137,10 +137,6 @@
       "count": 7
     },
     {
-      "component": "poetry",
-      "count": 7
-    },
-    {
       "component": "python-scikit-image",
       "count": 7,
       "blocked_by": [
@@ -343,6 +339,14 @@
         "python-mapclassify",
         "python-shapely"
       ]
+    },
+    {
+      "component": "python-celery",
+      "count": 4,
+      "blocked_by": [
+        "python-kombu",
+        "python-pydantic"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -365,10 +369,6 @@
       "component": "libvirt-python",
       "count": 7,
       "unresolvable": true
-    },
-    {
-      "component": "poetry",
-      "count": 6
     },
     {
       "component": "python-astropy",
@@ -461,10 +461,6 @@
       ]
     },
     {
-      "component": "python-swiftclient",
-      "count": 2
-    },
-    {
       "component": "go-vendor-tools",
       "count": 2,
       "blocked_by": [
@@ -481,6 +477,14 @@
       "blocked_by": [
         "python-pydantic"
       ]
+    },
+    {
+      "component": "gdal",
+      "count": 2
+    },
+    {
+      "component": "python-pytest-subtests",
+      "count": 2
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -548,6 +552,14 @@
     {
       "components": [
         "python-et_xmlfile",
+        "python-niapy",
+        "python-openpyxl"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
+        "python-et_xmlfile",
         "python-openpyxl"
       ],
       "count": 3
@@ -573,14 +585,6 @@
         "pyproj",
         "python-geopandas",
         "python-shapely"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-et_xmlfile",
-        "python-niapy",
-        "python-openpyxl"
       ],
       "count": 2
     },
