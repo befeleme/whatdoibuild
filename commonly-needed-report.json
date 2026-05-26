@@ -9,54 +9,11 @@
       "count": 57
     },
     {
-      "component": "python-oslo-utils",
-      "count": 31,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslotest"
-      ]
-    },
-    {
-      "component": "python-keystoneauth1",
-      "count": 29,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
-      "component": "python-oslotest",
-      "count": 28,
-      "blocked_by": [
-        "python-oslo-config"
-      ]
-    },
-    {
-      "component": "python-oslo-config",
-      "count": 26,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
       "component": "python-sqlmodel",
       "count": 25,
       "blocked_by": [
         "python-fastapi",
         "python-pydantic"
-      ]
-    },
-    {
-      "component": "python-oslo-serialization",
-      "count": 24,
-      "blocked_by": [
-        "python-oslo-utils",
-        "python-oslotest"
       ]
     },
     {
@@ -69,12 +26,7 @@
     },
     {
       "component": "python-openstacksdk",
-      "count": 22,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-oslo-config",
-        "python-oslotest"
-      ]
+      "count": 22
     },
     {
       "component": "snakemake",
@@ -111,22 +63,14 @@
       "component": "python-osc-lib",
       "count": 16,
       "blocked_by": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils",
-        "python-oslotest"
+        "python-openstacksdk"
       ]
     },
     {
       "component": "python-keystoneclient",
       "count": 14,
       "blocked_by": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-config",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
+        "python-openstacksdk"
       ]
     },
     {
@@ -154,12 +98,7 @@
     },
     {
       "component": "python-cinderclient",
-      "count": 12,
-      "blocked_by": [
-        "python-keystoneauth1",
-        "python-oslo-serialization",
-        "python-oslo-utils"
-      ]
+      "count": 12
     },
     {
       "component": "python-openpyxl",
@@ -192,7 +131,6 @@
         "python-gnocchiclient",
         "python-heatclient",
         "python-ironicclient",
-        "python-keystoneauth1",
         "python-keystoneclient",
         "python-manilaclient",
         "python-mistralclient",
@@ -202,10 +140,7 @@
         "python-openstacksdk",
         "python-osc-lib",
         "python-osc-placement",
-        "python-oslo-config",
         "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
         "python-swiftclient",
         "python-troveclient",
         "python-zaqarclient"
@@ -224,15 +159,8 @@
       ]
     },
     {
-      "component": "python-zope-testrunner",
-      "count": 10
-    },
-    {
       "component": "python-flexmock",
-      "count": 9,
-      "blocked_by": [
-        "python-zope-testrunner"
-      ]
+      "count": 9
     },
     {
       "component": "python-pytest-astropy",
@@ -280,10 +208,7 @@
     },
     {
       "component": "python-zope-deprecation",
-      "count": 7,
-      "blocked_by": [
-        "python-zope-testrunner"
-      ]
+      "count": 7
     },
     {
       "component": "poetry",
@@ -327,13 +252,7 @@
     },
     {
       "component": "python-oslo-log",
-      "count": 7,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
+      "count": 7
     },
     {
       "component": "python-niapy",
@@ -386,6 +305,45 @@
       "blocked_by": [
         "python-pytest-django"
       ]
+    },
+    {
+      "component": "python-pybtex-docutils",
+      "count": 6,
+      "blocked_by": [
+        "python-pybtex"
+      ]
+    },
+    {
+      "component": "conda",
+      "count": 6,
+      "blocked_by": [
+        "conda",
+        "libmamba",
+        "python-menuinst"
+      ]
+    },
+    {
+      "component": "python-rlp",
+      "count": 6,
+      "blocked_by": [
+        "python-eth-utils",
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-google-cloud-core",
+      "count": 6
+    },
+    {
+      "component": "python-PyGithub",
+      "count": 5
+    },
+    {
+      "component": "python-fslpy",
+      "count": 5,
+      "blocked_by": [
+        "python-trimesh"
+      ]
     }
   ],
   "most_commonly_last_blocking": [
@@ -399,10 +357,7 @@
     },
     {
       "component": "python-flexmock",
-      "count": 8,
-      "blocked_by": [
-        "python-zope-testrunner"
-      ]
+      "count": 8
     },
     {
       "component": "python-torch",
@@ -412,12 +367,8 @@
       ]
     },
     {
-      "component": "python-zope-testrunner",
-      "count": 7
-    },
-    {
       "component": "libvirt-python",
-      "count": 6,
+      "count": 7,
       "unresolvable": true
     },
     {
@@ -430,17 +381,14 @@
       ]
     },
     {
+      "component": "python-openstacksdk",
+      "count": 6
+    },
+    {
       "component": "python-pytest-django",
       "count": 5,
       "blocked_by": [
         "python-django-configurations"
-      ]
-    },
-    {
-      "component": "python-oslotest",
-      "count": 5,
-      "blocked_by": [
-        "python-oslo-config"
       ]
     },
     {
@@ -481,21 +429,7 @@
     },
     {
       "component": "python-zc-lockfile",
-      "count": 3,
-      "blocked_by": [
-        "python-zope-testrunner"
-      ]
-    },
-    {
-      "component": "python-oslo-config",
-      "count": 3,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
+      "count": 3
     },
     {
       "component": "pythran",
@@ -531,6 +465,17 @@
       "blocked_by": [
         "python-pcodedmp"
       ]
+    },
+    {
+      "component": "pylint",
+      "count": 3
+    },
+    {
+      "component": "python-syrupy",
+      "count": 3,
+      "blocked_by": [
+        "python-pydantic"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -564,6 +509,16 @@
         "python-pytest-astropy"
       ],
       "count": 6
+    },
+    {
+      "components": [
+        "python-cinderclient",
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib"
+      ],
+      "count": 5
     },
     {
       "components": [
@@ -606,6 +561,17 @@
     },
     {
       "components": [
+        "python-cinderclient",
+        "python-keystoneclient",
+        "python-openstackclient",
+        "python-openstacksdk",
+        "python-osc-lib",
+        "python-oslo-log"
+      ],
+      "count": 3
+    },
+    {
+      "components": [
         "python-et_xmlfile",
         "python-openpyxl"
       ],
@@ -615,6 +581,13 @@
       "components": [
         "python-glyphsLib",
         "python-ufo2ft"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-openstacksdk",
+        "python-osc-lib"
       ],
       "count": 2
     },
@@ -632,14 +605,6 @@
         "pyproj",
         "python-geopandas",
         "python-shapely"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-keystoneauth1",
-        "python-openstacksdk",
-        "python-oslo-utils"
       ],
       "count": 2
     },
@@ -669,28 +634,10 @@
     },
     {
       "components": [
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
         "python-et_xmlfile",
         "python-niaaml",
         "python-niapy",
         "python-openpyxl"
-      ],
-      "count": 1
-    },
-    {
-      "components": [
-        "python-fslpy",
-        "python-nifti-mrs",
-        "spec2nii"
       ],
       "count": 1
     }

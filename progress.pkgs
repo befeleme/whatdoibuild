@@ -39,6 +39,7 @@ python-bytecode
 python-catkin_tools
 python-cerberus
 python-chai
+python-cinderclient
 llvm21
 python-decopatch:tests::::
 dionaea
@@ -55,10 +56,10 @@ python-extractcode
 python-fastprogress
 python-fields
 flatpak-module-tools
+python-flexmock
 gdal
 python-geopmpy
 python-geotiler
-python-gerritlib
 gnulib
 python-google-cloud-core
 python-grpc-google-iam-v1
@@ -70,6 +71,7 @@ emacs-jedi
 python-jsonpickle
 python-jupyter-console
 python-kaptan
+python-lazr-delegates
 samba
 libmamba
 librealsense
@@ -94,9 +96,10 @@ python-neovim
 net-snmp
 python-numpoly
 python-opcodes
+python-openstacksdk
 python-opfunu
 python-opytimizer
-python-oslo-config::bootstrap:::
+python-oslo-log
 petsc
 roca-detect
 python-phply
@@ -147,8 +150,10 @@ xcfun
 python-xmlschema
 python-xnat:tests::::
 python-yamlloader
+python-zc-lockfile
 python-zict
-python-zope-testrunner
+python-zope-deprecation
+python-zope-i18nmessageid
 renderdoc
 supervisor
 thefuck
