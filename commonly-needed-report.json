@@ -17,25 +17,10 @@
       ]
     },
     {
-      "component": "python-smart_open",
-      "count": 24,
-      "blocked_by": [
-        "python-google-cloud-core",
-        "python-google-cloud-storage"
-      ]
-    },
-    {
-      "component": "python-openstacksdk",
-      "count": 22
-    },
-    {
       "component": "snakemake",
       "count": 22,
       "blocked_by": [
-        "python-google-cloud-core",
-        "python-google-cloud-storage",
         "python-pydantic",
-        "python-smart_open",
         "python-snakemake-executor-plugin-cluster-generic",
         "python-snakemake-storage-plugin-fs",
         "python-snakemake-storage-plugin-http",
@@ -60,20 +45,6 @@
       ]
     },
     {
-      "component": "python-osc-lib",
-      "count": 16,
-      "blocked_by": [
-        "python-openstacksdk"
-      ]
-    },
-    {
-      "component": "python-keystoneclient",
-      "count": 14,
-      "blocked_by": [
-        "python-openstacksdk"
-      ]
-    },
-    {
       "component": "python-eth-utils",
       "count": 14,
       "blocked_by": [
@@ -86,18 +57,6 @@
     },
     {
       "component": "python-et_xmlfile",
-      "count": 12
-    },
-    {
-      "component": "python-CacheControl",
-      "count": 12,
-      "blocked_by": [
-        "python-cherrypy",
-        "python-zc-lockfile"
-      ]
-    },
-    {
-      "component": "python-cinderclient",
       "count": 12
     },
     {
@@ -122,31 +81,6 @@
       ]
     },
     {
-      "component": "python-openstackclient",
-      "count": 11,
-      "blocked_by": [
-        "python-aodhclient",
-        "python-cinderclient",
-        "python-futurist",
-        "python-gnocchiclient",
-        "python-heatclient",
-        "python-ironicclient",
-        "python-keystoneclient",
-        "python-manilaclient",
-        "python-mistralclient",
-        "python-neutronclient",
-        "python-octaviaclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib",
-        "python-osc-placement",
-        "python-oslo-log",
-        "python-swiftclient",
-        "python-troveclient",
-        "python-zaqarclient"
-      ]
-    },
-    {
       "component": "libvirt-python",
       "count": 10,
       "unresolvable": true
@@ -157,10 +91,6 @@
       "blocked_by": [
         "python-astropy"
       ]
-    },
-    {
-      "component": "python-flexmock",
-      "count": 9
     },
     {
       "component": "python-pytest-astropy",
@@ -207,15 +137,8 @@
       "count": 7
     },
     {
-      "component": "python-zope-deprecation",
-      "count": 7
-    },
-    {
       "component": "poetry",
-      "count": 7,
-      "blocked_by": [
-        "python-CacheControl"
-      ]
+      "count": 7
     },
     {
       "component": "python-scikit-image",
@@ -251,10 +174,6 @@
       ]
     },
     {
-      "component": "python-oslo-log",
-      "count": 7
-    },
-    {
       "component": "python-niapy",
       "count": 6,
       "blocked_by": [
@@ -267,8 +186,7 @@
       "count": 6,
       "blocked_by": [
         "python-hupper",
-        "python-plaster-pastedeploy",
-        "python-zope-deprecation"
+        "python-plaster-pastedeploy"
       ]
     },
     {
@@ -331,10 +249,6 @@
       ]
     },
     {
-      "component": "python-google-cloud-core",
-      "count": 6
-    },
-    {
       "component": "python-PyGithub",
       "count": 5
     },
@@ -343,6 +257,91 @@
       "count": 5,
       "blocked_by": [
         "python-trimesh"
+      ]
+    },
+    {
+      "component": "python-kombu",
+      "count": 5,
+      "blocked_by": [
+        "python-azure-mgmt-storage",
+        "python-msrest"
+      ]
+    },
+    {
+      "component": "python-python-ulid",
+      "count": 5,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-openai",
+      "count": 5,
+      "blocked_by": [
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-readme-renderer",
+      "count": 5
+    },
+    {
+      "component": "python-huggingface-hub",
+      "count": 5
+    },
+    {
+      "component": "python-tldextract",
+      "count": 5,
+      "blocked_by": [
+        "python-syrupy"
+      ]
+    },
+    {
+      "component": "python-trimesh",
+      "count": 5,
+      "blocked_by": [
+        "blender",
+        "manifold",
+        "python-cascadio",
+        "python-ezdxf",
+        "python-scikit-image",
+        "python-shapely",
+        "usd"
+      ]
+    },
+    {
+      "component": "python-sphinxcontrib-bibtex",
+      "count": 5,
+      "blocked_by": [
+        "python-pybtex",
+        "python-pybtex-docutils"
+      ]
+    },
+    {
+      "component": "python-eth-keys",
+      "count": 5,
+      "blocked_by": [
+        "python-asn1tools",
+        "python-eth-utils",
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-eth-abi",
+      "count": 5,
+      "blocked_by": [
+        "python-eth-utils",
+        "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-geopandas",
+      "count": 5,
+      "blocked_by": [
+        "pyproj",
+        "python-fiona",
+        "python-mapclassify",
+        "python-shapely"
       ]
     }
   ],
@@ -354,10 +353,6 @@
     {
       "component": "python-pydantic",
       "count": 30
-    },
-    {
-      "component": "python-flexmock",
-      "count": 8
     },
     {
       "component": "python-torch",
@@ -372,6 +367,10 @@
       "unresolvable": true
     },
     {
+      "component": "poetry",
+      "count": 6
+    },
+    {
       "component": "python-astropy",
       "count": 6,
       "blocked_by": [
@@ -379,10 +378,6 @@
         "python-pytest-astropy",
         "python-scikit-image"
       ]
-    },
-    {
-      "component": "python-openstacksdk",
-      "count": 6
     },
     {
       "component": "python-pytest-django",
@@ -412,13 +407,6 @@
       ]
     },
     {
-      "component": "python-specfile",
-      "count": 3,
-      "blocked_by": [
-        "python-flexmock"
-      ]
-    },
-    {
       "component": "python-nbsphinx",
       "count": 3,
       "blocked_by": [
@@ -426,10 +414,6 @@
         "python-pybtex-docutils",
         "python-sphinxcontrib-bibtex"
       ]
-    },
-    {
-      "component": "python-zc-lockfile",
-      "count": 3
     },
     {
       "component": "pythran",
@@ -452,14 +436,6 @@
       ]
     },
     {
-      "component": "python-CacheControl",
-      "count": 3,
-      "blocked_by": [
-        "python-cherrypy",
-        "python-zc-lockfile"
-      ]
-    },
-    {
       "component": "python-pcodedmp",
       "count": 3,
       "blocked_by": [
@@ -476,17 +452,45 @@
       "blocked_by": [
         "python-pydantic"
       ]
+    },
+    {
+      "component": "libguestfs",
+      "count": 2,
+      "blocked_by": [
+        "libvirt-python"
+      ]
+    },
+    {
+      "component": "python-swiftclient",
+      "count": 2
+    },
+    {
+      "component": "go-vendor-tools",
+      "count": 2,
+      "blocked_by": [
+        "python-beartype",
+        "python-extractcode",
+        "python-ftfy",
+        "python-spdx-tools",
+        "scancode-toolkit"
+      ]
+    },
+    {
+      "component": "python-oci",
+      "count": 2,
+      "blocked_by": [
+        "python-pydantic"
+      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
     {
       "components": [
         "python-pydantic",
-        "python-smart_open",
         "python-sqlmodel",
         "snakemake"
       ],
-      "count": 18
+      "count": 19
     },
     {
       "components": [
@@ -497,28 +501,11 @@
     },
     {
       "components": [
-        "poetry",
-        "python-CacheControl"
-      ],
-      "count": 6
-    },
-    {
-      "components": [
         "python-astropy",
         "python-pytest-arraydiff",
         "python-pytest-astropy"
       ],
       "count": 6
-    },
-    {
-      "components": [
-        "python-cinderclient",
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib"
-      ],
-      "count": 5
     },
     {
       "components": [
@@ -540,8 +527,7 @@
       "components": [
         "python-hupper",
         "python-plaster-pastedeploy",
-        "python-pyramid",
-        "python-zope-deprecation"
+        "python-pyramid"
       ],
       "count": 4
     },
@@ -561,17 +547,6 @@
     },
     {
       "components": [
-        "python-cinderclient",
-        "python-keystoneclient",
-        "python-openstackclient",
-        "python-openstacksdk",
-        "python-osc-lib",
-        "python-oslo-log"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-et_xmlfile",
         "python-openpyxl"
       ],
@@ -581,13 +556,6 @@
       "components": [
         "python-glyphsLib",
         "python-ufo2ft"
-      ],
-      "count": 2
-    },
-    {
-      "components": [
-        "python-openstacksdk",
-        "python-osc-lib"
       ],
       "count": 2
     },
@@ -638,6 +606,41 @@
         "python-niaaml",
         "python-niapy",
         "python-openpyxl"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-fslpy",
+        "python-nifti-mrs",
+        "spec2nii"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "pyproj",
+        "usd"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "python-celery",
+        "python-cornice",
+        "python-hupper",
+        "python-kombu",
+        "python-plaster-pastedeploy",
+        "python-pyramid",
+        "python-pyramid-mako"
+      ],
+      "count": 1
+    },
+    {
+      "components": [
+        "libvirt-python",
+        "python-croniter",
+        "python-treq"
       ],
       "count": 1
     }
