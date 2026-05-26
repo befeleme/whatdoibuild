@@ -15,7 +15,7 @@ ocrmypdf
 osc
 pg_activity
 pykakasi
-python-jenkins
+python-jenkins-job-builder
 python-streamlink
 python-OBD
 python-XStatic
@@ -33,7 +33,6 @@ python-alembic1.14
 ansible-lint
 python-ansible-runner
 python-apipkg
-python-bashate
 python-beartype
 python-binary-manager
 bmap-tools
@@ -63,6 +62,7 @@ python-geotiler
 gnulib
 python-google-cloud-core
 python-grpc-google-iam-v1
+python-hacking
 python-holidays
 python-huggingface-hub
 python-hypothesmith
@@ -96,7 +96,6 @@ net-snmp
 python-numpoly
 python-opcodes
 python-opfunu
-python-opnsense
 python-opytimizer
 petsc
 roca-detect
@@ -124,7 +123,6 @@ pyqtwebengine
 python-qudida
 python-readchar
 python-readme-renderer
-python-reno
 python-requirements-parser
 python-rstr
 python-SALib
@@ -133,7 +131,6 @@ python-sentinels
 python-slackclient
 python-social-auth-core
 python-sphinx-argparse-cli
-python-sphinx-feature-classification
 python-sphinx-kr-theme
 python-sphinxcontrib-chapeldomain
 python-sshtunnel
@@ -150,7 +147,6 @@ xcfun
 python-xmlschema
 python-xnat:tests::::
 python-yamlloader
-python-yaql
 python-zict
 python-zope-testrunner
 renderdoc
