@@ -197,16 +197,16 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-flit-core]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.python-async-timeout]]
 withouts = ["tests"]
 
 [[bconds.python-jupyter-client]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.python-jupyter-server]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.python-matplotlib]]
 withouts = ["check"]
@@ -215,7 +215,7 @@ withouts = ["check"]
 withouts = ["check","doc"]
 
 [[bconds.python-ipykernel]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.pybind11]]
 withouts = ["optional_tests"]
@@ -224,7 +224,7 @@ withouts = ["optional_tests"]
 withouts = ["check", "doc"]
 
 [[bconds.python-nbclient]]
-withouts = ["check"]
+withs = ["bootstrap"]
 
 [[bconds.python-pyquery]]
 withouts = ["tests"]
@@ -446,7 +446,7 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-oslotest]]
-withs = ["repo_bootstrap"]
+withs = ["bootstrap"]
 
 [[bconds.python-gunicorn]]
 withouts = ["extras"]
@@ -548,7 +548,7 @@ withouts = ["tests"]
 withouts = ["tests"]
 
 [[bconds.python-xnat]]
-withouts = ["tests"]
+withs = ["bootstrap"]
 
 [[bconds.python-tablib]]
 withs = ["bootstrap"]
