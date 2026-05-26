@@ -10,7 +10,7 @@
     },
     {
       "component": "python-oslo-utils",
-      "count": 32,
+      "count": 31,
       "blocked_by": [
         "python-oslo-config",
         "python-oslotest"
@@ -27,26 +27,18 @@
     },
     {
       "component": "python-oslotest",
-      "count": 29,
+      "count": 28,
       "blocked_by": [
         "python-oslo-config"
       ]
     },
     {
       "component": "python-oslo-config",
-      "count": 27,
+      "count": 26,
       "blocked_by": [
         "python-oslo-config",
         "python-oslo-log",
         "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
-      "component": "python-oslo-serialization",
-      "count": 25,
-      "blocked_by": [
         "python-oslo-utils",
         "python-oslotest"
       ]
@@ -57,6 +49,14 @@
       "blocked_by": [
         "python-fastapi",
         "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-oslo-serialization",
+      "count": 24,
+      "blocked_by": [
+        "python-oslo-utils",
+        "python-oslotest"
       ]
     },
     {
@@ -190,7 +190,6 @@
         "python-cinderclient",
         "python-futurist",
         "python-gnocchiclient",
-        "python-hacking",
         "python-heatclient",
         "python-ironicclient",
         "python-keystoneauth1",
@@ -276,16 +275,6 @@
       ]
     },
     {
-      "component": "python-oslo-log",
-      "count": 8,
-      "blocked_by": [
-        "python-oslo-config",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ]
-    },
-    {
       "component": "python-plaster-pastedeploy",
       "count": 7
     },
@@ -334,6 +323,16 @@
       "blocked_by": [
         "python-eth-utils",
         "python-pydantic"
+      ]
+    },
+    {
+      "component": "python-oslo-log",
+      "count": 7,
+      "blocked_by": [
+        "python-oslo-config",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-oslotest"
       ]
     },
     {
@@ -614,16 +613,6 @@
     },
     {
       "components": [
-        "python-oslo-config",
-        "python-oslo-log",
-        "python-oslo-serialization",
-        "python-oslo-utils",
-        "python-oslotest"
-      ],
-      "count": 3
-    },
-    {
-      "components": [
         "python-glyphsLib",
         "python-ufo2ft"
       ],
@@ -675,6 +664,16 @@
       "components": [
         "python-pydantic",
         "python-pydantic-settings"
+      ],
+      "count": 2
+    },
+    {
+      "components": [
+        "python-oslo-config",
+        "python-oslo-log",
+        "python-oslo-serialization",
+        "python-oslo-utils",
+        "python-oslotest"
       ],
       "count": 2
     },

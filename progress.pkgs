@@ -15,7 +15,6 @@ ocrmypdf
 osc
 pg_activity
 pykakasi
-python-jenkins-job-builder
 python-streamlink
 python-OBD
 python-XStatic
@@ -59,10 +58,10 @@ flatpak-module-tools
 gdal
 python-geopmpy
 python-geotiler
+python-gerritlib
 gnulib
 python-google-cloud-core
 python-grpc-google-iam-v1
-python-hacking
 python-holidays
 python-huggingface-hub
 python-hypothesmith
@@ -97,6 +96,7 @@ python-numpoly
 python-opcodes
 python-opfunu
 python-opytimizer
+python-oslo-config::bootstrap:::
 petsc
 roca-detect
 python-phply
