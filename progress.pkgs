@@ -3,7 +3,6 @@ ansible
 ansible-builder
 ceph
 dnf-plugin-diff
-duplicity
 eric
 fail2ban
 khal
@@ -31,9 +30,11 @@ python-XStatic-Patternfly
 python-XStatic-Patternfly-Bootstrap-Treeview
 abiword
 python-alembic1.14
+python-animatplot
 ansible-lint
-python-ansible-runner
 python-apipkg
+python-asn1tools
+python-avocado
 python-beartype
 python-binary-manager
 bmap-tools
@@ -45,8 +46,10 @@ llvm21
 python-decopatch:tests::::
 dionaea
 root
+python-django-allauth
 python-django-angular
-python-django-configurations
+python-django-cacheops
+python-django-extensions
 dnf-plugin-perfmetrics
 python-elastic-transport
 python-environs
@@ -69,11 +72,8 @@ python-huggingface-hub
 python-hypothesmith
 jc
 emacs-jedi
-python-jsonpickle
-python-jupyter-console
 python-kaptan
 python-lazr-delegates
-samba
 libmamba
 librealsense
 libsvm
@@ -105,7 +105,6 @@ python-phply
 python-plaster-pastedeploy
 python-pluginlib
 protobuf
-python-pybtex
 python-pydantic
 python-pygeoif
 python-PyGithub
@@ -147,10 +146,10 @@ python-vcstool
 python-webrtcvad
 xapian-bindings
 xcfun
-python-xmlschema
 python-xnat:tests::::
 python-yamlloader
 python-zict
+pythran
 rebase-helper
 renderdoc
 supervisor
