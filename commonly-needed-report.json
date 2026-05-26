@@ -275,7 +275,6 @@
       "component": "python-eth-keys",
       "count": 5,
       "blocked_by": [
-        "python-asn1tools",
         "python-eth-utils",
         "python-pydantic"
       ]
@@ -420,6 +419,13 @@
       ]
     },
     {
+      "component": "python-xarray",
+      "count": 3,
+      "blocked_by": [
+        "python-rasterio"
+      ]
+    },
+    {
       "component": "pylint",
       "count": 3
     },
@@ -481,13 +487,6 @@
       "blocked_by": [
         "python-oci"
       ]
-    },
-    {
-      "component": "python-futurist",
-      "count": 2,
-      "blocked_by": [
-        "python-eventlet"
-      ]
     }
   ],
   "most_commonly_last_blocking_combinations": [
@@ -516,6 +515,13 @@
     },
     {
       "components": [
+        "python-eth-utils",
+        "python-pydantic"
+      ],
+      "count": 5
+    },
+    {
+      "components": [
         "conda",
         "libmamba",
         "python-menuinst"
@@ -527,13 +533,6 @@
         "python-hupper",
         "python-plaster-pastedeploy",
         "python-pyramid"
-      ],
-      "count": 4
-    },
-    {
-      "components": [
-        "python-eth-utils",
-        "python-pydantic"
       ],
       "count": 4
     },
